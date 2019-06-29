@@ -1082,8 +1082,8 @@
                     <Rectangle Width="10" Fill="SkyBlue" Height="40">
                         <Rectangle.ContextMenu>
                             <ContextMenu>
-                                <MenuItem x:Name="Lock" Header="Lock"   IsCheckable="True"   />
-                                <MenuItem x:Name="OnTop"  Header="Always On Top"   IsCheckable="True"/>
+                                <MenuItem x:Name="Lock" Header="Lock"    IsCheckable="True" Click="MenuItem_Click_Lock"/>
+                                <MenuItem x:Name="OnTop"  Header="Always On Top"   IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop"/>
                                 <Separator Width="Auto" Height="2"/>
                                 <MenuItem Header="About" Click="MenuItem_Click_About"/>
                                 <Separator Width="Auto" Height="2"/>
