@@ -1,11 +1,14 @@
 #TFT Overlay by J2GKaze (Discord: Jinsoku#4019)
 
 How to use:
-1. Window is always on top for now.
-2. Right click Light Blue for context menu
-3. Click on Icons for information
+1. Right click Light Blue for context menu
+2. Click on Icons for information
 
 Version History
+
+1.3
+
+-Added Lock and Always On Top functionality
 
 1.2
 
