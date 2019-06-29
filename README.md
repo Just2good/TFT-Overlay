@@ -8,7 +8,7 @@ Version History
 
 1.3
 
--Added Lock and Always On Top functionality
+-Added Lock and Always On Top functionality (By Chaoticoz)
 
 1.2
 
@@ -24,15 +24,14 @@ Version History
 -Made bar and icons a bit smaller + moved around a bit.
 
 1.0
+
 -Item combination buttons
 
 Known issues:
 
--Always on Top toggle is not working
-
--Lock Window is not working
-
 -Overlay does not stay on top while Fullscreen (Play in Windowed/Borderless)
+
+-FPS Drop while League of Legends is in the background. (Just click on League again after using Overlay)
 
 Possible Future Features:
 
@@ -44,4 +43,4 @@ Possible Future Features:
 
 -Bar resize
 
--50% Alpha Background
+-50% Alpha Background for item combinations
