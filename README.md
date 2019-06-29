@@ -8,9 +8,9 @@ Version History
 
 1.4
 
--Removed excess icons
--Added spacing between rows
--50% Alpha background (Need feedback on if this should stay or go)
+-Removed excess icons  
+-Added spacing between rows  
+-50% Alpha background (Need feedback on if this should stay or go)  
 
 1.3
 
