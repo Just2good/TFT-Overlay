@@ -18,6 +18,12 @@
 
                     <DataTemplate x:Key="BFSword">
                         <WrapPanel Margin="0,-5">
+                                <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
                             <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="35"/>
@@ -30,15 +36,23 @@
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
+                                    <RowDefinition Height="5"/>
                                     <RowDefinition Height="35"/>
                                     <RowDefinition Height="35"/>
                                 </Grid.RowDefinitions>
+                               
                                 <!-- Infinity Edge-->
                                 <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                                 <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -53,12 +67,11 @@
                                 </TextBlock>
 
                                 <!-- Sword of the Divine-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                <Image Grid.Row="2" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
+                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Each second, the wearer has a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5%" Foreground="Red"/>
                                         <Run Text="chance to gain" Foreground="LightGoldenrodYellow"/>    
@@ -67,850 +80,943 @@
                                 </TextBlock>
 
                                 <!-- Hextech Gunblade-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/hextech_gunblade.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                <Image Grid.Row="4" Grid.Column="4" Source="Images/hextech_gunblade.png" />
+                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="25%" Foreground="Red"/>
                                         <Run Text="of all damage dealt" Foreground="LightGoldenrodYellow"/>
                                 </TextBlock>
 
                                 <!-- Spear of Shojin-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/spear_of_shojin.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                <Image Grid.Row="6" Grid.Column="4" Source="Images/spear_of_shojin.png" />
+                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="After casting, wearer gains" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="15%" Foreground="Red"/>
                                         <Run Text="of its max Mana per attack." Foreground="LightGoldenrodYellow"/>
                                 </TextBlock>
                                 <!-- Guardian Angel-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/guardian_angel.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                <Image Grid.Row="8" Grid.Column="4" Source="Images/guardian_angel.png" />
+                                <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer revives with" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="500" Foreground="Red"/>
                                         <Run Text="Health." Foreground="LightGoldenrodYellow"/>
                                 </TextBlock>
                                 <!-- Bloodthirster-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/bloodthirster.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                <Image Grid.Row="10" Grid.Column="4" Source="Images/bloodthirster.png" />
+                                <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="50%" Foreground="Red"/>
                                         <Run Text="of damage." Foreground="LightGoldenrodYellow"/>
                                 </TextBlock>
                                 <!-- Zekes Herald-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/zekes_herald.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                <Image Grid.Row="12" Grid.Column="4" Source="Images/zekes_herald.png" />
+                                <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Adjacent allies gain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="+10%" Foreground="Red"/>
                                         <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
                                 </TextBlock>
                                 <!-- Youmuus Ghostblade-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                <Image Grid.Row="14" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
+                                <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also an" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Assassin" Foreground="Red"/>
                                 </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="Recurve">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Sword of the Divine-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Sword of the Divine-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Bow.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Each second, the wearer has a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5%" Foreground="Red"/>
                                         <Run Text="chance to gain" Foreground="LightGoldenrodYellow"/>    
                                         <Run Text="100%" Foreground="Red"/>
                                         <Run Text="Critical Strike." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Rapid Firecannon-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/rapid_firecannon.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Rapid Firecannon-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/rapid_firecannon.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer's attacks cannot be dodged. Attack Range is doubled." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Guinsoos Rageblade-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/guinsoos_rageblade.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Guinsoos Rageblade-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/guinsoos_rageblade.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks grant" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="3%" Foreground="Red"/>
                                         <Run Text="Attack Speed. Stacks infinitely." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Statikk Shiv-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/statikk_shiv.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Statikk Shiv-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/statikk_shiv.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Every 3rd attack deals" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="100" Foreground="Red"/>
                                         <Run Text="splash magical damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Phantom Dancer-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/phantom_dancer.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Phantom Dancer-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/phantom_dancer.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer dodges all Critical Strikes" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Cursed Blade-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/cursed_blade.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Cursed Blade-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/cursed_blade.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a low chance to Shrink(Reduce enemy's star level by 1)" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Titanic Hydra-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Bow.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/titanic_hydra.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Titanic Hydra-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/titanic_hydra.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="10%" Foreground="Red"/>
                                         <Run Text="of the wearer's max Health as splash damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Blade of the Ruined King-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/bow.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/blade_of_the_ruined_king.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Blade of the Ruined King-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/blade_of_the_ruined_king.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Blademaster" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="NLRod">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Hextech Gunblade-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/hextech_gunblade.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Hextech Gunblade-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Rod.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/hextech_gunblade.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="25%" Foreground="Red"/>
                                         <Run Text="of all damage dealt" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Guinsoos Rageblade-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/guinsoos_rageblade.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Guinsoos Rageblade-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/guinsoos_rageblade.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks grant" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="3%" Foreground="Red"/>
                                         <Run Text="Attack Speed. Stacks infinitely." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Rabadons Deathcap-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/rabadons_deathcap.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Rabadons Deathcap-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/rabadons_deathcap.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="+50%" Foreground="Red"/>
                                     <Run Text="Ability Power" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Ludens Echo-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/ludens_echo.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Ludens Echo-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/ludens_echo.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
                                         <Run Text="splash damage on hit." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Locket of the Iron Solari-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/locket_of_the_iron_solari.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Locket of the Iron Solari-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/locket_of_the_iron_solari.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On start of combat, all adjacent allies gain a shield of" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Ionic Spark-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/ionic_spark.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Ionic Spark-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/ionic_spark.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Whenever an enemy casts a spell, they take" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
                                         <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Morellonomicon-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/morellonomicon.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Morellonomicon-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/morellonomicon.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal burn damage equal to" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5%" Foreground="Red"/>
                                         <Run Text="of the enemy's maximum Health per second." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Yuumi-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Rod.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/yuumi.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Yuumi-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/yuumi.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Sorcerer" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="Mana">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Spear of Shojin-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/spear_of_shojin.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Spear of Shojin-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Tear.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/spear_of_shojin.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="After casting, wearer gains" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="15%" Foreground="Red"/>
                                         <Run Text="of its max Mana per attack." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Statikk Shiv-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/statikk_shiv.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Statikk Shiv-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/statikk_shiv.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Every 3rd attack deals" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="100" Foreground="Red"/>
                                         <Run Text="splash magical damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Ludens Echo-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/ludens_echo.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Ludens Echo-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/ludens_echo.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
                                         <Run Text="splash damage on hit." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Seraphs Embrace-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/seraphs_embrace.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Seraphs Embrace-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/seraphs_embrace.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Regain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="20" Foreground="Red"/>
                                         <Run Text="Mana each time a spell is cast." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Frozen Heart-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/frozen_heart.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Frozen Heart-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/frozen_heart.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Adjacent enemies lose" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="20%" Foreground="Red"/>
                                         <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Hush-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/hush.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Hush-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/hush.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a high chance to Silence." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Redemption-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/redemption.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Redemption-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/redemption.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On death, heal all nearby allies for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="1000" Foreground="Red"/>
                                         <Run Text="Health." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Darkin-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Tear.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/darkin.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Darkin-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/darkin.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Demon" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="ChainVest">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Guardian Angel-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/Guardian_angel.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Guardian Angel-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Vest.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/Guardian_angel.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer revives with" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="500" Foreground="Red"/>
                                         <Run Text="Health." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Phantom Dancer-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/phantom_dancer.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Phantom Dancer-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/phantom_dancer.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer dodges all Critical Strikes" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Locket of The Iron Solari-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/locket_of_the_iron_solari.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Locket of The Iron Solari-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/locket_of_the_iron_solari.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On start of combat, all adjacent allies gain a shield of" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Frozen Heart-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/frozen_heart.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Frozen Heart-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/frozen_heart.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Adjacent enemies lose" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="20%" Foreground="Red"/>
                                         <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Thornmail-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/thornmail.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Thornmail-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/thornmail.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Reflect" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="35%" Foreground="Red"/>
                                         <Run Text="of damage taken from attacks." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Sword Breaker-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/sword_breaker.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Sword Breaker-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/sword_breaker.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a chance to disarm." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Red Buff-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/red_buff.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Red Buff-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/red_buff.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="2.5%" Foreground="Red"/>
                                         <Run Text="Burn damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Knights Vow-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Vest.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/knights_vow.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Knights Vow-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/knights_vow.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Knight" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="Negatron">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Bloodthirster-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/bloodthirster.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Bloodthirster-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Cape.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/bloodthirster.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="50%" Foreground="Red"/>
                                         <Run Text="of damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Cursed Blade-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/cursed_blade.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Cursed Blade-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/cursed_blade.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a low chance to Shrink(Reduce enemy's star level by 1)" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Ionic Spark-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/ionic_spark.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Ionic Spark-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/ionic_spark.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Whenever an enemy casts a spell, they take" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="200" Foreground="Red"/>
                                         <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Hush-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/hush.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Hush-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/hush.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a high chance to Silence." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Sword Breaker-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/sword_breaker.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Sword Breaker-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/sword_breaker.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks have a chance to disarm." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Dragons Claw-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/dragons_claw.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Dragons Claw-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/dragons_claw.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Gain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="83%" Foreground="Red"/>
                                         <Run Text="resistance to magic damage" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Zephyr-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/zephyr.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Zephyr-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/zephyr.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On start of combat, banish an enemy for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5" Foreground="Red"/>
                                         <Run Text="seconds." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Runaans Hurricane-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Cape.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/runaans_hurricane.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Runaans Hurricane-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/runaans_hurricane.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="2" Foreground="Red"/>
                                         <Run Text="extra targets on attack. Extra attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="50%" Foreground="Red"/>
                                         <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="Giants">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Zekes Herald-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/zekes_herald.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Zekes Herald-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Belt.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/zekes_herald.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Adjacent allies gain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="+10%" Foreground="Red"/>
                                         <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Titanic Hydra-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/titanic_hydra.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Titanic Hydra-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/titanic_hydra.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="10%" Foreground="Red"/>
                                         <Run Text="of the wearer's max Health as splash damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Morellonomicon-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/morellonomicon.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Morellonomicon-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/morellonomicon.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal burn damage equal to" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5%" Foreground="Red"/>
                                         <Run Text="of the enemy's maximum Health per second." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Redemption-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/redemption.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Redemption-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/redemption.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On death, heal all nearby allies for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="1000" Foreground="Red"/>
                                         <Run Text="Health." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Red Buff-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/red_buff.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Red Buff-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/red_buff.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="2.5%" Foreground="Red"/>
                                         <Run Text="Burn damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Zephyr-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/zephyr.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Zephyr-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/zephyr.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="On start of combat, banish an enemy for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5" Foreground="Red"/>
                                         <Run Text="seconds." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Warmogs Armor-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/warmogs_armor.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Warmogs Armor-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/warmogs_armor.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer regenerates" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="3%" Foreground="Red"/>
                                         <Run Text="max Health per second." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Frozen Mallet-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Belt.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/frozen_mallet.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Frozen Mallet-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/frozen_mallet.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Glacial" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
                     <DataTemplate x:Key="Scarf">
                         <WrapPanel Margin="0,-5">
-                            <Grid Margin="40,90,0,0" Width="460">
+                            <Grid>
+                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <Grid Margin="40,90,0,0" Width="460">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                                <!-- Youmuus Ghostblade-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
-                                <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
+                                    <!-- Youmuus Ghostblade-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
+                                    <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also an" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Assassin" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Blade of The Ruined King-->
-                                <TextBlock Text="+" Grid.Row="1" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="1" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="1" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="1" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="1" Grid.Column="4" Source="Images/blade_of_the_ruined_king.png" />
-                                <TextBlock Grid.Row="1" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Blade of The Ruined King-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/blade_of_the_ruined_king.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Blademaster" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Yuumi-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/yuumi.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Yuumi-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/yuumi.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Sorcerer" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Darkin-->
-                                <TextBlock Text="+" Grid.Row="3" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="3" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="3" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="3" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="3" Grid.Column="4" Source="Images/darkin.png" />
-                                <TextBlock Grid.Row="3" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Darkin-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/darkin.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Demon" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Knights Vow-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/knights_vow.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Knights Vow-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/knights_vow.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Knight" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Runaans Hurricane-->
-                                <TextBlock Text="+" Grid.Row="5" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="5" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="5" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="5" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="5" Grid.Column="4" Source="Images/runaans_hurricane.png" />
-                                <TextBlock Grid.Row="5" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Runaans Hurricane-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/runaans_hurricane.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="2" Foreground="Red"/>
                                         <Run Text="extra targets on attack. Extra attacks deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="50%" Foreground="Red"/>
                                         <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Frozen Mallet-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/frozen_mallet.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Frozen Mallet-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/frozen_mallet.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Glacial" Foreground="Red"/>
-                                </TextBlock>
-                                <!-- Force of Nature-->
-                                <TextBlock Text="+" Grid.Row="7" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="7" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="7" Grid.Column="0" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="7" Grid.Column="4" Source="Images/force_of_nature.png" />
-                                <TextBlock Grid.Row="7" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Force of Nature-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/force_of_nature.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Gain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="+1" Foreground="Red"/>
                                         <Run Text="team size." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
+                                    </TextBlock>
+                                </Grid>
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
@@ -1120,7 +1226,7 @@
                         <Image Source="Images\Cost.png" Height="40" Width="60"/>
                     </local:OptionalRadioButton>
 
-                    <Frame Margin="-10,-70" x:Name="Frame" Height="493" Width="500" />
+                    <Frame Margin="-10,-70" x:Name="Frame" Height="493" Width="500"/>
                 </WrapPanel>
 
                 <DataTemplate.Triggers>

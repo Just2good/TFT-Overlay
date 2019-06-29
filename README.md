@@ -6,6 +6,12 @@ How to use:
 
 Version History
 
+1.4
+
+-Removed excess icons
+-Added spacing between rows
+-50% Alpha background (Need feedback on if this should stay or go)
+
 1.3
 
 -Added Lock and Always On Top functionality (By Chaoticoz)
@@ -13,7 +19,6 @@ Version History
 1.2
 
 -Added description to items
-
 
 1.1
 
@@ -27,20 +32,25 @@ Version History
 
 -Item combination buttons
 
+
 Known issues:
 
 -Overlay does not stay on top while Fullscreen (Play in Windowed/Borderless)
 
 -FPS Drop while League of Legends is in the background. (Just click on League again after using Overlay)
 
+
 Possible Future Features:
 
 -Synergy
 
--Chars
+-Champions
 
 -Sorted items by Offense, Defense, Utility
 
 -Bar resize
 
--50% Alpha Background for item combinations
+-Expand on Mouseover
+
+-50% Alpha Background for item combinations (Done)
+
