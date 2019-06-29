@@ -1,0 +1,4 @@
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\x86\Release\MainWindow.g.cs
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\x86\Release\App.g.cs
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\x86\Release\TFT Overlay_MarkupCompile.cache
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\x86\Release\TFT Overlay_MarkupCompile.lref

@@ -1,0 +1,15 @@
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\bin\Debug\TFT Overlay.exe.config
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\bin\Debug\TFT Overlay.exe
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\bin\Debug\TFT Overlay.pdb
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\MainWindow.g.cs
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\App.g.cs
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay_MarkupCompile.cache
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay_MarkupCompile.lref
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\MainWindow.baml
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.g.resources
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT_Overlay.Properties.Resources.resources
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.csproj.GenerateResource.cache
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.csproj.CoreCompileInputs.cache
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.exe
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.pdb
+C:\Users\just8\source\repos\TFT Overlay\TFT Overlay\obj\Debug\TFT Overlay.csprojAssemblyReference.cache
