@@ -24,11 +24,13 @@ namespace TFT_Overlay
 
     {
         bool canDrag = true;
+        bool onTop = true;
+
         public MainWindow()
         {
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
-            
+
         }
 
 
@@ -42,6 +44,26 @@ namespace TFT_Overlay
             MessageBox.Show("TFT Item Combinations Overlay V1.2\nReport any bugs to Jinsoku#4019");
         }
 
+        private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
+        {
+            canDrag = !canDrag;
+        }
+
+        private void MenuItem_Click_OnTop(object sender, RoutedEventArgs e)
+        {
+            if (onTop)
+            {
+                this.Topmost = false;
+                onTop = false;
+            }
+            else
+            {
+                this.Topmost = true;
+                onTop = true;
+            }
+
+        }
+
 
 
 
@@ -52,8 +74,8 @@ namespace TFT_Overlay
                 this.DragMove();
             }
         }
-       
-        
+
+
 
     }
 
