@@ -41,7 +41,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Item Combinations Overlay V1.4 by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nBig thanks to Chaoticoz for fixing Lock Window and Always On Top");
+            MessageBox.Show("TFT Item Combinations Overlay V1.4.1 by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nBig thanks to Chaoticoz for fixing Lock Window and Always On Top");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
