@@ -376,7 +376,7 @@
                                     <Image Grid.Row="12" Grid.Column="4" Source="Images/morellonomicon.png" />
                                     <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal burn damage equal to" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="5%" Foreground="Red"/>
+                                        <Run Text="2.5%" Foreground="Red"/>
                                         <Run Text="of the enemy's maximum Health per second." Foreground="LightGoldenrodYellow"/>
                                     </TextBlock>
                                     <!-- Yuumi-->
@@ -834,7 +834,7 @@
                                     <Image Grid.Row="4" Grid.Column="4" Source="Images/morellonomicon.png" />
                                     <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Spells deal burn damage equal to" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="5%" Foreground="Red"/>
+                                        <Run Text="2.5%" Foreground="Red"/>
                                         <Run Text="of the enemy's maximum Health per second." Foreground="LightGoldenrodYellow"/>
                                     </TextBlock>
                                     <!-- Redemption-->
