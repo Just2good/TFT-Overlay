@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFT_Overlay"
         mc:Ignorable="d"
-        Title="MainWindow" Height="900" Width="900" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+        Title="MainWindow" Height="940" Width="1200" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
 
 
     <ContentControl>
@@ -2037,10 +2037,10 @@
 
                 <!-- The Buttons that make up the Bar.  The Hypothetical Plate! -->
                 <WrapPanel Margin="15,13,4,-8" >
-                    <Grid Width="885">
+                    <Grid Width="1100">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="475"/>
-                            <ColumnDefinition Width="475"/>
+                            <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
                         <WrapPanel Margin="0,0,-266,0">
                             <!--Context Bar-->
@@ -2095,7 +2095,7 @@
                         </WrapPanel>
                         <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                         <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
-                        <Frame Grid.Column="1" Margin="-15,-32,62,65" x:Name="Frame2" Height="900" Width="500"/>
+                        <Frame Grid.Column="1" Margin="5,-30,62,65" x:Name="Frame2" Height="Auto" Width="Auto"/>
                     </Grid>
                 </WrapPanel>
                 <!-- Triggers for the buttons -->
