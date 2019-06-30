@@ -2,7 +2,7 @@
  TFT Discord Server: https://discord.gg/KHMCRJA
 
 How to use:  
-  -Right click Light Blue for context menu  
+  -Right click Orange box for context menu  
   -Click on Icons for information  
   -https://gfycat.com/freshmemorabledoe
 
