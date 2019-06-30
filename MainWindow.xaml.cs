@@ -30,7 +30,6 @@ namespace TFT_Overlay
         {
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
-
         }
 
 
@@ -41,7 +40,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Item Combinations Overlay V1.4 by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nBig thanks to Chaoticoz for fixing Lock Window and Always On Top");
+            MessageBox.Show("TFT Information Overlay V1.5 by Asemco/Asemco#7390. \n\nForked from J2GKaze/Jinsoku#4019\n\nDM either of us on Discord if you have any questions\n\nBig thanks to Chaoticoz for fixing Lock Window and Always On Top!\n\n Last Updated: June 30th, 2019 @ 5:00AM EST");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
@@ -63,9 +62,6 @@ namespace TFT_Overlay
             }
 
         }
-
-
-
 
         void MainWindow_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {

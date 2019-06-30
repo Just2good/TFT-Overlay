@@ -214,5 +214,110 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\assassin.jpg" />
+    <Resource Include="Images\demon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Aatrox-Icon.png" />
+    <Resource Include="Images\champs\Ahri-Icon.png" />
+    <Resource Include="Images\champs\Akali-Icon.png" />
+    <Resource Include="Images\champs\Anivia-Icon.png" />
+    <Resource Include="Images\champs\Ashe-Icon.png" />
+    <Resource Include="Images\champs\AurelionSol-Icon.png" />
+    <Resource Include="Images\champs\Blitzcrank-Icon.png" />
+    <Resource Include="Images\champs\Brand-Icon.png" />
+    <Resource Include="Images\champs\Braum-Icon.png" />
+    <Resource Include="Images\champs\Darius-Icon.png" />
+    <Resource Include="Images\champs\Draven-Icon.png" />
+    <Resource Include="Images\champs\Elise-Icon.png" />
+    <Resource Include="Images\champs\Evelynn-Icon.png" />
+    <Resource Include="Images\champs\Fiora-Icon.png" />
+    <Resource Include="Images\champs\Gangplank-Icon.png" />
+    <Resource Include="Images\champs\Garen-Icon.png" />
+    <Resource Include="Images\champs\Gnar-Icon.png" />
+    <Resource Include="Images\champs\Graves-Icon.png" />
+    <Resource Include="Images\champs\Karthus-Icon.png" />
+    <Resource Include="Images\champs\Kassadin-Icon.png" />
+    <Resource Include="Images\champs\Katarina-Icon.png" />
+    <Resource Include="Images\champs\Kayle-Icon.png" />
+    <Resource Include="Images\champs\Kennen-Icon.png" />
+    <Resource Include="Images\champs\Kindred-Icon.png" />
+    <Resource Include="Images\champs\Leona-Icon.png" />
+    <Resource Include="Images\champs\Lissandra-Icon.png" />
+    <Resource Include="Images\champs\Lucian-Icon.png" />
+    <Resource Include="Images\champs\Lulu-Icon.png" />
+    <Resource Include="Images\champs\MissFortune-Icon.png" />
+    <Resource Include="Images\champs\Mordekaiser-Icon.png" />
+    <Resource Include="Images\champs\Morgana-Icon.png" />
+    <Resource Include="Images\champs\Nidalee-Icon.png" />
+    <Resource Include="Images\champs\Poppy-Icon.png" />
+    <Resource Include="Images\champs\Pyke-Icon.png" />
+    <Resource Include="Images\champs\RekSai-Icon.png" />
+    <Resource Include="Images\champs\Rengar-Icon.png" />
+    <Resource Include="Images\champs\Sejuani-Icon.png" />
+    <Resource Include="Images\champs\Shen-Icon.png" />
+    <Resource Include="Images\champs\Shyvana-Icon.png" />
+    <Resource Include="Images\champs\Swain-Icon.png" />
+    <Resource Include="Images\champs\Teemo-Icon.png" />
+    <Resource Include="Images\champs\Tristana-Icon.png" />
+    <Resource Include="Images\champs\Varus-Icon.png" />
+    <Resource Include="Images\champs\Vayne-Icon.png" />
+    <Resource Include="Images\champs\Veigar-Icon.png" />
+    <Resource Include="Images\champs\Volibear-Icon.png" />
+    <Resource Include="Images\champs\Warwick-Icon.png" />
+    <Resource Include="Images\champs\Yasuo-Icon.png" />
+    <Resource Include="Images\champs\Zed-Icon.png" />
+    <Resource Include="Images\classes\assassin.jpg" />
+    <Resource Include="Images\classes\Assassin.png" />
+    <Resource Include="Images\classes\blademaster.jpg" />
+    <Resource Include="Images\classes\Blademaster.png" />
+    <Resource Include="Images\classes\brawler.jpg" />
+    <Resource Include="Images\classes\Brawler.png" />
+    <Resource Include="Images\classes\elementalist.jpg" />
+    <Resource Include="Images\classes\Elementalist.png" />
+    <Resource Include="Images\classes\guardian.jpg" />
+    <Resource Include="Images\classes\Guardian.png" />
+    <Resource Include="Images\classes\gunslinger.jpg" />
+    <Resource Include="Images\classes\Gunslinger.png" />
+    <Resource Include="Images\classes\knight.jpg" />
+    <Resource Include="Images\classes\Knight.png" />
+    <Resource Include="Images\classes\ranger.jpg" />
+    <Resource Include="Images\classes\Ranger.png" />
+    <Resource Include="Images\classes\shapeshifter.jpg" />
+    <Resource Include="Images\classes\Shapeshifter.png" />
+    <Resource Include="Images\classes\sorcerer.jpg" />
+    <Resource Include="Images\classes\Sorcerer.png" />
+    <Resource Include="Images\origins\demon.jpg" />
+    <Resource Include="Images\origins\Demon.png" />
+    <Resource Include="Images\origins\dragon.jpg" />
+    <Resource Include="Images\origins\Dragon.png" />
+    <Resource Include="Images\origins\exile.jpg" />
+    <Resource Include="Images\origins\Exile.png" />
+    <Resource Include="Images\origins\glacial.jpg" />
+    <Resource Include="Images\origins\Glacial.png" />
+    <Resource Include="Images\origins\imperial.jpg" />
+    <Resource Include="Images\origins\Imperial.png" />
+    <Resource Include="Images\origins\ninja.jpg" />
+    <Resource Include="Images\origins\Ninja.png" />
+    <Resource Include="Images\origins\noble.jpg" />
+    <Resource Include="Images\origins\Noble.png" />
+    <Resource Include="Images\origins\phantom.jpg" />
+    <Resource Include="Images\origins\Phantom.png" />
+    <Resource Include="Images\origins\pirate.jpg" />
+    <Resource Include="Images\origins\Pirate.png" />
+    <Resource Include="Images\origins\robot.jpg" />
+    <Resource Include="Images\origins\Robot.png" />
+    <Resource Include="Images\origins\void.jpg" />
+    <Resource Include="Images\origins\Void.png" />
+    <Resource Include="Images\origins\wild.jpg" />
+    <Resource Include="Images\origins\Wild.png" />
+    <Resource Include="Images\origins\yordle.jpg" />
+    <Resource Include="Images\origins\Yordle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\ChoGath-Icon.png" />
+    <Resource Include="Images\champs\KhaZix-Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
