@@ -9,6 +9,8 @@ How to use:
 Version History
 
 6.30.2019   
+1.6  
+  -Allow Button Toggle and Mouseover at the same time    
 1.5.5  
   -Mouseover buttons instead of toggle (By Chaoticoz)   
 1.5  
