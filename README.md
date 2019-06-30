@@ -9,6 +9,8 @@ How to use:
 Version History
 
 6.30.2019   
+1.5.5  
+  -Mouseover buttons instead of toggle (By Chaoticoz)   
 1.5  
   -Added Origins and Classes (By Asemco)   
 1.4.1  
