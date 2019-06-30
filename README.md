@@ -10,7 +10,7 @@ Version History
 
 6.29.2019  
 1.4.2  
-  -Added TFT Icon pack by Hieronymos#6987
+  -Added TFT Icon pack by Hieronymos#6987   
 1.4.1  
   -Morellonomicon text changed to fit new patch  
 1.4  
