@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFT_Overlay"
         mc:Ignorable="d"
-        Title="MainWindow" Height="482.868" Width="678.991" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+        Title="MainWindow" Height="900" Width="680" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
 
 
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
+
+                <!-- That content revealed by clicking on the buttons for the bar.  The Hypothetical Meat and Potatoes! -->
                 <DataTemplate.Resources>
 
                     <DataTemplate x:Key="Null">
@@ -18,127 +20,127 @@
 
                     <DataTemplate x:Key="BFSword">
                         <WrapPanel Margin="0,-5">
-                                <Grid>
+                            <Grid>
                                 <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
                                         <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
-                            <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="15"/>
-                                    <ColumnDefinition Width="35"/>
-                                    <ColumnDefinition Width="10"/>
-                                    <ColumnDefinition Width="300"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="5"/>
-                                    <RowDefinition Height="35"/>
-                                    <RowDefinition Height="35"/>
-                                </Grid.RowDefinitions>
-                               
-                                <!-- Infinity Edge-->
-                                <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="0" Grid.Column="0" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
-                                <Image Grid.Row="0" Grid.Column="4" Source="Images/infinity_edge.png" />
+                                <Grid Margin="40,90,0,0" Width="460">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="15"/>
+                                        <ColumnDefinition Width="35"/>
+                                        <ColumnDefinition Width="10"/>
+                                        <ColumnDefinition Width="300"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="5"/>
+                                        <RowDefinition Height="35"/>
+                                        <RowDefinition Height="35"/>
+                                    </Grid.RowDefinitions>
 
-                                <TextBlock Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    <!-- Infinity Edge-->
+                                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="0" Grid.Column="0" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="2" Source="Images/BF.png" />
+                                    <Image Grid.Row="0" Grid.Column="4" Source="Images/infinity_edge.png" />
+
+                                    <TextBlock Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Critical Strikes deal" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="+100%" Foreground="Red"/>
                                         <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!-- Sword of the Divine-->
-                                <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
-                                <Image Grid.Row="2" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
-                                <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    <!-- Sword of the Divine-->
+                                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="2" Grid.Column="2" Source="Images/Bow.png" />
+                                    <Image Grid.Row="2" Grid.Column="4" Source="Images/sword_of_the_divine.png" />
+                                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Each second, the wearer has a" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="5%" Foreground="Red"/>
                                         <Run Text="chance to gain" Foreground="LightGoldenrodYellow"/>    
                                         <Run Text="100%" Foreground="Red"/>
                                         <Run Text="Critical Strike." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!-- Hextech Gunblade-->
-                                <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
-                                <Image Grid.Row="4" Grid.Column="4" Source="Images/hextech_gunblade.png" />
-                                <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    <!-- Hextech Gunblade-->
+                                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="4" Grid.Column="2" Source="Images/Rod.png" />
+                                    <Image Grid.Row="4" Grid.Column="4" Source="Images/hextech_gunblade.png" />
+                                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="25%" Foreground="Red"/>
                                         <Run Text="of all damage dealt" Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <!-- Spear of Shojin-->
-                                <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
-                                <Image Grid.Row="6" Grid.Column="4" Source="Images/spear_of_shojin.png" />
-                                <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    <!-- Spear of Shojin-->
+                                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="6" Grid.Column="2" Source="Images/Tear.png" />
+                                    <Image Grid.Row="6" Grid.Column="4" Source="Images/spear_of_shojin.png" />
+                                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="After casting, wearer gains" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="15%" Foreground="Red"/>
                                         <Run Text="of its max Mana per attack." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Guardian Angel-->
-                                <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
-                                <Image Grid.Row="8" Grid.Column="4" Source="Images/guardian_angel.png" />
-                                <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Guardian Angel-->
+                                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="8" Grid.Column="2" Source="Images/Vest.png" />
+                                    <Image Grid.Row="8" Grid.Column="4" Source="Images/guardian_angel.png" />
+                                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer revives with" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="500" Foreground="Red"/>
                                         <Run Text="Health." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Bloodthirster-->
-                                <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
-                                <Image Grid.Row="10" Grid.Column="4" Source="Images/bloodthirster.png" />
-                                <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Bloodthirster-->
+                                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="10" Grid.Column="2" Source="Images/Cape.png" />
+                                    <Image Grid.Row="10" Grid.Column="4" Source="Images/bloodthirster.png" />
+                                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Attacks heal for" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="50%" Foreground="Red"/>
                                         <Run Text="of damage." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Zekes Herald-->
-                                <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
-                                <Image Grid.Row="12" Grid.Column="4" Source="Images/zekes_herald.png" />
-                                <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Zekes Herald-->
+                                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="12" Grid.Column="2" Source="Images/Belt.png" />
+                                    <Image Grid.Row="12" Grid.Column="4" Source="Images/zekes_herald.png" />
+                                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Adjacent allies gain" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="+10%" Foreground="Red"/>
                                         <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
-                                </TextBlock>
-                                <!-- Youmuus Ghostblade-->
-                                <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
-                                <Image Grid.Row="14" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
-                                <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
+                                    </TextBlock>
+                                    <!-- Youmuus Ghostblade-->
+                                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                    <Image Grid.Row="14" Grid.Column="2" Source="Images/Spatula.png" />
+                                    <Image Grid.Row="14" Grid.Column="4" Source="Images/youmuus_ghostblade.png" />
+                                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
                                         <Run Text="Wearer is also an" Foreground="LightGoldenrodYellow"/>
                                         <Run Text="Assassin" Foreground="Red"/>
-                                </TextBlock>
+                                    </TextBlock>
                                 </Grid>
                             </Grid>
                         </WrapPanel>
@@ -277,7 +279,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -403,7 +405,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -529,7 +531,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -652,7 +654,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -777,7 +779,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -905,7 +907,7 @@
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
-                                <Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="35"/>
                                         <ColumnDefinition Width="15"/>
                                         <ColumnDefinition Width="35"/>
@@ -1024,168 +1026,1018 @@
                     <DataTemplate x:Key="Probability">
                         <WrapPanel Margin="0,-5">
                             <Grid Margin="15,76,0,0">
+                                <Grid.Background>
+                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                </Grid.Background>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="423"></ColumnDefinition>
+                                    <ColumnDefinition Width="70.5"/>
+                                    <ColumnDefinition Width="70.5"/>
+                                    <ColumnDefinition Width="70.5"/>
+                                    <ColumnDefinition Width="70.5"/>
+                                    <ColumnDefinition Width="70.5"/>
+                                    <ColumnDefinition Width="70.5"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                </Grid.RowDefinitions>
+                                <!--Border-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="6" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="6" />
+
+                                <TextBlock Text="Tier Roll Chance + Pool Size" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+
+                                <TextBlock Text="Max" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="39" Grid.Row="1" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="25" Grid.Row="1" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="21" Grid.Row="1" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="13" Grid.Row="1" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text="10" Grid.Row="1" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+
+                                <TextBlock Text="Level 1" Grid.Row="2" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="100%" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+
+                                <TextBlock Text="Level 2" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="100%" Grid.Row="3" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+
+                                <TextBlock Text="Level 3" Grid.Row="4" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="70%" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+
+                                <TextBlock Text="Level 4" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="55%" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="15%" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+
+                                <TextBlock Text="Level 5" Grid.Row="6" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="40%" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="6" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="25%" Grid.Row="6" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="5%" Grid.Row="6" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+
+                                <TextBlock Text="Level 6" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="29%" Grid.Row="7" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="29.5%" Grid.Row="7" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="31%" Grid.Row="7" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="10%" Grid.Row="7" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text=".5%" Grid.Row="7" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+
+                                <TextBlock Text="Level 7" Grid.Row="8" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="24%" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="28%" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="31%" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="15%" Grid.Row="8" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text="2%" Grid.Row="8" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+
+                                <TextBlock Text="Level 8" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="20%" Grid.Row="9" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="24%" Grid.Row="9" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="31%" Grid.Row="9" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="20%" Grid.Row="9" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text="5%" Grid.Row="9" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+
+                                <TextBlock Text="Level 9" Grid.Row="10" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                                <TextBlock Text="10%" Grid.Row="10" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="19%" Grid.Row="10" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="31%" Grid.Row="10" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="10" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text="10%" Grid.Row="10" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+                            </Grid>
+                        </WrapPanel>
+                    </DataTemplate>
+
+                    <DataTemplate x:Key="Origins">
+                        <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
+                            <Grid Height="900" MinHeight="900">
+                                <Grid.Background>
+                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                </Grid.Background>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="75"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="45"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="20"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
                                 </Grid.RowDefinitions>
-                                <TextBlock Text="Tier Roll Chance + Pool Size" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0,30,0,-249">
-                                    <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
-                                    </Rectangle.Fill>
-                                </Rectangle>
-                                <Grid Margin="0,30,0,-259">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                        <ColumnDefinition Width="70.5"/>
-                                    </Grid.ColumnDefinitions>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                        <RowDefinition Height="25"/>
-                                    </Grid.RowDefinitions>
-                                    <!--Border-->
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="0"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="1"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="2"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="3"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="4"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="5"  />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="1" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="2" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="3" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="4" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="5" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="6" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="7" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="8" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="9" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="1" Grid.Row="9" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="2" Grid.Row="9" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="3" Grid.Row="9" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="4" Grid.Row="9" />
-                                    <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="5" Grid.Row="9" />
 
-                                    <!-- Level 1-5 Text Here-->
-                                    <TextBlock Text="Level 1" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="100%" Grid.Row="1" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <!--Border-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Row="0" Grid.ColumnSpan="9"/>
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="1" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="2" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="3" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="4" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="5" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="6" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="7" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="8" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="9" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="10" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="11" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="12" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="13" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="14" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="15" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="16" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="17" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="19" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="21" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="22" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="23" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="24" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="25" Grid.ColumnSpan="9" />-->
 
-                                    <TextBlock Text="Level 2" Grid.Row="2" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="100%" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="Origins | Effects and Champions" 
+                                               FontSize="16" 
+                                               VerticalAlignment="Center" 
+                                               HorizontalAlignment="Center" 
+                                               Foreground="LightGoldenrodYellow" 
+                                               Grid.Row="0"
+                                               Grid.ColumnSpan="8"></TextBlock>
+                                <!-- Demons -->
 
-                                    <TextBlock Text="Level 3" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="70%" Grid.Row="3" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="30%" Grid.Row="3" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="Demons" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="1"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow" 
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="30% (2), 50% (4), 70% (6) on hit to burn all of target's"></Run>
+                                        <Run Text="current mana" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text=", dealing"></Run>
+                                        <Run Text="true damage" Foreground="White"></Run>
+                                        <Run Text="equal to mana burned."></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\demon.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
-                                    <TextBlock Text="Level 4" Grid.Row="4" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="55%" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="30%" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="15%" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <Image Source="Images\champs\Varus-Icon.png" Grid.Row="2" Grid.Column="1" ></Image>
+                                <TextBlock Text="2" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Level 5" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="40%" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="30%" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="25%" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="5%" Grid.Row="5" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <Image Source="Images\champs\Elise-Icon.png" Grid.Row="2" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="2" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Level 6" Grid.Row="6" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="29%" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="29.5%" Grid.Row="6" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="31%" Grid.Row="6" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="10%" Grid.Row="6" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
-                                    <TextBlock Text=".5%" Grid.Row="6" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+                                <Image Source="Images\champs\Morgana-Icon.png" Grid.Row="2" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Level 7" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="24%" Grid.Row="7" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="28%" Grid.Row="7" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="31%" Grid.Row="7" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="15%" Grid.Row="7" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
-                                    <TextBlock Text="2%" Grid.Row="7" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+                                <Image Source="Images\champs\Evelynn-Icon.png" Grid.Row="2" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Level 8" Grid.Row="8" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="20%" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="24%" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="31%" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="20%" Grid.Row="8" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
-                                    <TextBlock Text="5%" Grid.Row="8" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+                                <Image Source="Images\champs\Aatrox-Icon.png" Grid.Row="2" Grid.Column="5"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Level 9" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="10%" Grid.Row="9" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="19%" Grid.Row="9" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="31%" Grid.Row="9" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="30%" Grid.Row="9" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
-                                    <TextBlock Text="10%" Grid.Row="9" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
+                                <Image Source="Images\champs\Brand-Icon.png" Grid.Row="2" Grid.Column="6"></Image>
+                                <TextBlock Text="4" Grid.Row="2" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                    <TextBlock Text="Max" Grid.Row="0" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                    <TextBlock Text="39" Grid.Row="0" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                    <TextBlock Text="25" Grid.Row="0" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                    <TextBlock Text="21" Grid.Row="0" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                    <TextBlock Text="13" Grid.Row="0" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
-                                    <TextBlock Text="10" Grid.Row="0" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
-                                </Grid>
+                                <Image Source="Images\champs\Swain-Icon.png" Grid.Row="2" Grid.Column="7"></Image>
+                                <TextBlock Text="5" Grid.Row="2" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Dragon -->
+
+                                <TextBlock Text="Dragon" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="3"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Dragons are immune to "></Run>
+                                        <Run Text="Magic Damage." Foreground="MediumPurple"></Run>
+                                        <Run Text="(2)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\dragon.jpg" Grid.Row="4" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Shyvana-Icon.png" Grid.Row="4" Grid.Column="1"></Image>
+                                <TextBlock Text="3" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\AurelionSol-Icon.png" Grid.Row="4" Grid.Column="2"></Image>
+                                <TextBlock Text="4" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Exile -->
+
+                                <TextBlock Text="Exile" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="5"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Exiles start combat with a shield equal to 100% max"></Run>
+                                        <Run Text="HP" Foreground="ForestGreen"></Run>
+                                        <Run Text="when placed adjacent to NO other units. (1)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\exile.jpg" Grid.Row="6" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Yasuo-Icon.png" Grid.Row="6" Grid.Column="1"></Image>
+                                <TextBlock Text="5" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Glacial -->
+
+                                <TextBlock Text="Glacial" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="7"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="On hit, Glacials have a 20% (2), 30% (4), 45% (6) to"></Run>
+                                        <Run Text="stun" Foreground="Yellow"></Run>
+                                        <Run Text="for 2 seconds."></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\glacial.jpg" Grid.Row="8" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Braum-Icon.png" Grid.Row="8" Grid.Column="1"></Image>
+                                <TextBlock Text="2" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Lissandra-Icon.png" Grid.Row="8" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Ashe-Icon.png" Grid.Row="8" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Volibear-Icon.png" Grid.Row="8" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="8" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Sejuani-Icon.png" Grid.Row="8" Grid.Column="5"></Image>
+                                <TextBlock Text="4" Grid.Row="8" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Anivia-Icon.png" Grid.Row="8" Grid.Column="6"></Image>
+                                <TextBlock Text="5" Grid.Row="8" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Imperial -->
+
+                                <TextBlock Text="Imperial" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="9"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Imperials deal"></Run>
+                                        <Run Text="Double Damage." Foreground="DarkRed"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="1 Random Imperials (1) All Imperials (4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\imperial.jpg" Grid.Row="10" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Darius-Icon.png" Grid.Row="10" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="10" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Katarina-Icon.png" Grid.Row="10" Grid.Column="2"></Image>
+                                <TextBlock Text="3" Grid.Row="10" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Draven-Icon.png" Grid.Row="10" Grid.Column="3"></Image>
+                                <TextBlock Text="4" Grid.Row="10" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Swain-Icon.png" Grid.Row="10" Grid.Column="4"></Image>
+                                <TextBlock Text="5" Grid.Row="10" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Noble -->
+
+                                <TextBlock Text="Noble" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="11"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Nobles grant"></Run>
+                                        <Run Text="+100 Armor" Foreground="Yellow"></Run>
+                                        <Run Text="and"></Run>
+                                        <Run Text="heal for 35" Foreground="ForestGreen"></Run>
+                                        <Run Text="on hit."></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="One Random Ally (3) All Allies (6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\noble.jpg" Grid.Row="12" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Fiora-Icon.png" Grid.Row="12" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="12" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Garen-Icon.png" Grid.Row="12" Grid.Column="2"></Image>
+                                <TextBlock Text="1" Grid.Row="12" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Vayne-Icon.png" Grid.Row="12" Grid.Column="3"></Image>
+                                <TextBlock Text="1" Grid.Row="12" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Lucian-Icon.png" Grid.Row="12" Grid.Column="4"></Image>
+                                <TextBlock Text="2" Grid.Row="12" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Leona-Icon.png" Grid.Row="12" Grid.Column="5"></Image>
+                                <TextBlock Text="4" Grid.Row="12" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kayle-Icon.png" Grid.Row="12" Grid.Column="6"></Image>
+                                <TextBlock Text="5" Grid.Row="12" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Ninja -->
+
+                                <TextBlock Text="Ninja" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="13"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Ninjas gain a percentage of"></Run>
+                                        <Run Text="Attack Damage." Foreground="DarkRed"></Run>
+                                        <Run Text="Ninja gains +40%"></Run>
+                                        <Run Text="Attack Damage" Foreground="DarkRed"></Run>
+                                        <Run Text="(Exactly 1)"></Run>
+                                        <Run Text="All Ninjas gain +60%"></Run>
+                                        <Run Text="Attack Damage" Foreground="DarkRed"></Run>
+                                        <Run Text="(4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\ninja.jpg" Grid.Row="14" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Shen-Icon.png" Grid.Row="14" Grid.Column="1"></Image>
+                                <TextBlock Text="2" Grid.Row="14" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Zed-Icon.png" Grid.Row="14" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="14" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kennen-Icon.png" Grid.Row="14" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="14" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Akali-Icon.png" Grid.Row="14" Grid.Column="4"></Image>
+                                <TextBlock Text="4" Grid.Row="14" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Pirate -->
+
+                                <TextBlock Text="Pirate" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="15"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Earn up to 4 additional"></Run>
+                                        <Run Text="gold" Foreground="LightYellow"></Run>
+                                        <Run Text="after combat"></Run>
+                                        <Run Text="against another player." FontWeight="Bold"></Run>
+                                        <Run Text="(3)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\pirate.jpg" Grid.Row="16" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Graves-Icon.png" Grid.Row="16" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="16" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Pyke-Icon.png" Grid.Row="16" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="16" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gangplank-Icon.png" Grid.Row="16" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="16" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\MissFortune-Icon.png" Grid.Row="16" Grid.Column="4"></Image>
+                                <TextBlock Text="5" Grid.Row="16" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Phantom -->
+
+                                <TextBlock Text="Phantom" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="17"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Curse a random enemy at the start of combat, setting their HP to"></Run>
+                                        <Run Text="100." Foreground="ForestGreen"></Run>
+                                        <Run Text="(2)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\phantom.jpg" Grid.Row="18" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Mordekaiser-Icon.png" Grid.Row="18" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="18" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kindred-Icon.png" Grid.Row="18" Grid.Column="2"></Image>
+                                <TextBlock Text="4" Grid.Row="18" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Karthus-Icon.png" Grid.Row="18" Grid.Column="3"></Image>
+                                <TextBlock Text="5" Grid.Row="18" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Robot -->
+
+                                <TextBlock Text="Robot" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="19"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Robots start combat at full"></Run>
+                                        <Run Text="mana." Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="(1)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\robot.jpg" Grid.Row="20" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Blitzcrank-Icon.png" Grid.Row="20" Grid.Column="1" ></Image>
+                                <TextBlock Text="2" Grid.Row="20" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Void -->
+
+                                <TextBlock Text="Void" Grid.Row="21" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="21"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Your team's basic attacks ignore 50% of the enemy's"></Run>
+                                        <Run Text="armor." Foreground="Yellow"></Run>
+                                        <Run Text="(3)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\void.jpg" Grid.Row="22" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Kassadin-Icon.png" Grid.Row="22" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="22" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\KhaZix-Icon.png" Grid.Row="22" Grid.Column="2"></Image>
+                                <TextBlock Text="1" Grid.Row="22" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\RekSai-Icon.png" Grid.Row="22" Grid.Column="3"></Image>
+                                <TextBlock Text="2" Grid.Row="22" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\ChoGath-Icon.png" Grid.Row="22" Grid.Column="4"></Image>
+                                <TextBlock Text="4" Grid.Row="22" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Wild -->
+
+                                <TextBlock Text="Wild" Grid.Row="23" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="23"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Attacks generate stacks of Fury (up to 5).  Each stack of Fury grants 7%"></Run>
+                                        <Run Text="attack speed." Foreground="LightYellow"></Run>
+                                        <Run Text="Wild Allies (2) All Allies (4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\wild.jpg" Grid.Row="24" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Nidalee-Icon.png" Grid.Row="24" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="24" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Warwick-Icon.png" Grid.Row="24" Grid.Column="2"></Image>
+                                <TextBlock Text="1" Grid.Row="24" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Ahri-Icon.png" Grid.Row="24" Grid.Column="3"></Image>
+                                <TextBlock Text="2" Grid.Row="24" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Rengar-Icon.png" Grid.Row="24" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="24" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gnar-Icon.png" Grid.Row="24" Grid.Column="4"></Image>
+                                <TextBlock Text="4" Grid.Row="24" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Yordle -->
+
+                                <TextBlock Text="Yordle" Grid.Row="25" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="25"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Attacks against ally Yordles have a chance to"></Run>
+                                        <Run Text="miss." Foreground="White"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="20% chance to miss (3) 50% chance to miss (6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\origins\yordle.jpg" Grid.Row="26" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Tristana-Icon.png" Grid.Row="26" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="26" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Lulu-Icon.png" Grid.Row="26" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="26" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kennen-Icon.png" Grid.Row="26" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="26" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Poppy-Icon.png" Grid.Row="26" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="26" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Veigar-Icon.png" Grid.Row="26" Grid.Column="5"></Image>
+                                <TextBlock Text="3" Grid.Row="26" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gnar-Icon.png" Grid.Row="26" Grid.Column="6"></Image>
+                                <TextBlock Text="4" Grid.Row="26" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                            </Grid>
+                        </WrapPanel>
+                    </DataTemplate>
+                    
+                    <DataTemplate x:Key="Classes">
+                        <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
+                            <Grid Height="900">
+                                <Grid.Background>
+                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                </Grid.Background>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="75"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                    <ColumnDefinition Width="45"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="70"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="65"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="60"/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+                                <!--Border-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Row="0" Grid.ColumnSpan="9"/>
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="1" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="2" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="3" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="4" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="5" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="6" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="7" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="8" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="9" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="10" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="11" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="12" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="13" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="14" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="15" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="16" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="17" Grid.ColumnSpan="9" />-->
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="19" Grid.ColumnSpan="9" />-->
+
+                                <TextBlock Text="Classes | Effects and Champions" 
+                                               FontSize="16" 
+                                               VerticalAlignment="Center" 
+                                               HorizontalAlignment="Center" 
+                                               Foreground="LightGoldenrodYellow" 
+                                               Grid.Row="0"
+                                               Grid.ColumnSpan="8"></TextBlock>
+                                <!-- Assassin -->
+
+                                <TextBlock Text="Assassin" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="1"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Assassins leap to the farthest enemy at the start of combat and deal additional"></Run>
+                                        <Run Text="Critical Strike Damage." Foreground="OrangeRed"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="+150%"></Run>
+                                        <Run Text="Critical Strike Damage" Foreground="OrangeRed"></Run>
+                                        <Run Text="(3) +350%" Foreground="White"></Run>
+                                        <Run Text="Critical Strike Damage" Foreground="OrangeRed"></Run>
+                                        <Run Text="(6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\assassin.jpg" Grid.Row="2" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\KhaZix-Icon.png" Grid.Row="2" Grid.Column="1" ></Image>
+                                <TextBlock Text="1" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Pyke-Icon.png" Grid.Row="2" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="2" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Zed-Icon.png" Grid.Row="2" Grid.Column="3"></Image>
+                                <TextBlock Text="2" Grid.Row="2" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Evelynn-Icon.png" Grid.Row="2" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Katarina-Icon.png" Grid.Row="2" Grid.Column="5"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Rengar-Icon.png" Grid.Row="2" Grid.Column="6"></Image>
+                                <TextBlock Text="3" Grid.Row="2" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Akali-Icon.png" Grid.Row="2" Grid.Column="7"></Image>
+                                <TextBlock Text="4" Grid.Row="2" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Blademaster -->
+
+                                <TextBlock Text="Blademaster" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="3"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Blademasters have a 35% chance to strike"></Run>
+                                        <Run Text="additional times" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="each attack."></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="One additional strike (3) Two additional strikes (6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\blademaster.jpg" Grid.Row="4" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Fiora-Icon.png" Grid.Row="4" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Shen-Icon.png" Grid.Row="4" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Aatrox-Icon.png" Grid.Row="4" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gangplank-Icon.png" Grid.Row="4" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="4" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Draven-Icon.png" Grid.Row="4" Grid.Column="5"></Image>
+                                <TextBlock Text="4" Grid.Row="4" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Yasuo-Icon.png" Grid.Row="4" Grid.Column="6"></Image>
+                                <TextBlock Text="5" Grid.Row="4" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Brawler -->
+
+                                <TextBlock Text="Brawler" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="5"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Brawlers receive bonus"></Run>
+                                        <Run Text="maximum health." Foreground="ForestGreen"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text=" +300 bonus"></Run>
+                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
+                                        <Run Text="(2) +700 bonus"></Run>
+                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
+                                        <Run Text="(4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\brawler.jpg" Grid.Row="6" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Warwick-Icon.png" Grid.Row="6" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                                
+                                <Image Source="Images\champs\Blitzcrank-Icon.png" Grid.Row="6" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="6" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                                
+                                <Image Source="Images\champs\RekSai-Icon.png" Grid.Row="6" Grid.Column="3"></Image>
+                                <TextBlock Text="2" Grid.Row="6" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                                
+                                <Image Source="Images\champs\Volibear-Icon.png" Grid.Row="6" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="6" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                                
+                                <Image Source="Images\champs\ChoGath-Icon.png" Grid.Row="6" Grid.Column="5"></Image>
+                                <TextBlock Text="4" Grid.Row="6" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <!-- Elementalist -->
+
+                                <TextBlock Text="Elementalist" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="7"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Elementalists gain double mana"></Run>
+                                        <Run Text="mana" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="from attacks."></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="At the start of combat, summon an"></Run>
+                                        <Run Text="Elemental" Foreground="LightSlateGray"></Run>
+                                        <Run Text="(3)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\elementalist.jpg" Grid.Row="8" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Lissandra-Icon.png" Grid.Row="8" Grid.Column="1"></Image>
+                                <TextBlock Text="2" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kennen-Icon.png" Grid.Row="8" Grid.Column="2"></Image>
+                                <TextBlock Text="3" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Brand-Icon.png" Grid.Row="8" Grid.Column="3"></Image>
+                                <TextBlock Text="4" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Anivia-Icon.png" Grid.Row="8" Grid.Column="4"></Image>
+                                <TextBlock Text="5" Grid.Row="8" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <!-- Guardian -->
+
+                                <TextBlock Text="Guardian" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="9"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="At the start of combat, all Guardians and adjacent allies receive +30"></Run>
+                                        <Run Text="armor." Foreground="Yellow"></Run>
+                                        <Run Text="(2)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\guardian.jpg" Grid.Row="10" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Braum-Icon.png" Grid.Row="10" Grid.Column="1"></Image>
+                                <TextBlock Text="2" Grid.Row="10" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Leona-Icon.png" Grid.Row="10" Grid.Column="2"></Image>
+                                <TextBlock Text="4" Grid.Row="10" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <!-- Gunslinger -->
+
+                                <TextBlock Text="Gunslinger" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="11"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="After attacking, Gunslingers have a 50% chance to fire "></Run>
+                                        <Run Text="additional attacks." Foreground="PaleVioletRed"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="Attack another"></Run>
+                                        <Run Text="random" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="enemy (2) Attack"></Run>
+                                        <Run Text="all enemies" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="in range. (4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\gunslinger.jpg" Grid.Row="12" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Graves-Icon.png" Grid.Row="12" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="12" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Tristana-Icon.png" Grid.Row="12" Grid.Column="2"></Image>
+                                <TextBlock Text="1" Grid.Row="12" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Lucian-Icon.png" Grid.Row="12" Grid.Column="3"></Image>
+                                <TextBlock Text="2" Grid.Row="12" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gangplank-Icon.png" Grid.Row="12" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="12" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\MissFortune-Icon.png" Grid.Row="12" Grid.Column="5"></Image>
+                                <TextBlock Text="5" Grid.Row="12" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <!-- Knight -->
+
+                                <TextBlock Text="Knight" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="13"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Knights"></Run>
+                                        <Run Text="block damage" Foreground="Yellow"></Run>
+                                        <Run Text="from"></Run>
+                                        <Run Text="basic attacks." Foreground="DarkRed"></Run>
+                                        <Run Text="20"></Run>
+                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
+                                        <Run Text="(2) 40"></Run>
+                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
+                                        <Run Text="(4) 80"></Run>
+                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
+                                        <Run Text="(6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\knight.jpg" Grid.Row="14" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Darius-Icon.png" Grid.Row="14" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="14" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Garen-Icon.png" Grid.Row="14" Grid.Column="2"></Image>
+                                <TextBlock Text="1" Grid.Row="14" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Mordekaiser-Icon.png" Grid.Row="14" Grid.Column="3"></Image>
+                                <TextBlock Text="1" Grid.Row="14" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Poppy-Icon.png" Grid.Row="14" Grid.Column="4"></Image>
+                                <TextBlock Text="3" Grid.Row="14" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Sejuani-Icon.png" Grid.Row="14" Grid.Column="5"></Image>
+                                <TextBlock Text="4" Grid.Row="14" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kayle-Icon.png" Grid.Row="14" Grid.Column="6"></Image>
+                                <TextBlock Text="5" Grid.Row="14" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Ranger -->
+
+                                <TextBlock Text="Ranger" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="15"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Rangers have a chance to double their"></Run>
+                                        <Run Text="attack speed" Foreground="LightYellow"></Run>
+                                        <Run Text="for the next 3 seconds."></Run>
+                                        <Run Text="25% chance (2) 65% chance (4)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\ranger.jpg" Grid.Row="16" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Vayne-Icon.png" Grid.Row="16" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="16" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Varus-Icon.png" Grid.Row="16" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="16" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Ashe-Icon.png" Grid.Row="16" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="16" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Kindred-Icon.png" Grid.Row="16" Grid.Column="4"></Image>
+                                <TextBlock Text="4" Grid.Row="16" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+
+                                <!-- Shapeshifter -->
+
+                                <TextBlock Text="Shapeshifter" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="17"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Shapeshifters gain bonus"></Run>
+                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
+                                        <Run Text="when they transform."></Run>
+                                        <Run Text="+100% bonus"></Run>
+                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
+                                        <Run Text="(3)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\shapeshifter.jpg" Grid.Row="18" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Nidalee-Icon.png" Grid.Row="18" Grid.Column="1"></Image>
+                                <TextBlock Text="1" Grid.Row="18" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Elise-Icon.png" Grid.Row="18" Grid.Column="2"></Image>
+                                <TextBlock Text="2" Grid.Row="18" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Shyvana-Icon.png" Grid.Row="18" Grid.Column="3"></Image>
+                                <TextBlock Text="3" Grid.Row="18" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Gnar-Icon.png" Grid.Row="18" Grid.Column="4"></Image>
+                                <TextBlock Text="4" Grid.Row="18" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Swain-Icon.png" Grid.Row="18" Grid.Column="5"></Image>
+                                <TextBlock Text="5" Grid.Row="18" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <!-- Sorcerer -->
+
+                                <TextBlock Text="Sorcerer" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                                <TextBlock Grid.ColumnSpan="7"
+                                               Grid.Row="19"
+                                               Grid.Column="1"
+                                               FontSize="12" 
+                                               Foreground="LightGoldenrodYellow"
+                                               VerticalAlignment="Center"
+                                               TextWrapping="Wrap">
+                                        <Run Text="Sorcers gain double"></Run>
+                                        <Run Text="mana" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="from attacking and allies have increased"></Run>
+                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
+                                        <LineBreak></LineBreak>
+                                        <Run Text="+35%"></Run>
+                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
+                                        <Run Text="(3) +100%"></Run>
+                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
+                                        <Run Text="(6)"></Run>
+                                </TextBlock>
+                                <Image Source="Images\classes\sorcerer.jpg" Grid.Row="20" Grid.Column="0"></Image>
+
+                                <Image Source="Images\champs\Kassadin-Icon.png" Grid.Row="20" Grid.Column="1" ></Image>
+                                <TextBlock Text="1" Grid.Row="20" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Ahri-Icon.png" Grid.Row="20" Grid.Column="2" ></Image>
+                                <TextBlock Text="2" Grid.Row="20" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Lulu-Icon.png" Grid.Row="20" Grid.Column="3" ></Image>
+                                <TextBlock Text="2" Grid.Row="20" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Morgana-Icon.png" Grid.Row="20" Grid.Column="4" ></Image>
+                                <TextBlock Text="3" Grid.Row="20" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Veigar-Icon.png" Grid.Row="20" Grid.Column="5" ></Image>
+                                <TextBlock Text="3" Grid.Row="20" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\AurelionSol-Icon.png" Grid.Row="20" Grid.Column="6" ></Image>
+                                <TextBlock Text="4" Grid.Row="20" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                                <Image Source="Images\champs\Karthus-Icon.png" Grid.Row="20" Grid.Column="7" ></Image>
+                                <TextBlock Text="5" Grid.Row="20" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
 
 
                 </DataTemplate.Resources>
+
+                <!-- The Buttons that make up the Bar.  The Hypothetical Plate! -->
                 <WrapPanel Margin="15,13,136,-8" >
-                    <Rectangle Width="10" Fill="SkyBlue" Height="40">
+                    <Rectangle Width="10" Fill="DarkOrange" Height="40">
                         <Rectangle.ContextMenu>
                             <ContextMenu>
                                 <MenuItem x:Name="Lock" Header="Lock"    IsCheckable="True" Click="MenuItem_Click_Lock"/>
@@ -1199,36 +2051,43 @@
                     </Rectangle>
 
                     <local:OptionalRadioButton  x:Name="BFS"  GroupName="Toggle" Width="40" Height="40" Grid.Column="1" Background="Transparent" >
-                        <Image Source="Images\BF.png" Height="40" Width="40"/>
+                        <Image Source="Images\BF.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton  x:Name="Bow"  GroupName="Toggle"  Width="40" Height="40" Grid.Column="2" Background="Transparent" >
-                        <Image Source="Images\Bow.png" Height="40" Width="40"/>
+                        <Image Source="Images\Bow.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Rod" GroupName="Toggle" Width="40" Height="40" Grid.Column="3" Background="Transparent" >
-                        <Image Source="Images\Rod.png" Height="40" Width="40"/>
+                        <Image Source="Images\Rod.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Tear" GroupName="Toggle" Width="40" Height="40" Grid.Column="4" Background="Transparent">
-                        <Image Source="Images\Tear.png" Height="40" Width="40"/>
+                        <Image Source="Images\Tear.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Vest" GroupName="Toggle" Width="40" Height="40" Grid.Column="5" Background="Transparent">
-                        <Image Source="Images\Vest.png" Height="40" Width="40"/>
+                        <Image Source="Images\Vest.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Cape" GroupName="Toggle" Width="40" Height="40" Grid.Column="6" Background="Transparent">
-                        <Image Source="Images\Cape.png" Height="40" Width="40"/>
+                        <Image Source="Images\Cape.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Belt" GroupName="Toggle" Width="40" Height="40" Grid.Column="7" Background="Transparent">
-                        <Image Source="Images\Belt.png" Height="40" Width="40"/>
+                        <Image Source="Images\Belt.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Spatula" GroupName="Toggle" Width="40" Height="40" Grid.Column="8" Background="Transparent">
-                        <Image Source="Images\Spatula.png" Height="40" Width="40"/>
+                        <Image Source="Images\Spatula.png" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
                     <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="64" Height="40" Grid.Column="9" Background="Transparent">
-                        <Image Source="Images\Cost.png" Height="40" Width="60"/>
+                        <Image Source="Images\Cost.png" Height="36" Width="60"/>
+                    </local:OptionalRadioButton>
+                    <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="40" Height="40" Grid.Column="10" Background="Transparent">
+                        <Image Source="Images\origins\demon.jpg" Height="36" Width="36"/>
+                    </local:OptionalRadioButton>
+                    <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="40" Height="40" Grid.Column="11" Background="Transparent">
+                        <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
                     </local:OptionalRadioButton>
 
-                    <Frame Margin="-10,-70" x:Name="Frame" Height="493" Width="500"/>
+                    <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500"/>
                 </WrapPanel>
 
+                <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
                     <DataTrigger Binding="{Binding ElementName=Bow, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve}"/>
@@ -1257,6 +2116,12 @@
                     <DataTrigger Binding="{Binding ElementName=Probability, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
                     </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=Origins, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Origins}"/>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=Classes, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
+                    </DataTrigger>
                 </DataTemplate.Triggers>
 
             </DataTemplate>
@@ -1270,8 +2135,8 @@
             <Setter Property="IsChecked" Value="False"/>
             <Style.Triggers>
                 <DataTrigger Binding="{Binding IsChecked, RelativeSource={RelativeSource Self}}" Value="true">
-                    <Setter Property="BorderBrush" Value="Blue"/>
-                    <Setter Property="BorderThickness" Value="3.5"/>
+                    <Setter Property="BorderBrush" Value="Purple"/>
+                    <Setter Property="BorderThickness" Value="2"/>
                 </DataTrigger>
             </Style.Triggers>
         </Style>
