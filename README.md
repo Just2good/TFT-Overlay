@@ -13,6 +13,7 @@ Version History
   -Mouseover buttons instead of toggle (By Chaoticoz)   
 1.5  
   -Added Origins and Classes (By Asemco)  
+  
 6.29.2019   
 1.4.1  
   -Morellonomicon text changed to fit new patch   
