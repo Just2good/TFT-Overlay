@@ -2,13 +2,15 @@
  TFT Discord Server: https://discord.gg/KHMCRJA
 
 How to use:  
-  -Right click Light Blue for context menu  
+  -Right click Orange box for context menu  
   -Click on Icons for information  
   -https://gfycat.com/freshmemorabledoe
 
 Version History
 
-6.29.2019   
+6.30.2019   
+1.5  
+  -Added Origins and Classes  
 1.4.1  
   -Morellonomicon text changed to fit new patch   
 1.4  
