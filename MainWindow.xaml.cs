@@ -40,7 +40,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V1.5 by J2GKaze/Jinsoku#4019.\n\nDM me on Discord if you have any questions\n\nBig thanks to Chaoticoz for fixing Lock Window and Always On Top!\n\n Also thanks to, Asemco/Asemco#7390 for adding Origins and Classes! Last Updated: June 30th, 2019 @ 5:00AM EST");
+            MessageBox.Show("TFT Information Overlay V1.5 by J2GKaze/Jinsoku#4019.\n\nDM me on Discord if you have any questions.\n\nBig thanks to Chaoticoz for Lock Window, Always on Top, and Mouseover.\n\nAlso thanks to, Asemco/Asemco#7390 for adding Origins and Classes!\n\nLast Updated: June 30th, 2019 @ 6:37AM EST");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)

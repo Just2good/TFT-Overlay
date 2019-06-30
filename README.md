@@ -12,7 +12,8 @@ Version History
 1.5.5  
   -Mouseover buttons instead of toggle (By Chaoticoz)   
 1.5  
-  -Added Origins and Classes (By Asemco)   
+  -Added Origins and Classes (By Asemco)  
+6.29.2019   
 1.4.1  
   -Morellonomicon text changed to fit new patch   
 1.4  
@@ -43,6 +44,6 @@ Possible Future Features:
   -Champions  
   -Sorted items by Offense, Defense, Utility  
   -Bar resize  
-  -Expand on Mouseover  
+  -Expand on Mouseover (Done)   
   -50% Alpha Background for item combinations (Done)  
 
