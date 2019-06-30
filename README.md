@@ -43,7 +43,7 @@ Known issues:
   -FPS Drop while League of Legends is in the background. (Just click on League again after using Overlay)  
 
 Possible Future Features:  
-  -Synergy  
+  -Synergy (Half-done)  
   -Champions  
   -Sorted items by Offense, Defense, Utility  
   -Bar resize  
