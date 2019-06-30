@@ -2089,37 +2089,37 @@
 
                 <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
-                    <DataTrigger Binding="{Binding ElementName=Bow, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Bow, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=BFS, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=BFS, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource BFSword}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Rod, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Rod, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource NLRod}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Tear, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Tear, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Mana}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Vest, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Vest, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ChainVest}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Cape, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Cape, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Negatron}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Belt, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Belt, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Scarf}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Probability, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Probability, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Origins, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Origins, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Origins}"/>
                     </DataTrigger>
-                    <DataTrigger Binding="{Binding ElementName=Classes, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Classes, Path=IsMouseOver}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </DataTrigger>
                 </DataTemplate.Triggers>
