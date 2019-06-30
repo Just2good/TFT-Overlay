@@ -1,7 +1,7 @@
 #TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  TFT Discord Server: https://discord.gg/KHMCRJA
 
-How to use:
+How to use:  
   -Right click Light Blue for context menu  
   -Click on Icons for information  
   -https://gfycat.com/freshmemorabledoe
