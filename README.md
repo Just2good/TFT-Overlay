@@ -1,12 +1,18 @@
-#TFT Overlay by J2GKaze (Discord: Jinsoku#4019)
+#TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
+ TFT Discord Server: https://discord.gg/KHMCRJA
 
 How to use:
-1. Right click Light Blue for context menu
-2. Click on Icons for information
+  -Right click Light Blue for context menu  
+  -Click on Icons for information  
+  -https://gfycat.com/freshmemorabledoe
 
 Version History
 
 6.29.2019  
+1.4.2  
+  -Added TFT Icon pack by Hieronymos#6987
+1.4.1  
+  -Morellonomicon text changed to fit new patch  
 1.4  
   -Removed excess icons    
   -Added spacing between rows    
