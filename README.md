@@ -1,7 +1,7 @@
 #TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  TFT Discord Server: https://discord.gg/KHMCRJA
    
-7.1.2019 @ 2:13PM PST: VERY BIG UPDATE SOON
+7.1.2019 @ 2:13PM PST: Working on a huge update for the overlay
 
 How to use:  
   -Right click Orange box for context menu  
@@ -10,6 +10,9 @@ How to use:
 
 Version History
 
+7.1.2019  
+1.6.2  
+  -Roll Chance changed to fit new patch  
 6.30.2019   
 1.6.1  
   -Bugfix    

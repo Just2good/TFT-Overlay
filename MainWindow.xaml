@@ -1066,7 +1066,7 @@
 
                                 <TextBlock Text="Max" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                                 <TextBlock Text="39" Grid.Row="1" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="25" Grid.Row="1" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="26" Grid.Row="1" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
                                 <TextBlock Text="21" Grid.Row="1" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
                                 <TextBlock Text="13" Grid.Row="1" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
                                 <TextBlock Text="10" Grid.Row="1" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
@@ -1078,45 +1078,47 @@
                                 <TextBlock Text="100%" Grid.Row="3" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
 
                                 <TextBlock Text="Level 3" Grid.Row="4" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="70%" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="65%" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
                                 <TextBlock Text="30%" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="5%" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+
 
                                 <TextBlock Text="Level 4" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="55%" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="30%" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="50%" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="35%" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
                                 <TextBlock Text="15%" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
 
                                 <TextBlock Text="Level 5" Grid.Row="6" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="40%" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="30%" Grid.Row="6" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="37%" Grid.Row="6" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="35%" Grid.Row="6" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
                                 <TextBlock Text="25%" Grid.Row="6" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-                                <TextBlock Text="5%" Grid.Row="6" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
+                                <TextBlock Text="3%" Grid.Row="6" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
 
                                 <TextBlock Text="Level 6" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="29%" Grid.Row="7" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="29.5%" Grid.Row="7" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                <TextBlock Text="31%" Grid.Row="7" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="24.5%" Grid.Row="7" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="35%" Grid.Row="7" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="7" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
                                 <TextBlock Text="10%" Grid.Row="7" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
                                 <TextBlock Text=".5%" Grid.Row="7" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
 
                                 <TextBlock Text="Level 7" Grid.Row="8" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="24%" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="28%" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                <TextBlock Text="31%" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="20%" Grid.Row="8" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="30%" Grid.Row="8" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="33%" Grid.Row="8" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
                                 <TextBlock Text="15%" Grid.Row="8" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
                                 <TextBlock Text="2%" Grid.Row="8" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
 
                                 <TextBlock Text="Level 8" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                                <TextBlock Text="20%" Grid.Row="9" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="24%" Grid.Row="9" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                <TextBlock Text="31%" Grid.Row="9" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="15%" Grid.Row="9" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
+                                <TextBlock Text="25%" Grid.Row="9" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="35%" Grid.Row="9" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
                                 <TextBlock Text="20%" Grid.Row="9" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
                                 <TextBlock Text="5%" Grid.Row="9" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
 
                                 <TextBlock Text="Level 9" Grid.Row="10" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                                 <TextBlock Text="10%" Grid.Row="10" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
-                                <TextBlock Text="19%" Grid.Row="10" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
-                                <TextBlock Text="31%" Grid.Row="10" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
+                                <TextBlock Text="15%" Grid.Row="10" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
+                                <TextBlock Text="35%" Grid.Row="10" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
                                 <TextBlock Text="30%" Grid.Row="10" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta"></TextBlock>
                                 <TextBlock Text="10%" Grid.Row="10" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange"></TextBlock>
                             </Grid>
