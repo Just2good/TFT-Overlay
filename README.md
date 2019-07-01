@@ -1,7 +1,7 @@
 #TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  TFT Discord Server: https://discord.gg/KHMCRJA
    
-VERY BIG UPDATE SOON 7.1.2019 @ 2:13PM PST
+7.1.2019 @ 2:13PM PST: VERY BIG UPDATE SOON
 
 How to use:  
   -Right click Orange box for context menu  
