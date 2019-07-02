@@ -1020,12 +1020,12 @@
                             <Rectangle Width="10" Fill="DarkOrange" Height="40">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu>
-                                        <MenuItem x:Name="Lock" Header="Lock"    IsCheckable="True" Click="MenuItem_Click_Lock"/>
-                                        <MenuItem x:Name="OnTop"  Header="Always On Top"   IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop"/>
+                                        <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                        <MenuItem x:Name="OnTop"  Header="Always On Top"   IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="About" Click="MenuItem_Click_About"/>
+                                        <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="Exit" Click="MenuItem_Click"/>
+                                        <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
                                     </ContextMenu>
                                 </Rectangle.ContextMenu>
                             </Rectangle>
@@ -1064,7 +1064,7 @@
                                 <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
                             </local:OptionalRadioButton>
 
-                            <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500" />
+                            <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500"/>
                         </WrapPanel>
                         <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                         <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>

@@ -163,6 +163,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Font\Cabin-Bold.ttf" />
+    <Resource Include="Font\Cabin-BoldItalic.ttf" />
+    <Resource Include="Font\Cabin-Italic.ttf" />
+    <Resource Include="Font\Cabin-Medium.ttf" />
+    <Resource Include="Font\Cabin-MediumItalic.ttf" />
+    <Resource Include="Font\Cabin-Regular.ttf" />
+    <Resource Include="Font\Cabin-SemiBold.ttf" />
+    <Resource Include="Font\Cabin-SemiBoldItalic.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -317,6 +325,24 @@
   <ItemGroup>
     <Resource Include="Images\champs\ChoGath-Icon.png" />
     <Resource Include="Images\champs\KhaZix-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\Belt.png" />
+    <Resource Include="Images\cstyle\BF.png" />
+    <Resource Include="Images\cstyle\blade_of_the_ruined_king.png" />
+    <Resource Include="Images\cstyle\Bow.png" />
+    <Resource Include="Images\cstyle\Cape.png" />
+    <Resource Include="Images\cstyle\darkin.png" />
+    <Resource Include="Images\cstyle\force_of_nature.png" />
+    <Resource Include="Images\cstyle\frozen_mallet.png" />
+    <Resource Include="Images\cstyle\knights_vow.png" />
+    <Resource Include="Images\cstyle\Rod.png" />
+    <Resource Include="Images\cstyle\runaans_hurricane.png" />
+    <Resource Include="Images\cstyle\Spatula.png" />
+    <Resource Include="Images\cstyle\Tear.png" />
+    <Resource Include="Images\cstyle\Vest.png" />
+    <Resource Include="Images\cstyle\youmuus_ghostblade.png" />
+    <Resource Include="Images\cstyle\yuumi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
