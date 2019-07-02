@@ -12,6 +12,8 @@ How to use:
 Version History
 
 7.2.2019  
+1.7  
+  -Added Opacity Slider (Ghost Icon)
 1.6.5  
   -Added design to Spatula section only. (Give me feedback, do you like this or not?)  
 1.6.3    
