@@ -1,7 +1,8 @@
 #TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  TFT Discord Server: https://discord.gg/KHMCRJA
    
-7.1.2019 @ 2:13PM PST: Working on a huge update for the overlay
+7.1.2019 @ 2:13PM PST: Working on a huge update for the overlay  
+7.2.2019 @ 5:18AM PST: Code cleanup then will implement Design + Champions section  
 
 How to use:  
   -Right click Orange box for context menu  
