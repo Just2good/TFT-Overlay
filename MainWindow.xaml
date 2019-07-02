@@ -1050,6 +1050,7 @@
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
+                                
                                 <!--Border-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="6" />
@@ -1081,7 +1082,6 @@
                                 <TextBlock Text="65%" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
                                 <TextBlock Text="30%" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen"></TextBlock>
                                 <TextBlock Text="5%" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua"></TextBlock>
-
 
                                 <TextBlock Text="Level 4" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                                 <TextBlock Text="50%" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"></TextBlock>
@@ -1173,31 +1173,18 @@
 
                                 <!--Border-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Row="0" Grid.ColumnSpan="9"/>
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="1" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="2" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="3" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="4" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="5" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="6" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="7" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="8" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="9" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="10" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="11" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="12" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="13" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="14" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="15" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="16" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="17" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="19" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="21" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="22" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="23" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="24" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="25" Grid.ColumnSpan="9" />-->
 
                                 <TextBlock Text="Origins | Effects and Champions" 
                                                FontSize="16" 
@@ -1561,7 +1548,7 @@
                                 <Image Source="Images\champs\Rengar-Icon.png" Grid.Row="24" Grid.Column="4"></Image>
                                 <TextBlock Text="3" Grid.Row="24" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                <Image Source="Images\champs\Gnar-Icon.png" Grid.Row="24" Grid.Column="4"></Image>
+                                <Image Source="Images\champs\Gnar-Icon.png" Grid.Row="24" Grid.Column="5"></Image>
                                 <TextBlock Text="4" Grid.Row="24" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
 
@@ -1646,25 +1633,15 @@
 
                                 <!--Border-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Row="0" Grid.ColumnSpan="9"/>
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="1" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="2" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="3" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="4" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="5" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="6" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="7" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="8" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="9" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="10" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="11" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="12" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="13" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="14" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="15" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="16" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="17" Grid.ColumnSpan="9" />-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
-                                <!--<Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="19" Grid.ColumnSpan="9" />-->
 
                                 <TextBlock Text="Classes | Effects and Champions" 
                                                FontSize="16" 
