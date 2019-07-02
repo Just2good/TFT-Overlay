@@ -13,7 +13,7 @@ Version History
 
 7.2.2019  
 1.6.5  
-  -Added design to Spatula section only.  
+  -Added design to Spatula section only. (Give me feedback, do you like this or not?)  
 1.6.3    
   -Fixed wild origin (Rengar was missing)  
   -Updated Demon % Chance to burn mana (30/50/70 to 40/60/80)  
