@@ -344,5 +344,8 @@
     <Resource Include="Images\cstyle\youmuus_ghostblade.png" />
     <Resource Include="Images\cstyle\yuumi.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\riversprite.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

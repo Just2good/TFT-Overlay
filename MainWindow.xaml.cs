@@ -25,11 +25,12 @@ namespace TFT_Overlay
     {
         bool canDrag = true;
         bool onTop = true;
-
+        
         public MainWindow()
         {
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
+
         }
 
 

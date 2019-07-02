@@ -7,11 +7,7 @@
     <DataTemplate x:Key="BFSword" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -136,11 +132,7 @@
     <DataTemplate x:Key="Recurve" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -261,11 +253,7 @@
     <DataTemplate x:Key="NLRod" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -388,11 +376,7 @@
     <DataTemplate x:Key="Mana" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -515,11 +499,7 @@
     <DataTemplate x:Key="ChainVest" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -639,11 +619,7 @@
     <DataTemplate x:Key="Negatron" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -765,11 +741,7 @@
     <DataTemplate x:Key="Giants" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="460">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
@@ -894,11 +866,7 @@
     <DataTemplate x:Key="Scarf" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel Margin="0,-5">
             <Grid>
-                <Rectangle Opacity=".5" Grid.Column="6" Grid.RowSpan="1" Margin="40,90,10,27">
-                    <Rectangle.Fill>
-                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
-                    </Rectangle.Fill>
-                </Rectangle>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
                 <Grid Margin="40,90,0,0" Width="500">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="45"/>

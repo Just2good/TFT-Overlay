@@ -13,15 +13,15 @@
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
-               
-                <DataTemplate.Resources>
-                    <!-- That content revealed by clicking on the buttons for the bar.  The Hypothetical Meat and Potatoes! -->                    
 
-                    <DataTemplate x:Key="Probability">
+                <DataTemplate.Resources>
+                    <!-- That content revealed by clicking on the buttons for the bar.  The Hypothetical Meat and Potatoes! -->
+
+                    <DataTemplate x:Key="Probability" DataType="{x:Type vm:MainViewModel}">
                         <WrapPanel Margin="0,-5">
                             <Grid Margin="15,76,0,0">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="70.5"/>
@@ -44,7 +44,6 @@
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
-                                
                                 <!--Border-->
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="6" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="6" />
@@ -123,7 +122,7 @@
                         <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
                             <Grid Height="900" MinHeight="900">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="75"></ColumnDefinition>
@@ -589,7 +588,7 @@
                         <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
                             <Grid Height="900">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="75"></ColumnDefinition>
@@ -1015,6 +1014,14 @@
                             <ColumnDefinition Width="475"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
+                        <Slider Name="OpacitySlider" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}">
+                            <Slider.Resources>
+                                
+                            </Slider.Resources>
+                            <Slider.Background>
+                                <ImageBrush/>
+                            </Slider.Background>
+                        </Slider>
                         <WrapPanel Margin="0,0,-266,0">
                             <!--Context Bar-->
                             <Rectangle Width="10" Fill="DarkOrange" Height="40">
@@ -1064,7 +1071,9 @@
                                 <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
                             </local:OptionalRadioButton>
 
-                            <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500"/>
+                            <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500" Opacity="1">
+
+                            </Frame>
                         </WrapPanel>
                         <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                         <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
@@ -1074,6 +1083,7 @@
                 <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
                     <!--IsChecked-->
+                    <!--Bar Buttons-->
                     <DataTrigger Binding="{Binding ElementName=Bow, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
@@ -1118,8 +1128,11 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+                    <!--Transparency Buttons-->
+
+
                     <!--Default Mouseover-->
-                   <MultiDataTrigger>
+                    <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
                             <Condition Binding="{Binding ElementName=Bow, Path=IsMouseOver}" Value="True" />
@@ -1290,6 +1303,79 @@
                 </DataTrigger>
             </Style.Triggers>
         </Style>
+        <!--Slider Button Style-->
+        <Style x:Key="SliderRepeatButton" TargetType="RepeatButton">
+            <Setter Property="SnapsToDevicePixels" Value="true" />
+            <Setter Property="OverridesDefaultStyle" Value="true" />
+            <Setter Property="IsTabStop" Value="false" />
+            <Setter Property="Focusable" Value="false" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RepeatButton">
+                        <Border  BorderThickness="1" BorderBrush="Black" Background="Black" Height="40"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SliderRepeatButton1" TargetType="RepeatButton">
+            <Setter Property="SnapsToDevicePixels" Value="true" />
+            <Setter Property="OverridesDefaultStyle" Value="true" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="RepeatButton">
+                        <Border SnapsToDevicePixels="True" Background="#C8AA6D"  BorderThickness="1" BorderBrush="#C8AA6D" Height="40"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SliderThumb" TargetType="Thumb">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Thumb">
+                        <Rectangle Height="20" Width="20">
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="Images/riversprite.png"></ImageBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <ControlTemplate x:Key="Slider"  TargetType="Slider">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Track Grid.Row="1" x:Name="PART_Track"   >
+                    <Track.DecreaseRepeatButton>
+                        <RepeatButton Style="{StaticResource SliderRepeatButton1}"  Command="Slider.DecreaseLarge" />
+                    </Track.DecreaseRepeatButton>
+                    <Track.Thumb>
+                        <Thumb Style="{StaticResource SliderThumb}"  />
+                    </Track.Thumb>
+                    <Track.IncreaseRepeatButton>
+                        <RepeatButton Style="{StaticResource SliderRepeatButton}" Command="Slider.IncreaseLarge" />
+                    </Track.IncreaseRepeatButton>
+                </Track>
+            </Grid>
+        </ControlTemplate>
+        <Style x:Key="Custom_Slider" TargetType="Slider">
+            <Setter Property="Focusable" Value="False"/>
+            <Setter Property="SnapsToDevicePixels" Value="true" />
+            <Setter Property="OverridesDefaultStyle" Value="true" />
+            <Style.Triggers>
+                <Trigger Property="Orientation" Value="Vertical">
+                    <Setter Property="MinHeight" Value="40" />
+                    <Setter Property="MinWidth" Value="20" />
+                    <Setter Property="Template" Value="{StaticResource Slider}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
     </Window.Resources>
 </Window>
 
