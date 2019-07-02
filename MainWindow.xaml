@@ -21,9 +21,9 @@
                     <DataTemplate x:Key="BFSword">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -149,9 +149,9 @@
                     <DataTemplate x:Key="Recurve">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -273,9 +273,9 @@
                     <DataTemplate x:Key="NLRod">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -399,9 +399,9 @@
                     <DataTemplate x:Key="Mana">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -525,9 +525,9 @@
                     <DataTemplate x:Key="ChainVest">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -648,9 +648,9 @@
                     <DataTemplate x:Key="Negatron">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -773,9 +773,9 @@
                     <DataTemplate x:Key="Giants">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -901,9 +901,9 @@
                     <DataTemplate x:Key="Scarf">
                         <WrapPanel Margin="0,-5">
                             <Grid>
-                                <Rectangle Opacity=".5" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
+                                <Rectangle Opacity="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27">
                                     <Rectangle.Fill>
-                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity=".5"/>
+                                        <SolidColorBrush x:Name="Alpha" Color="Black" Opacity="1"/>
                                     </Rectangle.Fill>
                                 </Rectangle>
                                 <Grid Margin="40,90,0,0" Width="460">
@@ -1027,7 +1027,7 @@
                         <WrapPanel Margin="0,-5">
                             <Grid Margin="15,76,0,0">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="1"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="70.5"/>
@@ -1129,7 +1129,7 @@
                         <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
                             <Grid Height="900" MinHeight="900">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="1"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="75"></ColumnDefinition>
@@ -1608,7 +1608,7 @@
                         <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
                             <Grid Height="900">
                                 <Grid.Background>
-                                    <SolidColorBrush Color="Black" Opacity="0.4"></SolidColorBrush>
+                                    <SolidColorBrush Color="Black" Opacity="1"></SolidColorBrush>
                                 </Grid.Background>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="75"></ColumnDefinition>
