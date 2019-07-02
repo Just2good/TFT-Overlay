@@ -11,6 +11,8 @@ How to use:
 Version History
 
 7.1.2019  
+1.6.3
+  -Updated Demon % Chance to burn mana (30/50/70 to 40/60/80)
 1.6.2  
   -Roll Chance changed to fit new patch  
 6.30.2019   
