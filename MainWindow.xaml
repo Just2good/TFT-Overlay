@@ -1216,7 +1216,7 @@
                                                Foreground="LightGoldenrodYellow" 
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="30% (2), 50% (4), 70% (6) on hit to burn all of target's"></Run>
+                                        <Run Text="40% (2), 60% (4), 80% (6) on hit to burn all of target's"></Run>
                                         <Run Text="current mana" Foreground="DeepSkyBlue"></Run>
                                         <Run Text=", dealing"></Run>
                                         <Run Text="true damage" Foreground="White"></Run>
