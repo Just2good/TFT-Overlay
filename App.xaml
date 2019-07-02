@@ -2,6 +2,9 @@
   <Application.Resources>
     <ResourceDictionary>
       <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" xmlns:vm="clr-namespace:TFT_Overlay.ViewModel" />
-    </ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resource\Items.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
   </Application.Resources>
 </Application>
