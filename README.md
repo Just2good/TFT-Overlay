@@ -10,8 +10,8 @@ How to use:
 
 Version History
 
-7.2.2019
-1.6.3  
+7.2.2019  
+1.6.3    
   -Fixed wild origin (Rengar was missing)  
   -Updated Demon % Chance to burn mana (30/50/70 to 40/60/80)  
 7.1.2019  
