@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,11 +26,29 @@ namespace TFT_Overlay
     {
         bool canDrag = true;
         bool onTop = true;
-        
+        public readonly static string VersionNumber = "1.7.5";
+
         public MainWindow()
         {
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
+
+            WebClient webClient = new WebClient();
+            
+            if (!webClient.DownloadString("weblink to text file with version number").Contains(VersionNumber))
+            {
+                if (MessageBoxResult.Yes == MessageBox.Show("Update Available would you like to update to version" + " NEW VERSION NUMBER " + "?", "TFT_Overlay", MessageBoxButton.YesNo, MessageBoxImage.None))
+                {
+                    System.Diagnostics.Process.Start("");
+                    //https://youtu.be/Bz85Iu1_ajI <-- couldnt finish and didnt get very far but may be of use for
+                    //autoupdates but theres definetly a way you can get it to ping Github directly and check
+                }
+                else
+                {
+
+                }
+            }
+
 
         }
 
@@ -41,7 +60,8 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V1.7.2 by J2GKaze/Jinsoku#4019.\n\nDM me on Discord if you have any questions.\n\nBig thanks to Chaoticoz for Lock Window, Always on Top, and Mouseover.\n\nAlso thanks to, Asemco/Asemco#7390 for adding Origins and Classes!\n\nLast Updated: July 2nd, 2019 @ 8:22PM PST");
+
+            MessageBox.Show("TFT Information Overlay V"+ VersionNumber +" by J2GKaze/Jinsoku#4019.\n\nDM me on Discord if you have any questions.\n\nBig thanks to Chaoticoz for Lock Window, Always on Top, and Mouseover.\n\nAlso thanks to, Asemco/Asemco#7390 for adding Origins and Classes!\n\nLast Updated: July 2nd, 2019 @ 8:22PM PST");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
