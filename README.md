@@ -12,6 +12,9 @@ How to use:
 Version History
 
 7.2.2019  
+1.7.2  
+  -Added Resizing  
+  -Added Lock Resize to Right Click Context Menu
 1.7  
   -Added Opacity Slider (Ghost Icon)
 1.6.5  

@@ -5,10 +5,10 @@
 
     <!--B.F. Sword-->
     <DataTemplate x:Key="BFSword" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -34,7 +34,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
 
                     <!-- Infinity Edge-->
@@ -130,10 +130,10 @@
 
     <!--Recurve Bow-->
     <DataTemplate x:Key="Recurve" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -159,7 +159,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Sword of the Divine-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -251,10 +251,10 @@
 
     <!--Needlessly Large Rod-->
     <DataTemplate x:Key="NLRod" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -280,7 +280,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Hextech Gunblade-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -374,10 +374,10 @@
 
     <!--Tear of the Goddess-->
     <DataTemplate x:Key="Mana" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -403,7 +403,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Spear of Shojin-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -497,10 +497,10 @@
 
     <!--Chain Vest-->
     <DataTemplate x:Key="ChainVest" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -526,7 +526,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Guardian Angel-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -617,10 +617,10 @@
 
     <!--Negatron Cloak-->
     <DataTemplate x:Key="Negatron" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -646,7 +646,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Bloodthirster-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -739,10 +739,10 @@
 
     <!--Giants Belt-->
     <DataTemplate x:Key="Giants" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="460">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="15"/>
@@ -768,7 +768,7 @@
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
-                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Zekes Herald-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
@@ -864,10 +864,10 @@
 
     <!--Spatula-->
     <DataTemplate x:Key="Scarf" DataType="{x:Type vm:MainViewModel}">
-        <WrapPanel Margin="0,-5">
+        <WrapPanel>
             <Grid>
-                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="40,90,10,27"></Rectangle>
-                <Grid Margin="40,90,0,0" Width="500">
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="45"/>
                         <ColumnDefinition Width="15"/>
@@ -875,7 +875,8 @@
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="45"/>
                         <ColumnDefinition Width="15"/>
-                        <ColumnDefinition Width="350"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="10"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="45"/>
@@ -893,7 +894,7 @@
                         <RowDefinition Height="45"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="45"/>
-                        <RowDefinition Height="45"/>
+                        <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
                     <!-- Youmuus Ghostblade-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>

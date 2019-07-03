@@ -347,5 +347,10 @@
   <ItemGroup>
     <Resource Include="Images\riversprite.png" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Cursor\Normal.cur" />
+    <Resource Include="Cursor\Pointer.cur" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

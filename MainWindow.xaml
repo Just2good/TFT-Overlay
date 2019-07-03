@@ -5,21 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFT_Overlay"
         xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
+        xmlns:local1="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
-        Title="MainWindow" Height="940" Width="1200" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
-
-
+        ResizeMode="CanResizeWithGrip"
+        Title="MainWindow" Height="880" Width="950" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
 
                 <DataTemplate.Resources>
+                    <!--IfChecked = Visible, Unchecked = Hidden-->
+                    <local1:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+                    
                     <!-- That content revealed by clicking on the buttons for the bar.  The Hypothetical Meat and Potatoes! -->
-
                     <DataTemplate x:Key="Probability" DataType="{x:Type vm:MainViewModel}">
-                        <WrapPanel Margin="0,-5">
-                            <Grid Margin="15,76,0,0">
+                        <WrapPanel>
+                            <Grid>
                                 <Grid.Background>
                                     <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
@@ -119,8 +121,8 @@
                     </DataTemplate>
 
                     <DataTemplate x:Key="Origins">
-                        <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
-                            <Grid Height="900" MinHeight="900">
+                        <WrapPanel Orientation="Horizontal">
+                            <Grid >
                                 <Grid.Background>
                                     <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
@@ -162,6 +164,7 @@
                                     <RowDefinition Height="30"/>
                                     <RowDefinition Height="30"/>
                                     <RowDefinition Height="30"/>
+                                    <RowDefinition Height="10"/>
                                 </Grid.RowDefinitions>
 
                                 <!--Border-->
@@ -178,6 +181,7 @@
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="22" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="24" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="26" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
                                 <TextBlock Text="Origins | Effects and Champions" 
                                                FontSize="16" 
@@ -315,7 +319,7 @@
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
                                         <Run Text="Imperials deal"></Run>
-                                        <Run Text="Double Damage." Foreground="DarkRed"></Run>
+                                        <Run Text="Double Damage." Foreground="Red"></Run>
                                         <LineBreak></LineBreak>
                                         <Run Text="1 Random Imperials (1) All Imperials (4)"></Run>
                                 </TextBlock>
@@ -384,12 +388,12 @@
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
                                         <Run Text="Ninjas gain a percentage of"></Run>
-                                        <Run Text="Attack Damage." Foreground="DarkRed"></Run>
+                                        <Run Text="Attack Damage." Foreground="Red"></Run>
                                         <Run Text="Ninja gains +40%"></Run>
-                                        <Run Text="Attack Damage" Foreground="DarkRed"></Run>
+                                        <Run Text="Attack Damage" Foreground="Red"></Run>
                                         <Run Text="(Exactly 1)"></Run>
                                         <Run Text="All Ninjas gain +60%"></Run>
-                                        <Run Text="Attack Damage" Foreground="DarkRed"></Run>
+                                        <Run Text="Attack Damage" Foreground="Red"></Run>
                                         <Run Text="(4)"></Run>
                                 </TextBlock>
                                 <Image Source="Images\origins\ninja.jpg" Grid.Row="14" Grid.Column="0"></Image>
@@ -585,8 +589,8 @@
                     </DataTemplate>
 
                     <DataTemplate x:Key="Classes">
-                        <WrapPanel Orientation="Horizontal" Margin="15, 70, 0, 0">
-                            <Grid Height="900">
+                        <WrapPanel Orientation="Horizontal">
+                            <Grid>
                                 <Grid.Background>
                                     <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
@@ -622,6 +626,7 @@
                                     <RowDefinition Height="30"/>
                                     <RowDefinition Height="60"/>
                                     <RowDefinition Height="30"/>
+                                    <RowDefinition Height="10"/>
                                 </Grid.RowDefinitions>
 
                                 <!--Border-->
@@ -635,6 +640,7 @@
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="14" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="16" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
+                                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
                                 <TextBlock Text="Classes | Effects and Champions" 
                                                FontSize="16" 
@@ -862,7 +868,7 @@
                                         <Run Text="Knights"></Run>
                                         <Run Text="block damage" Foreground="Yellow"></Run>
                                         <Run Text="from"></Run>
-                                        <Run Text="basic attacks." Foreground="DarkRed"></Run>
+                                        <Run Text="basic attacks." Foreground="Red"></Run>
                                         <Run Text="20"></Run>
                                         <Run Text="damage blocked" Foreground="Yellow"></Run>
                                         <Run Text="(2) 40"></Run>
@@ -1008,77 +1014,78 @@
                 </DataTemplate.Resources>
 
                 <!-- The Buttons that make up the Bar.  The Hypothetical Plate! -->
-                <WrapPanel Margin="15,13,4,-8" >
-                    <Grid Width="1100">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="475"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Slider Name="OpacitySlider" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}">
-                            <Slider.Resources>
-                                
-                            </Slider.Resources>
-                            <Slider.Background>
-                                <ImageBrush/>
-                            </Slider.Background>
-                        </Slider>
-                        <WrapPanel Margin="0,0,-266,0">
-                            <!--Context Bar-->
-                            <Rectangle Width="10" Fill="DarkOrange" Height="40">
-                                <Rectangle.ContextMenu>
-                                    <ContextMenu>
-                                        <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
-                                        <MenuItem x:Name="OnTop"  Header="Always On Top"   IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
-                                    </ContextMenu>
-                                </Rectangle.ContextMenu>
-                            </Rectangle>
-                            <!--Actual Buttons-->
-                            <local:OptionalRadioButton  x:Name="BFS"  GroupName="Toggle" Width="40" Height="40" Grid.Column="1" Background="Transparent" >
-                                <Image Source="Images\BF.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton  x:Name="Bow"  GroupName="Toggle"  Width="40" Height="40" Grid.Column="2" Background="Transparent" >
-                                <Image Source="Images\Bow.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Rod" GroupName="Toggle" Width="40" Height="40" Grid.Column="3" Background="Transparent" >
-                                <Image Source="Images\Rod.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Tear" GroupName="Toggle" Width="40" Height="40" Grid.Column="4" Background="Transparent">
-                                <Image Source="Images\Tear.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Vest" GroupName="Toggle" Width="40" Height="40" Grid.Column="5" Background="Transparent">
-                                <Image Source="Images\Vest.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Cape" GroupName="Toggle" Width="40" Height="40" Grid.Column="6" Background="Transparent">
-                                <Image Source="Images\Cape.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Belt" GroupName="Toggle" Width="40" Height="40" Grid.Column="7" Background="Transparent">
-                                <Image Source="Images\Belt.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Spatula" GroupName="Toggle" Width="40" Height="40" Grid.Column="8" Background="Transparent">
-                                <Image Source="Images\Spatula.png" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="64" Height="40" Grid.Column="9" Background="Transparent">
-                                <Image Source="Images\Cost.png" Height="36" Width="60"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="40" Height="40" Grid.Column="10" Background="Transparent">
-                                <Image Source="Images\origins\demon.jpg" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
-                            <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="40" Height="40" Grid.Column="11" Background="Transparent">
-                                <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
-                            </local:OptionalRadioButton>
+                <WrapPanel>
+                    <Viewbox>
+                        
+                        <Grid Width="Auto">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="475"/>
+                                <ColumnDefinition Width="475"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="45"/>
+                                <RowDefinition Height="835"/>
+                            </Grid.RowDefinitions>
+                            <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}"/>
+                            <Slider Name="OpacitySlider" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
+                            <WrapPanel >
+                                <!--Context Bar-->
+                                <Rectangle Width="10" Fill="DarkOrange" Height="40">
+                                    <Rectangle.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                            <MenuItem x:Name="OnTop"  Header="Always On Top"   IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                            <MenuItem x:Name="ResizeLock"  Header="Resize"   IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                            <Separator Width="Auto" Height="2"/>
+                                            <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
+                                            <Separator Width="Auto" Height="2"/>
+                                            <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
+                                        </ContextMenu>
+                                    </Rectangle.ContextMenu>
+                                </Rectangle>
+                                <!--Actual Buttons-->
+                                <local:OptionalRadioButton  x:Name="BFS"  GroupName="Toggle" Width="40" Height="40" Grid.Column="1" Background="Transparent" >
+                                    <Image Source="Images\BF.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton  x:Name="Bow"  GroupName="Toggle"  Width="40" Height="40" Grid.Column="2" Background="Transparent" >
+                                    <Image Source="Images\Bow.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Rod" GroupName="Toggle" Width="40" Height="40" Grid.Column="3" Background="Transparent" >
+                                    <Image Source="Images\Rod.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Tear" GroupName="Toggle" Width="40" Height="40" Grid.Column="4" Background="Transparent">
+                                    <Image Source="Images\Tear.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Vest" GroupName="Toggle" Width="40" Height="40" Grid.Column="5" Background="Transparent">
+                                    <Image Source="Images\Vest.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Cape" GroupName="Toggle" Width="40" Height="40" Grid.Column="6" Background="Transparent">
+                                    <Image Source="Images\Cape.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Belt" GroupName="Toggle" Width="40" Height="40" Grid.Column="7" Background="Transparent">
+                                    <Image Source="Images\Belt.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Spatula" GroupName="Toggle" Width="40" Height="40" Grid.Column="8" Background="Transparent">
+                                    <Image Source="Images\Spatula.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="64" Height="40" Grid.Column="9" Background="Transparent">
+                                    <Image Source="Images\Cost.png" Height="36" Width="60"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="40" Height="40" Grid.Column="10" Background="Transparent">
+                                    <Image Source="Images\origins\demon.jpg" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="40" Height="40" Grid.Column="11" Background="Transparent">
+                                    <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
 
-                            <Frame Margin="-15,-70,-10,70" x:Name="Frame" Height="900" Width="500" Opacity="1">
 
-                            </Frame>
-                        </WrapPanel>
-                        <!--2nd Frame and Linking Multiple Elements (Modifier)-->
-                        <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
-                        <Frame Grid.Column="1" Margin="5,-30,62,65" x:Name="Frame2" Height="Auto" Width="Auto"/>
-                    </Grid>
+                            </WrapPanel>
+                            <!--2nd Frame and Linking Multiple Elements (Modifier)-->
+                            <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
+                            <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" Opacity="1" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                            <Frame Grid.Column="1" Grid.Row="1" Margin="0" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                        </Grid>
+                    </Viewbox>
                 </WrapPanel>
                 <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
@@ -1128,9 +1135,6 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
-                    <!--Transparency Buttons-->
-
-
                     <!--Default Mouseover-->
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -1374,8 +1378,39 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-
-
+        <!--Resize Style-->
+        <Style TargetType="{x:Type ResizeGrip}">
+            <Setter Property="MinWidth" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
+            <Setter Property="MinHeight" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ResizeGrip}">
+                        <Grid SnapsToDevicePixels="True" Background="{TemplateBinding Background}">
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Visibility" Value="Hidden"/>
+        </Style>
+        <SolidColorBrush x:Key="ResizeGripperForeground" Color="#B8B4A2"/>
+        <Style x:Key="VisibleResizeGrip" TargetType="{x:Type ResizeGrip}">
+            <Setter Property="MinWidth" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
+            <Setter Property="MinHeight" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ResizeGrip}">
+                        <Grid SnapsToDevicePixels="True" Background="{TemplateBinding Background}">
+                            <Path Fill="White" HorizontalAlignment="Right" Margin="0,0,2,2" VerticalAlignment="Bottom" Data="M 8,0 L 10,0 L 10,2 L 8,2 Z M 4,4 L 6,4 L 6,6 L 4,6 Z M 8,4 L 10,4 L 10,6 L 8,6 Z M 0,8 L 2,8 L 2,10 L 0,10 Z M 4,8 L 6,8 L 6,10 L 4,10 Z M 8,8 L 10,8 L 10,10 L 8,10 Z"/>
+                            <Path Fill="{StaticResource ResizeGripperForeground}" HorizontalAlignment="Right" Margin="0,0,3,3" VerticalAlignment="Bottom" Data="M 8,0 L 10,0 L 10,2 L 8,2 Z M 4,4 L 6,4 L 6,6 L 4,6 Z M 8,4 L 10,4 L 10,6 L 8,6 Z M 0,8 L 2,8 L 2,10 L 0,10 Z M 4,8 L 6,8 L 6,10 L 4,10 Z M 8,8 L 10,8 L 10,10 L 8,10 Z"/>
+                            <Path Data="M8,0L10,0 10,2 8,2z M4,4L6,4 6,6 4,6z M8,4L10,4 10,6 8,6z M0,8L2,8 2,10 0,10z M4,8L6,8 6,10 4,10z M8,8L10,8 10,10 8,10z" Fill="White" HorizontalAlignment="Right" Margin="0,0,2,2" VerticalAlignment="Bottom" />
+                            <Path Data="M8,0L10,0 10,2 8,2z M4,4L6,4 6,6 4,6z M8,4L10,4 10,6 8,6z M0,8L2,8 2,10 0,10z M4,8L6,8 6,10 4,10z M8,8L10,8 10,10 8,10z" Fill="{StaticResource ResizeGripperForeground}" HorizontalAlignment="Right" Margin="0,0,3,3" VerticalAlignment="Bottom" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Window.Resources>
 </Window>
 
