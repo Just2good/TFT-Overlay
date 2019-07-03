@@ -122,7 +122,7 @@
 
                     <DataTemplate x:Key="Origins">
                         <WrapPanel Orientation="Horizontal">
-                            <Grid >
+                            <Grid>
                                 <Grid.Background>
                                     <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
                                 </Grid.Background>
@@ -192,6 +192,8 @@
                                                Grid.ColumnSpan="8"></TextBlock>
                                 <!-- Demons -->
 
+
+
                                 <TextBlock Text="Demons" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="1"
@@ -208,10 +210,20 @@
                                 </TextBlock>
                                 <Image Source="Images\origins\demon.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
-                                <Image Source="Images\champs\Varus-Icon.png" Grid.Row="2" Grid.Column="1" ></Image>
+
+                                <!-- TESTING -->
+                               
+
+
+                                <local:OptionalRadioButton x:Name="Varus_Items" GroupName="Toggle" Width="40" Height="40" Grid.Column="1" Grid.Row="2" Background="Transparent">
+                                    <Image Source="Images\champs\Varus-Icon.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+                                
                                 <TextBlock Text="2" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                                <Image Source="Images\champs\Elise-Icon.png" Grid.Row="2" Grid.Column="2"></Image>
+                                <local1:RadioButton x:Name ="Elise_Items" Grid.Row="2" Grid.Column="2">
+                                    <Image Source="Images\champs\Elise-Icon.png" Grid.Row="2" Grid.Column="2"></Image>
+                                </local1:RadioButton>
                                 <TextBlock Text="2" Grid.Row="2" Grid.Column="2" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                                 <Image Source="Images\champs\Morgana-Icon.png" Grid.Row="2" Grid.Column="3"></Image>
@@ -1009,17 +1021,19 @@
                             </Grid>
                         </WrapPanel>
                     </DataTemplate>
-
-
+                    
+                    
                 </DataTemplate.Resources>
 
+                
+                
+                
                 <!-- The Buttons that make up the Bar.  The Hypothetical Plate! -->
                 <WrapPanel>
                     <Viewbox>
-                        
                         <Grid Width="Auto">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="475"/>
+                                <ColumnDefinition Width="575"/>
                                 <ColumnDefinition Width="475"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
@@ -1027,8 +1041,8 @@
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
                             <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}"/>
-                            <Slider Name="OpacitySlider" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
-                            <WrapPanel >
+                            <Slider Name="OpacitySlider" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Minimum="0" Maximum="1" Orientation="Vertical" Value="1" Style="{DynamicResource Custom_Slider}"></Slider>
+                            <WrapPanel>
                                 <!--Context Bar-->
                                 <Rectangle Width="10" Fill="DarkOrange" Height="40">
                                     <Rectangle.ContextMenu>
@@ -1078,15 +1092,25 @@
                                     <Image Source="Images\classes\assassin.jpg" Height="36" Width="36"/>
                                 </local:OptionalRadioButton>
 
+                                <local:OptionalRadioButton x:Name="Varus_Items" GroupName="Toggle" Width="40" Height="40" Grid.Column="12" Background="Transparent">
+                                    <Image Source="Images\champs\Varus-Icon.png" Height="36" Width="36"/>
+                                </local:OptionalRadioButton>
+
 
                             </WrapPanel>
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
+                            
+
+                            
                             <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" Opacity="1" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             <Frame Grid.Column="1" Grid.Row="1" Margin="0" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                         </Grid>
                     </Viewbox>
                 </WrapPanel>
+                
+                
+                
                 <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
                     <!--IsChecked-->
@@ -1135,6 +1159,12 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+
+                    <DataTrigger Binding="{Binding ElementName=Varus_Items, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Varus_Items}"/>
+                        <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </DataTrigger>
+
                     <!--Default Mouseover-->
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -1212,6 +1242,13 @@
                             <Condition Binding="{Binding ElementName=Classes, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Origins, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=Varus_Items, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Varus_Items}"/>
                     </MultiDataTrigger>
                     <!--Mouseover And Button is Toggled-->
                     <MultiDataTrigger>
@@ -1291,6 +1328,17 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
+                    
+                    <!--Mouseover Champ-->
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Origins, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=Varus_Items, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Varus_Items}"/>
+                    </MultiDataTrigger>
+                    
+                    
                 </DataTemplate.Triggers>
             </DataTemplate>
         </ContentControl.ContentTemplate>
