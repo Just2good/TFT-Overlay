@@ -140,10 +140,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Resource\Champs.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Resource\Items.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -351,6 +347,7 @@
   <ItemGroup>
     <Resource Include="Images\riversprite.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Cursor\Normal.cur" />
     <Resource Include="Cursor\Pointer.cur" />
