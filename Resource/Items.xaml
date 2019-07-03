@@ -984,10 +984,6 @@
     <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>               <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight.</s:String>
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>   <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks 2 extra targets on Attack.&#10;Extra attacks deal 50% damage.</s:String>
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String> <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin.</s:String> 
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>                           <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer.</s:String> 
     
-    
-    <!--This Section for any Helpers!!!-->
-    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>                           <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer.</s:String>
-
-
 </ResourceDictionary>
