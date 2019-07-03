@@ -35,6 +35,7 @@ namespace TFT_Overlay
 
             WebClient webClient = new WebClient();
             
+            /*
             if (!webClient.DownloadString("weblink to text file with version number").Contains(VersionNumber))
             {
                 if (MessageBoxResult.Yes == MessageBox.Show("Update Available would you like to update to version" + " NEW VERSION NUMBER " + "?", "TFT_Overlay", MessageBoxButton.YesNo, MessageBoxImage.None))
@@ -48,7 +49,7 @@ namespace TFT_Overlay
 
                 }
             }
-
+            */
 
         }
 
