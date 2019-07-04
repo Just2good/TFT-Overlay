@@ -347,7 +347,16 @@
   <ItemGroup>
     <Resource Include="Images\riversprite.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BeltPM.png" />
+    <Resource Include="Images\cstyle\BFPM.png" />
+    <Resource Include="Images\cstyle\BowPM.png" />
+    <Resource Include="Images\cstyle\CapePM.png" />
+    <Resource Include="Images\cstyle\RodPM.png" />
+    <Resource Include="Images\cstyle\SpatulaPM.png" />
+    <Resource Include="Images\cstyle\TearPM.png" />
+    <Resource Include="Images\cstyle\VestPM.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Cursor\Normal.cur" />
     <Resource Include="Cursor\Pointer.cur" />
