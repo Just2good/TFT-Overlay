@@ -5,7 +5,7 @@
 
 `7.2.2019 @ 5:18AM PST: Code cleanup then will implement Design + Champions section`
 
-**How to use:**  
+## How to use:
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
 ![Image](https://giant.gfycat.com/FreshMemorableDoe.gif)
