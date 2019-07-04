@@ -68,7 +68,7 @@
 - Synergy (Half-done)  
 - Champions  
 - Sorted items by Offense, Defense, Utility  
-- Bar resize  
+- Bar resize (Done) 
 - Expand on Mouseover (Done)   
 - 50% Alpha Background for item combinations (Done)  
 
