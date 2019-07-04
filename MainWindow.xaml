@@ -172,7 +172,7 @@
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Scarf}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Scarf1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Probability, Path=IsChecked}" Value="True">
