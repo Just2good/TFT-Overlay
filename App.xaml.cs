@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Net;
 using System.Windows.Forms;
+using System.IO;
+using System.IO.Compression;
 
 namespace TFT_Overlay
 {
@@ -16,10 +18,10 @@ namespace TFT_Overlay
 
         void AutoUpdater(object sender, StartupEventArgs e)
         {
-            string currentVersion = "1.8.1";
+
+            string currentVersion = Version.version;
             string version;
             
-
             using (WebClient client = new WebClient())
             {
                 string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2good/TFT-Overlay/master/MainWindow.xaml.cs");
@@ -35,7 +37,7 @@ namespace TFT_Overlay
                         string link = "https://github.com/Just2good/TFT-Overlay/releases/download/V" + version + "/TFT.Overlay.V" + version + ".rar";
                         ServicePointManager.Expect100Continue = true;
                         ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-                        client.DownloadFile(new Uri(link), "TFT.rar");
+                        client.DownloadFile(new Uri(link), "TFTOverlay.zip");
                     }
                     else if (result == DialogResult.No)
                     {
