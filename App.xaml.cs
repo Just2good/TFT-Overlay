@@ -20,6 +20,7 @@ namespace TFT_Overlay
         {
 
             string currentVersion = Version.version;
+
             string version;
             
             using (WebClient client = new WebClient())
