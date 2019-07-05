@@ -15,7 +15,7 @@ namespace TFT_Overlay
 
         void AutoUpdater(object sender, StartupEventArgs e)
         {
-            string currentVersion = "1.7.2";
+            string currentVersion = "1.8";
             string version;
 
             using (WebClient client = new WebClient())
