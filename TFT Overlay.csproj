@@ -377,5 +377,11 @@
   <ItemGroup>
     <Resource Include="Images\cstyle\TiersIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\Origins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\Classes.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

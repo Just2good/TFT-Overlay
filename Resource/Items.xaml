@@ -1131,11 +1131,39 @@
     <s:String x:Key="FrozenMallet" xml:space="preserve">Frozen Mallet</s:String>            <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Wearer is also a Glacial.</s:String>
     <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>               <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight.</s:String>
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>   <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks 2 extra targets on Attack.&#10;Extra attacks deal 50% damage.</s:String>
-    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String> <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin.</s:String> 
-    
-    
-    <!--This Section for any Helpers!!!-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String> <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin.</s:String>
     <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>                           <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer.</s:String>
-    
+
+    <!--Descriptions by Object#3031-->
+
+    <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster </s:String>
+    <s:String x:Key="CursedBlade" xml:space="preserve">Cursed Blade </s:String>
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Dragon's Claw </s:String>
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart </s:String>
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel </s:String>
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade </s:String>
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade </s:String>
+    <s:String x:Key="Hush" xml:space="preserve">Hush </s:String>
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge </s:String>
+    <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark </s:String>
+    <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
+    <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo </s:String>
+    <s:String x:Key="Morello" xml:space="preserve">Morellonomicon </s:String>
+    <s:String x:Key="PhantomDance" xml:space="preserve">Phantom Dancer </s:String>
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap </s:String>
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Rapid Firecannon </s:String>
+    <s:String x:Key="RedBuff" xml:space="preserve">Red Buff </s:String>
+    <s:String x:Key="Redemption" xml:space="preserve">Redemption </s:String>
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Spear of Shojin </s:String>
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv </s:String>
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker </s:String>
+    <s:String x:Key="SwordDivine" xml:space="preserve">Sword of the Divine </s:String>
+    <s:String x:Key="Thornmail" xml:space="preserve">Thornmail </s:String>
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra </s:String>
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor </s:String>
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Zeke's Herald </s:String>
+    <s:String x:Key="Zephyr" xml:space="preserve">Zephyr </s:String>
+
 
 </ResourceDictionary>

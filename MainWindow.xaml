@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
-        Title="MainWindow" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" SizeToContent="WidthAndHeight">
+        Title="MainWindow" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1064">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
@@ -23,15 +23,15 @@
                     <Viewbox>
                         <Grid Width="Auto">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="490"/>
+                                <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="475"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="95"/>
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
-                            <Slider Name="OpacitySlider" Margin="15 0"  Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
                             <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}"/>
+                            <Slider Name="OpacitySlider" Margin="15 0" Grid.Column="1" VerticalAlignment="Top" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
                             <Rectangle Width="10" Fill="DarkOrange" Height="51" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Column="1">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu>
@@ -49,11 +49,11 @@
                             <!--Start of Tabs-->
                             <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs">
                                 <!-- Main Tab -->
-                                <TabItem Header="Main" Style="{DynamicResource Tabstyle}">
+                                <TabItem Header="MAIN" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel>
                                         <local:OptionalRadioButton x:Name="BFS"  GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="12.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border BorderBrush="Transparent" Background="Transparent">
                                                         <Image Source="Images\Cstyle\BFPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -62,7 +62,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton  x:Name="Bow"  GroupName="Toggle"  Width="Auto" Height="Auto" Grid.Column="2" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items1}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\BowPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -71,7 +71,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Rod" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="3" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items2}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\RodPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -80,7 +80,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Tear" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="4" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items3}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\TearPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -89,7 +89,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Vest" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="5" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items4}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\VestPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -98,7 +98,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Cape" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="6" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items5}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\CapePM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -107,7 +107,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Belt" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="7" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items6}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\BeltPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -116,7 +116,7 @@
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Spatula" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="8" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items7}">
                                             <local:OptionalRadioButton.Content>
-                                                <Border Width="Auto" Height="Auto" Padding="2.5 0 2.5 2.5" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
                                                         <Image Source="Images\Cstyle\SpatulaPM.png" Height="48" Width="48"/>
                                                     </Border>
@@ -124,40 +124,40 @@
                                             </local:OptionalRadioButton.Content>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
-                                            <Border Width="Auto" Height="Auto" Padding="42.5 2.5 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
                                                     <Image Source="Images\Cstyle\TiersIcon.png" Height="48" Width="48"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="10" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Origins}">
-                                            <Border Width="Auto" Height="Auto" Padding="2.5 2.5 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\origins\demon.jpg" Height="48" Width="48"/>
+                                                    <Image Source="Images\cstyle\origins.png" Height="48" Width="48"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="11" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Classes}">
-                                            <Border Width="Auto" Height="Auto" Padding="2.5 2.5 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\classes\assassin.jpg" Height="48" Width="48"/>
+                                                    <Image Source="Images\cstyle\classes.png" Height="48" Width="48"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                     </WrapPanel>
                                 </TabItem>
                                 <!--Origins and Classes-->
-                                <TabItem Header="ORIGINS/CLASSES" Style="{DynamicResource Tabstyle}">
+                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel HorizontalAlignment="Center">
 
                                     </WrapPanel>
                                 </TabItem>
                                 <!--Champions-->
-                                <TabItem Header="CHAMPIONS" Style="{DynamicResource Tabstyle}">
-                                    <TextBlock>Hello</TextBlock>
+                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
+
                                 </TabItem>
                                 <!--Info Chart section-->
-                                <TabItem Header="INFO CHARTS" Style="{DynamicResource Tabstyle}">
+                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
 
                                 </TabItem>
                             </local:TabControlRadio>
@@ -531,16 +531,16 @@
                     <ControlTemplate TargetType="{x:Type TabItem}">
                         <Border x:Name="Spacer"
                                 Width="Auto"
-                                Height="40"
+                                Height="35"
                                 Padding="5 5 5 5"
                                 Margin="0 0 0 0"
                                 BorderBrush="Transparent"
                                 CornerRadius="0,0,0,0"
                                 BorderThickness="0">
                             <Border x:Name="Border"
-                                    MinWidth="72"
+                                    MinWidth="60"
                                     Width="Auto"
-                                    Height="30"
+                                    Height="25"
                                     Background="#1e2328"
                                     BorderBrush="#c8aa6d"
                                     BorderThickness="2,2,2,2"
@@ -548,7 +548,7 @@
                                     Cursor="Hand"
                                     VerticalAlignment="Center">
                                 <ContentPresenter x:Name="ContentSite"
-                                                  TextElement.FontSize="14"
+                                                  TextElement.FontSize="12"
                                                   TextElement.FontFamily="{DynamicResource Cabin}"
                                                   TextElement.Foreground="#cdbe91"
                                                   VerticalAlignment="Center"
