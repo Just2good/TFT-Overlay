@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
-        Title="MainWindow" Height="981" Width="965" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+        Title="MainWindow" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" SizeToContent="WidthAndHeight">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
