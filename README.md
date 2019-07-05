@@ -8,7 +8,7 @@
 ## How to use:
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
-![Image](https://giant.gfycat.com/FreshMemorableDoe.gif)
+![Image](https://giant.gfycat.com/vastweakhen.gif)
 
 ## Version History
 - **7.4.2019**  
@@ -16,7 +16,7 @@
     - Removed Auto-Updater  
   - 1.8
     - Added Tabs
-    - Changed Bar Design  
+    - Changed Bar Design (Design by Athenyx#9406)  
     - Added Test Spatula Box when clicked (Tooltip over item)  
     - Auto-Updater by Omnitenebris  
     
