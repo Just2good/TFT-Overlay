@@ -8,7 +8,7 @@
 ## How to use:
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
-![Image](https://giant.gfycat.com/vastweakhen.gif)
+![Image](https://thumbs.gfycat.com/VastWeakHen-size_restricted.gif)
 
 ## Version History
 - **7.4.2019**  
