@@ -895,5 +895,33 @@
         </WrapPanel>
     </DataTemplate>
 
+    <Style TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource Cabin}"/>
+    </Style>
+    <!--//////////////////////////-->
+    <!--Class/Origins Descriptions-->
+    <!--/////&#10; = LineBreak////-->
+    <!--//////////////////////////-->
+<!--Classes-->
+    <!--Assassin-->
+    <s:String x:Key="Assassin" xml:space="preserve">Assassin</s:String>    
+    <s:String x:Key="Assassin1" xml:space="preserve">Assassins leap to the farthest enemy at the start of combat and deal additional</s:String>
+    <s:String x:Key="Assassin3" xml:space="preserve">Critical Strike Damage</s:String>
+    <s:String x:Key="Assassin4" xml:space="preserve">(3) 150% (6) 350%</s:String>
+    <!--Blademaster-->
+    <s:String x:Key="Blademaster" xml:space="preserve">Blademaster</s:String>
+    <s:String x:Key="Blademaster1" xml:space="preserve">Blademasters have a 35% chance to strike</s:String>
+    <s:String x:Key="Blademaster2" xml:space="preserve">Additional Times</s:String>
+    <s:String x:Key="Blademaster3" xml:space="preserve">each attack.</s:String>
+    <s:String x:Key="Blademaster4" xml:space="preserve">(3) 1 Additional Strike (6) 2 Additional Strikes</s:String>
 
+<!--Origins-->
+    <!--Demons-->
+    <s:String x:Key="Demons" xml:space="preserve">Demons</s:String>
+    <s:String x:Key="Demons1" xml:space="preserve">Chance on hit to burn all of target's current</s:String>
+    <s:String x:Key="Demons2" xml:space="preserve">Mana,</s:String>
+    <s:String x:Key="Demons3" xml:space="preserve">dealing</s:String>
+    <s:String x:Key="Demons4" xml:space="preserve">True Damage</s:String>
+    <s:String x:Key="Demons5" xml:space="preserve">equal to mana burned.</s:String>
+    <s:String x:Key="Demons6" xml:space="preserve">(2) 40% (4) 60% (6) 80%</s:String>
 </ResourceDictionary>
