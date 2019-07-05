@@ -8,6 +8,6 @@ namespace TFT_Overlay
 {
     class Version
     {
-        public static string version = "1.8.1";
+        public static string version = "1.8.2";
     }
 }
