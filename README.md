@@ -11,7 +11,15 @@
 ![Image](https://giant.gfycat.com/FreshMemorableDoe.gif)
 
 ## Version History
-
+- **7.4.2019**  
+  - 1.8.1  
+    - Removed Auto-Updater  
+  - 1.8
+    - Added Tabs
+    - Changed Bar Design  
+    - Added Test Spatula Box when clicked (Tooltip over item)  
+    - Auto-Updater by Omnitenebris  
+    
 - **7.2.2019** 
   - 1.7.2
     - Added Resizing  
