@@ -24,9 +24,9 @@ namespace TFT_Overlay
             
             using (WebClient client = new WebClient())
             {
-                string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2good/TFT-Overlay/master/MainWindow.xaml.cs");
-                int versionFind = htmlCode.IndexOf("TFT Information Overlay");
-                version = htmlCode.Substring(versionFind + 25, 5);
+                string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2Good/TFT-Overlay/master/Version.cs");
+                int versionFind = htmlCode.IndexOf("public static string version = ");
+                version = htmlCode.Substring(versionFind + 32, 5);
                 if (currentVersion != version && TFT_Overlay.Properties.Settings.Default.AutoUpdate)
                 {
                     DialogResult result = System.Windows.Forms.MessageBox.Show("New update available, would you like to download it?", "Confirmation", MessageBoxButtons.YesNo);
