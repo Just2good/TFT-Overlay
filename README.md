@@ -10,7 +10,14 @@
   -  Click on Icons for information  
 ![Image](https://giant.gfycat.com/VastWeakHen.gif)
 
-## Version History
+## Version History  
+- **7.5.2019**  
+  - 1.8.2  
+    - Auto-Updater re-added (There is a section in Context Menu as well)  
+    - Buttons are all back to the same line (New tabs will be used for future features that require its own section)
+    - Added Design buttons for Classes/Origins.
+    - Chart has a "Last Updated" date next to the title. (Considering adding these to show that the information has been updated for the current LoL patch)
+   
 - **7.4.2019**  
   - 1.8.1  
     - Removed Auto-Updater  
@@ -79,4 +86,9 @@
 - Bar resize (Done) 
 - Expand on Mouseover (Done)   
 - 50% Alpha Background for item combinations (Done)  
+
+## Notes
+- There will be a way to switch back to Default design
+- Will also include Localization
+- Feedback is very helpful. Feel free to open up an Issue on Github with your concerns, or just DM me on Discord.
 
