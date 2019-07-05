@@ -6,7 +6,7 @@
 `7.2.2019 @ 5:18AM PST: Code cleanup then will implement Design + Champions section`
 
 ## How to use:
-  -  [Download TFT.Overlay.VX.zip](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.8.2)  
+  -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
   -  Extract the file and run `TFT Overlay.exe`
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
