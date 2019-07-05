@@ -9,13 +9,13 @@ using System.Net;
 
 namespace TFT_Overlay
 {
-
+    
     public partial class App : Application
     {
 
-        void AutoUpdater(object sender, StartupEventArgs e)
+      /*  void AutoUpdater(object sender, StartupEventArgs e)
         {
-            string currentVersion = "1.8";
+            string currentVersion = "1.8.";
             string version;
 
             using (WebClient client = new WebClient())
@@ -34,6 +34,6 @@ namespace TFT_Overlay
                     client.DownloadFile(new Uri(link), "TFT.rar");
                 }
             }
-        }
+        } */
     }
 }

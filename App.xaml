@@ -1,8 +1,7 @@
 <Application x:Class="TFT_Overlay.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:TFT_Overlay"
-             Startup="AutoUpdater"
+             xmlns:local="clr-namespace:TFT_Overlay"         
              StartupUri="MainWindow.xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              d1p1:Ignorable="d"
@@ -18,5 +17,7 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
 </Application>
 
+<!--  Startup="AutoUpdater"  -->
