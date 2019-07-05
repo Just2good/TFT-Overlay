@@ -25,8 +25,10 @@ namespace TFT_Overlay
     public partial class MainWindow : Window
 
     {
-        bool canDrag = true;
+        
         bool onTop = true;
+        bool canDrag = true;
+        string currentVersion = Version.version;
 
         public MainWindow()
         {
@@ -42,7 +44,9 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V1.8.2 by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 4th, 2019 @ 10:47PM PST");
+        
+            MessageBox.Show("TFT Information Overlay V" + currentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 4th, 2019 @ 10:47PM PST");
+
         }
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)
         {
@@ -52,6 +56,12 @@ namespace TFT_Overlay
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
         {
             canDrag = !canDrag;
+        }
+
+        private void MenuItemAutoUpdate(object sender, RoutedEventArgs e)
+        {
+            TFT_Overlay.Properties.Settings.Default.AutoUpdate = !TFT_Overlay.Properties.Settings.Default.AutoUpdate;
+            TFT_Overlay.Properties.Settings.Default.Save();
         }
 
         private void MenuItem_Click_OnTop(object sender, RoutedEventArgs e)
