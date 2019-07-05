@@ -138,22 +138,21 @@
                                 <TabItem Header="ORIGINS/CLASSES" Style="{DynamicResource Tabstyle}">
                                     <TextBlock>Hello</TextBlock>
                                 </TabItem>
-                                <TabItem Header="CLASSES" Style="{DynamicResource Tabstyle}">
-                                    <TextBlock>Hello</TextBlock>
-                                </TabItem>
-                                <TabItem Header="CHAMPS" Style="{DynamicResource Tabstyle}">
-                                    <TextBlock>Hello</TextBlock>
-                                </TabItem>
-                                <TabItem Header="CHARTS" Style="{DynamicResource Tabstyle}">
 
+                                <TabItem Header="CHAMPIONS" Style="{DynamicResource Tabstyle}">
+                                    <TextBlock>Hello</TextBlock>
+                                </TabItem>
+                                
+                                <TabItem Header="INFO CHARTS" Style="{DynamicResource Tabstyle}">
                                     <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
-                                        <Border Width="Auto" Height="Auto" Padding="10 0 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                        <Border Width="Auto" Height="Auto" Padding="12.5 0 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                             <Border>
-                                                <Image Source="Images\Cost.png" Height="36" Width="60"/>
+                                                <Image Source="Images\Cstyle\TiersIcon.png" Height="48" Width="48"/>
                                             </Border>
                                         </Border>
                                     </local:OptionalRadioButton>
                                 </TabItem>
+                                
                             </local:TabControlRadio>
 
 
