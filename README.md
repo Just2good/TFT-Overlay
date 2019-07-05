@@ -11,7 +11,9 @@
 ![Image](https://giant.gfycat.com/FreshMemorableDoe.gif)
 
 ## Version History
-- **7.4.2019**
+- **7.4.2019**  
+  - 1.8.1  
+    - Removed Auto-Updater  
   - 1.8
     - Added Tabs
     - Changed Bar Design  
