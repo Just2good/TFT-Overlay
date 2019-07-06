@@ -31,8 +31,8 @@
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
                             <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}"/>
-                            <Slider Name="OpacitySlider" Margin="15 0" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
-                            <Rectangle Width="10" Fill="DarkOrange" Height="51" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1">
+                            <Slider Name="OpacitySlider" Margin="15 15" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
+                            <Rectangle Width="10" Fill="DarkOrange" Height="41" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1" Margin="0 15">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu>
                                         <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
@@ -57,7 +57,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="2.5 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border BorderBrush="Transparent" Background="Transparent">
-                                                        <Image Source="Images\Cstyle\BFPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\BFPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -66,7 +66,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\BowPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\BowPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -75,7 +75,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\RodPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\RodPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -84,7 +84,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\TearPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\TearPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -93,7 +93,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\VestPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\VestPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -102,7 +102,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\CapePM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\CapePM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -111,7 +111,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\BeltPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\BeltPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -120,7 +120,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\SpatulaPM.png" Height="48" Width="48"/>
+                                                        <Image Source="Images\Cstyle\SpatulaPM.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -128,21 +128,21 @@
                                         <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\Cstyle\TiersIcon.png" Height="48" Width="48"/>
+                                                    <Image Source="Images\Cstyle\TiersIcon.png" Height="44" Width="44"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="10" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Origins}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\cstyle\origins.png" Height="48" Width="48"/>
+                                                    <Image Source="Images\cstyle\origins.png" Height="44" Width="44"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="11" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Classes}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\cstyle\classes.png" Height="48" Width="48"/>
+                                                    <Image Source="Images\cstyle\classes.png" Height="44" Width="44"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
@@ -485,7 +485,7 @@
             <Setter Property="OverridesDefaultStyle" Value="true" />
             <Style.Triggers>
                 <Trigger Property="Orientation" Value="Vertical">
-                    <Setter Property="MinHeight" Value="50" />
+                    <Setter Property="MinHeight" Value="42" />
                     <Setter Property="MinWidth" Value="20" />
                     <Setter Property="Template" Value="{StaticResource Slider}" />
                 </Trigger>
