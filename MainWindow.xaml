@@ -42,7 +42,7 @@
                                         <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
                                         <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem x:Name="AutoUpdate" Header="Disable Auto-Updater" IsChecked="True" IsCheckable="True" Click="MenuItemAutoUpdate" Foreground="Black"/>
+                                        <MenuItem x:Name="AutoUpdate" Header="Check for Updates (Re-Launch)" IsChecked="False" IsCheckable="True" Click="MenuItemAutoUpdate" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
                                     </ContextMenu>
