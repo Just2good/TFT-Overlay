@@ -129,6 +129,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ProcessHelper.cs" />
     <Compile Include="RadioConverter.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Version.cs" />
