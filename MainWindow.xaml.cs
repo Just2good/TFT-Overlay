@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -28,14 +29,19 @@ namespace TFT_Overlay
         
         bool onTop = true;
         bool canDrag = true;
+        bool isVisible = true;
         string currentVersion = Version.version;
 
         public MainWindow()
         {
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
-        }
 
+            if (Properties.Settings.Default.AutoHide)
+            {
+                new Thread(new ThreadStart(AutoHide)).Start();
+            }
+        }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
@@ -85,6 +91,31 @@ namespace TFT_Overlay
             {
                 this.DragMove();
             }
+        }
+
+        private void AutoHide()
+        {
+            while (true)
+            {
+                if (IsLeagueOrOverlayActive() && !isVisible)
+                {
+                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Show()));
+                    isVisible = true;
+                }
+                else if (!IsLeagueOrOverlayActive() && isVisible)
+                {
+                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Hide()));
+                    isVisible = false;
+                }
+
+                Thread.Sleep(100);
+            }
+        }
+
+        private static bool IsLeagueOrOverlayActive()
+        {
+            var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
+            return currentActiveProcessName == "League of Legends" || currentActiveProcessName == "TFT Overlay";
         }
     }
 }
