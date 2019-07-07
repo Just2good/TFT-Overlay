@@ -39,20 +39,20 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="95"/>
+                                <RowDefinition Height="60"/>
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
                             <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
-                            <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs">
+                            <!--<local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs">-->
                                 <!-- Main Tab -->
-                                <TabItem Header="MAIN" Style="{DynamicResource Tabstyle}">
+                                <!--<TabItem Header="MAIN" Style="{DynamicResource Tabstyle}">-->
                                     <WrapPanel>
                                         <local:OptionalRadioButton x:Name="BFS"  GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items}" MouseLeftButtonDown="MainWindow_MouseLeftButtonDown" MouseLeftButtonUp="MainWindow_MouseLeftButtonUp">
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="2.5 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border BorderBrush="Transparent" Background="Transparent">
-                                                        <Image Source="Images\Cstyle\BFPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\BF.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -61,7 +61,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="0 0 0 0" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\BowPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Bow.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -70,7 +70,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\RodPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Rod.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -79,7 +79,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\TearPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Tear.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -88,7 +88,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\VestPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Vest.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -97,7 +97,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\CapePM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Cape.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -106,7 +106,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\BeltPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Belt.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -115,7 +115,7 @@
                                             <local:OptionalRadioButton.Content>
                                                 <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                     <Border>
-                                                        <Image Source="Images\Cstyle\SpatulaPM.png" Height="44" Width="44"/>
+                                                        <Image Source="Images\Cstyle\items\Spatula.png" Height="44" Width="44"/>
                                                     </Border>
                                                 </Border>
                                             </local:OptionalRadioButton.Content>
@@ -197,22 +197,22 @@
                                         </Rectangle>
                                         <Slider Name="OpacitySlider" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                                     </WrapPanel>
-                                </TabItem>
-                                <!--Origins and Classes-->
+                                <!--</TabItem>
+                                --><!--Origins and Classes--><!--
                                 <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel HorizontalAlignment="Center">
 
                                     </WrapPanel>
                                 </TabItem>
-                                <!--Champions-->
+                                --><!--Champions--><!--
                                 <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
 
                                 </TabItem>
-                                <!--Info Chart section-->
+                                --><!--Info Chart section--><!--
                                 <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
 
-                                </TabItem>
-                            </local:TabControlRadio>
+                                </TabItem>-->
+                            <!--</local:TabControlRadio>-->
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
                             <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
@@ -498,7 +498,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Thumb">
-                        <Rectangle Height="20" Width="20">
+                        <Rectangle Height="10" Width="10">
                             <Rectangle.Fill>
                                 <ImageBrush ImageSource="Images/riversprite.png"></ImageBrush>
                             </Rectangle.Fill>
