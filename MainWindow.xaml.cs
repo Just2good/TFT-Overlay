@@ -29,7 +29,7 @@ namespace TFT_Overlay
         
         bool onTop = true;
         bool canDrag = true;
-        bool isVisible = true;
+      /*  bool isVisible = true; */
         string currentVersion = Version.version;
 
         public MainWindow()
@@ -37,10 +37,10 @@ namespace TFT_Overlay
             InitializeComponent();
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
 
-            if (Properties.Settings.Default.AutoHide)
+         /* if (Properties.Settings.Default.AutoHide)
             {
                 new Thread(new ThreadStart(AutoHide)).Start();
-            }
+            } */
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
@@ -85,6 +85,8 @@ namespace TFT_Overlay
 
         }
 
+        
+
         void MainWindow_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             if (canDrag)
@@ -93,7 +95,7 @@ namespace TFT_Overlay
             }
         }
 
-        private void AutoHide()
+     /* private void AutoHide()
         {
             while (true)
             {
@@ -116,7 +118,7 @@ namespace TFT_Overlay
         {
             var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
             return currentActiveProcessName == "League of Legends" || currentActiveProcessName == "TFT Overlay";
-        }
+        } */
     }
 }
 

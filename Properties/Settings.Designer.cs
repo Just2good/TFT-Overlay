@@ -34,20 +34,17 @@ namespace TFT_Overlay.Properties {
                 this["AutoUpdate"] = value;
             }
         }
-
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        
+      /*  [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool AutoHide
-        {
-            get
-            {
+        public bool AutoHide {
+            get {
                 return ((bool)(this["AutoHide"]));
             }
-            set
-            {
+            set {
                 this["AutoHide"] = value;
             }
-        }
+        } */
     }
 }
