@@ -165,7 +165,7 @@
                             </local:TabControlRadio>
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
-                            <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top" ContentTemplate="{DynamicResource BFSword}"/>
+                            <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             <Frame Grid.Column="1" Grid.Row="1" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                         </Grid>
                     </Viewbox>
