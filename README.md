@@ -4,6 +4,8 @@
 `7.1.2019 @ 2:13PM PST: Working on a huge update for the overlay `
 
 `7.2.2019 @ 5:18AM PST: Code cleanup then will implement Design + Champions section`
+  
+`7.7.2019 @ 9:20PM PST: Apologies for the slow updates, was pretty much vacation week. Should ramp up again soon.`  
 
 ## How to use:
   -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
