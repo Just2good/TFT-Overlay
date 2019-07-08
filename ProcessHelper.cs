@@ -1,5 +1,4 @@
-﻿/*
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
@@ -21,4 +20,4 @@ namespace TFT_Overlay
             return Process.GetProcessById((int)pid).ProcessName;
         }
     }
-} */
+} 

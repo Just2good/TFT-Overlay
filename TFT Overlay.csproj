@@ -129,7 +129,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CustomCursor.cs" />
     <Compile Include="ProcessHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RadioConverter.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Version.cs" />
@@ -168,11 +174,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -347,22 +348,22 @@
     <Resource Include="Images\champs\KhaZix-Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\cstyle\Belt.png" />
-    <Resource Include="Images\cstyle\BF.png" />
-    <Resource Include="Images\cstyle\blade_of_the_ruined_king.png" />
-    <Resource Include="Images\cstyle\Bow.png" />
-    <Resource Include="Images\cstyle\Cape.png" />
-    <Resource Include="Images\cstyle\darkin.png" />
-    <Resource Include="Images\cstyle\force_of_nature.png" />
-    <Resource Include="Images\cstyle\frozen_mallet.png" />
-    <Resource Include="Images\cstyle\knights_vow.png" />
-    <Resource Include="Images\cstyle\Rod.png" />
-    <Resource Include="Images\cstyle\runaans_hurricane.png" />
-    <Resource Include="Images\cstyle\Spatula.png" />
-    <Resource Include="Images\cstyle\Tear.png" />
-    <Resource Include="Images\cstyle\Vest.png" />
-    <Resource Include="Images\cstyle\youmuus_ghostblade.png" />
-    <Resource Include="Images\cstyle\yuumi.png" />
+    <Resource Include="Images\cstyle\items\Belt.png" />
+    <Resource Include="Images\cstyle\items\BF.png" />
+    <Resource Include="Images\cstyle\items\blade_of_the_ruined_king.png" />
+    <Resource Include="Images\cstyle\items\Bow.png" />
+    <Resource Include="Images\cstyle\items\Cape.png" />
+    <Resource Include="Images\cstyle\items\darkin.png" />
+    <Resource Include="Images\cstyle\items\force_of_nature.png" />
+    <Resource Include="Images\cstyle\items\frozen_mallet.png" />
+    <Resource Include="Images\cstyle\items\knights_vow.png" />
+    <Resource Include="Images\cstyle\items\Rod.png" />
+    <Resource Include="Images\cstyle\items\runaans_hurricane.png" />
+    <Resource Include="Images\cstyle\items\Spatula.png" />
+    <Resource Include="Images\cstyle\items\Tear.png" />
+    <Resource Include="Images\cstyle\items\Vest.png" />
+    <Resource Include="Images\cstyle\items\youmuus_ghostblade.png" />
+    <Resource Include="Images\cstyle\items\yuumi.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\riversprite.png" />
@@ -378,8 +379,8 @@
     <Resource Include="Images\cstyle\VestPM.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Cursor\Normal.cur" />
-    <Resource Include="Cursor\Pointer.cur" />
+    <None Include="Cursor\LoLNormal.cur" />
+    <Resource Include="Cursor\LoLPointer.cur" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\TiersIcon.png" />
@@ -389,6 +390,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\Classes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cursor\LoLHover.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\bloodthirster.png" />
+    <Resource Include="Images\cstyle\items\Guardian_Angel.png" />
+    <Resource Include="Images\cstyle\items\Hextech_Gunblade.png" />
+    <Resource Include="Images\cstyle\items\Infinity_Edge.png" />
+    <Resource Include="Images\cstyle\items\Spear_Of_Shojin.png" />
+    <Resource Include="Images\cstyle\items\Sword_Of_The_Divine.png" />
+    <Resource Include="Images\cstyle\items\Zekes_Herald.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

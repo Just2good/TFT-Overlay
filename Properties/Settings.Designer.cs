@@ -35,7 +35,7 @@ namespace TFT_Overlay.Properties {
             }
         }
         
-      /*  [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool AutoHide {
@@ -45,6 +45,6 @@ namespace TFT_Overlay.Properties {
             set {
                 this["AutoHide"] = value;
             }
-        } */
+        }
     }
 }

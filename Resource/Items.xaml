@@ -6,123 +6,253 @@
     <!--B.F. Sword-->
     <DataTemplate x:Key="BFSword" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel>
+                <Grid>
+                    <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                    <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                    </Grid.RowDefinitions>
+                        <!-- Infinity Edge-->
+                        <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                        <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                        <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/infinity_edge.png"/>
+                        <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource InfinityEdge}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Sword of the Divine-->
+                        <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
+                        <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/sword_of_the_divine.png" />
+                        <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource SwordDivine}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource SwordDivine1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Hextech Gunblade-->
+                        <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
+                        <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/hextech_gunblade.png" />
+                        <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource HextechGunblade}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource HextechGunblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Spear of Shojin-->
+                        <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
+                        <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/spear_of_shojin.png" />
+                        <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource SpearofShojin}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource SpearofShojin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Guardian Angel-->
+                        <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
+                        <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/guardian_angel.png" />
+                        <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource GuardianAngel}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource GuardianAngel1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Bloodthirster-->
+                        <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
+                        <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/bloodthirster.png" />
+                        <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Bloodthirster}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource Bloodthirster1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Zekes Herald-->
+                        <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
+                        <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/zekes_herald.png" />
+                        <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource ZekesHerald}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource ZekesHerald1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                        <!-- Youmuus Ghostblade-->
+                        <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                        <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
+                        <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                        <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png" />
+                        <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource YoumuusGhostblade}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </WrapPanel>
+        </DataTemplate>
+    <!--B.F. Sword No Text-->
+    <DataTemplate x:Key="BFSword1" DataType="{x:Type vm:MainViewModel}">
+        <WrapPanel>
             <Grid>
                 <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="35"/>
-                        <ColumnDefinition Width="15"/>
-                        <ColumnDefinition Width="35"/>
-                        <ColumnDefinition Width="15"/>
-                        <ColumnDefinition Width="35"/>
-                        <ColumnDefinition Width="10"/>
-                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="5"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="5"/>
-                        <RowDefinition Height="35"/>
-                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="3"/>
                     </Grid.RowDefinitions>
-
                     <!-- Infinity Edge-->
-                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="0" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="0" Grid.Column="0" Source="pack://application:,,,/Images/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/infinity_edge.png" />
-
-                    <TextBlock Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Critical Strikes deal" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="+100%" Foreground="Red"/>
-                                        <Run Text="damage." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
-
+                    <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/infinity_edge.png">
+                    <Image.ToolTip>
+                        <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource InfinityEdge}"/>
+                                    <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                            </TextBlock>
+                        </ToolTip>
+                    </Image.ToolTip>
+                    </Image>
                     <!-- Sword of the Divine-->
-                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="2" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/sword_of_the_divine.png" />
-                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Each second, the wearer has a" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="5%" Foreground="Red"/>
-                                        <Run Text="chance to gain" Foreground="LightGoldenrodYellow"/>    
-                                        <Run Text="100%" Foreground="Red"/>
-                                        <Run Text="Critical Strike." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
-
+                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/sword_of_the_divine.png" >
+                    <Image.ToolTip>
+                        <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource SwordDivine}"/>
+                                    <Run Text="{DynamicResource SwordDivine1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                            </TextBlock>
+                        </ToolTip>
+                    </Image.ToolTip>
+                    </Image>
                     <!-- Hextech Gunblade-->
-                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="4" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/hextech_gunblade.png" />
-                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Heal for" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="25%" Foreground="Red"/>
-                                        <Run Text="of all damage dealt" Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
-
+                    <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/hextech_gunblade.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource HextechGunblade}"/>
+                                    <Run Text="{DynamicResource HextechGunblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                     <!-- Spear of Shojin-->
-                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="6" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/spear_of_shojin.png" />
-                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="After casting, wearer gains" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="15%" Foreground="Red"/>
-                                        <Run Text="of its max Mana per attack." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
+                    <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/spear_of_shojin.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource SpearofShojin}"/>
+                                    <Run Text="{DynamicResource SpearofShojin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                     <!-- Guardian Angel-->
-                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="8" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/guardian_angel.png" />
-                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Wearer revives with" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="500" Foreground="Red"/>
-                                        <Run Text="Health." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
+                    <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/guardian_angel.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource GuardianAngel}"/>
+                                    <Run Text="{DynamicResource GuardianAngel1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                     <!-- Bloodthirster-->
-                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="10" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/bloodthirster.png" />
-                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Attacks heal for" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="50%" Foreground="Red"/>
-                                        <Run Text="of damage." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
+                    <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/bloodthirster.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource Bloodthirster}"/>
+                                    <Run Text="{DynamicResource Bloodthirster1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                     <!-- Zekes Herald-->
-                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="12" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/zekes_herald.png" />
-                    <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Adjacent allies gain" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="+10%" Foreground="Red"/>
-                                        <Run Text="Attack Speed." Foreground="LightGoldenrodYellow"/>
-                    </TextBlock>
+                    <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/zekes_herald.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource ZekesHerald}"/>
+                                    <Run Text="{DynamicResource ZekesHerald1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                     <!-- Youmuus Ghostblade-->
-                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <TextBlock Text="=" Grid.Row="14" Grid.Column="3" FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/Spatula.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/youmuus_ghostblade.png" />
-                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="12" TextWrapping="Wrap">
-                                        <Run Text="Wearer is also an" Foreground="LightGoldenrodYellow"/>
-                                        <Run Text="Assassin" Foreground="Red"/>
-                    </TextBlock>
+                    <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png" >
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource YoumuusGhostblade}"/>
+                                    <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
                 </Grid>
             </Grid>
         </WrapPanel>
@@ -899,41 +1029,41 @@
                     <!-- Youmuus Ghostblade-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/Spatula.png" />
-                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/youmuus_ghostblade.png"/>
+                    <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png"/>
                     <TextBlock Grid.Row="0" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource YoumuusGhostblade}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     <!-- Blade of The Ruined King-->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/blade_of_the_ruined_king.png" />
+                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/blade_of_the_ruined_king.png" />
                     <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource BOTRK}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     <!-- Yuumi-->
                     <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/yuumi.png" />
+                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png" />
                     <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Yuumi}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     <!-- Darkin-->
                     <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/darkin.png" />
+                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png" />
                     <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Darkin}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     <!-- Knights Vow-->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/knights_vow.png" />
+                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png" />
                     <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource KnightsVow}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
 
@@ -941,24 +1071,24 @@
                     <!-- Runaans Hurricane-->
                     <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/runaans_hurricane.png" />
+                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png" />
                     <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RunaansHurricane}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     <!-- Frozen Mallet-->
                     <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/frozen_mallet.png" />
+                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/frozen_mallet.png" />
                     <TextBlock Grid.Row="12" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource FrozenMallet}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource FrozenMallet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>                        
                     </TextBlock>
                     <!-- Force of Nature-->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Spatula.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/force_of_nature.png" />
+                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/force_of_nature.png" />
                     <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource ForceOfNature}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                         <Run Text="{DynamicResource ForceOfNature1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
@@ -1001,9 +1131,9 @@
                     <!-- Youmuus Ghostblade-->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/Spatula.png" />
-                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/youmuus_ghostblade.png">
+                    <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                    <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1016,8 +1146,8 @@
                     <!-- Blade of The Ruined King-->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/blade_of_the_ruined_king.png">
+                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/blade_of_the_ruined_king.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1030,8 +1160,8 @@
                     <!-- Yuumi-->
                     <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/yuumi.png">
+                    <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1044,8 +1174,8 @@
                     <!-- Darkin-->
                     <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/darkin.png">
+                    <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1058,8 +1188,8 @@
                     <!-- Knights Vow-->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/knights_vow.png">
+                    <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1072,8 +1202,8 @@
                     <!-- Runaans Hurricane-->
                     <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/runaans_hurricane.png">
+                    <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1086,8 +1216,8 @@
                     <!-- Frozen Mallet-->
                     <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/frozen_mallet.png">
+                    <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/frozen_mallet.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1100,8 +1230,8 @@
                     <!-- Force of Nature-->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/Spatula.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/force_of_nature.png">
+                    <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/force_of_nature.png">
                     <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1168,7 +1298,7 @@
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 300 health</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
-    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 3% attack speed (stacks infinitely)</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 3% attack speed (Stacks infinitely)</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>

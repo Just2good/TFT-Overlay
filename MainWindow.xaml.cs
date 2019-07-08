@@ -26,26 +26,34 @@ namespace TFT_Overlay
     public partial class MainWindow : Window
 
     {
-        
+        private Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
+        private Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
+        private Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
+
         bool onTop = true;
         bool canDrag = true;
-      /*  bool isVisible = true; */
+        bool isVisible = true; 
         string currentVersion = Version.version;
 
         public MainWindow()
         {
             InitializeComponent();
+            this.Cursor = LoLNormal;
             MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
+            MouseLeftButtonUp += new MouseButtonEventHandler(MainWindow_MouseLeftButtonUp);
+            MouseRightButtonDown += new MouseButtonEventHandler(MainWindow_MouseRightButtonDown);
+            MouseRightButtonUp += new MouseButtonEventHandler(MainWindow_MouseRightButtonUp);
 
-         /* if (Properties.Settings.Default.AutoHide)
-            {
-                new Thread(new ThreadStart(AutoHide)).Start();
-            } */
-        }
+
+            if (Properties.Settings.Default.AutoHide == true)
+               {
+                   new Thread(new ThreadStart(AutoHide)).Start();
+               } 
+        } 
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
@@ -82,43 +90,54 @@ namespace TFT_Overlay
                 this.Topmost = true;
                 onTop = true;
             }
-
-        }
-
-        
+        }       
 
         void MainWindow_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            ((Control)sender).Cursor = LoLPointer;
             if (canDrag)
             {
                 this.DragMove();
             }
         }
-
-     /* private void AutoHide()
+        void MainWindow_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            while (true)
-            {
-                if (IsLeagueOrOverlayActive() && !isVisible)
-                {
-                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Show()));
-                    isVisible = true;
-                }
-                else if (!IsLeagueOrOverlayActive() && isVisible)
-                {
-                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Hide()));
-                    isVisible = false;
-                }
-
-                Thread.Sleep(100);
-            }
+            ((Control)sender).Cursor = LoLNormal;
+        }
+        void MainWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ((Control)sender).Cursor = LoLHover;
+        }
+        void MainWindow_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            ((Control)sender).Cursor = LoLNormal;
         }
 
-        private static bool IsLeagueOrOverlayActive()
-        {
-            var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
-            return currentActiveProcessName == "League of Legends" || currentActiveProcessName == "TFT Overlay";
-        } */
+
+           private void AutoHide()
+           {
+               while (true)
+               {
+                   if (IsLeagueOrOverlayActive() && !isVisible)
+                   {
+                       Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Show()));
+                       isVisible = true;
+                   }
+                   else if (!IsLeagueOrOverlayActive() && isVisible)
+                   {
+                       Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Hide()));
+                       isVisible = false;
+                   }
+
+                   Thread.Sleep(100);
+               }
+           } 
+
+          private static bool IsLeagueOrOverlayActive()
+          {
+              var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
+              return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
+          }  
     }
 }
 
