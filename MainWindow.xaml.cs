@@ -120,11 +120,11 @@ namespace TFT_Overlay
             {
                  if (IsLeagueOrOverlayActive())
                  {
-                     Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = 1));                       
+                     Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Show()));                       
                  }                       
                  else if (!IsLeagueOrOverlayActive())
                  {
-                     Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = .2));
+                     Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Hide()));
                  }
             Thread.Sleep(100);
             }
