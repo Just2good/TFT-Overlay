@@ -1,7 +1,7 @@
 ## How to Localize app for your language:
 
   - [Download a Copy of the Strings File](https://github.com/Just2good/TFT-Overlay/blob/master/Resource/Localization/ItemStrings_en-US.xaml)
-  - Rename ItemStrings_en-US.xaml to ItemStrings_LocalCode.xaml
+  - Rename ItemStrings_en-US.xaml to ItemStrings_LocaleCode.xaml
   - You can find LocalCode here [Locale Codes](https://www.science.co.il/language/Locale-codes.php)
     - Use LCID String Section  
     ![Image](http://puu.sh/DQw0s.png)
