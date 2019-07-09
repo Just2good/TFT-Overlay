@@ -7,18 +7,17 @@ using System.Windows.Input;
 
 namespace TFT_Overlay
 {
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
-        private Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
-        private Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
+        private readonly Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
+        private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
+        private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
 
         private bool OnTop { get; set; } = true;
-        private bool CanDrag { get; set; } = true;
+        private bool CanDrag { get; set; }
         private string CurrentVersion { get; } = Version.version;
 
         public MainWindow()
@@ -26,6 +25,17 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource("en-US");
             this.Cursor = LoLNormal;
+            CanDrag = !Properties.Settings.Default.Lock;
+
+            if (Properties.Settings.Default.AutoDim == true)
+            {
+                Thread t = new Thread(new ThreadStart(AutoDim))
+                {
+                    IsBackground = true
+                };
+
+                t.Start();
+            }
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -83,23 +93,70 @@ namespace TFT_Overlay
                 this.DragMove();
             }
         }
+
         private void MainWindow_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLNormal;
         }
+
         private void MainWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLHover;
         }
+
         private void MainWindow_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLNormal;
         }
 
+        private void US_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("en-US");
+        }
+
+        private void TEST_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("en-TEST");
+        }
+
         private void AutoDim_Click(object sender, RoutedEventArgs e)
         {
+            string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
+
+            MessageBoxResult result = MessageBox.Show($"Would you like to turn {state} Auto-Dim? This will restart the program.", "Auto-Dim", MessageBoxButton.OKCancel);
+
+            if (result != MessageBoxResult.OK)
+            {
+                return;
+            }
+
             Properties.Settings.Default.AutoDim = !Properties.Settings.Default.AutoDim;
             Properties.Settings.Default.Save();
+
+            System.Windows.Forms.Application.Restart();
+            Application.Current.Shutdown();
+        }
+
+        private void AutoDim()
+        {
+            while (true)
+            {
+                if (IsLeagueOrOverlayActive())
+                {
+                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = 1));
+                }
+                else if (!IsLeagueOrOverlayActive())
+                {
+                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = .2));
+                }
+                Thread.Sleep(100);
+            }
+        }
+
+        private bool IsLeagueOrOverlayActive()
+        {
+            string currentActiveProcessName = ProcessHelper.GetActiveProcessName();
+            return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
         }
 
         private void LoadStringResource(string locale)
@@ -117,39 +174,6 @@ namespace TFT_Overlay
             }
 
             Application.Current.Resources.MergedDictionaries.Add(resources);
-        }
-
-        private void US_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("en-US");
-        }
-
-        private void TEST_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("en-TEST");
-        }
-
-        /// <summary>
-        /// Called when the window loses focus
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Window_Deactivated(object sender, EventArgs e)
-        {
-            if (Properties.Settings.Default.AutoDim)
-            {
-                this.Opacity = 0.2;
-            }
-        }
-
-        /// <summary>
-        /// Called when the window regains focus
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Window_Activated(object sender, EventArgs e)
-        {
-            this.Opacity = 1;
         }
     }
 }
