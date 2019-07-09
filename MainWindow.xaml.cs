@@ -55,7 +55,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Big thanks to:\nChaoticoz for Lock Window, Always on Top, and Mouseover\nAsemco/Asemco#7390 for adding Origins and Classes\nAthenyx#9406 for Designs.\nTenebris for Auto-Updater\nOBJECT#3031 for tons of Item String descriptions\nJpgdev for Readme format\nKbphan\nEerilai\n\nShoutout to:\nAlexander321#7153 for the Discord Nitro Gift!\nAnonymous for Reddit Gold\nu/test01011 for Reddit Gold\n\nmac#0001 & bNatural#0001(Feel free to bug these 2 on Discord) ;)\nShamish#4895 (Make sure you bug this guy a lot)\nDekinosai#7053 (Buy this man tons of drinks)", "Credits");
+            MessageBox.Show("Big thanks to:\nChaoticoz: Lock Window, Always on Top, and Mouseover\nAsemco/Asemco#7390: Adding Origins and Classes\nAthenyx#9406: Designs\nTenebris: Auto-Updater\nOBJECT#3031: Items/Origins/Classes Strings Base\nJpgdev: Readme format\nKbphan\nEerilai\nꙅꙅɘᴎTqAbɘbᴎɘld#1175: Window Position/Size Saving, CPU Threading Fix\n\nShoutout to:\nAlexander321#7153 for the Discord Nitro Gift!\nAnonymous for Reddit Gold\nu/test01011 for Reddit Gold\n\nmac#0001 & bNatural#0001(Feel free to bug these 2 on Discord) ;)\nShamish#4895 (Make sure you bug this guy a lot)\nDekinosai#7053 (Buy this man tons of drinks)", "Credits");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
