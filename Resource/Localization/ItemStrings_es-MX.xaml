@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Espada del Rey Arruinado</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;El Portador es tambien un Espadachin.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Demonio</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;El Portador es tambien un Demonio.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Fuerza de la Naturaleza</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;Puedes tener una unidad mas en el campo de batalla.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Maza Helada</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;El Portador es tambien un Gelido.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Voluntad del Caballero</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;El Portador es tambien un Caballero.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Huracan de Runaan</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Los ataques golpean a 2 enemigos adicionales e infligen un 50% de daño.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Espada Fantasma de Youmuu</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;El Portador es también un Asesino.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;El Portador es también un Hechicero.</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">La Sanguinaria</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Los ataques curan un 50% del daño causado.</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Hoja Maldita</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Los ataques tienen una pequeña probabilidad de encoger (Reduce 1 nivel de estrella del campeon enemigo)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Garra del Dragón</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;El Portador obtiene un 83% de Resistencia a la Magia</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Corazón de Hielo</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Los enemigos adyacentes pierden un 20% de velocidad de ataque</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Angel Guardián</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;El portador revive con un 30% de su salud.</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Espadafuria de Guinsoo</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Los ataques otorgan 3% de Velocidad de Ataque (Se acumula Infinitamente)</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Sablepistola Hextech</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Cura un 25% del daño causado</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Silencio</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Los ataques tienen una alta probabilidad de silenciar</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Filo Infinito</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Los golpes criticos infligen un 100% de daño</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Chispa Ionica</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Cuando un enemigo lanza un hechizo, recibe 200 de daño</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Medallon de los Solari de Hierro</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Al comienzo del combate, los aliados adyacentes gana un escudo de 200</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Eco de Luden</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Los hechizos causan 200 de daño a de salpicadura a los enemigos adyacentes al objetivo</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Los hechizos infligen daño de quemadura equivalente al 2.5% de la salud maxima del enemigo por segundo</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Bailarin Espectral</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;El Portador esquiva todos los Golpes Criticos</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Sombero Mortifero de Rabadon</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Poder de Habilidad</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Cañon de fuego rapido</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Los ataques del portador no pueden ser esquivados. El rango de ataque se duplica</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Mejora Roja</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Los ataques queman un 2.5% de la vida maxima del objetivo. Las unidades quemadas no pueden curarse.</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Redencion</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Cuando el portador muere, sana a los aliados cercanos 1000 de salud</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Abrazo del Serafin</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Recupera 20 de mana cada vez que lanzas un hechizo</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Lanza de Shojin</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Despues de lanzar un hechizo, el portador gana un 15% de su mana maximo por ataque</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Daga de Statikk</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Cada tercer ataque inflige 100 de daño magico en salpicadura</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Rompeespadas</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Los ataques tienen una probabilidad de desarmar</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Espada de los Dioses</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Cada segundo, el portador tiene un 5% de probabilidad de ganar 100% de Golpe Critico</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Cota de Espinas</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Refleja un 35% del daño de ataques basicos</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Hidra Titanica</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Los ataques infligen un 10% de la salud maxima del portador como daño en un cono en frente de el</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Armadura de Warmog</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;El portador regenera un 3% de su salud maxima por segundo</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Heraldo de Zeke</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Los aliados adyacentes ganan +10% de Velocidad de Ataque</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Céfiro</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;Al inicio del combate, desvanece a un enemigo por 5 segundos</s:String>
+</ResourceDictionary>

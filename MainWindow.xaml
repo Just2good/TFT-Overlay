@@ -19,6 +19,7 @@
         MouseRightButtonUp="MainWindow_MouseRightButtonUp"
         Closing="MainWindow_Closing"
         Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
@@ -51,8 +52,36 @@
                                         <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
-                                            <MenuItem Header="en-US" Click="US_Click"/>
-                                            <MenuItem Header="en-Test" Click="TEST_Click"/>
+                                            <MenuItem Header="English">
+                                                <MenuItem Header="en-US" Click="US_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Español">
+                                                <MenuItem Header="es-AR" Click="AR_Click"/>
+                                                <MenuItem Header="es-MX" Click="MX_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Français">
+                                                <MenuItem Header="fr-FR" Click="FR_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Italiano">
+                                                <MenuItem Header="it-IT" Click="IT_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="日本語">
+                                                <MenuItem Header="JA" Click="JA_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Polski">
+                                                <MenuItem Header="PL" Click="PL_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Pусский">
+                                                <MenuItem Header="RU" Click="RU_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Tiếng Việt">
+                                                <MenuItem Header="vi-VN" Click="VN_Click"/>
+                                            </MenuItem>
+                                            <MenuItem Header="中文">
+                                                <MenuItem Header="zh-TW" Click="TW_Click"/>
+                                            </MenuItem>
+                                            <Separator Width="Auto" Height="2"/>
+                                            <MenuItem Header="Credits" Click="Localization_Credits"/>
                                         </MenuItem>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>

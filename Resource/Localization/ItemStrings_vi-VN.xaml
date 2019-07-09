@@ -1,0 +1,119 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Gươm Của Vua Vô Danh</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Người sử dụng cũng là Kiếm Khách.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Ác Quỷ</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;Người sử dụng cũng là Ác Quỷ.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Giáp Thiên Nhiên</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;+ 1 tướng vào đội hình.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Búa Băng</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Người sử dụng cũng là Băng Tộc.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Lời Thề Hiệp Sĩ</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Người sử dụng cũng là một Hiệp sĩ.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Cuồng Cung Ruanna</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Đòn tấn công bắn ra thêm 2 tia gây 50% sát thương.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Kiếm Ma Youmuu</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Người sử dụng cũng là Sát thủ.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Người sử dụng cũng là Pháp Sư.</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">Huyết Kiếm</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Đòn đánh hồi máu bằng 50% sát thương.</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Kiếm Nguyền Rủa</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Tấn công có tỉ lệ nhỏ giảm cấp địch (giảm 1*)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Vuốt Rồng</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Tăng 83% kháng phép</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Tim Băngt</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Giảm 20% tốc độ đánh kẻ địch xung quanh</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Giáp Thiên Thần</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Hồi sinh với 300 máu</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Cuồng đao Guinsoo</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Tấn công tăng vĩnh viễn 3% tốc độ đánh. Cộng dồn vô hạn.</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Kiếm súng Hextech</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Hồi máu bằng 25% sát thương gây ra.</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Dao Câm Lặng</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Tấn công có tỉ lệ cao khiến địch Câm Lặng.</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Vô Cực Kiếm</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Đòn đánh chí mạng +100% sát thương.</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Gươm Sấm Sét</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Khi kẻ địch sử dụng kĩ năng, chúng chịu 200 sát thương.</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Khiên Iron Solari</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Khi bắt đầu trận chiến, đồng đội xung quanh nhận 200 giá trị lá chắn.</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Vọng Âm Luden</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Kĩ năng trúng địch nổ 200 sát thương lan.</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Quỷ Thư Morello</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Kĩ năng thiêu đốt đối thủ. Gây sát thương bằng 2.5% máu tối đa mỗi giây.</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Ma Vũ Song Kiếm</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Người sử dụng né tất cả đòn chí mạng.</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Mũ Phù Thủy Rabadon</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Sát thương Phép</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Đại Bác Liên Thanh</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Đòn đánh của chủ sở hữu không thể né. Tầm đánh nhân đôi.</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Bùa Đỏ</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Đòn đánh thiêu đốt đối thủ bằng 2.5% máu tối đa và ngăn chúng hồi phục.</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Dây Chuyền Chuộc Tội</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Khi chết, hồi máu 1000 máu cho đồng đội trong tâm.</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Quyền Trượng Thiên Sứ</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Hồi lại 20 năng lượng sau khi sử dụng kĩ năn.g</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Ngọn giáo Shojin</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Sau khi sử dụng kĩ năng, mỗi đòn đánh hồi lại 15% năng lượng tối đa.</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Dao Điện Statikk</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Mỗi đòn đánh thứ 3 sẽ giật sét, gây 100 sát thương phép lan.</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Kiếm giải giới</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Đòn đánh có tỉ lệ giải giới.</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Ỷ Thiên Kiếm</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Mỗi giây, chủ sở hữu có 5% tỉ lệ nhận 100% chí mạng.</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Giáp gai</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Phản 35% sát thương từ đòn đánh thường.</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Rìu Đại Mãng Xà </s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Đòn đánh gây sát thương lan bằng 10% máu tối đa chủ sở hữu.</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Giáp Máu Warmogs</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Chủ sở hữu hồi 3% máu tối đa mỗi giây.</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Lá Cờ Zeke</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Đồng đội cạnh bên nhận 10% tốc độ đánh.</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Phong Kiếm</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;Khi bắt đầu trận đấu, trục xuất 1 kẻ địch ngẫu nhiên 5 giây.</s:String>
+</ResourceDictionary>

@@ -1,0 +1,119 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Клинок уничтоженного короля</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Владелец также становится Мастером клинка.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Даркин</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;Владелец также становится Демоном.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Сила природы</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;Дает +1 место в команде.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Замерзший Молот</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Владелец также становится Оледенелым.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Клятва Рыцаря</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Владелец также становится Рыцарем.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Ураган Рунаан</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Атаки поражают двух дополнительных врагов и наносят 50% урона.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Призрачный клинок Йомуу</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Владелец также становится Убийцей.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Юми</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Владелец также становится Чародеем.</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">Кровопийца</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Атаки восстанавливают здоровье в размере 50% от нанесенного урона</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Проклятый клинок</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;У атак появляется небольшой шанс "порезать" врага (Сократить его звездный уровень на 1)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Коготь дракона</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Дает 83% сопротивления магическому урону</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Ледяное сердце</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Враги поблизости теряют 20% скорости атаки</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Ангел-хранитель</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Владелец возрождается с 300 здоровья</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Клинок ярости Гинсу</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Каждая атака дает прибавку 3% к скорости атаки (Суммируется бесконечно)</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Хекстековый штык</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Восстанавливает здоровье в размере 25% от всего нанесенного урона</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Тишина</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;У атак появляется большой шанс наложить на врага Безмолвие</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Грань Бесконечности</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Критические удары наносят +100% урона</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Ионийская искра</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Когда враг применяет умение, он получает 200 урона</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Медальон Железных Солари</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;В начале боя все союзники поблизости получают щит прочностью 200</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Эхо Людена</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;При попадании умения врагам поблизости наносится 200 урона</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Мореллономикон</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Умения обжигают врагов, нанося урон в размере 2.5% от максимального здоровья цели в секунду</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Призрачный Танцор</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Владелец уклоняется ото всех критических ударов</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Смертельная шляпа Рабадона</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% урона умениями</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Скорострельная пушка</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;От атак владельца нельзя увернуться. Дальность атаки удвоена</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Красное усиление</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Атаки обжигают врагов, нанося 2.5% урона и не дают ему лечиться</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Искупление</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;После смерти владелец восстанавливает всем союзникам поблизости 1000 здоровья</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Обьятья серафима</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Восстанавливает 20 маны при каждом применении умения</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Копье Седзина</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;После применения умения владелец получает 15% от максимального запаса маны за атаку</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Заточка Статикка</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Каждая третья атака наносит 100 магического урона врагам поблизости</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Мечелом</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;У атак появляется шанс разоружить врага</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Меч Божественных</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Каждую секунду владелец с вероятностью 5% может увеличить шанс критического удара до 100%</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Шипованный доспех</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Отражает 35% урона от полученых атак</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Титаническая гидра</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Атаки наносят врагам поблизости урон в размере 10% от максимального запаса здоровья владельца</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Доспех Вармога</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Владелец восстанавливает 3% от максимального запаса здоровья в секунду</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Вестник Зика</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Скорость атаки союзников поблизости увеличивается на 10%</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Западный ветер</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;В начале боя изгоняет врага на 5 секунд</s:String>
+</ResourceDictionary>
