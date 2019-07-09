@@ -4,11 +4,15 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFT_Overlay"
+        xmlns:p="clr-namespace:TFT_Overlay.Properties"
         xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
-        Title="MainWindow" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1075">
+        Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
+        Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
+        Closing="MainWindow_Closing"
+        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1075">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
@@ -36,9 +40,9 @@
                                 <Rectangle.ContextMenu>
                                     <ContextMenu Cursor="{DynamicResource LoLHover}">
                                         <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
-                                        <MenuItem x:Name="ResizeLock"  Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
-                                        <MenuItem x:Name="OnTop"  Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
-                                        <MenuItem x:Name="AutoDim"  Header="Auto-Dim" Click="AutoDim_Click" Foreground="Black"/>
+                                        <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                        <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                        <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
                                             <MenuItem Header="en-US" Click="US_Click"/>
@@ -386,9 +390,9 @@
         </ContentControl.ContentTemplate>
     </ContentControl>
 
-    
-    
-    
+
+
+
     <!--Window Resources-->
     <Window.Resources>
         <!--Radio Button Style-->
@@ -562,7 +566,6 @@
                                                   VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"
                                                   ContentSource="Header"
-                                                  Margin="8,0,8,5"
                                                   Width="Auto"
                                                   Height="Auto" />
                             </Border>
