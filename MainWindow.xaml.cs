@@ -26,7 +26,6 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource("en-US");
             this.Cursor = LoLNormal;
-            this.Opacity = 1;
 
             if (Properties.Settings.Default.AutoDim == true)
             {
