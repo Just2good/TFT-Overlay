@@ -26,16 +26,6 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource("en-US");
             this.Cursor = LoLNormal;
-
-            if (Properties.Settings.Default.AutoDim == true)
-            {
-                Thread t = new Thread(new ThreadStart(AutoDim))
-                {
-                    IsBackground = true
-                };
-
-                t.Start();
-            }
         }
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -104,43 +94,10 @@ namespace TFT_Overlay
             ((Control)sender).Cursor = LoLNormal;
         }
 
-        private void AutoDim()
-        {
-            while (true)
-            {
-                if (IsLeagueOrOverlayActive())
-                {
-                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = 1));
-                }
-                else if (!IsLeagueOrOverlayActive())
-                {
-                    Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = .2));
-                }
-                Thread.Sleep(100);
-            }
-        }
-
-        private static bool IsLeagueOrOverlayActive()
-        {
-            var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
-            return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
-        }
-
         private void AutoDim_Click(object sender, RoutedEventArgs e)
         {
-            string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
-
-            var result = MessageBox.Show($"Would you like to turn {state} Auto-Dim? This will restart the program.", "Auto-Dim", MessageBoxButton.OKCancel);
-
-            if (result != MessageBoxResult.OK)
-            {
-                return;
-            }
-
             Properties.Settings.Default.AutoDim = !Properties.Settings.Default.AutoDim;
             Properties.Settings.Default.Save();
-            System.Windows.Forms.Application.Restart();
-            Application.Current.Shutdown();
         }
 
         private void LoadStringResource(string locale)
@@ -168,6 +125,29 @@ namespace TFT_Overlay
         private void TEST_Click(object sender, RoutedEventArgs e)
         {
             LoadStringResource("en-TEST");
+        }
+
+        /// <summary>
+        /// Called when the window loses focus
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Window_Deactivated(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.AutoDim)
+            {
+                this.Opacity = 0.2;
+            }
+        }
+
+        /// <summary>
+        /// Called when the window regains focus
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            this.Opacity = 1;
         }
     }
 }
