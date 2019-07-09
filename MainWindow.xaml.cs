@@ -32,7 +32,6 @@ namespace TFT_Overlay
 
         bool onTop = true;
         bool canDrag = true;
-        bool isVisible = true; 
         string currentVersion = Version.version;
 
         public MainWindow()
@@ -43,7 +42,7 @@ namespace TFT_Overlay
             MouseLeftButtonUp += new MouseButtonEventHandler(MainWindow_MouseLeftButtonUp);
             MouseRightButtonDown += new MouseButtonEventHandler(MainWindow_MouseRightButtonDown);
             MouseRightButtonUp += new MouseButtonEventHandler(MainWindow_MouseRightButtonUp);
-
+            this.Opacity = 1;
 
             if (Properties.Settings.Default.AutoHide == true)
                {
@@ -118,18 +117,15 @@ namespace TFT_Overlay
            {
                while (true)
                {
-                   if (IsLeagueOrOverlayActive() && !isVisible)
-                   {
-                       Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Show()));
-                       isVisible = true;
-                   }
-                   else if (!IsLeagueOrOverlayActive() && isVisible)
-                   {
-                       Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Hide()));
-                       isVisible = false;
-                   }
-
-                   Thread.Sleep(100);
+                    if (IsLeagueOrOverlayActive())
+                    {
+                        Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = 1));                       
+                    }                       
+                    else if (!IsLeagueOrOverlayActive())
+                    {
+                        Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = .2));
+                    }
+                Thread.Sleep(100);
                }
            } 
 
@@ -137,7 +133,23 @@ namespace TFT_Overlay
           {
               var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
               return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
-          }  
+          }
+
+        private void AutoDim_Click(object sender, RoutedEventArgs e)
+        {
+            if (Properties.Settings.Default.AutoHide == true)
+            {
+                MessageBox.Show("Would you like to turn OFF Auto-Dim? This will restart the program.", "", MessageBoxButton.OKCancel);
+            }
+            else if (Properties.Settings.Default.AutoHide == false)
+            {
+                MessageBox.Show("Would you like to turn ON Auto-Dim? This will restart the program.", "", MessageBoxButton.OKCancel);
+            }
+            TFT_Overlay.Properties.Settings.Default.AutoHide = !TFT_Overlay.Properties.Settings.Default.AutoHide;
+            TFT_Overlay.Properties.Settings.Default.Save();
+            System.Windows.Forms.Application.Restart();
+            Environment.Exit(0);
+        }
     }
 }
 

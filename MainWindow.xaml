@@ -38,6 +38,7 @@
                                         <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
                                         <MenuItem x:Name="ResizeLock"  Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
                                         <MenuItem x:Name="OnTop"  Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                        <MenuItem x:Name="AutoDim"  Header="Auto-Dim" Click="AutoDim_Click" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
                                         <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
