@@ -9,6 +9,8 @@
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"
+        Width="{Binding Source={x:Static p:Settings.Default}, Path=Width, Mode=TwoWay}"
         Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
         Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
         MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
@@ -16,7 +18,7 @@
         MouseRightButtonDown="MainWindow_MouseRightButtonDown"
         PreviewMouseRightButtonUp="MainWindow_MouseRightButtonUp"
         Closing="MainWindow_Closing"
-        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1075">
+        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Activated="Window_Activated" Deactivated="Window_Deactivated">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
