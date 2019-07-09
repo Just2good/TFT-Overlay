@@ -63,7 +63,7 @@ namespace TFT_Overlay
             CanDrag = !CanDrag;
         }
 
-        private void MenuItemAutoUpdate(object sender, RoutedEventArgs e)
+        private void MenuItem_AutoUpdate(object sender, RoutedEventArgs e)
         {
             Properties.Settings.Default.AutoUpdate = !Properties.Settings.Default.AutoUpdate;
             Properties.Settings.Default.Save();

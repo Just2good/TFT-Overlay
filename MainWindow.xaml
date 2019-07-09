@@ -38,9 +38,9 @@
                                 <RowDefinition Height="95"/>
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
-                            <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
-                            <Slider Name="OpacitySlider" Margin="15 15" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
-                            <Rectangle Width="10" Fill="DarkOrange" Height="41" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1" Margin="0 15">
+                            <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
+                            <Slider Name="OpacitySlider" Margin="15 15" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
+                            <Rectangle Width="10" Fill="DarkOrange" Height="41" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1" Margin="0 15" ToolTip="Right click for options or drag to move">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu Cursor="{DynamicResource LoLHover}">
                                         <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
@@ -56,7 +56,7 @@
                                         <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
                                         <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem x:Name="AutoUpdate" Header="Check for Updates (Re-Launch)" IsChecked="False" IsCheckable="True" Click="MenuItemAutoUpdate" Foreground="Black"/>
+                                        <MenuItem x:Name="AutoUpdate" Header="Check for Updates (Re-Launch)" IsChecked="False" IsCheckable="True" Click="MenuItem_AutoUpdate" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
                                     </ContextMenu>
@@ -394,9 +394,6 @@
         </ContentControl.ContentTemplate>
     </ContentControl>
 
-
-
-
     <!--Window Resources-->
     <Window.Resources>
         <!--Radio Button Style-->
@@ -584,4 +581,3 @@
         <Cursor x:Key="LoLHover">\Cursor\LoLHover.cur</Cursor>
     </Window.Resources>
 </Window>
-
