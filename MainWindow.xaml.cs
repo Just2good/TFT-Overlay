@@ -7,18 +7,17 @@ using System.Windows.Input;
 
 namespace TFT_Overlay
 {
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
-        private Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
-        private Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
+        private readonly Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
+        private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
+        private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
 
         private bool OnTop { get; set; } = true;
-        private bool CanDrag { get; set; } = true;
+        private bool CanDrag { get; set; }
         private string CurrentVersion { get; } = Version.version;
 
         public MainWindow()
@@ -26,6 +25,7 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource("en-US");
             this.Cursor = LoLNormal;
+            CanDrag = !Properties.Settings.Default.Lock;
 
             if (Properties.Settings.Default.AutoDim == true)
             {
@@ -60,6 +60,8 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
         {
+            Properties.Settings.Default.Lock = !Properties.Settings.Default.Lock;
+            Properties.Settings.Default.Save();
             CanDrag = !CanDrag;
         }
 
@@ -91,18 +93,50 @@ namespace TFT_Overlay
                 this.DragMove();
             }
         }
+
         private void MainWindow_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLNormal;
         }
+
         private void MainWindow_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLHover;
         }
+
         private void MainWindow_MouseRightButtonUp(object sender, MouseButtonEventArgs e)
         {
             ((Control)sender).Cursor = LoLNormal;
         }
+
+        private void US_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("en-US");
+        }
+
+        private void TEST_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("en-TEST");
+        }
+
+        private void AutoDim_Click(object sender, RoutedEventArgs e)
+        {
+            string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
+
+            MessageBoxResult result = MessageBox.Show($"Would you like to turn {state} Auto-Dim? This will restart the program.", "Auto-Dim", MessageBoxButton.OKCancel);
+
+            if (result != MessageBoxResult.OK)
+            {
+                return;
+            }
+
+            Properties.Settings.Default.AutoDim = !Properties.Settings.Default.AutoDim;
+            Properties.Settings.Default.Save();
+
+            System.Windows.Forms.Application.Restart();
+            Application.Current.Shutdown();
+        }
+
 
         private void AutoDim()
         {
@@ -120,31 +154,16 @@ namespace TFT_Overlay
             }
         }
 
-        private static bool IsLeagueOrOverlayActive()
+        private bool IsLeagueOrOverlayActive()
         {
-            var currentActiveProcessName = ProcessHelper.GetActiveProcessName();
+            string currentActiveProcessName = ProcessHelper.GetActiveProcessName();
             return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
         }
 
-        private void AutoDim_Click(object sender, RoutedEventArgs e)
-        {
-            string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
 
-            var result = MessageBox.Show($"Would you like to turn {state} Auto-Dim? This will restart the program.", "Auto-Dim", MessageBoxButton.OKCancel);
 
-            if (result != MessageBoxResult.OK)
-            {
-                return;
-            }
 
-            Properties.Settings.Default.AutoDim = !Properties.Settings.Default.AutoDim;
-            Properties.Settings.Default.Save();
-            System.Windows.Forms.Application.Restart();
-            Application.Current.Shutdown();
-        }
-        //
-        //Localization
-        //
+
         private void LoadStringResource(string locale)
         {
             var resources = new ResourceDictionary();
@@ -161,7 +180,6 @@ namespace TFT_Overlay
 
             Application.Current.Resources.MergedDictionaries.Add(resources);
         }
-
         private void Localization_Credits(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-TW: noheart#6977\n", "Localization Credits");
@@ -219,5 +237,6 @@ namespace TFT_Overlay
         //
         // Localization
         //
+
     }
 }

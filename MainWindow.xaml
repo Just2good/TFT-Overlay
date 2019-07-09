@@ -9,6 +9,8 @@
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"
+        Width="{Binding Source={x:Static p:Settings.Default}, Path=Width, Mode=TwoWay}"
         Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
         Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
         MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
@@ -16,7 +18,8 @@
         MouseRightButtonDown="MainWindow_MouseRightButtonDown"
         MouseRightButtonUp="MainWindow_MouseRightButtonUp"
         Closing="MainWindow_Closing"
-        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="Auto">
+        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
@@ -43,7 +46,7 @@
                             <Rectangle Width="10" Fill="DarkOrange" Height="41" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1" Margin="0 15" ToolTip="Right click for options or drag to move">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu Cursor="{DynamicResource LoLHover}">
-                                        <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                        <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
                                         <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
                                         <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
                                         <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>

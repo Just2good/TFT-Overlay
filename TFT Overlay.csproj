@@ -138,6 +138,7 @@
     </Compile>
     <Compile Include="RadioConverter.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Utilities\CommandRunner.cs" />
     <Compile Include="Version.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
