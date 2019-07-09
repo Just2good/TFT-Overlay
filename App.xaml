@@ -13,6 +13,7 @@
             <FontFamily x:Key="Cabin">pack://application:,,,/ReferencedAssembly;component/Font/Cabin.ttf</FontFamily>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resource\Items.xaml"/>
+                <ResourceDictionary Source="Resource\Localization\ItemStrings.xaml"/>
                 <ResourceDictionary Source="Resource\Charts.xaml"/>
                 <ResourceDictionary Source="Resource\ClassOrigins.xaml"/>
             </ResourceDictionary.MergedDictionaries>
