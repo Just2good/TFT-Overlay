@@ -20,4 +20,4 @@ namespace TFT_Overlay
             return Process.GetProcessById((int)pid).ProcessName;
         }
     }
-} 
+}
