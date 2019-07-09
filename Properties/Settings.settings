@@ -20,5 +20,8 @@
     <Setting Name="Width" Type="System.Double" Scope="User">
       <Value Profile="(Default)">1075</Value>
     </Setting>
+    <Setting Name="Lock" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -50,6 +50,8 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
         {
+            Properties.Settings.Default.Lock = !Properties.Settings.Default.Lock;
+            Properties.Settings.Default.Save();
             CanDrag = !CanDrag;
         }
 

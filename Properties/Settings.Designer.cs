@@ -94,5 +94,17 @@ namespace TFT_Overlay.Properties {
                 this["Width"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Lock {
+            get {
+                return ((bool)(this["Lock"]));
+            }
+            set {
+                this["Lock"] = value;
+            }
+        }
     }
 }
