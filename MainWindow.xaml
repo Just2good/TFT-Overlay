@@ -11,6 +11,10 @@
         ResizeMode="CanResizeWithGrip"
         Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
         Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
+        MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
+        MouseLeftButtonUp="MainWindow_MouseLeftButtonUp"
+        MouseRightButtonDown="MainWindow_MouseRightButtonDown"
+        PreviewMouseRightButtonUp="MainWindow_MouseRightButtonUp"
         Closing="MainWindow_Closing"
         Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1075">
     <ContentControl>

@@ -26,10 +26,6 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource("en-US");
             this.Cursor = LoLNormal;
-            MouseLeftButtonDown += new MouseButtonEventHandler(MainWindow_MouseLeftButtonDown);
-            MouseLeftButtonUp += new MouseButtonEventHandler(MainWindow_MouseLeftButtonUp);
-            MouseRightButtonDown += new MouseButtonEventHandler(MainWindow_MouseRightButtonDown);
-            MouseRightButtonUp += new MouseButtonEventHandler(MainWindow_MouseRightButtonUp);
             this.Opacity = 1;
 
             if (Properties.Settings.Default.AutoDim == true)
