@@ -30,7 +30,7 @@ namespace TFT_Overlay
                             client.DownloadFile(new Uri(link), "TFTOverlay.zip");
                             System.Windows.Forms.MessageBox.Show("The zip file was downloaded to your local directory, please extract and use the updated version instead.", "Downloaded");
                         }
-                        catch (Exception ex)
+                        catch (WebException ex)
                         {
                             Console.WriteLine(ex.Message);
                             System.Windows.Forms.MessageBox.Show(ex.Message, "An error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
