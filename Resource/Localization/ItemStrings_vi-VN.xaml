@@ -48,7 +48,7 @@
     <s:String x:Key="GuardianAngel" xml:space="preserve">Giáp Thiên Thần</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Hồi sinh với 300 máu</s:String>
     <!--Guinsoo's Rageblade-->
-    <s:String x:Key="GuinsoosRageblade" xml:space="preserve"Cuồng đao Guinsoo</s:String>
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Cuồng đao Guinsoo</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Tấn công tăng vĩnh viễn 3% tốc độ đánh. Cộng dồn vô hạn.</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Kiếm súng Hextech</s:String>

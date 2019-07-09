@@ -142,7 +142,9 @@ namespace TFT_Overlay
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
         }
-
+        //
+        //Localization
+        //
         private void LoadStringResource(string locale)
         {
             var resources = new ResourceDictionary();
@@ -160,14 +162,62 @@ namespace TFT_Overlay
             Application.Current.Resources.MergedDictionaries.Add(resources);
         }
 
+        private void Localization_Credits(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-TW: noheart#6977\n", "Localization Credits");
+        }
+
         private void US_Click(object sender, RoutedEventArgs e)
         {
             LoadStringResource("en-US");
         }
 
-        private void TEST_Click(object sender, RoutedEventArgs e)
+        private void AR_Click(object sender, RoutedEventArgs e)
         {
-            LoadStringResource("en-TEST");
+            LoadStringResource("es-AR");
         }
+
+        private void MX_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("es-MX");
+        }
+
+        private void FR_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("fr-FR");
+        }
+
+        private void IT_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("it-IT");
+        }
+
+        private void JA_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("JA");
+        }
+
+        private void PL_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("PL");
+        }
+
+        private void RU_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("RU");
+        }
+
+        private void VN_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("vi-VN");
+        }
+
+        private void TW_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("zh-TW");
+        }
+        //
+        // Localization
+        //
     }
 }
