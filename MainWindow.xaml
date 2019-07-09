@@ -16,9 +16,9 @@
         MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
         MouseLeftButtonUp="MainWindow_MouseLeftButtonUp"
         MouseRightButtonDown="MainWindow_MouseRightButtonDown"
-        PreviewMouseRightButtonUp="MainWindow_MouseRightButtonUp"
+        MouseRightButtonUp="MainWindow_MouseRightButtonUp"
         Closing="MainWindow_Closing"
-        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Activated="Window_Activated" Deactivated="Window_Deactivated">
+        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
