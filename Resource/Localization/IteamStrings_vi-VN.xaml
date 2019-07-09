@@ -43,7 +43,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Tăng 83% kháng phép</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Tim Băngt</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Giảm 20& tốc độ đánh kẻ địch xung quanh</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Giảm 20% tốc độ đánh kẻ địch xung quanh</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Giáp Thiên Thần</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Hồi sinh với 300 máu</s:String>
