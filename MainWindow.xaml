@@ -141,6 +141,24 @@
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
+                                        <local:OptionalRadioButton x:Name="ItemsBuilder" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="12" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=ItemsBuilder}">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border>
+                                                    <Image Source="Images\Rounds\carousel.png" Height="44" Width="44"/>
+                                                </Border>
+                                            </Border>
+                                        </local:OptionalRadioButton>
+
+                                        <local:ItemsCounter x:Name="BFCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="RecurveBowCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="RodCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="TearCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="ChainVestCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="NegatronCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="GiantsBeltCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="SpatulaCounter" MaxValue="10" MinValue="0" />
+
+
                                         <Rectangle Width="10" Fill="DarkOrange" Height="41" Grid.Column="1" ToolTip="Right click for options or drag to move">
                                             <Rectangle.ContextMenu>
                                                 <ContextMenu Cursor="{DynamicResource LoLHover}">
@@ -269,6 +287,10 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=ItemsBuilder, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
+                        <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </DataTrigger>
                     <!--Default Mouseover-->
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -347,6 +369,13 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
+                            <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
+                    </MultiDataTrigger>
                     <!--Mouseover And Button is Toggled-->
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -424,6 +453,13 @@
                             <Condition Binding="{Binding ElementName=Classes, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Classes}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
                     </MultiDataTrigger>
                 </DataTemplate.Triggers>
             </DataTemplate>
