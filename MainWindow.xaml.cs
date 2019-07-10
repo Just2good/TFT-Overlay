@@ -189,7 +189,7 @@ namespace TFT_Overlay
         /// </summary>
         /// <param name="sender">Should be of type MenuItem</param>
         /// <param name="e"></param>
-        private void HandleLocalization(object sender, RoutedEventArgs e)
+        private void Localization_Handler(object sender, RoutedEventArgs e)
         {
             if (sender is MenuItem menuItem)
             {

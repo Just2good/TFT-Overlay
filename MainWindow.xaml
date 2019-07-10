@@ -150,36 +150,36 @@
                                                     <Separator Width="Auto" Height="2"/>
                                                     <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
                                                         <MenuItem Header="English">
-                                                            <MenuItem Header="en-US" Click="HandleLocalization"/>
+                                                            <MenuItem Header="en-US" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Español">
-                                                            <MenuItem Header="es-AR" Click="HandleLocalization"/>
-                                                            <MenuItem Header="es-MX" Click="HandleLocalization"/>
+                                                            <MenuItem Header="es-AR" Click="Localization_Handler"/>
+                                                            <MenuItem Header="es-MX" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Français">
-                                                            <MenuItem Header="fr-FR" Click="HandleLocalization"/>
+                                                            <MenuItem Header="fr-FR" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Italiano">
-                                                            <MenuItem Header="it-IT" Click="HandleLocalization"/>
+                                                            <MenuItem Header="it-IT" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="日本語">
-                                                            <MenuItem Header="JA" Click="HandleLocalization"/>
+                                                            <MenuItem Header="JA" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Polski">
-                                                            <MenuItem Header="PL" Click="HandleLocalization"/>
+                                                            <MenuItem Header="PL" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Português">
-                                                            <MenuItem Header="pt-BR" Click="HandleLocalization"/>
+                                                            <MenuItem Header="pt-BR" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Pусский">
-                                                            <MenuItem Header="RU" Click="HandleLocalization"/>
+                                                            <MenuItem Header="RU" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="Tiếng Việt">
-                                                            <MenuItem Header="vi-VN" Click="HandleLocalization"/>
+                                                            <MenuItem Header="vi-VN" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <MenuItem Header="中文">
-                                                            <MenuItem Header="zh-CN" Click="HandleLocalization"/>
-                                                            <MenuItem Header="zh-TW" Click="HandleLocalization"/>
+                                                            <MenuItem Header="zh-CN" Click="Localization_Handler"/>
+                                                            <MenuItem Header="zh-TW" Click="Localization_Handler"/>
                                                         </MenuItem>
                                                         <Separator Width="Auto" Height="2"/>
                                                         <MenuItem Header="Credits" Click="Localization_Credits"/>
