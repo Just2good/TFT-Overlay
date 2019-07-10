@@ -109,16 +109,6 @@ namespace TFT_Overlay
             ((Control)sender).Cursor = LoLNormal;
         }
 
-        private void US_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("en-US");
-        }
-
-        private void TEST_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("en-TEST");
-        }
-
         private void AutoDim_Click(object sender, RoutedEventArgs e)
         {
             string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
@@ -136,7 +126,6 @@ namespace TFT_Overlay
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
         }
-
 
         private void AutoDim()
         {
@@ -160,10 +149,9 @@ namespace TFT_Overlay
             return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
         }
 
-
-
-
-
+        //
+        // Localization
+        //
         private void LoadStringResource(string locale)
         {
             var resources = new ResourceDictionary();
