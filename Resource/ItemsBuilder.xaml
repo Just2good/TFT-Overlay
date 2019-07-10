@@ -1,0 +1,586 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
+                    xmlns:utilities="clr-namespace:TFT_Overlay.Utilities">
+
+    <DataTemplate x:Key="ItemsBuilder"  DataType="{x:Type vm:MainViewModel}">
+        <WrapPanel>
+            <Grid>
+                <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="15"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="30"/>
+
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                    </Grid.RowDefinitions>
+
+
+                    <!-- BF Sword-->
+                    <Image Grid.Row="2" Grid.Column="0" Source="../../Images/BF.png" />
+                    <Button Grid.Row="2" Grid.Column="2" Width="20" Command="{Binding ElementName=BFCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
+                    <TextBlock Grid.Row="2" Grid.Column="3" Text="{Binding ElementName=BFCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="2" Grid.Column="4" Width="20" Command="{Binding ElementName=BFCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+
+                    <!-- Rod-->
+                    <Image Grid.Row="4" Grid.Column="0" Source="../Images/Rod.png" />
+                    <Button Grid.Row="4" Grid.Column="2" Width="20" Command="{Binding ElementName=RodCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
+                    <TextBlock Grid.Row="4" Grid.Column="3" Text="{Binding ElementName=RodCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="4" Grid.Column="4" Width="20" Command="{Binding ElementName=RodCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+
+                    <!-- Recurve Bow-->
+                    <Image Grid.Row="6" Grid.Column="0" Source="../Images/Bow.png" />
+                    <Button Grid.Row="6" Grid.Column="2" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
+                    <TextBlock Grid.Row="6" Grid.Column="3" Text="{Binding ElementName=RecurveBowCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="6" Grid.Column="4" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+
+                    <!-- Tear-->
+                    <Image Grid.Row="8" Grid.Column="0" Source="../Images/Tear.png" />
+                    <Button Grid.Row="8" Grid.Column="2" Width="20" Command="{Binding ElementName=TearCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="8" Grid.Column="3" Text="{Binding ElementName=TearCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="8" Grid.Column="4" Width="20" Command="{Binding ElementName=TearCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+
+                    <!-- Chain Vest-->
+                    <Image Grid.Row="10" Grid.Column="0" Source="../Images/Vest.png" />
+                    <Button Grid.Row="10" Grid.Column="2" Width="20" Command="{Binding ElementName=ChainVestCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="10" Grid.Column="3" Text="{Binding ElementName=ChainVestCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="10" Grid.Column="4" Width="20" Command="{Binding ElementName=ChainVestCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+
+                    <!-- Negatron-->
+                    <Image Grid.Row="12" Grid.Column="0" Source="../Images/Cape.png" />
+                    <Button Grid.Row="12" Grid.Column="2" Width="20" Command="{Binding ElementName=NegatronCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="12" Grid.Column="3" Text="{Binding ElementName=NegatronCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="12" Grid.Column="4" Width="20" Command="{Binding ElementName=NegatronCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+
+                    <!-- Giants Belt-->
+                    <Image Grid.Row="14" Grid.Column="0" Source="../Images/Belt.png" />
+                    <Button Grid.Row="14" Grid.Column="2" Width="20" Command="{Binding ElementName=GiantsBeltCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="14" Grid.Column="3" Text="{Binding ElementName=GiantsBeltCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="14" Grid.Column="4" Width="20" Command="{Binding ElementName=GiantsBeltCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+
+                    <!-- Spatula-->
+                    <Image Grid.Row="16" Grid.Column="0" Source="../Images/Spatula.png" />
+                    <Button Grid.Row="16" Grid.Column="2" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="16" Grid.Column="3" Text="{Binding ElementName=SpatulaCounter, Path=Value}"  FontSize="24" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Button Grid.Row="16" Grid.Column="4" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+
+
+                    <!--GRID TEPLATE-->
+                    <Image Grid.Row="0" Grid.Column="7" Source="../Images/BF.png" />
+                    <Image Grid.Row="0" Grid.Column="9" Source="../Images/Rod.png" />
+                    <Image Grid.Row="0" Grid.Column="11" Source="../Images/Bow.png" />
+                    <Image Grid.Row="0" Grid.Column="13" Source="../Images/Tear.png" />
+                    <Image Grid.Row="0" Grid.Column="15" Source="../Images/Vest.png" />
+                    <Image Grid.Row="0" Grid.Column="17" Source="../Images/Cape.png" />
+                    <Image Grid.Row="0" Grid.Column="19" Source="../Images/Belt.png" />
+                    <Image Grid.Row="0" Grid.Column="21" Source="../Images/Spatula.png" />
+
+                    <Border Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference Infinity}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/infinity_edge.png" Opacity="0.6" x:Name="Infinity" />
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Hextech}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/hextech_gunblade.png" Opacity="0.6" x:Name="Hextech"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference SwordOfDivine}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/sword_of_the_divine.png" Opacity="0.6" x:Name="SwordOfDivine"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Spear}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/spear_of_shojin.png" Opacity="0.6" x:Name="Spear"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference GA}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/guardian_angel.png" Opacity="0.6" x:Name="GA"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference BT}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/bloodthirster.png" Opacity="0.6" x:Name="BT"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Herald}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/zekes_herald.png" Opacity="0.6" x:Name="Herald"/>
+                    </Border>
+                    <Border Grid.Row="2" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Youmuus}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/youmuus_ghostblade.png" Opacity="0.6" x:Name="Youmuus"/>
+                    </Border>
+
+                    <Border Grid.Row="4" Grid.Column="7"   utilities:AttachedControls.RelatedControl="{x:Reference Hextech2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/hextech_gunblade.png" Opacity="0.6" x:Name="Hextech2"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/rabadons_deathcap.png" Opacity="0.6" x:Name="Deathcap"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference Guinsoos}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/guinsoos_rageblade.png" Opacity="0.6" x:Name="Guinsoos"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Ludens}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/ludens_echo.png" Opacity="0.6" x:Name="Ludens"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Locket}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/locket_of_the_iron_solari.png" Opacity="0.6" x:Name="Locket"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Spark}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/ionic_spark.png" Opacity="0.6" x:Name="Spark"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Morello}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/morellonomicon.png" Opacity="0.6" x:Name="Morello"/>
+                    </Border>
+                    <Border Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/yuumi.png" Opacity="0.6" x:Name="Sorceror"/>
+                    </Border>
+
+                    <Border Grid.Row="6" Grid.Column="7"   utilities:AttachedControls.RelatedControl="{x:Reference SwordOfDivine2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/sword_of_the_divine.png" Opacity="0.6" x:Name="SwordOfDivine2"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Guinsoos2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/guinsoos_rageblade.png" Opacity="0.6" x:Name="Guinsoos2"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference Rapid}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/rapid_firecannon.png" Opacity="0.6" x:Name="Rapid"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Shiv}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/statikk_shiv.png" Opacity="0.6" x:Name="Shiv"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference PD}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/phantom_dancer.png" Opacity="0.6" x:Name="PD"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/cursed_blade.png" Opacity="0.6" x:Name="CursedBlade"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Hydra}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/titanic_hydra.png" Opacity="0.6" x:Name="Hydra"/>
+                    </Border>
+                    <Border Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Blade}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/blade_of_the_ruined_king.png" Opacity="0.6" x:Name="Blade"/>
+                    </Border>
+
+                    <Border Grid.Row="8" Grid.Column="7"   utilities:AttachedControls.RelatedControl="{x:Reference Spear2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/spear_of_shojin.png" Opacity="0.6" x:Name="Spear2"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Ludens2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/ludens_echo.png" Opacity="0.6" x:Name="Ludens2"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference Shiv2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/statikk_shiv.png" Opacity="0.6" x:Name="Shiv2"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Seraphs}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/seraphs_embrace.png" Opacity="0.6" x:Name="Seraphs"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference FrozenHeart}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/frozen_heart.png" Opacity="0.6" x:Name="FrozenHeart"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Hush}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/hush.png" Opacity="0.6" x:Name="Hush"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Redemption}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/redemption.png" Opacity="0.6" x:Name="Redemption"/>
+                    </Border>
+                    <Border Grid.Row="8" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Demon}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/darkin.png" Opacity="0.6" x:Name="Demon" />
+                    </Border>
+
+                    <Border Grid.Row="10" Grid.Column="7"   utilities:AttachedControls.RelatedControl="{x:Reference GA2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/guardian_angel.png" Opacity="0.6" x:Name="GA2" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Locket2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/locket_of_the_iron_solari.png" Opacity="0.6" x:Name="Locket2" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference PD2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/phantom_dancer.png" Opacity="0.6" x:Name="PD2" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference FrozenHeart2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/frozen_heart.png" Opacity="0.6" x:Name="FrozenHeart2" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Thornmail}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/thornmail.png" Opacity="0.6" x:Name="Thornmail" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference SwordBreaker}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/sword_breaker.png" Opacity="0.6" x:Name="SwordBreaker" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Red}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/red_buff.png" Opacity="0.6" x:Name="Red" />
+                    </Border>
+                    <Border Grid.Row="10" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference KnightsVow}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/knights_vow.png" Opacity="0.6" x:Name="KnightsVow" />
+                    </Border>
+
+                    <Border Grid.Row="12" Grid.Column="7"  utilities:AttachedControls.RelatedControl="{x:Reference BT2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/bloodthirster.png" Opacity="0.6" x:Name="BT2" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="9"  utilities:AttachedControls.RelatedControl="{x:Reference Spark2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/ionic_spark.png" Opacity="0.6" x:Name="Spark2" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="11" utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/cursed_blade.png" Opacity="0.6" x:Name="CursedBlade2" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="13" utilities:AttachedControls.RelatedControl="{x:Reference Hush2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/hush.png" Opacity="0.6" x:Name="Hush2" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="15" utilities:AttachedControls.RelatedControl="{x:Reference SwordBreaker2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/sword_breaker.png" Opacity="0.6" x:Name="SwordBreaker2" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="17" utilities:AttachedControls.RelatedControl="{x:Reference DragonsClaw}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/dragons_claw.png" Opacity="0.6" x:Name="DragonsClaw" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference Zephyr}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/zephyr.png" Opacity="0.6" x:Name="Zephyr" />
+                    </Border>
+                    <Border Grid.Row="12" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Hurricane}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/runaans_hurricane.png" Opacity="0.6" x:Name="Hurricane" />
+                    </Border>
+
+                    <Border Grid.Row="14" Grid.Column="7"  utilities:AttachedControls.RelatedControl="{x:Reference Herald2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/zekes_herald.png" Opacity="0.6" x:Name="Herald2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="9"  utilities:AttachedControls.RelatedControl="{x:Reference Morello2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/morellonomicon.png" Opacity="0.6" x:Name="Morello2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="11" utilities:AttachedControls.RelatedControl="{x:Reference Hydra2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/titanic_hydra.png" Opacity="0.6" x:Name="Hydra2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="13" utilities:AttachedControls.RelatedControl="{x:Reference Redemption2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/redemption.png" Opacity="0.6" x:Name="Redemption2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="15" utilities:AttachedControls.RelatedControl="{x:Reference Red2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/red_buff.png" Opacity="0.6" x:Name="Red2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="17" utilities:AttachedControls.RelatedControl="{x:Reference Zephyr2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/zephyr.png" Opacity="0.6" x:Name="Zephyr2" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference Warmongs}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/warmogs_armor.png" Opacity="0.6" x:Name="Warmongs" />
+                    </Border>
+                    <Border Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference FrozenMallet}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/frozen_mallet.png" Opacity="0.6" x:Name="FrozenMallet" />
+                    </Border>
+
+                    <Border Grid.Row="16" Grid.Column="7"  utilities:AttachedControls.RelatedControl="{x:Reference Youmuus2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/youmuus_ghostblade.png" Opacity="0.6" x:Name="Youmuus2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="9"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/yuumi.png" Opacity="0.6" x:Name="Sorceror2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="11" utilities:AttachedControls.RelatedControl="{x:Reference Blade2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/blade_of_the_ruined_king.png" Opacity="0.6" x:Name="Blade2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="13" utilities:AttachedControls.RelatedControl="{x:Reference Demon2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/darkin.png" Opacity="0.6" x:Name="Demon2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="15" utilities:AttachedControls.RelatedControl="{x:Reference KnightsVow2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/knights_vow.png" Opacity="0.6" x:Name="KnightsVow2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="17" utilities:AttachedControls.RelatedControl="{x:Reference Hurricane2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/runaans_hurricane.png" Opacity="0.6" x:Name="Hurricane2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference FrozenMallet2}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/frozen_mallet.png" Opacity="0.6" x:Name="FrozenMallet2" />
+                    </Border>
+                    <Border Grid.Row="16" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference ForceOfNature}" Style="{StaticResource ButtonBorder}">
+                        <Image Source="../Images/force_of_nature.png" Opacity="0.6" x:Name="ForceOfNature" />
+                    </Border>
+
+                </Grid>
+            </Grid>
+        </WrapPanel>
+
+        <DataTemplate.Triggers>
+            <!--Row 1-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Infinity" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Hextech" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="SwordOfDivine" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Spear" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="GA" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="BT" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Herald" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Youmuus" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 2-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Deathcap" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Guinsoos" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Ludens" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Locket" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Spark" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Morello" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Sorceror" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 3-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Rapid" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Shiv" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="PD" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="CursedBlade" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Hydra" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Blade" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 4-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Seraphs" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="FrozenHeart" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Hush" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Redemption" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Demon" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 5-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Thornmail" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="SwordBreaker" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Red" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="KnightsVow" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 6-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="DragonsClaw" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Zephyr" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Hurricane" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 7-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Warmongs" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="FrozenMallet" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+
+            <!--Row 8-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="ForceOfNature" Property="Opacity" Value="1"/>
+            </MultiDataTrigger>
+        </DataTemplate.Triggers>
+
+    </DataTemplate>
+
+</ResourceDictionary>
