@@ -147,7 +147,6 @@
                                                     <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
                                                     <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
                                                     <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
-                                                    <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
                                                     <Separator Width="Auto" Height="2"/>
                                                     <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
                                                         <MenuItem Header="English">
@@ -176,6 +175,7 @@
                                                             <MenuItem Header="vi-VN" Click="VN_Click"/>
                                                         </MenuItem>
                                                         <MenuItem Header="中文">
+                                                            <MenuItem Header="zh-CN" Click="CN_Click"/>
                                                             <MenuItem Header="zh-TW" Click="TW_Click"/>
                                                         </MenuItem>
                                                         <Separator Width="Auto" Height="2"/>
@@ -185,7 +185,8 @@
                                                     <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
                                                     <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
                                                     <Separator Width="Auto" Height="2"/>
-                                                    <MenuItem x:Name="AutoUpdate" Header="Check for Updates (Re-Launch)" IsChecked="False" IsCheckable="True" Click="MenuItem_AutoUpdate" Foreground="Black"/>
+                                                    <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
+                                                    <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
                                                     <Separator Width="Auto" Height="2"/>
                                                     <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
                                                 </ContextMenu>
@@ -222,7 +223,7 @@
                     <!--IsChecked-->
                     <!--Bar Buttons-->
                     <DataTrigger Binding="{Binding ElementName=Bow, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=BFS, Path=IsChecked}" Value="True">
@@ -230,23 +231,23 @@
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Rod, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource NLRod}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource NLRod1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Tear, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Mana}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Mana1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Vest, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ChainVest}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ChainVest1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Cape, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Negatron}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Negatron1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Belt, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">

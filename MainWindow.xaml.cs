@@ -50,7 +50,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 4th, 2019 @ 10:47PM PST", "About");
+            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 9th, 2019 @ 9PM PST", "About");
         }
 
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)
@@ -67,8 +67,20 @@ namespace TFT_Overlay
 
         private void MenuItem_AutoUpdate(object sender, RoutedEventArgs e)
         {
+            string state = Properties.Settings.Default.AutoUpdate == true ? "OFF" : "ON";
+
+            MessageBoxResult result = MessageBox.Show($"Would you like to turn {state} Auto-Update? This will restart the program.", "Auto-Updater", MessageBoxButton.OKCancel);
+
+            if (result != MessageBoxResult.OK)
+            {
+                return;
+            }
+
             Properties.Settings.Default.AutoUpdate = !Properties.Settings.Default.AutoUpdate;
             Properties.Settings.Default.Save();
+
+            System.Windows.Forms.Application.Restart();
+            Application.Current.Shutdown();
         }
 
         private void MenuItem_Click_OnTop(object sender, RoutedEventArgs e)
@@ -170,7 +182,7 @@ namespace TFT_Overlay
         }
         private void Localization_Credits(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-TW: noheart#6977\n", "Localization Credits");
+            MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
         }
 
         private void US_Click(object sender, RoutedEventArgs e)
@@ -216,6 +228,11 @@ namespace TFT_Overlay
         private void VN_Click(object sender, RoutedEventArgs e)
         {
             LoadStringResource("vi-VN");
+        }
+
+        private void CN_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("zh-CN");
         }
 
         private void TW_Click(object sender, RoutedEventArgs e)

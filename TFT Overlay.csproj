@@ -171,6 +171,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Resource\ItemsTextless.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resource\Localization\ItemStrings.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -208,6 +212,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Resource\Localization\ItemStrings_vi-VN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resource\Localization\ItemStrings_zh-CN.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -447,6 +455,29 @@
     <Resource Include="Images\cstyle\items\Spear_Of_Shojin.png" />
     <Resource Include="Images\cstyle\items\Sword_Of_The_Divine.png" />
     <Resource Include="Images\cstyle\items\Zekes_Herald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\cursed_blade.png" />
+    <Resource Include="Images\cstyle\items\dragons_claw.png" />
+    <Resource Include="Images\cstyle\items\frozen_heart.png" />
+    <Resource Include="Images\cstyle\items\guinsoos_rageblade.png" />
+    <Resource Include="Images\cstyle\items\hush.png" />
+    <Resource Include="Images\cstyle\items\ionic_spark.png" />
+    <Resource Include="Images\cstyle\items\locket_of_the_iron_solari.png" />
+    <Resource Include="Images\cstyle\items\ludens_echo.png" />
+    <Resource Include="Images\cstyle\items\morellonomicon.png" />
+    <Resource Include="Images\cstyle\items\phantom_dancer.png" />
+    <Resource Include="Images\cstyle\items\rabadons_deathcap.png" />
+    <Resource Include="Images\cstyle\items\rapid_firecannon.png" />
+    <Resource Include="Images\cstyle\items\redemption.png" />
+    <Resource Include="Images\cstyle\items\red_buff.png" />
+    <Resource Include="Images\cstyle\items\seraphs_embrace.png" />
+    <Resource Include="Images\cstyle\items\statikk_shiv.png" />
+    <Resource Include="Images\cstyle\items\sword_breaker.png" />
+    <Resource Include="Images\cstyle\items\thornmail.png" />
+    <Resource Include="Images\cstyle\items\titanic_hydra.png" />
+    <Resource Include="Images\cstyle\items\warmogs_armor.png" />
+    <Resource Include="Images\cstyle\items\zephyr.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
