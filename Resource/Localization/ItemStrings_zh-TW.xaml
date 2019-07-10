@@ -1,0 +1,119 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">殞落王者之劍</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;佩戴者附加劍士職業。</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">冥血族</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;佩戴者附加惡魔血統。</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">自然之力</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;+1戰棋放置上限。</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">冰霜之錘</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;佩戴者附加冰川使者血統。</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">騎士誓願</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;佩戴者附加騎士職業。</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">芮蘭颶風箭</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;普攻會額外對兩個目標射出箭矢，箭矢只造成50%傷害。</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">妖夢鬼刀</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;佩戴者附加刺客職業。</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">悠咪</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;佩戴者附加巫師職業。</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">嗜血者</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;+50%普攻吸血。</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">詛咒之刃</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;普攻有低機率使目標受到縮小詛咒，減少該目標1星。</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">龍之爪</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;額外獲得83%魔法傷害減免。</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">冰霜之心</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;降低周圍敵人20%攻速。</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">守護天使</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;以500生命復活一次。</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">鬼索的狂暴之刃</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;每次攻擊命中即增加3%攻速，可以無限疊加。</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技槍刃</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;治療所有傷害的25%。</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">沉默</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;普攻高機率沉默目標。</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">無盡之刃</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;增加100%爆擊傷害。</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">艾歐尼亞星火</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;當敵人施放技能時，對施放者造成200點魔法傷害。</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">日輪的加冕</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;在戰鬥開始時，對鄰近的所有隊友施放200點護盾。</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">盧登回音</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能造成額外200點魔法傷害並彈跳至鄰近敵人身上。</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">黑魔禁書</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;被技能命中的目標將會燃燒，每秒造成2.5%目標最大生命值的真實傷害，且無法被治療，持續3秒。</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">幻影之舞</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;閃避所有普攻爆擊。</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">死亡之帽</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50%總魔攻</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">衝擊火炮</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;增加攻擊距離為兩倍，攻擊無法閃避。</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">樹精長老增益效果</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;普攻會附加燃燒狀態，每秒造成目標最大血量2.5%的真實傷害，且無法被治療。</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">贖罪神石</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;配戴者死亡後，經過短暫延遲，治療周圍的隊友1000點生命。</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">熾天使的擁抱</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;每施放一次技能就回復20魔力</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">精進之矛</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;第一次施放技能後，每次普攻都會回復15%最大魔力。</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">史提克彈簧刀</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每三次普通攻擊，造成額外100點魔法傷害並彈跳至鄰近敵人身上。</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">折劍者</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;普攻將有機率使目標無法普攻。</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">神聖之劍</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;每秒都有5%的機率100%爆擊。</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">荊棘之甲</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反彈35%普攻傷害。</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">泰坦九頭蛇</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;每次普攻對目標及目標後方錐狀範圍內敵人造成自身10%最大生命的額外傷害。</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">好戰者鎧甲</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;每秒回復3%最大生命。</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">錫柯的號角</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;戰鬥開始時，讓周圍友軍增加10%攻速。</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">西風匕首</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;在戰鬥開始時，放逐對方一個單位5秒。</s:String>
+</ResourceDictionary>

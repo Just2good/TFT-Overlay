@@ -4,11 +4,23 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFT_Overlay"
+        xmlns:p="clr-namespace:TFT_Overlay.Properties"
         xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
-        Title="MainWindow" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True" Height="930" Width="1075">
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"                
+        MinWidth="1600"
+        MaxWidth="1600"
+        Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
+        Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
+        MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
+        MouseLeftButtonUp="MainWindow_MouseLeftButtonUp"
+        MouseRightButtonDown="MainWindow_MouseRightButtonDown"
+        MouseRightButtonUp="MainWindow_MouseRightButtonUp"
+        Closing="MainWindow_Closing"
+        Title="TFT-Overlay" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Topmost="True">
+
     <ContentControl>
         <ContentControl.ContentTemplate>
             <DataTemplate>
@@ -19,41 +31,18 @@
                     <local:RadioConverter x:Key="RadioConverter"/>
                 </DataTemplate.Resources>
                 <!-- The Buttons and Tabs that make up the Bar.  The Hypothetical Plate! -->
-                <WrapPanel>
-                    <Viewbox>
+                <Viewbox HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <WrapPanel>
                         <Grid Width="Auto">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="95"/>
                                 <RowDefinition Height="835"/>
                             </Grid.RowDefinitions>
-                            <ResizeGrip  Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
-                            <Slider Name="OpacitySlider" Margin="15 15" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}"></Slider>
-                            <Rectangle Width="10" Fill="DarkOrange" Height="41" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="1" Margin="0 15">
-                                <Rectangle.ContextMenu>
-                                    <ContextMenu Cursor="{DynamicResource LoLHover}">
-                                        <MenuItem x:Name="Lock" Header="Lock" IsCheckable="True" Click="MenuItem_Click_Lock" Foreground="Black"/>
-                                        <MenuItem x:Name="ResizeLock"  Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
-                                        <MenuItem x:Name="OnTop"  Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
-                                        <MenuItem x:Name="AutoDim"  Header="Auto-Dim" Click="AutoDim_Click" Foreground="Black"/>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
-                                            <MenuItem Header="en-US" Click="US_Click"/>
-                                            <MenuItem Header="en-Test" Click="TEST_Click"/>
-                                        </MenuItem>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
-                                        <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem x:Name="AutoUpdate" Header="Check for Updates (Re-Launch)" IsChecked="False" IsCheckable="True" Click="MenuItemAutoUpdate" Foreground="Black"/>
-                                        <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
-                                    </ContextMenu>
-                                </Rectangle.ContextMenu>
-                            </Rectangle>
+                            <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
                             <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs">
                                 <!-- Main Tab -->
@@ -146,12 +135,67 @@
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Classes" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="11" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Classes}">
-                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 2.5 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
                                                     <Image Source="Images\cstyle\classes.png" Height="44" Width="44"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
+                                        <Rectangle Width="10" Fill="DarkOrange" Height="41" Grid.Column="1" ToolTip="Right click for options or drag to move">
+                                            <Rectangle.ContextMenu>
+                                                <ContextMenu Cursor="{DynamicResource LoLHover}">
+                                                    <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                                    <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                                    <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                                    <Separator Width="Auto" Height="2"/>
+                                                    <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
+                                                        <MenuItem Header="English">
+                                                            <MenuItem Header="en-US" Click="US_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Español">
+                                                            <MenuItem Header="es-AR" Click="AR_Click"/>
+                                                            <MenuItem Header="es-MX" Click="MX_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Français">
+                                                            <MenuItem Header="fr-FR" Click="FR_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Italiano">
+                                                            <MenuItem Header="it-IT" Click="IT_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="日本語">
+                                                            <MenuItem Header="JA" Click="JA_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Polski">
+                                                            <MenuItem Header="PL" Click="PL_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Português">
+                                                            <MenuItem Header="pt-BR" Click="BR_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Pусский">
+                                                            <MenuItem Header="RU" Click="RU_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="Tiếng Việt">
+                                                            <MenuItem Header="vi-VN" Click="VN_Click"/>
+                                                        </MenuItem>
+                                                        <MenuItem Header="中文">
+                                                            <MenuItem Header="zh-CN" Click="CN_Click"/>
+                                                            <MenuItem Header="zh-TW" Click="TW_Click"/>
+                                                        </MenuItem>
+                                                        <Separator Width="Auto" Height="2"/>
+                                                        <MenuItem Header="Credits" Click="Localization_Credits"/>
+                                                    </MenuItem>
+                                                    <Separator Width="Auto" Height="2"/>
+                                                    <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
+                                                    <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
+                                                    <Separator Width="Auto" Height="2"/>
+                                                    <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
+                                                    <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
+                                                    <Separator Width="Auto" Height="2"/>
+                                                    <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
+                                                </ContextMenu>
+                                            </Rectangle.ContextMenu>
+                                        </Rectangle>
+                                        <Slider Name="OpacitySlider" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                                     </WrapPanel>
                                 </TabItem>
                                 <!--Origins and Classes-->
@@ -174,15 +218,15 @@
                             <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             <Frame Grid.Column="1" Grid.Row="1" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                         </Grid>
-                    </Viewbox>
-                </WrapPanel>
+                    </WrapPanel>
+                </Viewbox>
 
                 <!-- Triggers for the buttons -->
                 <DataTemplate.Triggers>
                     <!--IsChecked-->
                     <!--Bar Buttons-->
                     <DataTrigger Binding="{Binding ElementName=Bow, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Recurve1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=BFS, Path=IsChecked}" Value="True">
@@ -190,23 +234,23 @@
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Rod, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource NLRod}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource NLRod1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Tear, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Mana}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Mana1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Vest, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ChainVest}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ChainVest1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Cape, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Negatron}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Negatron1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Belt, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">
@@ -386,9 +430,6 @@
         </ContentControl.ContentTemplate>
     </ContentControl>
 
-    
-    
-    
     <!--Window Resources-->
     <Window.Resources>
         <!--Radio Button Style-->
@@ -562,7 +603,6 @@
                                                   VerticalAlignment="Center"
                                                   HorizontalAlignment="Center"
                                                   ContentSource="Header"
-                                                  Margin="8,0,8,5"
                                                   Width="Auto"
                                                   Height="Auto" />
                             </Border>
@@ -577,4 +617,3 @@
         <Cursor x:Key="LoLHover">\Cursor\LoLHover.cur</Cursor>
     </Window.Resources>
 </Window>
-

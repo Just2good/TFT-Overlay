@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">ルインドキング・ブレード</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;装備ユニットにクラス「ブレードマスター」を付与する</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">ダーキン</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;装備ユニットに特性「デーモン」を付与する</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">自然の力</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;チームサイズを1枠増やす</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">フローズンマレット</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;装備ユニットに特性「グレイシャル」を付与する</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">騎士の誓い</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;装備ユニットにクラス「ナイト」を付与する</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">ルナーン・ハリケーン</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;通常攻撃の50%のダメージを追加で2体のチャンピオンに与える</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">妖夢の霊剣</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;装備ユニットにクラス「アサシン」を付与する</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">ユーミ</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;装備ユニットにクラス「ソーサラー」を付与する</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">ブラッドサースター</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;通常攻撃で与えたダメージ量の50%を回復する</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">呪いの刃</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;通常攻撃時、低確率で敵をシュリンクさせる (敵ユニットのレベルを1下げる)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">ドラゴンクロウ</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;魔法ダメージの耐性が83%上昇する</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">フローズンハート</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;周囲の敵の攻撃速度が20%低下する</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">ガーディアンエンジェル</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;倒された際、一度だけHPが300の状態で復活する</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">グインソー・レイジブレード</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;通常攻撃をするたびに攻撃速度が3%上昇する(上限無し)</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">ヘクステック・ガンブレード</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;与えたダメージ量の25%を回復する</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">静寂</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;通常攻撃時、高確率で相手をサイレンス状態にする</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">インフィニティ・エッジ</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;クリティカルダメージが+100%</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">アイオニックスパーク</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;スキルを使用した敵ユニットは200のダメージを受ける</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">ソラリのロケット</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;戦闘開始時、周囲の味方ユニットに200のシールドを付与する</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">ルーデンエコー</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;スキル命中時に周りに200の範囲ダメージを与える</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">モレロノミコン</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;スキル命中時、敵の最大体力の2.5%分のダメージを毎秒与える</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">ファントムダンサー</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;クリティカル判定のダメージをすべて回避する</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">ラバドン・デスキャップ</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;装備ユニットのスキルダメージが50%増加する</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">ラピッドファイアキャノン</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;通常攻撃の射程が2倍になり、必ず命中する</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">レッドバフ</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;通常攻撃に最大体力の2.5%のダメージを追加し、回復出来ない状態にする</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">リデンプション</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;装備ユニットが倒された際、周りの味方ユニットの体力を1000回復する</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">セラフ・エンブレイス</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;スキルを使用する度に、マナを20回復する</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">ショウジンの矛</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;スキル使用後、通常攻撃に最大マナの15%を回復する効果を付与する</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">スタティック・シヴ</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;通常攻撃3回毎に、100の範囲ダメージを与える</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">ソードブレーカー</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;通常攻撃時、一定確率で敵を通常攻撃が出来ない状態にする</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">天帝の剣</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;毎秒5%の確率で、クリティカル率100%を得る</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">ソーンメイル</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;通常攻撃のダメージを35%反射する</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">タイタン・ハイドラ</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;通常攻撃に最大体力の10%を範囲ダメージとして追加する</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">ワーモグアーマー</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;最大体力の3%を毎秒回復する</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">ジークの使者</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;周囲の味方ユニットの攻撃速度を10%上昇させる</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">ゼファー</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;試合開始時、敵ユニット1体を5秒間フィールドから除外させる</s:String>
+</ResourceDictionary>

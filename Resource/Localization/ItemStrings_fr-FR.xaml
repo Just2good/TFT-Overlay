@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Lame Du Roi Déchu</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Le porteur est aussi un Maître des lames.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Darkin</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;Le porteur est aussi un Démon.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Force De La Nature</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;La taille de l'équipe augmente de 1.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Maillet Gelé</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Le porteur est aussi un Glacial.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Vœu Du Chevalier</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Le porteur est aussi un Chevalier.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Ouragan De Runaan</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Les attaques touchent 2 adversaires supplémentaires, leur infligeant 50% des dégâts.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Lame Spectre De Youmuu</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Le porteur est aussi un Assassin.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Le porteur est aussi un Sorcerer.</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">Soif De Sang</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Les auto attaques soignent 50% des dégâts.</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Lame Maudite</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Les auto attaques ont une faible chance de réduire l'adversaire d'un niveau.(Reduce enemy's star level by 1)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Griffe De Dragon</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Le champion équipé gagne 83% de Résistance magique.</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Cœur Gelé</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Les adversaires à proximité perdent 20% de Vitesse d'attaque.</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Ange Gardien</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Le porteur revient à la vie avec 300 PV.</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Lame Enragée De Guinsoo</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Les auto attaques donnent 3% de Vitesse d'attaque. (S'additionne à l'infini)</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Pistolame Hextech</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Soigne 25% de tous les dégâts infligés.</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Silence</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Les auto attaques ont une chance importante de réduire la cible au silence.</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Lame D'infini</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Les dégâts des coups critiques sont augmentés de 100%.</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Etincelle Ionique</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Chaque fois qu'un adversaire lance un sort, il subit 200 dégâts.</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Médaillon De L'iron Solari</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Au début du combat, tous les alliés adjacents gagnent un bouclier de 200 PV.</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Echo De Luden</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Les sorts infligent 200 dégâts aux alentours lorsqu'ils touchent une cible.</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Les sorts brûlent les adversaires à hauteur de 2,5% de leurs PV maximum chaque seconde.</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Danseur Fantôme</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Le champion équipé esquive tous les coups critiques.</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Coiffe De Rabadon</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;Décuple le pourcentage de Dégâts magiques du champion équipé de 50%.</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Canon Ultrarapide</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Les attaques du champion équipé ne peuvent pas être esquivées. Sa portée est doublée.</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Buff Rouge</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Les auto attaques infligent 2,5% de dégâts de brûlure supplémentaires. Les adversaires brûlés ne peuvent pas se soigner.</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Rédemption</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Lorsqu'il meurt, le héros équipé soigne 1000 PV à tous les alliés à proximité.</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Etreinte du Séraphin</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Récupère 20 Mana chaque fois qu'un sort est lancé.</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Lance De Shojin</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Après avoir lancé un sort, le champion équipé gagne 15% de son mana maximum à chaque auto attaque.</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Poignard De Statikk</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Toutes les 3 auto attaques, la prochaine attaque inflige 100 dégâts magiques supplémentaires qui rebondissent.</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Briseur D'épée	</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Les auto attaques ont une chance de désarmer.</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Epée Du Divin</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Chaque seconde, le champion équipé a 5% de chance de gagner 100% de chance de coups critiques.</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Cotte épineuse</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Renvoie 35% des dégâts subis lors des auto attaques.</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Hydre Titanesque</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Les auto attaques infligent 10% des PV maximum du champion équipé en zone.</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog Armure Vivante</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Le champion équipé régénère 3% de ses PV maximum chaque seconde.</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Héraut De Zeke</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Les alliés adjacents gagnent +10% Vitesse d'attaque.</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Zéphyr</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;Au début du combat, bannit un adversaire pendant 5 secondes.</s:String>
+</ResourceDictionary>

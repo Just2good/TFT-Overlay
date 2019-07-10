@@ -18,6 +18,21 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.10.2019**  
+  - [1.9.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)
+     - Fixed Auto-Updater (For good this time)
+     - Added pt-BR
+
+- **7.9.2019**  
+  - [1.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9)    
+     - Items are fully skinned.
+     - Window position, size, and draggable preferences saved on exit. (By ꙅꙅɘᴎTqAbɘbᴎɘld#1175) 
+     - Added Languages: es-AR, es-MX, fr-FR, it-IT, JA, PL, RU, vi-VN, zh-CN, zh-TW  
+     - Custom Cursor has been added to fit LoL theme.
+     - New additions to Context Menu 
+          `Auto-Dim (Sets Opacity of Program to 20% when League of Legends is not open)`
+          `Switch Language`  
+  
 - **7.5.2019**  
   - [1.8.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.8.2)  
     - Auto-Updater re-added (There is a section in Context Menu as well)  
