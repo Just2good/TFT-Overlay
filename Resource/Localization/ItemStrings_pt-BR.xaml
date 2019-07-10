@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Espada do Rei Destruído</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Usuário também é um Mestre das Lâminas.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Darkin</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;Usuário também é um Demônio.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Força da Natureza</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;Recebe +1 de tamanho de equipe.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Malho Congelado</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Usuário também é um Glacial.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Juramento do Cavaleiro</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Usuário também e um Cavaleiro.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Furacão de Runaan</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Ataques atingem inimigos adicionais causando 50% do dano.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Lâmina Fantasma de Youmuu</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Usuário também é um Assassino.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Usuário também é um Feitiçeiro.</s:String>
+
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">A Sedenta por Sangue</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Ataques curam 50% do dano causado.</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Lâmina Amaldiçoada</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Ataques tem uma pequena chance de diminuir (Reduzir o nível de estrela do inimigo em 1)</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Garra do Dragão</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Recebe 83% de resistência a dano mágico</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Coração Congelado</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Inimigos adjacentes perdem 20% de velocidade de ataque</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Anjo Guardião</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Usuário revive com 300 de vida</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Lâmina da Fúria de Guinsoo</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Ataques fornecem 3% de velocidade de ataque (Acumula infinitamente)</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Pistola Laminar Hextech</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Cura 25% de todo dano causado</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Quietude</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Ataques tem alta chance de causarem Silêncio</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Gume do Infinito</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Acertos críticos causam +100% de dano</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Centelha Iônica</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Sempre que um inimigo usa uma habilidade, ele sofre 200 de dano</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Medalhão dos Solari de Ferro</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;No início do combate, todos os aliados adjacentes recebem um escudo de 200 de vida</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Eco de Luden</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Habilidades causam 200 de dano de dispersão ao contato</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Habilidades causam dando por queimadura igual a 2,5% da vida máxima do inimigo por segundo</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Dançarina Fantasma</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Usuário esquiva de todos os Acertos Críticos</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Capuz da Morte de Rabadon</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% de Poder de Habilidade</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Canhão Fumegante</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Ataques do usuário não podem ser esquivados. O alcance de ataque é dobrado</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Efeito Vermelho</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Ataques queimam por 2,5% da vida máxima do usuário e impedem cura.</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Redenção</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Ao morrer, cura todas unidades aliadas próximas em 1000 de vida</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Abraço de Seraph</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Recupera 20 de mana cada vez que usa uma habilidade</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Lança de Shojin</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Após usar uma habilidade, usuario recebe 15% de sua mana máxima por ataque</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Faca de Stattik</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Cada 3º ataque causa 100 de dano mágico ao contato</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Quebra-Espadas</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Ataques tem uma chance de desarmar</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Espada do Divino</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;A cada segundo, o usuário tem uma chance de 5% de receber 100% de Acerto Crítico</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Armadura de Espinhos</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflete 35% de dano sofrido de ataques</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Hidra Titânica</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Ataques causam 10% da vida máxima do usuário como dano ao contato</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Armadura de Warmog</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Usuário regenera 3% da vida máxima por segundo</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Arauto de Zeke</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Aliados adjacentes recebem +10% de velocidade de ataque</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Zéfiro</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;No início do combate, bane um inimigo por 5 segundo</s:String>
+</ResourceDictionary>

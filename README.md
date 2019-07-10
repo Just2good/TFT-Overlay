@@ -18,6 +18,11 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.10.2019**  
+  - [1.9.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)
+     - Fixed Auto-Updater (For good this time)
+     - Added pt-BR
+
 - **7.9.2019**  
   - [1.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9)    
      - Items are fully skinned.

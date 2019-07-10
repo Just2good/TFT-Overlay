@@ -168,6 +168,9 @@
                                                         <MenuItem Header="Polski">
                                                             <MenuItem Header="PL" Click="PL_Click"/>
                                                         </MenuItem>
+                                                        <MenuItem Header="Português">
+                                                            <MenuItem Header="pt-BR" Click="BR_Click"/>
+                                                        </MenuItem>
                                                         <MenuItem Header="Pусский">
                                                             <MenuItem Header="RU" Click="RU_Click"/>
                                                         </MenuItem>

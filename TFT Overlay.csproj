@@ -207,6 +207,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Resource\Localization\ItemStrings_pt-BR.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Resource\Localization\ItemStrings_RU.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

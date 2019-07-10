@@ -50,7 +50,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 9th, 2019 @ 9PM PST", "About");
+            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 10th, 2019 @ 12:39AM PST", "About");
         }
 
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)
@@ -182,7 +182,7 @@ namespace TFT_Overlay
         }
         private void Localization_Credits(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
+            MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\npt-BR: Bigg#4019\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
         }
 
         private void US_Click(object sender, RoutedEventArgs e)
@@ -218,6 +218,11 @@ namespace TFT_Overlay
         private void PL_Click(object sender, RoutedEventArgs e)
         {
             LoadStringResource("PL");
+        }
+
+        private void BR_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStringResource("pt-BR");
         }
 
         private void RU_Click(object sender, RoutedEventArgs e)

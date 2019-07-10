@@ -10,12 +10,14 @@ namespace TFT_Overlay
     {
         private void AutoUpdater(object sender, StartupEventArgs e)
         {
+            string currentVersion = Version.version;
+            string version;
             using (WebClient client = new WebClient())
             {
-                string currentVersion = Version.version;
+                
                 string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2Good/TFT-Overlay/master/Version.cs");
                 int versionFind = htmlCode.IndexOf("public static string version = ");
-                string version = htmlCode.Substring(versionFind + 32, 5);
+                version = htmlCode.Substring(versionFind + 32,5);
                 if (currentVersion != version && TFT_Overlay.Properties.Settings.Default.AutoUpdate)
                 {
                     DialogResult result = System.Windows.Forms.MessageBox.Show("New update available, would you like to download it?", "Confirmation", MessageBoxButtons.YesNo);
