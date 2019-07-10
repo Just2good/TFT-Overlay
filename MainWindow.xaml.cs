@@ -164,19 +164,27 @@ namespace TFT_Overlay
         //
         private void LoadStringResource(string locale)
         {
-            var resources = new ResourceDictionary();
-
-            resources.Source = new Uri("pack://application:,,,/Resource/Localization/ItemStrings_" + locale + ".xaml", UriKind.Absolute);
-
-            var current = Application.Current.Resources.MergedDictionaries.FirstOrDefault(
-                             m => m.Source.OriginalString.EndsWith("ItemStrings_" + locale + ".xaml"));
-
-            if (current != null)
+            try
             {
-                Application.Current.Resources.MergedDictionaries.Remove(current);
-            }
+                var resources = new ResourceDictionary();
 
-            Application.Current.Resources.MergedDictionaries.Add(resources);
+                resources.Source = new Uri("pack://application:,,,/Resource/Localization/ItemStrings_" + locale + ".xaml", UriKind.Absolute);
+
+                var current = Application.Current.Resources.MergedDictionaries.FirstOrDefault(
+                                 m => m.Source.OriginalString.EndsWith("ItemStrings_" + locale + ".xaml"));
+
+                if (current != null)
+                {
+                    Application.Current.Resources.MergedDictionaries.Remove(current);
+                }
+
+                Application.Current.Resources.MergedDictionaries.Add(resources);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                LoadStringResource("en-US");
+            }
         }
 
         private void Localization_Credits(object sender, RoutedEventArgs e)
