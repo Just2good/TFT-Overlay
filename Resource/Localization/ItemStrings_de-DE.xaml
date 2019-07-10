@@ -95,7 +95,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Nach dem Zaubern erhält der Träger 15% seines maximalen Manas pro Angriff</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Jeder dritte Angriff verursacht 100 magischen Schaden durch Splash</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Jeder dritte Angriff verursacht 100 magischen Flächenschaden</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Angriffe haben die Chance, sich zu entwaffnen</s:String>
@@ -107,7 +107,7 @@
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflektiere 35% des Schadens, der durch Angriffe entstanden ist</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
-    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Angriffe verursachen 10% der maximalen Gesundheit des Trägers als Splash-Schaden</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Angriffe verursachen 10% der maximalen Gesundheit des Trägers als Flächenschaden</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
     <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Der Träger regeneriert 3% maximale Gesundheit pro Sekunde</s:String>
