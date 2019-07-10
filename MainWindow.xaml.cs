@@ -159,9 +159,10 @@ namespace TFT_Overlay
             return currentActiveProcessName.Contains("League of Legends") || currentActiveProcessName.Contains("TFT Overlay");
         }
 
-        //
-        // Localization
-        //
+        /// <summary>
+        /// Removes previous ItemStrings.xaml from MergedDictionaries and adds the one matching locale tag
+        /// </summary>
+        /// <param name="locale">localization tag</param>
         private void LoadStringResource(string locale)
         {
             try
@@ -193,7 +194,7 @@ namespace TFT_Overlay
         }
 
         /// <summary>
-        /// Takes MenuItem header and passes it into LoadStringresource()
+        /// Takes MenuItem, and passes its Header into LoadStringresource()
         /// </summary>
         /// <param name="sender">Should be of type MenuItem</param>
         /// <param name="e"></param>
