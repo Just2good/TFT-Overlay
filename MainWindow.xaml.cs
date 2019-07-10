@@ -4,6 +4,7 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using TFT_Overlay.Properties;
 
 namespace TFT_Overlay
 {
@@ -23,11 +24,11 @@ namespace TFT_Overlay
         public MainWindow()
         {
             InitializeComponent();
-            LoadStringResource("en-US");
+            LoadStringResource(Settings.Default.Language);
             this.Cursor = LoLNormal;
-            CanDrag = !Properties.Settings.Default.Lock;
+            CanDrag = !Settings.Default.Lock;
 
-            if (Properties.Settings.Default.AutoDim == true)
+            if (Settings.Default.AutoDim == true)
             {
                 Thread t = new Thread(new ThreadStart(AutoDim))
                 {
@@ -40,7 +41,7 @@ namespace TFT_Overlay
 
         private void MainWindow_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            Properties.Settings.Default.Save();
+            Settings.Default.Save();
         }
 
         private void MenuItem_Click(object sender, RoutedEventArgs e)
@@ -60,14 +61,13 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
         {
-            Properties.Settings.Default.Lock = !Properties.Settings.Default.Lock;
-            Properties.Settings.Default.Save();
+            Settings.SaveSetting("Lock", !Settings.Default.Lock);
             CanDrag = !CanDrag;
         }
 
         private void MenuItem_AutoUpdate(object sender, RoutedEventArgs e)
         {
-            string state = Properties.Settings.Default.AutoUpdate == true ? "OFF" : "ON";
+            string state = Settings.Default.AutoUpdate == true ? "OFF" : "ON";
 
             MessageBoxResult result = MessageBox.Show($"Would you like to turn {state} Auto-Update? This will restart the program.", "Auto-Updater", MessageBoxButton.OKCancel);
 
@@ -76,8 +76,7 @@ namespace TFT_Overlay
                 return;
             }
 
-            Properties.Settings.Default.AutoUpdate = !Properties.Settings.Default.AutoUpdate;
-            Properties.Settings.Default.Save();
+            Settings.SaveSetting("AutoUpdate", !Settings.Default.AutoUpdate);
 
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
@@ -123,7 +122,7 @@ namespace TFT_Overlay
 
         private void AutoDim_Click(object sender, RoutedEventArgs e)
         {
-            string state = Properties.Settings.Default.AutoDim == true ? "OFF" : "ON";
+            string state = Settings.Default.AutoDim == true ? "OFF" : "ON";
 
             MessageBoxResult result = MessageBox.Show($"Would you like to turn {state} Auto-Dim? This will restart the program.", "Auto-Dim", MessageBoxButton.OKCancel);
 
@@ -132,8 +131,7 @@ namespace TFT_Overlay
                 return;
             }
 
-            Properties.Settings.Default.AutoDim = !Properties.Settings.Default.AutoDim;
-            Properties.Settings.Default.Save();
+            Settings.SaveSetting("AutoDim", !Settings.Default.AutoDim);
 
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
@@ -180,73 +178,26 @@ namespace TFT_Overlay
 
             Application.Current.Resources.MergedDictionaries.Add(resources);
         }
+
         private void Localization_Credits(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("es-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\npt-BR: Bigg#4019\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
         }
 
-        private void US_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Takes MenuItem header and passes it into LoadStringresource()
+        /// </summary>
+        /// <param name="sender">Should be of type MenuItem</param>
+        /// <param name="e"></param>
+        private void HandleLocalization(object sender, RoutedEventArgs e)
         {
-            LoadStringResource("en-US");
-        }
+            if (sender is MenuItem menuItem)
+            {
+                string tag = menuItem.Header.ToString();
+                LoadStringResource(tag);
 
-        private void AR_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("es-AR");
+                Settings.SaveSetting("Language", tag);
+            }
         }
-
-        private void MX_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("es-MX");
-        }
-
-        private void FR_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("fr-FR");
-        }
-
-        private void IT_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("it-IT");
-        }
-
-        private void JA_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("JA");
-        }
-
-        private void PL_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("PL");
-        }
-
-        private void BR_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("pt-BR");
-        }
-
-        private void RU_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("RU");
-        }
-
-        private void VN_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("vi-VN");
-        }
-
-        private void CN_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("zh-CN");
-        }
-
-        private void TW_Click(object sender, RoutedEventArgs e)
-        {
-            LoadStringResource("zh-TW");
-        }
-        //
-        // Localization
-        //
-
     }
 }
