@@ -446,7 +446,7 @@
                                         <Run Text="Attacks against ally Yordles have a chance to"></Run>
                                         <Run Text="miss." Foreground="White"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="20% chance to miss (3) 50% chance to miss (6)"></Run>
+                                        <Run Text="25% chance to miss (3) 60% chance to miss (6)"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/yordle.jpg" Grid.Row="26" Grid.Column="0"></Image>
 
