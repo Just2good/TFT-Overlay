@@ -208,5 +208,12 @@ namespace TFT_Overlay
                 Settings.SaveSetting("Language", tag);
             }
         }
+
+        private void ResetToDefault_Click(object sender, RoutedEventArgs e)
+        {
+            Settings.Default.Reset();
+            CanDrag = !Settings.Default.Lock;
+            LoadStringResource(Settings.Default.Language);
+        }
     }
 }
