@@ -67,7 +67,7 @@
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="24" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="26" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
-                <TextBlock Text="Origins | Effects and Champions" 
+                <TextBlock Text="{DynamicResource ClassOrigins_Origins}" 
                                                FontSize="16" 
                                                VerticalAlignment="Center" 
                                                HorizontalAlignment="Center" 
@@ -76,7 +76,7 @@
                                                Grid.ColumnSpan="8"></TextBlock>
                 <!-- Demons -->
 
-                <TextBlock Text="Demons" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Demons}" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="1"
                                                Grid.Column="1"
@@ -84,11 +84,11 @@
                                                Foreground="LightGoldenrodYellow" 
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="40% (2), 60% (4), 80% (6) on hit to burn all of target's"></Run>
-                                        <Run Text="current mana" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text=", dealing"></Run>
-                                        <Run Text="true damage" Foreground="White"></Run>
-                                        <Run Text="equal to mana burned."></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe4}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe5}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/demon.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
@@ -116,7 +116,7 @@
 
                 <!-- Dragon -->
 
-                <TextBlock Text="Dragon" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Dragon}" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="3"
                                                Grid.Column="1"
@@ -124,9 +124,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Dragons are immune to "></Run>
-                                        <Run Text="Magic Damage." Foreground="MediumPurple"></Run>
-                                        <Run Text="(2)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe2}" Foreground="MediumPurple"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/dragon.jpg" Grid.Row="4" Grid.Column="0"></Image>
 
@@ -139,7 +139,7 @@
 
                 <!-- Exile -->
 
-                <TextBlock Text="Exile" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Exile}" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="5"
                                                Grid.Column="1"
@@ -147,9 +147,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Exiles start combat with a shield equal to 100% max"></Run>
-                                        <Run Text="HP" Foreground="ForestGreen"></Run>
-                                        <Run Text="when placed adjacent to NO other units. (1)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Exile_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Exile_Describe2}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Exile_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/exile.jpg" Grid.Row="6" Grid.Column="0"></Image>
 
@@ -194,7 +194,7 @@
 
                 <!-- Imperial -->
 
-                <TextBlock Text="Imperial" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Imperial}" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="9"
                                                Grid.Column="1"
@@ -202,10 +202,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Imperials deal"></Run>
-                                        <Run Text="Double Damage." Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe2}" Foreground="Red"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="1 Random Imperials (1) All Imperials (4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/imperial.jpg" Grid.Row="10" Grid.Column="0"></Image>
 
@@ -224,7 +224,7 @@
 
                 <!-- Noble -->
 
-                <TextBlock Text="Noble" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Noble}" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="11"
                                                Grid.Column="1"
@@ -232,13 +232,13 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Nobles grant"></Run>
-                                        <Run Text="+100 Armor" Foreground="Yellow"></Run>
-                                        <Run Text="and"></Run>
-                                        <Run Text="heal for 35" Foreground="ForestGreen"></Run>
-                                        <Run Text="on hit."></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe4}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe5}"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="One Random Ally (3) All Allies (6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe6}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/noble.jpg" Grid.Row="12" Grid.Column="0"></Image>
 
@@ -263,7 +263,7 @@
 
                 <!-- Ninja -->
 
-                <TextBlock Text="Ninja" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Ninja}" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="13"
                                                Grid.Column="1"
@@ -271,14 +271,14 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Ninjas gain a percentage of"></Run>
-                                        <Run Text="Attack Damage." Foreground="Red"></Run>
-                                        <Run Text="Ninja gains +40%"></Run>
-                                        <Run Text="Attack Damage" Foreground="Red"></Run>
-                                        <Run Text="(Exactly 1)"></Run>
-                                        <Run Text="All Ninjas gain +60%"></Run>
-                                        <Run Text="Attack Damage" Foreground="Red"></Run>
-                                        <Run Text="(4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe2}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe4}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe5}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe6}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe7}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe8}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/ninja.jpg" Grid.Row="14" Grid.Column="0"></Image>
 
@@ -297,7 +297,7 @@
 
                 <!-- Pirate -->
 
-                <TextBlock Text="Pirate" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Pirate}" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="15"
                                                Grid.Column="1"
@@ -305,11 +305,11 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Earn up to 4 additional"></Run>
-                                        <Run Text="gold" Foreground="LightYellow"></Run>
-                                        <Run Text="after combat"></Run>
-                                        <Run Text="against another player." FontWeight="Bold"></Run>
-                                        <Run Text="(3)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe2}" Foreground="LightYellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe4}" FontWeight="Bold"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe5}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/pirate.jpg" Grid.Row="16" Grid.Column="0"></Image>
 
@@ -328,7 +328,7 @@
 
                 <!-- Phantom -->
 
-                <TextBlock Text="Phantom" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Phantom}" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="17"
                                                Grid.Column="1"
@@ -336,9 +336,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Curse a random enemy at the start of combat, setting their HP to"></Run>
-                                        <Run Text="100." Foreground="ForestGreen"></Run>
-                                        <Run Text="(2)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe2}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/phantom.jpg" Grid.Row="18" Grid.Column="0"></Image>
 
@@ -354,7 +354,7 @@
 
                 <!-- Robot -->
 
-                <TextBlock Text="Robot" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Robot}" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="19"
                                                Grid.Column="1"
@@ -362,9 +362,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Robots start combat at full"></Run>
-                                        <Run Text="mana." Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="(1)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/robot.jpg" Grid.Row="20" Grid.Column="0"></Image>
 
@@ -374,7 +374,7 @@
 
                 <!-- Void -->
 
-                <TextBlock Text="Void" Grid.Row="21" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Void}" Grid.Row="21" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="21"
                                                Grid.Column="1"
@@ -382,9 +382,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Your team's basic attacks ignore 50% of the enemy's"></Run>
-                                        <Run Text="armor." Foreground="Yellow"></Run>
-                                        <Run Text="(3)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/void.jpg" Grid.Row="22" Grid.Column="0"></Image>
 
@@ -403,7 +403,7 @@
 
                 <!-- Wild -->
 
-                <TextBlock Text="Wild" Grid.Row="23" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Wild}" Grid.Row="23" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="23"
                                                Grid.Column="1"
@@ -411,9 +411,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Attacks generate stacks of Fury (up to 5).  Each stack of Fury grants 7%"></Run>
-                                        <Run Text="attack speed." Foreground="LightYellow"></Run>
-                                        <Run Text="Wild Allies (2) All Allies (4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe2}" Foreground="LightYellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/wild.jpg" Grid.Row="24" Grid.Column="0"></Image>
 
@@ -435,7 +435,7 @@
 
                 <!-- Yordle -->
 
-                <TextBlock Text="Yordle" Grid.Row="25" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Yordle}" Grid.Row="25" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="25"
                                                Grid.Column="1"
@@ -443,10 +443,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Attacks against ally Yordles have a chance to"></Run>
-                                        <Run Text="miss." Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe2}" Foreground="White"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="25% chance to miss (3) 60% chance to miss (6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/yordle.jpg" Grid.Row="26" Grid.Column="0"></Image>
 
@@ -527,7 +527,7 @@
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
-                <TextBlock Text="Classes | Effects and Champions" 
+                <TextBlock Text="{DynamicResource ClassOrigins_Classes}" 
                                                FontSize="16" 
                                                VerticalAlignment="Center" 
                                                HorizontalAlignment="Center" 
@@ -536,7 +536,7 @@
                                                Grid.ColumnSpan="8"></TextBlock>
                 <!-- Assassin -->
 
-                <TextBlock Text="Assassin" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Assassin}" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="1"
                                                Grid.Column="1"
@@ -544,14 +544,14 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Assassins leap to the farthest enemy at the start of combat and deal additional"></Run>
-                                        <Run Text="Critical Strike Damage." Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe2}" Foreground="OrangeRed"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="+150%"></Run>
-                                        <Run Text="Critical Strike Damage" Foreground="OrangeRed"></Run>
-                                        <Run Text="(3) +350%" Foreground="White"></Run>
-                                        <Run Text="Critical Strike Damage" Foreground="OrangeRed"></Run>
-                                        <Run Text="(6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe4}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe5}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe6}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe7}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/assassin.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
@@ -579,7 +579,7 @@
 
                 <!-- Blademaster -->
 
-                <TextBlock Text="Blademaster" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Blademaster}" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="3"
                                                Grid.Column="1"
@@ -587,11 +587,11 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Blademasters have a 35% chance to strike"></Run>
-                                        <Run Text="additional times" Foreground="PaleVioletRed"></Run>
-                                        <Run Text="each attack."></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Blademaster_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Blademaster_Describe2}" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Blademaster_Describe3}"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="One additional strike (3) Two additional strikes (6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Blademaster_Describe4}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/blademaster.jpg" Grid.Row="4" Grid.Column="0"></Image>
 
@@ -616,7 +616,7 @@
 
                 <!-- Brawler -->
 
-                <TextBlock Text="Brawler" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Brawler}" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="5"
                                                Grid.Column="1"
@@ -624,14 +624,14 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Brawlers receive bonus"></Run>
-                                        <Run Text="maximum health." Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe2}" Foreground="ForestGreen"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text=" +300 bonus"></Run>
-                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
-                                        <Run Text="(2) +700 bonus"></Run>
-                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
-                                        <Run Text="(4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe4}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe5}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe6}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Brawler_Describe7}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/brawler.jpg" Grid.Row="6" Grid.Column="0"></Image>
 
@@ -652,7 +652,7 @@
 
                 <!-- Elementalist -->
 
-                <TextBlock Text="Elementalist" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Elementalist}" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="7"
                                                Grid.Column="1"
@@ -660,13 +660,13 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Elementalists gain double mana"></Run>
-                                        <Run Text="mana" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="from attacks."></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe3}"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="At the start of combat, summon an"></Run>
-                                        <Run Text="Elemental" Foreground="LightSlateGray"></Run>
-                                        <Run Text="(3)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe4}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe5}" Foreground="LightSlateGray"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Elementalist_Describe6}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/elementalist.jpg" Grid.Row="8" Grid.Column="0"></Image>
 
@@ -684,7 +684,7 @@
 
                 <!-- Guardian -->
 
-                <TextBlock Text="Guardian" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Guardian}" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="9"
                                                Grid.Column="1"
@@ -692,9 +692,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="At the start of combat, all Guardians and adjacent allies receive +30"></Run>
-                                        <Run Text="armor." Foreground="Yellow"></Run>
-                                        <Run Text="(2)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Guardian_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Guardian_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Guardian_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/guardian.jpg" Grid.Row="10" Grid.Column="0"></Image>
 
@@ -706,7 +706,7 @@
 
                 <!-- Gunslinger -->
 
-                <TextBlock Text="Gunslinger" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Gunslinger}" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="11"
                                                Grid.Column="1"
@@ -714,14 +714,14 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="After attacking, Gunslingers have a 50% chance to fire "></Run>
-                                        <Run Text="additional attacks." Foreground="PaleVioletRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe2}" Foreground="PaleVioletRed"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="Attack another"></Run>
-                                        <Run Text="random" Foreground="PaleVioletRed"></Run>
-                                        <Run Text="enemy (2) Attack"></Run>
-                                        <Run Text="all enemies" Foreground="PaleVioletRed"></Run>
-                                        <Run Text="in range. (4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe4}" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe5}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe6}" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe7}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/gunslinger.jpg" Grid.Row="12" Grid.Column="0"></Image>
 
@@ -742,7 +742,7 @@
 
                 <!-- Knight -->
 
-                <TextBlock Text="Knight" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Knight}" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="13"
                                                Grid.Column="1"
@@ -750,17 +750,17 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Knights"></Run>
-                                        <Run Text="block damage" Foreground="Yellow"></Run>
-                                        <Run Text="from"></Run>
-                                        <Run Text="basic attacks." Foreground="Red"></Run>
-                                        <Run Text="20"></Run>
-                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
-                                        <Run Text="(2) 40"></Run>
-                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
-                                        <Run Text="(4) 80"></Run>
-                                        <Run Text="damage blocked" Foreground="Yellow"></Run>
-                                        <Run Text="(6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe4}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe5}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe6}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe7}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe8}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe9}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe10}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe11}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/knight.jpg" Grid.Row="14" Grid.Column="0"></Image>
 
@@ -785,7 +785,7 @@
 
                 <!-- Ranger -->
 
-                <TextBlock Text="Ranger" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Ranger}" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="15"
                                                Grid.Column="1"
@@ -793,10 +793,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Rangers have a chance to double their"></Run>
-                                        <Run Text="attack speed" Foreground="LightYellow"></Run>
-                                        <Run Text="for the next 3 seconds."></Run>
-                                        <Run Text="25% chance (2) 65% chance (4)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ranger_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ranger_Describe2}" Foreground="LightYellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ranger_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Ranger_Describe4}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/ranger.jpg" Grid.Row="16" Grid.Column="0"></Image>
 
@@ -815,7 +815,7 @@
 
                 <!-- Shapeshifter -->
 
-                <TextBlock Text="Shapeshifter" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Shapeshifter}" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="17"
                                                Grid.Column="1"
@@ -823,12 +823,12 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Shapeshifters gain bonus"></Run>
-                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
-                                        <Run Text="when they transform."></Run>
-                                        <Run Text="+100% bonus"></Run>
-                                        <Run Text="maximum health" Foreground="ForestGreen"></Run>
-                                        <Run Text="(3)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe2}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe4}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe5}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Shapeshifter_Describe6}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/shapeshifter.jpg" Grid.Row="18" Grid.Column="0"></Image>
 
@@ -849,7 +849,7 @@
 
                 <!-- Sorcerer -->
 
-                <TextBlock Text="Sorcerer" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Sorcerer}" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="19"
                                                Grid.Column="1"
@@ -857,16 +857,16 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="Sorcers gain double"></Run>
-                                        <Run Text="mana" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="from attacking and allies have increased"></Run>
-                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe4}" Foreground="MediumPurple"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="+35%"></Run>
-                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
-                                        <Run Text="(3) +100%"></Run>
-                                        <Run Text="spell damage." Foreground="MediumPurple"></Run>
-                                        <Run Text="(6)"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe5}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe6}" Foreground="MediumPurple"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe7}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe8}" Foreground="MediumPurple"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Sorcerer_Describe9}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/sorcerer.jpg" Grid.Row="20" Grid.Column="0"></Image>
 
