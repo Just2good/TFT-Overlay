@@ -216,7 +216,7 @@
     <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25% chance to miss (3) 60% chance to miss (6)</s:String>
 
     <!--Classes | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Origins | Effects and Champions</s:String>
+    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Classes | Effects and Champions</s:String>
 
     <!-- Assassin -->
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassin</s:String>
