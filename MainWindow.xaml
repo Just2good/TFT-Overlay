@@ -95,6 +95,7 @@
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
                                         <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
+                                        <MenuItem x:Name="ResetToDefault" Header="Reset to default" Click="ResetToDefault_Click" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
                                     </ContextMenu>
