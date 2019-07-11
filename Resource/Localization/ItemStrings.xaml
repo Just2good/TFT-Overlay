@@ -117,4 +117,200 @@
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">Zephyr</s:String>
     <s:String x:Key="Zephyr1" xml:space="preserve">&#10;On start of combat, banish an enemy for 5 seconds</s:String>
+    
+    <!--/////////////////-->
+    <!--ClassOrigins Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Origins | Effects and Champions-->
+    <s:String x:Key="ClassOrigins_Origins" xml:space="preserve">Origins | Effects and Champions</s:String>
+
+    <!-- Demons -->
+    <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">Demons</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">40% (2), 60% (4), 80% (6) on hit to burn all of target's</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">current mana</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, dealing</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">true damage</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">equal to mana burned.</s:String>
+
+    <!-- Dragon -->
+    <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">Dragon</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">Dragons are immune to </s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">Magic Damage.</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+
+    <!-- Exile -->
+    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Exile</s:String>
+    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">Exiles start combat with a shield equal to 100% max</s:String>
+    <s:String x:Key="ClassOrigins_Exile_Describe2" xml:space="preserve">HP</s:String>
+    <s:String x:Key="ClassOrigins_Exile_Describe3" xml:space="preserve">when placed adjacent to NO other units. (1)</s:String>
+
+    <!-- Glacial -->
+    <s:String x:Key="ClassOrigins_Glacial" xml:space="preserve">Glacial</s:String>
+    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a 20% (2), 30% (4), 45% (6) to</s:String>
+    <s:String x:Key="ClassOrigins_Glacial_Describe2" xml:space="preserve">stun</s:String>
+    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">for 2 seconds.</s:String>
+
+    <!-- Imperial -->
+    <s:String x:Key="ClassOrigins_Imperial" xml:space="preserve">Imperial</s:String>
+    <s:String x:Key="ClassOrigins_Imperial_Describe1" xml:space="preserve">Imperials deal</s:String>
+    <s:String x:Key="ClassOrigins_Imperial_Describe2" xml:space="preserve">Double Damage.</s:String>
+    <s:String x:Key="ClassOrigins_Imperial_Describe3" xml:space="preserve">1 Random Imperials (1) All Imperials (4)</s:String>
+
+    <!-- Noble -->
+    <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">Noble</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">Nobles grant</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+100 Armor</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">and</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">heal for 35</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">on hit.</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">One Random Ally (3) All Allies (6)</s:String>
+
+    <!-- Ninja -->
+    <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">Ninja</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">Ninjas gain a percentage of</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">Attack Damage.</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">Ninja gains +40%</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">Attack Damage</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(Exactly 1)</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">All Ninjas gain +60%</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">Attack Damage</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
+
+    <!-- Pirate -->
+    <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">Pirate</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">Earn up to 4 additional</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe2" xml:space="preserve">gold</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">after combat</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">against another player.</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
+
+    <!-- Phantom -->
+    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">Phantom</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">Curse a random enemy at the start of combat, setting their HP to</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">100.</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">(2)</s:String>
+
+    <!-- Robot -->
+    <s:String x:Key="ClassOrigins_Robot" xml:space="preserve">Robot</s:String>
+    <s:String x:Key="ClassOrigins_Robot_Describe1" xml:space="preserve">Robots start combat at full</s:String>
+    <s:String x:Key="ClassOrigins_Robot_Describe2" xml:space="preserve">mana.</s:String>
+    <s:String x:Key="ClassOrigins_Robot_Describe3" xml:space="preserve">(1)</s:String>
+
+    <!-- Void -->
+    <s:String x:Key="ClassOrigins_Void" xml:space="preserve">Void</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">Your team's basic attacks ignore 50% of the enemy's</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">armor.</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(3)</s:String>
+
+    <!-- Wild -->
+    <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Wild</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5).  Each stack of Fury grants 7%</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">attack speed.</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">Wild Allies (2) All Allies (4)</s:String>
+
+    <!-- Yordle -->
+    <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">Attacks against ally Yordles have a chance to</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">miss.</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25% chance to miss (3) 60% chance to miss (6)</s:String>
+
+    <!--Classes | Effects and Champions-->
+    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Origins | Effects and Champions</s:String>
+
+    <!-- Assassin -->
+    <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassin</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Assassins leap to the farthest enemy at the start of combat and deal additional</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">Critical Strike Damage.</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+150%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">Critical Strike Damage</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Critical Strike Damage</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
+
+    <!-- Blademaster -->
+    <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Blademaster</s:String>
+    <s:String x:Key="ClassOrigins_Blademaster_Describe1" xml:space="preserve">Blademasters have a 35% chance to strike</s:String>
+    <s:String x:Key="ClassOrigins_Blademaster_Describe2" xml:space="preserve">additional times</s:String>
+    <s:String x:Key="ClassOrigins_Blademaster_Describe3" xml:space="preserve">each attack.</s:String>
+    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">One additional strike (3) Two additional strikes (6)</s:String>
+
+    <!-- Brawler -->
+    <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">Brawler</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">Brawlers receive bonus</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">maximum health.</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve"> +300 bonus</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">maximum health</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(2) +700 bonus</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">maximum health</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(4)</s:String>
+    
+    <!-- Elementalist -->
+    <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Elementalist</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">Elementalists gain double mana</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe2" xml:space="preserve">mana</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe3" xml:space="preserve">from attacks.</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe4" xml:space="preserve">At the start of combat, summon an</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe5" xml:space="preserve">Elemental</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe6" xml:space="preserve">(3)</s:String>
+    
+    <!-- Guardian -->
+    <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Guardian</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive +30</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">armor.</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">(2)</s:String>
+    
+    <!-- Gunslinger -->
+    <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">Gunslinger</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">After attacking, Gunslingers have a 50% chance to fire </s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">additional attacks.</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Attack another</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">random</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">enemy (2) Attack</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">all enemies</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">in range. (4)</s:String>
+    
+    <!-- Knight -->
+    <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Knight</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">Knights</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">block damage</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">from</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">basic attacks.</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">20</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">damage blocked</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">damage blocked</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">damage blocked</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
+    
+    <!-- Ranger -->
+    <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">Ranger</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">attack speed</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">for the next 3 seconds.</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25% chance (2) 65% chance (4)</s:String>
+    
+    <!-- Shapeshifter -->
+    <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">Shapeshifters gain bonus</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">maximum health</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">when they transform.</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+100% bonus</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">maximum health</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
+    
+    <!-- Sorcerer -->
+    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Sorcerer</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">Sorcers gain double</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">from attacking and allies have increased</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">spell damage.</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">spell damage.</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">spell damage.</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+
 </ResourceDictionary>
