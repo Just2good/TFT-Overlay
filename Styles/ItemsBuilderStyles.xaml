@@ -6,16 +6,13 @@
     <Style x:Key="ButtonStyle" TargetType="Button">
         <Setter Property="BorderBrush">
             <Setter.Value>
-                <SolidColorBrush Color="#FF00C3BA"/>
+                <SolidColorBrush Color="LightGoldenrodYellow"/>
             </Setter.Value>
         </Setter>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border  BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0.8" CornerRadius="3" Background="Transparent">
-                        <Border.Effect>
-                            <DropShadowEffect Color="#FF72FFE5" ShadowDepth="0"/>
-                        </Border.Effect>
                         <TextBlock Foreground="{TemplateBinding BorderBrush}" Text="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
                 </ControlTemplate>
@@ -30,17 +27,12 @@
                 Path=(utilities:AttachedControls.RelatedControl).Opacity}" Value="1">
                 <Setter Property="BorderBrush">
                     <Setter.Value>
-                        <SolidColorBrush Color="#FF00C3BA"/>
+                        <SolidColorBrush Color="LightGoldenrodYellow"/>
                     </Setter.Value>
                 </Setter>
                 <Setter Property="BorderThickness" Value="3"/>
                 <Setter Property="CornerRadius" Value="3"/>
                 <Setter Property="Background" Value="Transparent"/>
-                <Setter Property="Effect">
-                    <Setter.Value>
-                        <DropShadowEffect Color="#FF72FFE5" ShadowDepth="0"/>
-                    </Setter.Value>
-                </Setter>
             </DataTrigger>
         </Style.Triggers>
     </Style>
