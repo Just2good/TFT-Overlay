@@ -19,6 +19,11 @@
 
 ## Version History  
 - **7.10.2019**  
+  - [1.9.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)  
+     - Added Item Builder by narcolic#6374
+     - Added de-DE
+     - Moved Context Bar and Opacity Slider for Multi-Tab functionality
+  
   - [1.9.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)
      - Fixed Auto-Updater (For good this time)
      - Added pt-BR

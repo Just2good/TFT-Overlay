@@ -39,14 +39,73 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="95"/>
-                                <RowDefinition Height="835"/>
+                                <RowDefinition Height="17"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="850"/>
                             </Grid.RowDefinitions>
+                            <Rectangle Width="60" Fill="DarkOrange" Height="10" ToolTip="Right click for options or drag to move" HorizontalAlignment="Left" Margin="75 0 0 0">
+                                <Rectangle.ContextMenu>
+                                    <ContextMenu Cursor="{DynamicResource LoLHover}">
+                                        <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                        <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                        <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                        <Separator Width="Auto" Height="2"/>
+                                        <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
+                                            <MenuItem Header="English">
+                                                <MenuItem Header="en-US" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Deutsche">
+                                                <MenuItem Header="de-DE" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Español">
+                                                <MenuItem Header="es-AR" Click="Localization_Handler"/>
+                                                <MenuItem Header="es-MX" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Français">
+                                                <MenuItem Header="fr-FR" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Italiano">
+                                                <MenuItem Header="it-IT" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="日本語">
+                                                <MenuItem Header="JA" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Polski">
+                                                <MenuItem Header="PL" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Português">
+                                                <MenuItem Header="pt-BR" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Pусский">
+                                                <MenuItem Header="RU" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="Tiếng Việt">
+                                                <MenuItem Header="vi-VN" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <MenuItem Header="中文">
+                                                <MenuItem Header="zh-CN" Click="Localization_Handler"/>
+                                                <MenuItem Header="zh-TW" Click="Localization_Handler"/>
+                                            </MenuItem>
+                                            <Separator Width="Auto" Height="2"/>
+                                            <MenuItem Header="Credits" Click="Localization_Credits"/>
+                                        </MenuItem>
+                                        <Separator Width="Auto" Height="2"/>
+                                        <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
+                                        <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
+                                        <Separator Width="Auto" Height="2"/>
+                                        <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
+                                        <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
+                                        <Separator Width="Auto" Height="2"/>
+                                        <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
+                                    </ContextMenu>
+                                </Rectangle.ContextMenu>
+                            </Rectangle>
+                            <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Row="0" Minimum="0" Maximum="1" Orientation="Horizontal" Value=".5" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                             <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
-                            <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs">
+                            <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
                                 <!-- Main Tab -->
-                                <TabItem Header="MAIN" Style="{DynamicResource Tabstyle}">
+                                <TabItem x:Name="MainTab" Header="MAIN" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel>
                                         <local:OptionalRadioButton x:Name="BFS"  GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items}" MouseLeftButtonDown="MainWindow_MouseLeftButtonDown" MouseLeftButtonUp="MainWindow_MouseLeftButtonUp">
                                             <local:OptionalRadioButton.Content>
@@ -141,82 +200,27 @@
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
-                                        <Rectangle Width="10" Fill="DarkOrange" Height="41" Grid.Column="1" ToolTip="Right click for options or drag to move">
-                                            <Rectangle.ContextMenu>
-                                                <ContextMenu Cursor="{DynamicResource LoLHover}">
-                                                    <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
-                                                    <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
-                                                    <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
-                                                    <Separator Width="Auto" Height="2"/>
-                                                    <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
-                                                        <MenuItem Header="English">
-                                                            <MenuItem Header="en-US" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Español">
-                                                            <MenuItem Header="es-AR" Click="Localization_Handler"/>
-                                                            <MenuItem Header="es-MX" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Français">
-                                                            <MenuItem Header="fr-FR" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Italiano">
-                                                            <MenuItem Header="it-IT" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="日本語">
-                                                            <MenuItem Header="JA" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Polski">
-                                                            <MenuItem Header="PL" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Português">
-                                                            <MenuItem Header="pt-BR" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Pусский">
-                                                            <MenuItem Header="RU" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="Tiếng Việt">
-                                                            <MenuItem Header="vi-VN" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <MenuItem Header="中文">
-                                                            <MenuItem Header="zh-CN" Click="Localization_Handler"/>
-                                                            <MenuItem Header="zh-TW" Click="Localization_Handler"/>
-                                                        </MenuItem>
-                                                        <Separator Width="Auto" Height="2"/>
-                                                        <MenuItem Header="Credits" Click="Localization_Credits"/>
-                                                    </MenuItem>
-                                                    <Separator Width="Auto" Height="2"/>
-                                                    <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
-                                                    <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
-                                                    <Separator Width="Auto" Height="2"/>
-                                                    <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
-                                                    <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
-                                                    <Separator Width="Auto" Height="2"/>
-                                                    <MenuItem Header="Exit" Click="MenuItem_Click" Foreground="Black"/>
-                                                </ContextMenu>
-                                            </Rectangle.ContextMenu>
-                                        </Rectangle>
-                                        <Slider Name="OpacitySlider" Minimum="0" Maximum="1" Orientation="Vertical" Value=".5" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity" Margin="4 0 0 0"></Slider>
                                     </WrapPanel>
                                 </TabItem>
-                                <!--Origins and Classes-->
-                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
+                                <!--Items Builder-->
+                                <TabItem x:Name="ItemsBuild" Header="ITEM BUILDER" Style="{DynamicResource Tabstyle}" IsSelected="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=ItemBuilder}">
                                     <WrapPanel HorizontalAlignment="Center">
-
+                                        <local:ItemsCounter x:Name="BFCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="RecurveBowCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="RodCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="TearCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="ChainVestCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="NegatronCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="GiantsBeltCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="SpatulaCounter" MaxValue="10" MinValue="0" />
                                     </WrapPanel>
-                                </TabItem>
-                                <!--Champions-->
-                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
-
-                                </TabItem>
-                                <!--Info Chart section-->
-                                <TabItem Header="WIP" Style="{DynamicResource Tabstyle}">
-
                                 </TabItem>
                             </local:TabControlRadio>
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
-                            <Frame Grid.Column="0" Grid.Row="1" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                            <Frame Grid.Column="1" Grid.Row="1" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                            <Frame Grid.Column="0" Grid.Row="2" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                            <Frame Grid.Column="1" Grid.Row="2" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                            
                         </Grid>
                     </WrapPanel>
                 </Viewbox>
@@ -268,6 +272,9 @@
                     <DataTrigger Binding="{Binding ElementName=Classes, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=ItemsBuild, Path=IsSelected}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
                     </DataTrigger>
                     <!--Default Mouseover-->
                     <MultiDataTrigger>
@@ -347,6 +354,14 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
+          <!--      <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
+                            <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
+                    </MultiDataTrigger> -->
+
                     <!--Mouseover And Button is Toggled-->
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -425,6 +440,13 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
+               <!-- <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
+                    </MultiDataTrigger> -->
                 </DataTemplate.Triggers>
             </DataTemplate>
         </ContentControl.ContentTemplate>
@@ -441,7 +463,7 @@
             <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
             <Setter Property="HorizontalContentAlignment" Value="Center"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1 0 1 0"/>
+            <Setter Property="Padding" Value="1 2 1 0"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type ToggleButton}">
@@ -476,7 +498,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="RepeatButton">
-                        <Border  BorderThickness="1" BorderBrush="Black" Background="#09CAE5" Height="Auto" Width="10"/>
+                        <Border  BorderThickness="1" BorderBrush="Black" Background="#09CAE5" Height="10" Width="Auto"/>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -487,7 +509,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="RepeatButton">
-                        <Border SnapsToDevicePixels="True" Background="#C8AA6D"  BorderThickness="1" BorderBrush="#C8AA6D" Height="Auto" Width="10"/>
+                        <Border SnapsToDevicePixels="True" Background="#C8AA6D"  BorderThickness="1" BorderBrush="#C8AA6D" Height="10" Width="Auto"/>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -509,12 +531,12 @@
         </Style>
         <ControlTemplate x:Key="Slider"  TargetType="Slider">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Track Grid.Row="1" x:Name="PART_Track"   >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" MinWidth="{TemplateBinding MinWidth}" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Track Grid.Column="1" x:Name="PART_Track"   >
                     <Track.DecreaseRepeatButton>
                         <RepeatButton Style="{StaticResource SliderRepeatButton1}"  Command="Slider.DecreaseLarge" />
                     </Track.DecreaseRepeatButton>
@@ -532,9 +554,9 @@
             <Setter Property="SnapsToDevicePixels" Value="true" />
             <Setter Property="OverridesDefaultStyle" Value="true" />
             <Style.Triggers>
-                <Trigger Property="Orientation" Value="Vertical">
-                    <Setter Property="MinHeight" Value="42" />
-                    <Setter Property="MinWidth" Value="20" />
+                <Trigger Property="Orientation" Value="Horizontal">
+                    <Setter Property="MinHeight" Value="20" />
+                    <Setter Property="MinWidth" Value="60" />
                     <Setter Property="Template" Value="{StaticResource Slider}" />
                 </Trigger>
             </Style.Triggers>
@@ -581,8 +603,8 @@
                     <ControlTemplate TargetType="{x:Type TabItem}">
                         <Border x:Name="Spacer"
                                 Width="Auto"
-                                Height="35"
-                                Padding="5 5 5 5"
+                                Height="25"
+                                Padding="5 0 5 0"
                                 Margin="0 0 0 0"
                                 BorderBrush="Transparent"
                                 CornerRadius="0,0,0,0"
@@ -595,6 +617,7 @@
                                     BorderBrush="#c8aa6d"
                                     BorderThickness="2,2,2,2"
                                     CornerRadius="5,5,5,5"
+                                    Padding="5 0 5 0"
                                     VerticalAlignment="Center">
                                 <ContentPresenter x:Name="ContentSite"
                                                   TextElement.FontSize="12"
