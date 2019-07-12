@@ -159,7 +159,7 @@
 
                 <!-- Glacial -->
 
-                <TextBlock Text="Glacial" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource ClassOrigins_Glacial}" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="7"
                                                Grid.Column="1"
@@ -167,9 +167,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="On hit, Glacials have a 20% (2), 30% (4), 45% (6) to"></Run>
-                                        <Run Text="stun" Foreground="Yellow"></Run>
-                                        <Run Text="for 2 seconds."></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe1}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/glacial.jpg" Grid.Row="8" Grid.Column="0"></Image>
 

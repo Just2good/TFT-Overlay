@@ -247,7 +247,7 @@
 
     <!-- Elementalist -->
     <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Elementalist</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">Elementalists gain double mana</s:String>
+    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">Elementalists gain double </s:String>
     <s:String x:Key="ClassOrigins_Elementalist_Describe2" xml:space="preserve">mana</s:String>
     <s:String x:Key="ClassOrigins_Elementalist_Describe3" xml:space="preserve">from attacks.</s:String>
     <s:String x:Key="ClassOrigins_Elementalist_Describe4" xml:space="preserve">At the start of combat, summon an</s:String>
