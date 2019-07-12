@@ -118,5 +118,17 @@ namespace TFT_Overlay.Properties {
                 this["Opacity"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public double IconOpacity {
+            get {
+                return ((double)(this["IconOpacity"]));
+            }
+            set {
+                this["IconOpacity"] = value;
+            }
+        }
     }
 }

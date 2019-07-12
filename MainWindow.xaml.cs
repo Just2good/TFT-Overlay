@@ -215,5 +215,16 @@ namespace TFT_Overlay
             CanDrag = !Settings.Default.Lock;
             LoadStringResource(Settings.Default.Language);
         }
+
+        private void IconOpacityHandler_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is MenuItem menuItem)
+            {
+                string header = menuItem.Header.ToString();
+                double opacity = double.Parse(header.Substring(0, header.Length - 1)) / 100;
+
+                Settings.SaveSetting("IconOpacity", opacity);
+            }
+        }
     }
 }

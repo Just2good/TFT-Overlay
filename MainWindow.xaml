@@ -48,6 +48,15 @@
                                     <ContextMenu Cursor="{DynamicResource LoLHover}">
                                         <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
                                         <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                        <MenuItem x:Name="IconOpacity" Header="Icon Opacity" Foreground="Black">
+                                            <MenuItem Header="5%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="10%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="15%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="25%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="50%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="75%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            <MenuItem Header="100%" Click="IconOpacityHandler_Click"></MenuItem>
+                                        </MenuItem>
                                         <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
@@ -101,7 +110,7 @@
                                     </ContextMenu>
                                 </Rectangle.ContextMenu>
                             </Rectangle>
-                            <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Minimum="0" Maximum="1" Orientation="Horizontal" Value="{Binding Source={x:Static p:Settings.Default}, Path=Opacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
+                            <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Minimum="0.01" Maximum="1" Orientation="Horizontal" Value="{Binding Source={x:Static p:Settings.Default}, Path=Opacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                             <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
                             <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
@@ -595,7 +604,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
+        
         <!--Tab Design-->
         <Style x:Key="Tabstyle"
                TargetType="{x:Type TabItem}">
