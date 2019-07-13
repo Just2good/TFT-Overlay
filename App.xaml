@@ -13,6 +13,7 @@
             <FontFamily x:Key="Cabin">pack://application:,,,/ReferencedAssembly;component/Font/Cabin.ttf</FontFamily>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles\ItemsBuilderStyles.xaml"/>
+                <ResourceDictionary Source="Styles\MainWindowStyles.xaml"/>
                 <ResourceDictionary Source="Resource\Items.xaml"/>
                 <ResourceDictionary Source="Resource\ItemsBuilder.xaml"/>
                 <ResourceDictionary Source="Resource\ItemsTextless.xaml"/>
