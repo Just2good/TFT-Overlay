@@ -1,6 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:TFT_Overlay.Styles"
+                    xmlns:p="clr-namespace:TFT_Overlay.Properties"
                     xmlns:utilities="clr-namespace:TFT_Overlay.Utilities">
 
     <Style x:Key="ButtonStyle" TargetType="Button">
@@ -9,6 +10,7 @@
                 <SolidColorBrush Color="LightGoldenrodYellow"/>
             </Setter.Value>
         </Setter>
+        <Setter Property="Opacity" Value="{Binding Source={x:Static p:Settings.Default}, Path=IconOpacity}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -18,6 +20,19 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
+    </Style>
+
+    <Style x:Key="CounterStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Opacity" Value="{Binding Source={x:Static p:Settings.Default}, Path=IconOpacity}"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="LightGoldenrodYellow"/>
+    </Style>
+
+
+    <Style x:Key="ImageStyle" TargetType="Image">
+        <Setter Property="Opacity" Value="{Binding Source={x:Static p:Settings.Default}, Path=IconOpacity}"/>
     </Style>
 
     <Style x:Key="ButtonBorder" TargetType="{x:Type Border}">

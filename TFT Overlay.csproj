@@ -140,18 +140,18 @@
     </ApplicationDefinition>
     <Compile Include="CustomCursor.cs" />
     <Compile Include="ItemsCounter.cs" />
-    <Compile Include="ProcessHelper.cs" />
+    <Compile Include="Utilities\ProcessHelper.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RadioConverter.cs" />
+    <Compile Include="Utilities\RadioConverter.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Utilities\AttachedControls.cs" />
     <Compile Include="Utilities\CommandRunner.cs" />
     <Compile Include="Utilities\IsEqualOrGreaterThanConverter.cs" />
-    <Compile Include="Version.cs" />
+    <Compile Include="Utilities\Version.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Page Include="MainWindow.xaml">
@@ -248,6 +248,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\ItemsBuilderStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\MainWindowStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

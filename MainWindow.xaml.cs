@@ -17,9 +17,19 @@ namespace TFT_Overlay
         private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
         private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
 
-        private bool OnTop { get; set; } = true;
-        private bool CanDrag { get; set; }
         private string CurrentVersion { get; } = Version.version;
+        private bool OnTop { get; set; } = true;
+
+        private bool canDrag;
+        public bool CanDrag
+        {
+            get => canDrag;
+            set
+            {
+                canDrag = value;
+                Settings.FindAndUpdate("Lock", !value);
+            }
+        }
 
         public MainWindow()
         {
@@ -61,7 +71,6 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)
         {
-            Settings.SaveSetting("Lock", !Settings.Default.Lock);
             CanDrag = !CanDrag;
         }
 
@@ -76,7 +85,7 @@ namespace TFT_Overlay
                 return;
             }
 
-            Settings.SaveSetting("AutoUpdate", !Settings.Default.AutoUpdate);
+            Settings.FindAndUpdate("AutoUpdate", !Settings.Default.AutoUpdate);
 
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
@@ -131,7 +140,7 @@ namespace TFT_Overlay
                 return;
             }
 
-            Settings.SaveSetting("AutoDim", !Settings.Default.AutoDim);
+            Settings.FindAndUpdate("AutoDim", !Settings.Default.AutoDim);
 
             System.Windows.Forms.Application.Restart();
             Application.Current.Shutdown();
@@ -149,7 +158,8 @@ namespace TFT_Overlay
                 {
                     Dispatcher.BeginInvoke(new ThreadStart(() => App.Current.MainWindow.Opacity = .2));
                 }
-                Thread.Sleep(100);
+
+                Thread.Sleep(500);
             }
         }
 
@@ -205,15 +215,36 @@ namespace TFT_Overlay
                 string tag = menuItem.Header.ToString();
                 LoadStringResource(tag);
 
-                Settings.SaveSetting("Language", tag);
+                Settings.FindAndUpdate("Language", tag);
             }
         }
 
         private void ResetToDefault_Click(object sender, RoutedEventArgs e)
         {
             Settings.Default.Reset();
-            CanDrag = !Settings.Default.Lock;
+            CanDrag = true;
             LoadStringResource(Settings.Default.Language);
+        }
+
+        private void IconOpacityHandler_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is MenuItem menuItem)
+            {
+                string header = menuItem.Header.ToString();
+                double opacity = double.Parse(header.Substring(0, header.Length - 1)) / 100;
+
+                Settings.FindAndUpdate("IconOpacity", opacity);
+            }
+        }
+
+        private void OpenChangelog_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/README.md#version-history");
+        }
+
+        private void LocalizationHelp_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md");
         }
     }
 }
