@@ -90,6 +90,9 @@
                                             <MenuItem Header="Português">
                                                 <MenuItem Header="pt-BR" Click="Localization_Handler"/>
                                             </MenuItem>
+                                            <MenuItem Header="Română">
+                                                <MenuItem Header="RO" Click="Localization_Handler"/>
+                                            </MenuItem> 
                                             <MenuItem Header="Pусский">
                                                 <MenuItem Header="RU" Click="Localization_Handler"/>
                                             </MenuItem>
