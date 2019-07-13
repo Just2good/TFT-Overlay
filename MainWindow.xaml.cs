@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using TFT_Overlay.Properties;
+using TFT_Overlay.Utilities;
 
 namespace TFT_Overlay
 {
@@ -17,7 +18,7 @@ namespace TFT_Overlay
         private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
         private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
 
-        private string CurrentVersion { get; } = Version.version;
+        private string CurrentVersion { get; } = Utilities.Version.version;
         private bool OnTop { get; set; } = true;
 
         private bool canDrag;

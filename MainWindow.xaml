@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:TFT_Overlay"
         xmlns:p="clr-namespace:TFT_Overlay.Properties"
         xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
+        xmlns:u="clr-namespace:TFT_Overlay.Utilities"
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
@@ -29,7 +30,7 @@
                     <!--IfChecked = Visible, Unchecked = Hidden-->
                     <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
                     <!--RadioButton Converter (Group Across All Tabs)-->
-                    <local:RadioConverter x:Key="RadioConverter"/>
+                    <u:RadioConverter x:Key="RadioConverter"/>
                 </DataTemplate.Resources>
                 <!-- The Buttons and Tabs that make up the Bar.  The Hypothetical Plate! -->
                 <Viewbox HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -121,7 +122,7 @@
                             <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Minimum="0.01" Maximum="1" Orientation="Horizontal" Value="{Binding Source={x:Static p:Settings.Default}, Path=Opacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                             <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
-                            <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
+                            <u:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
                                 <!-- Main Tab -->
                                 <TabItem x:Name="MainTab" Header="MAIN" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel>
@@ -233,7 +234,7 @@
                                         <local:ItemsCounter x:Name="SpatulaCounter" MaxValue="10" MinValue="0" />
                                     </WrapPanel>
                                 </TabItem>
-                            </local:TabControlRadio>
+                            </u:TabControlRadio>
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
                             <Frame Grid.Column="0" Grid.Row="2" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace TFT_Overlay
+namespace TFT_Overlay.Utilities
 {
     public static class ProcessHelper
     {
