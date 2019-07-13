@@ -67,7 +67,7 @@
                                             <MenuItem Header="English">
                                                 <MenuItem Header="en-US" Click="Localization_Handler"/>
                                             </MenuItem>
-                                            <MenuItem Header="Deutsche">
+                                            <MenuItem Header="Deutsch">
                                                 <MenuItem Header="de-DE" Click="Localization_Handler"/>
                                             </MenuItem>
                                             <MenuItem Header="Español">
