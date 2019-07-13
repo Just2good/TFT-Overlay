@@ -16,16 +16,16 @@ namespace TFT_Overlay
 
             using (WebClient client = new WebClient())
             {
-                string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2Good/TFT-Overlay/master/Version.cs");
-                int versionFind = htmlCode.IndexOf("public static string version = ");
-                version = htmlCode.Substring(versionFind + 32, 5);
-                if (currentVersion != version && Settings.Default.AutoUpdate)
+                try
                 {
-                    var result = MessageBox.Show($"A new update is available.\nWould you like to download V{version}?", "TFT Overlay Update Available", MessageBoxButton.YesNo, MessageBoxImage.Question);
-
-                    if (result == MessageBoxResult.Yes)
+                    string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2Good/TFT-Overlay/master/Utilities/Version.cs");
+                    int versionFind = htmlCode.IndexOf("public static string version = ");
+                    version = htmlCode.Substring(versionFind + 32, 5);
+                    if (currentVersion != version && Settings.Default.AutoUpdate)
                     {
-                        try
+                        var result = MessageBox.Show($"A new update is available.\nWould you like to download V{version}?", "TFT Overlay Update Available", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                        if (result == MessageBoxResult.Yes)
                         {
                             string link = "https://github.com/Just2good/TFT-Overlay/releases/download/V" + version + "/TFT.Overlay.V" + version + ".rar";
                             ServicePointManager.Expect100Continue = true;
@@ -39,16 +39,16 @@ namespace TFT_Overlay
                                 Process.Start(Directory.GetCurrentDirectory());
                             }
                         }
-                        catch (WebException ex)
+                        else if (result == MessageBoxResult.No)
                         {
-                            Console.WriteLine(ex.Message);
-                            MessageBox.Show(ex.Message, "An error occured", MessageBoxButton.OK, MessageBoxImage.Error);
+                            Settings.FindAndUpdate("AutoUpdate", false);
                         }
                     }
-                    else if (result == MessageBoxResult.No)
-                    {
-                        Settings.FindAndUpdate("AutoUpdate", false);
-                    }
+                }
+                catch (WebException ex)
+                {
+                    Console.WriteLine(ex);
+                    MessageBox.Show(ex.ToString(), "An error occured", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
