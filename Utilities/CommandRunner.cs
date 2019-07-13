@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Windows.Input;
 
 namespace TFT_Overlay.Utilities
@@ -47,4 +48,4 @@ namespace TFT_Overlay.Utilities
             _TargetExecuteMethod?.Invoke(parameter);
         }
     }
-}
+} */
