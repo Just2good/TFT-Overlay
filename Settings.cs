@@ -7,17 +7,21 @@
     //  The SettingsSaving event is raised before the setting values are saved.
     public sealed partial class Settings
     {
+        public Settings() { }
 
-        public Settings()
+        public static void FindAndUpdate<T>(string key, T value)
         {
-            
+            try
+            {
+                Default[key] = value;
+                Default.Save();
+            }
+            catch (System.Configuration.SettingsPropertyNotFoundException ex)
+            {
+                System.Console.WriteLine(ex);
+            }
         }
 
-        public static void SaveSetting(string key, object value)
-        {
-            Settings.Default[key] = value;
-            Settings.Default.Save();
-        }
 
         private void SettingChangingEventHandler(object sender, System.Configuration.SettingChangingEventArgs e)
         {

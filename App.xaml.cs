@@ -47,7 +47,7 @@ namespace TFT_Overlay
                     }
                     else if (result == MessageBoxResult.No)
                     {
-                        Settings.SaveSetting("AutoUpdate", false);
+                        Settings.FindAndUpdate("AutoUpdate", false);
                     }
                 }
             }
