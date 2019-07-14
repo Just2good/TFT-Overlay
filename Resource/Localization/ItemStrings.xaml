@@ -313,4 +313,57 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">spell damage.</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
 
+
+    <!--/////////////////-->
+    <!--Charts-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Tier Roll Chance + Pool Size-->
+    <s:String x:Key="Charts_Title" xml:space="preserve">Tier Roll Chance + Pool Size</s:String>
+
+  
+    <!--/////////////////-->
+    <!--MainWindow.xaml-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+  
+    <!--Head MAIN-->
+    <s:String x:Key="MainWindow_Main" xml:space="preserve">MAIN</s:String>
+  
+    <!--Head ITEM BUILDER-->
+    <s:String x:Key="MainWindow_ItemBuilder" xml:space="preserve">ITEM BUILDER</s:String>
+    
+    <!--ToolTip Opacity-->
+    <s:String x:Key="MainWindow_ToolTip_Opacity" xml:space="preserve">Opacity</s:String>
+  
+    <!--ToolTip options-->
+    <s:String x:Key="MainWindow_ToolTip_Options" xml:space="preserve">Right click for options or drag to move</s:String>
+  
+    <!--Options-->
+    <s:String x:Key="MainWindow_Options_Preferences" xml:space="preserve">Preferences</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Lock" xml:space="preserve">Lock</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Resize" xml:space="preserve">Resize</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_IconOpacity" xml:space="preserve">Icon Opacity</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_AlwaysOnTop" xml:space="preserve">Always On Top</s:String>
+    <s:String x:Key="MainWindow_Options_Language" xml:space="preserve">Language</s:String>
+    <s:String x:Key="MainWindow_Options_Language_Credits" xml:space="preserve">Credits</s:String>
+    <s:String x:Key="MainWindow_Options_Help" xml:space="preserve">Help</s:String>
+    <s:String x:Key="MainWindow_Options_Help_About" xml:space="preserve">About</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Credits" xml:space="preserve">Credits</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Changelog" xml:space="preserve">Changelog</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Localization" xml:space="preserve">Localization</s:String>
+    <s:String x:Key="MainWindow_Options_AutoDim" xml:space="preserve">Auto-Dim</s:String>
+    <s:String x:Key="MainWindow_Options_AutoUpdate" xml:space="preserve">Auto-Updater</s:String>
+    <s:String x:Key="MainWindow_Options_ResetToDefault" xml:space="preserve">Reset to default</s:String>
+    <s:String x:Key="MainWindow_Options_Exit" xml:space="preserve">Exit</s:String>
+
+    <!--/////////////////-->
+    <!--ItemsBuilder.xaml-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Reset Button-->
+    <s:String x:Key="ItemsBuilder_ResetButton" xml:space="preserve">Reset</s:String>
+    
 </ResourceDictionary>

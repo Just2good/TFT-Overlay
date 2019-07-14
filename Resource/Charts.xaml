@@ -42,7 +42,7 @@
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="6" />
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="6" />
 
-                <TextBlock Text="Tier Roll Chance + Pool Size" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGoldenrodYellow">
+                <TextBlock Text="{DynamicResource Charts_Title}" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LightGoldenrodYellow">
                     <Run Text="  (July 1st 2019)" FontSize="12" Foreground="#09cae5"/>
                 </TextBlock>
 

@@ -311,5 +311,57 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">  (6) +100%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">技能伤害</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">&#160;</s:String>
-    
+
+  
+    <!--/////////////////-->
+    <!--Charts-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Tier Roll Chance + Pool Size-->
+    <s:String x:Key="Charts_Title" xml:space="preserve">每级随机英雄几率 + 英雄随机池大小</s:String>
+  
+    <!--/////////////////-->
+    <!--MainWindow.xaml-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Head MAIN-->
+    <s:String x:Key="MainWindow_Main" xml:space="preserve">主界面</s:String>
+
+    <!--Head ITEM BUILDER-->
+    <s:String x:Key="MainWindow_ItemBuilder" xml:space="preserve">物品生成器</s:String>
+
+    <!--ToolTip Opacity-->
+    <s:String x:Key="MainWindow_ToolTip_Opacity" xml:space="preserve">透明度</s:String>
+
+    <!--ToolTip options-->
+    <s:String x:Key="MainWindow_ToolTip_Options" xml:space="preserve">右击进行设置,或者拖拽移动</s:String>
+
+    <!--Options-->
+    <s:String x:Key="MainWindow_Options_Preferences" xml:space="preserve">偏爱</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Lock" xml:space="preserve">锁定位置</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Resize" xml:space="preserve">调整大小</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_IconOpacity" xml:space="preserve">图标透明度</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_AlwaysOnTop" xml:space="preserve">是否最前端显示</s:String>
+    <s:String x:Key="MainWindow_Options_Language" xml:space="preserve">语言</s:String>
+    <s:String x:Key="MainWindow_Options_Language_Credits" xml:space="preserve">本地化鸣谢</s:String>
+    <s:String x:Key="MainWindow_Options_Help" xml:space="preserve">帮助</s:String>
+    <s:String x:Key="MainWindow_Options_Help_About" xml:space="preserve">关于</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Credits" xml:space="preserve">鸣谢</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Changelog" xml:space="preserve">更新日志</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Localization" xml:space="preserve">本地化</s:String>
+    <s:String x:Key="MainWindow_Options_AutoDim" xml:space="preserve">自动隐藏</s:String>
+    <s:String x:Key="MainWindow_Options_AutoUpdate" xml:space="preserve">自动更新</s:String>
+    <s:String x:Key="MainWindow_Options_ResetToDefault" xml:space="preserve">恢复默认设置</s:String>
+    <s:String x:Key="MainWindow_Options_Exit" xml:space="preserve">退出</s:String>
+
+    <!--/////////////////-->
+    <!--ItemsBuilder.xaml-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Reset Button-->
+    <s:String x:Key="ItemsBuilder_ResetButton" xml:space="preserve">重置</s:String>
+  
 </ResourceDictionary>
