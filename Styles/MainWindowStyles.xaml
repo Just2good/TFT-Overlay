@@ -36,7 +36,7 @@
         </Style.Triggers>
     </Style>
 
-    <!--Slider Button Style-->
+    <!--Slider Button Style Main-->
     <Style x:Key="SliderRepeatButton" TargetType="RepeatButton">
         <Setter Property="SnapsToDevicePixels" Value="true" />
         <Setter Property="OverridesDefaultStyle" Value="true" />
