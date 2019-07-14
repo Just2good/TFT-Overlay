@@ -57,7 +57,7 @@
                     </Grid.RowDefinitions>
 
                     <!-- Reset Button -->
-                    <Button Grid.Column="9" Grid.Row="12" Grid.ColumnSpan="3" Content="Reset" Style="{StaticResource ButtonStyle}"/>
+                    <Button Grid.Column="9" Grid.Row="12" Grid.ColumnSpan="3" Content="{DynamicResource ItemsBuilder_ResetButton}" Style="{StaticResource ButtonStyle}"/>
 
                     <!-- BF Sword-->
                     <Image Grid.Row="2" Grid.Column="0" Source="../Images/cstyle/items/BF.png" Style="{StaticResource ImageStyle}"/>
