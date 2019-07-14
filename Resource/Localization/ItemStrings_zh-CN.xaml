@@ -311,5 +311,14 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">  (6) +100%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">技能伤害</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">&#160;</s:String>
+
+  
+    <!--/////////////////-->
+    <!--Charts-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Tier Roll Chance + Pool Size-->
+    <s:String x:Key="Charts_Title" xml:space="preserve">每级随机英雄几率 + 英雄随机池大小</s:String>
     
 </ResourceDictionary>
