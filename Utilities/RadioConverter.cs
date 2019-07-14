@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace TFT_Overlay
+namespace TFT_Overlay.Utilities
 {
     public class RadioConverter : IValueConverter
     {

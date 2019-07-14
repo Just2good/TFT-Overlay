@@ -6,12 +6,14 @@
         xmlns:local="clr-namespace:TFT_Overlay"
         xmlns:p="clr-namespace:TFT_Overlay.Properties"
         xmlns:vm="clr-namespace:TFT_Overlay.ViewModel"
+        xmlns:u="clr-namespace:TFT_Overlay.Utilities"
         mc:Ignorable="d"
         DataContext="{StaticResource Locator}"
         ResizeMode="CanResizeWithGrip"
-        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"                
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"
         MinWidth="1600"
         MaxWidth="1600"
+        MinHeight="200"
         Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}"
         Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
         MouseLeftButtonDown="MainWindow_MouseLeftButtonDown"
@@ -28,7 +30,7 @@
                     <!--IfChecked = Visible, Unchecked = Hidden-->
                     <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
                     <!--RadioButton Converter (Group Across All Tabs)-->
-                    <local:RadioConverter x:Key="RadioConverter"/>
+                    <u:RadioConverter x:Key="RadioConverter"/>
                 </DataTemplate.Resources>
                 <!-- The Buttons and Tabs that make up the Bar.  The Hypothetical Plate! -->
                 <Viewbox HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -46,15 +48,27 @@
                             <Rectangle Width="60" Fill="DarkOrange" Height="10" ToolTip="Right click for options or drag to move" HorizontalAlignment="Left" Margin="75 0 0 0">
                                 <Rectangle.ContextMenu>
                                     <ContextMenu Cursor="{DynamicResource LoLHover}">
-                                        <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
-                                        <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
-                                        <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                        <MenuItem Header="Preferences">
+                                            <MenuItem x:Name="Lock" Header="Lock" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=Lock}" Click="MenuItem_Click_Lock" Foreground="Black"/>
+                                            <MenuItem x:Name="ResizeLock" Header="Resize" IsChecked="False" IsCheckable="True" Foreground="Black"/>
+                                            <MenuItem x:Name="IconOpacity" Header="Icon Opacity" Foreground="Black">
+                                                <MenuItem Header="5%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="10%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="15%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="25%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="35%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="50%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="75%" Click="IconOpacityHandler_Click"></MenuItem>
+                                                <MenuItem Header="100%" Click="IconOpacityHandler_Click"></MenuItem>
+                                            </MenuItem>
+                                            <MenuItem x:Name="OnTop" Header="Always On Top" IsChecked="True" IsCheckable="True" Click="MenuItem_Click_OnTop" Foreground="Black"/>
+                                        </MenuItem>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem x:Name="Localization"  Header="Language" Foreground="Black">
+                                        <MenuItem x:Name="Localization" Header="Language" Foreground="Black">
                                             <MenuItem Header="English">
                                                 <MenuItem Header="en-US" Click="Localization_Handler"/>
                                             </MenuItem>
-                                            <MenuItem Header="Deutsche">
+                                            <MenuItem Header="Deutsch">
                                                 <MenuItem Header="de-DE" Click="Localization_Handler"/>
                                             </MenuItem>
                                             <MenuItem Header="Español">
@@ -76,6 +90,9 @@
                                             <MenuItem Header="Português">
                                                 <MenuItem Header="pt-BR" Click="Localization_Handler"/>
                                             </MenuItem>
+                                            <MenuItem Header="Română">
+                                                <MenuItem Header="RO" Click="Localization_Handler"/>
+                                            </MenuItem> 
                                             <MenuItem Header="Pусский">
                                                 <MenuItem Header="RU" Click="Localization_Handler"/>
                                             </MenuItem>
@@ -90,8 +107,12 @@
                                             <MenuItem Header="Credits" Click="Localization_Credits"/>
                                         </MenuItem>
                                         <Separator Width="Auto" Height="2"/>
-                                        <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
-                                        <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
+                                        <MenuItem Header="Help">
+                                            <MenuItem Header="About" Click="MenuItem_Click_About" Foreground="Black"/>
+                                            <MenuItem Header="Credits" Click="MenuItem_Click_Credits" Foreground="Black"/>
+                                            <MenuItem Header="Changelog" Click="OpenChangelog_Click"/>
+                                            <MenuItem Header="Localization" Click="LocalizationHelp_Click"/>
+                                        </MenuItem>
                                         <Separator Width="Auto" Height="2"/>
                                         <MenuItem x:Name="AutoDim" Header="Auto-Dim" Click="AutoDim_Click" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoDim}" Foreground="Black"/>
                                         <MenuItem x:Name="AutoUpdate" Header="Auto-Updater" IsChecked="{Binding Source={x:Static p:Settings.Default}, Path=AutoUpdate}" Click="MenuItem_AutoUpdate" Foreground="Black"/>
@@ -101,10 +122,10 @@
                                     </ContextMenu>
                                 </Rectangle.ContextMenu>
                             </Rectangle>
-                            <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Minimum="0" Maximum="1" Orientation="Horizontal" Value="{Binding Source={x:Static p:Settings.Default}, Path=Opacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
+                            <Slider Name="OpacitySlider" Margin="8 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0" Minimum="0.01" Maximum="1" Orientation="Horizontal" Value="{Binding Source={x:Static p:Settings.Default}, Path=Opacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider}" ToolTip="Opacity"></Slider>
                             <ResizeGrip Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Top" Visibility="{Binding IsChecked, ElementName=ResizeLock, Converter={StaticResource BooleanToVisibilityConverter}}" Style="{DynamicResource VisibleResizeGrip}" Cursor="{DynamicResource LoLNormal}"/>
                             <!--Start of Tabs-->
-                            <local:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
+                            <u:TabControlRadio Background="Transparent" BorderThickness="0" x:Name="RadioTabs" Grid.Row="1">
                                 <!-- Main Tab -->
                                 <TabItem x:Name="MainTab" Header="MAIN" Style="{DynamicResource Tabstyle}">
                                     <WrapPanel>
@@ -216,12 +237,11 @@
                                         <local:ItemsCounter x:Name="SpatulaCounter" MaxValue="10" MinValue="0" />
                                     </WrapPanel>
                                 </TabItem>
-                            </local:TabControlRadio>
+                            </u:TabControlRadio>
                             <!--2nd Frame and Linking Multiple Elements (Modifier)-->
                             <local:OptionalRadioButton Height="0" Width="0" x:Name="Modifier"></local:OptionalRadioButton>
                             <Frame Grid.Column="0" Grid.Row="2" x:Name="Frame" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                             <Frame Grid.Column="1" Grid.Row="2" x:Name="Frame2" Height="Auto" Width="Auto" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-                            
                         </Grid>
                     </WrapPanel>
                 </Viewbox>
@@ -355,7 +375,7 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
-          <!--      <MultiDataTrigger>
+                    <!--      <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
                             <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
@@ -441,7 +461,7 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
-               <!-- <MultiDataTrigger>
+                    <!-- <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
                             <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
@@ -452,192 +472,4 @@
             </DataTemplate>
         </ContentControl.ContentTemplate>
     </ContentControl>
-
-    <!--Window Resources-->
-    <Window.Resources>
-        <!--Radio Button Style-->
-        <Style TargetType="local:OptionalRadioButton"
-               BasedOn="{StaticResource {x:Type ToggleButton}}" >
-            <Setter Property="IsChecked" Value="False"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="BorderThickness" Value="0"/>
-            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
-            <Setter Property="HorizontalContentAlignment" Value="Center"/>
-            <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="Padding" Value="1 2 1 0"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ToggleButton}">
-                        <Grid x:Name="Chrome" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
-                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
-                        </Grid>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Foreground" Value="Transparent"/>
-                                <Setter Property="Cursor" Value="{DynamicResource LoLPointer}"/>
-                            </Trigger>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Foreground" Value="Transparent"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <DataTrigger Binding="{Binding IsChecked, RelativeSource={RelativeSource Self}}" Value="true">
-                    <Setter Property="Background" Value="Transparent"/>
-                    <Setter Property="BorderBrush" Value="Transparent"/>
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
-        <!--Slider Button Style-->
-        <Style x:Key="SliderRepeatButton" TargetType="RepeatButton">
-            <Setter Property="SnapsToDevicePixels" Value="true" />
-            <Setter Property="OverridesDefaultStyle" Value="true" />
-            <Setter Property="IsTabStop" Value="false" />
-            <Setter Property="Focusable" Value="false" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="RepeatButton">
-                        <Border  BorderThickness="1" BorderBrush="Black" Background="#09CAE5" Height="10" Width="Auto"/>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="SliderRepeatButton1" TargetType="RepeatButton">
-            <Setter Property="SnapsToDevicePixels" Value="true" />
-            <Setter Property="OverridesDefaultStyle" Value="true" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="RepeatButton">
-                        <Border SnapsToDevicePixels="True" Background="#C8AA6D"  BorderThickness="1" BorderBrush="#C8AA6D" Height="10" Width="Auto"/>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="SliderThumb" TargetType="Thumb">
-            <Setter Property="OverridesDefaultStyle" Value="True" />
-            <Setter Property="Cursor" Value="{DynamicResource LoLHover}"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Thumb">
-                        <Rectangle Height="20" Width="20">
-                            <Rectangle.Fill>
-                                <ImageBrush ImageSource="Images/riversprite.png"></ImageBrush>
-                            </Rectangle.Fill>
-                        </Rectangle>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <ControlTemplate x:Key="Slider"  TargetType="Slider">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" MinWidth="{TemplateBinding MinWidth}" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-                <Track Grid.Column="1" x:Name="PART_Track"   >
-                    <Track.DecreaseRepeatButton>
-                        <RepeatButton Style="{StaticResource SliderRepeatButton1}"  Command="Slider.DecreaseLarge" />
-                    </Track.DecreaseRepeatButton>
-                    <Track.Thumb>
-                        <Thumb Style="{StaticResource SliderThumb}"  />
-                    </Track.Thumb>
-                    <Track.IncreaseRepeatButton>
-                        <RepeatButton Style="{StaticResource SliderRepeatButton}" Command="Slider.IncreaseLarge" />
-                    </Track.IncreaseRepeatButton>
-                </Track>
-            </Grid>
-        </ControlTemplate>
-        <Style x:Key="Custom_Slider" TargetType="Slider">
-            <Setter Property="Focusable" Value="False"/>
-            <Setter Property="SnapsToDevicePixels" Value="true" />
-            <Setter Property="OverridesDefaultStyle" Value="true" />
-            <Style.Triggers>
-                <Trigger Property="Orientation" Value="Horizontal">
-                    <Setter Property="MinHeight" Value="20" />
-                    <Setter Property="MinWidth" Value="60" />
-                    <Setter Property="Template" Value="{StaticResource Slider}" />
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        <!--Resize Style-->
-        <Style TargetType="{x:Type ResizeGrip}">
-            <Setter Property="MinWidth" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
-            <Setter Property="MinHeight" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ResizeGrip}">
-                        <Grid SnapsToDevicePixels="True" Background="{TemplateBinding Background}">
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Setter Property="Visibility" Value="Hidden"/>
-        </Style>
-        <SolidColorBrush x:Key="ResizeGripperForeground" Color="#B8B4A2"/>
-        <Style x:Key="VisibleResizeGrip" TargetType="{x:Type ResizeGrip}">
-            <Setter Property="MinWidth" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
-            <Setter Property="MinHeight" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
-            <Setter Property="Background" Value="Black"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ResizeGrip}">
-                        <Grid SnapsToDevicePixels="True" Background="{TemplateBinding Background}" Width="15" Height="15">
-                            <Path Fill="White" HorizontalAlignment="Right" Margin="0,0,2,2" VerticalAlignment="Bottom" Data="M 8,0 L 10,0 L 10,2 L 8,2 Z M 4,4 L 6,4 L 6,6 L 4,6 Z M 8,4 L 10,4 L 10,6 L 8,6 Z M 0,8 L 2,8 L 2,10 L 0,10 Z M 4,8 L 6,8 L 6,10 L 4,10 Z M 8,8 L 10,8 L 10,10 L 8,10 Z"/>
-                            <Path Fill="{StaticResource ResizeGripperForeground}" HorizontalAlignment="Right" Margin="0,0,3,3" VerticalAlignment="Bottom" Data="M 8,0 L 10,0 L 10,2 L 8,2 Z M 4,4 L 6,4 L 6,6 L 4,6 Z M 8,4 L 10,4 L 10,6 L 8,6 Z M 0,8 L 2,8 L 2,10 L 0,10 Z M 4,8 L 6,8 L 6,10 L 4,10 Z M 8,8 L 10,8 L 10,10 L 8,10 Z"/>
-                            <Path Data="M8,0L10,0 10,2 8,2z M4,4L6,4 6,6 4,6z M8,4L10,4 10,6 8,6z M0,8L2,8 2,10 0,10z M4,8L6,8 6,10 4,10z M8,8L10,8 10,10 8,10z" Fill="White" HorizontalAlignment="Right" Margin="0,0,2,2" VerticalAlignment="Bottom" />
-                            <Path Data="M8,0L10,0 10,2 8,2z M4,4L6,4 6,6 4,6z M8,4L10,4 10,6 8,6z M0,8L2,8 2,10 0,10z M4,8L6,8 6,10 4,10z M8,8L10,8 10,10 8,10z" Fill="{StaticResource ResizeGripperForeground}" HorizontalAlignment="Right" Margin="0,0,3,3" VerticalAlignment="Bottom" />
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <!--Tab Design-->
-        <Style x:Key="Tabstyle"
-               TargetType="{x:Type TabItem}">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type TabItem}">
-                        <Border x:Name="Spacer"
-                                Width="Auto"
-                                Height="25"
-                                Padding="5 0 5 0"
-                                Margin="0 0 0 0"
-                                BorderBrush="Transparent"
-                                CornerRadius="0,0,0,0"
-                                BorderThickness="0">
-                            <Border x:Name="Border"
-                                    MinWidth="60"
-                                    Width="Auto"
-                                    Height="25"
-                                    Background="#1e2328"
-                                    BorderBrush="#c8aa6d"
-                                    BorderThickness="2,2,2,2"
-                                    CornerRadius="5,5,5,5"
-                                    Padding="5 0 5 0"
-                                    VerticalAlignment="Center">
-                                <ContentPresenter x:Name="ContentSite"
-                                                  TextElement.FontSize="12"
-                                                  TextElement.FontFamily="{DynamicResource Cabin}"
-                                                  TextElement.Foreground="#cdbe91"
-                                                  VerticalAlignment="Center"
-                                                  HorizontalAlignment="Center"
-                                                  ContentSource="Header"
-                                                  Width="Auto"
-                                                  Height="Auto" />
-                            </Border>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <!--Cursor Keys-->
-        <Cursor x:Key="LoLNormal">\Cursor\LoLNormal.cur</Cursor>
-        <Cursor x:Key="LoLPointer">\Cursor\LoLPointer.cur</Cursor>
-        <Cursor x:Key="LoLHover">\Cursor\LoLHover.cur</Cursor>
-    </Window.Resources>
 </Window>
