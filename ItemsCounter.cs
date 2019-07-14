@@ -102,7 +102,7 @@ namespace TFT_Overlay
                 SetValue(StepProperty, value);
             }
         }
-        #endregion 
+        #endregion
 
         #endregion
     }
