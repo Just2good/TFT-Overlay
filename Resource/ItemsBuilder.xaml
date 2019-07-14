@@ -59,7 +59,7 @@
                     <!-- Item Combinations Opacity Slider -->
                     <Slider Name="OpacitySlider1" Grid.Row="8" Grid.Column="7" Grid.ColumnSpan="2" Grid.RowSpan="5" Minimum="0.01" Maximum="1" Orientation="Vertical" Value="{Binding Source={x:Static p:Settings.Default}, Path=BuilderOpacity, Mode=TwoWay}" Style="{DynamicResource Custom_Slider1}" ToolTip="Item Icon Opacity"></Slider>
                     <!-- Reset Button -->
-                    <Button Grid.Column="9" Grid.Row="12" Grid.ColumnSpan="3" Content="Reset" Style="{StaticResource ButtonStyle}"/>
+                    <Button Grid.Column="9" Grid.Row="12" Grid.ColumnSpan="3" Content="{DynamicResource ItemsBuilder_ResetButton}" Style="{StaticResource ButtonStyle}"/>
 
                     <!-- BF Sword-->
                     <Image Grid.Row="2" Grid.Column="0" Source="../Images/cstyle/items/BF.png" Style="{StaticResource ImageStyle}"/>
