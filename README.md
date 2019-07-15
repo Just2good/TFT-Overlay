@@ -7,6 +7,8 @@
   
 `7.7.2019 @ 9:20PM PST: Apologies for the slow updates, was pretty much vacation week. Should ramp up again soon.`  
 
+`7.14.2019 @ 2:56PM PST: Trying to add/fix multiple things at once seems to be slowing things down a bit. Once I finish everything I'm working on, I'll most likely stick to working on something 1 at a time. Also for people working on Localization, there are more strings you can copy from ItemStrings.xaml.
+
 ## How to use:
   -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
   -  Extract the file and run `TFT Overlay.exe`
@@ -108,14 +110,14 @@
 
 ## Possible Future Features:
 - Synergy (Half-done)  
-- Champions  
-- Sorted items by Offense, Defense, Utility  
+- Champions 
+- Sorted items by Offense, Defense, Utility (Low Priority) 
 - Bar resize (Done) 
 - Expand on Mouseover (Done)   
 - 50% Alpha Background for item combinations (Done)  
 
 ## Notes
 - There will be a way to switch back to Default design
-- Will also include Localization
+- Will also include Localization (Done
 - Feedback is very helpful. Feel free to open up an Issue on Github with your concerns, or just DM me on Discord.
 

@@ -52,4 +52,80 @@
         </Style.Triggers>
     </Style>
 
+    <!--Slider Button Style Items Builder-->
+    <Style x:Key="SliderRepeatButton2" TargetType="RepeatButton">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RepeatButton">
+                    <Border  BorderThickness="1" BorderBrush="Black" Background="#09CAE5" Height="Auto" Width="10"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SliderRepeatButton12" TargetType="RepeatButton">
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RepeatButton">
+                    <Border SnapsToDevicePixels="True" Background="#C8AA6D"  BorderThickness="1" BorderBrush="#C8AA6D" Height="Auto" Width="10"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="SliderThumb1" TargetType="Thumb">
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Cursor" Value="{DynamicResource LoLHover}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Thumb">
+                    <Rectangle Height="20" Width="20">
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="../Images/riversprite.png"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate x:Key="Slider1" TargetType="Slider">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Track Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="5" x:Name="PART_Track1"   >
+                <Track.DecreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource SliderRepeatButton12}"  Command="Slider.DecreaseLarge" />
+                </Track.DecreaseRepeatButton>
+                <Track.Thumb>
+                    <Thumb Style="{StaticResource SliderThumb1}"  />
+                </Track.Thumb>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource SliderRepeatButton2}" Command="Slider.IncreaseLarge" />
+                </Track.IncreaseRepeatButton>
+            </Track>
+        </Grid>
+    </ControlTemplate>
+
+    <Style x:Key="Custom_Slider1" TargetType="Slider">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="SnapsToDevicePixels" Value="true" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Style.Triggers>
+            <Trigger Property="Orientation" Value="Vertical">
+                <Setter Property="MinHeight" Value="60" />
+                <Setter Property="MinWidth" Value="20" />
+                <Setter Property="Template" Value="{StaticResource Slider1}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 </ResourceDictionary>
