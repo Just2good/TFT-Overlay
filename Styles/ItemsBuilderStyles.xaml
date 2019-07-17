@@ -52,7 +52,7 @@
         </Style.Triggers>
     </Style>
 
-    <!--Slider Button Style Items Builder-->
+    <!--Slider Button Style Items Builder
     <Style x:Key="SliderRepeatButton2" TargetType="RepeatButton">
         <Setter Property="SnapsToDevicePixels" Value="true" />
         <Setter Property="OverridesDefaultStyle" Value="true" />
@@ -128,4 +128,5 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    -->
 </ResourceDictionary>
