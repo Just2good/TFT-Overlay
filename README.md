@@ -27,6 +27,7 @@
      - Updated for 9.14 (ItemStrings and en-US only)
      - Localization: SL added, PL was updated to include origins/classes
      - Icon Opacity in context menu (Changes opacity of item builder only)
+     - Item Builder - Removed extra icons, Reversed + and - buttons.  
   
 - **7.10.2019**  
   - [1.9.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.5)  
