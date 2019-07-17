@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight.</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit additional enemies and deal 50% damage.</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 2 additional enemies and deal 25% damage. Can apply on-hit effects</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin.</s:String>
@@ -32,6 +32,7 @@
     <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
     <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer.</s:String>
 
+    <!--Descriptions by Object#3031-->
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 50% of damage.</s:String>
@@ -46,10 +47,10 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 20% attack speed</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
-    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 300 health</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 1000 health after 2 secs</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
-    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 3% attack speed (Stacks infinitely)</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 4% attack speed (Stacks infinitely)</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>
@@ -61,16 +62,16 @@
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Critical strikes deal +100% damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 200 damage</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 200 true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;On start of combat, all adjacent allies gain a shield of 200</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start.</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 200 splash damage on hit</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 200 primary and 200 splash damage on hit</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 2.5% of the enemy's maximum health per second</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 3% of the enemy's maximum health per second</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
@@ -85,7 +86,7 @@
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2.5% max HP and disable healing.</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;On death, heal all nearby allies for 1000 health</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 25% health, heal all nearby allies for 1000 health</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Regain 20 mana each time a spell is cast</s:String>
@@ -94,7 +95,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 15% of its max mana per attack</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 100 splash magical damage</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 100 splash magical damage to 3 additional targets</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Attacks have a chance to disarm</s:String>
@@ -103,16 +104,16 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Each second, the wearer has a 5% chance to gain 100% Critical Strike</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Thornmail</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflect 35% of damage taken from attacks</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflect 100% of physical damage mitigated from attacks</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Attacks deal 10% of wearer's max health as splash damage</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
-    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Wearer regenerates 3% max health per second</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Wearer regenerates 6% missing health per second</s:String>
     <!--Zeke's Herald-->
     <s:String x:Key="ZekesHerald" xml:space="preserve">Zeke's Herald</s:String>
-    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Adjacent allies gain +10% attack speed</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Grants 15% attack speed to champions two spaces to the left and right of the wearer</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">Zephyr</s:String>
     <s:String x:Key="Zephyr1" xml:space="preserve">&#10;On start of combat, banish an enemy for 5 seconds</s:String>
@@ -127,7 +128,7 @@
 
     <!-- Demons -->
     <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">Demons</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">40% (2), 60% (4), 80% (6) on hit to burn all of target's</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) on hit to burn all of target's</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">current mana</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, dealing</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">true damage</s:String>
@@ -205,7 +206,7 @@
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Wild</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5).  Each stack of Fury grants 7%</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5).  Each stack of Fury grants 8%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">attack speed.</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">Wild Allies (2) All Allies (4)</s:String>
 
@@ -267,8 +268,8 @@
     <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Attack another</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">random</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">enemy (2) Attack</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">all enemies</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">in range. (4)</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">2 random enemies</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">(4) in range.</s:String>
 
     <!-- Knight -->
     <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Knight</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">Shapeshifters gain bonus</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">maximum health</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">when they transform.</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+100% bonus</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+60% bonus</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">maximum health</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
 
@@ -320,6 +321,7 @@
 
     <!--Tier Roll Chance + Pool Size-->
     <s:String x:Key="Charts_Title" xml:space="preserve">Tier Roll Chance + Pool Size</s:String>
+
 
     <!--/////////////////-->
     <!--MainWindow.xaml-->
@@ -363,5 +365,5 @@
 
     <!--Reset Button-->
     <s:String x:Key="ItemsBuilder_ResetButton" xml:space="preserve">Reset</s:String>
-  
+
 </ResourceDictionary>
