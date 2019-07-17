@@ -96,6 +96,9 @@
                                             <MenuItem Header="Pусский">
                                                 <MenuItem Header="RU" Click="Localization_Handler"/>
                                             </MenuItem>
+                                            <MenuItem Header="Slovenščina">
+                                                <MenuItem Header="SL" Click="Localization_Handler"/>
+                                            </MenuItem>
                                             <MenuItem Header="Tiếng Việt">
                                                 <MenuItem Header="vi-VN" Click="Localization_Handler"/>
                                             </MenuItem>

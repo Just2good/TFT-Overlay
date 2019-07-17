@@ -201,7 +201,7 @@ namespace TFT_Overlay
 
         private void Localization_Credits(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("de-DE: Revyn#0969\nes-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\npt-BR: Bigg#4019\nRU: Jeremy Buttson#2586\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
+            MessageBox.Show("de-DE: Revyn#0969\nes-AR: Oscarinom\nes-MX: Jukai#3434\nfr-FR: Darkneight\nit-IT: BlackTYWhite#0943\nJA: つかぽん＠PKMotion#8731\nPL: Czapson#9774\npt-BR: Bigg#4019\nRU: Jeremy Buttson#2586\nSL: Shokugeki#0012\nvi-VN: GodV759\nzh-CN: nevex#4441\nzh-TW: noheart#6977\n", "Localization Credits");
         }
 
         /// <summary>

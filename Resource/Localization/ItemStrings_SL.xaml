@@ -1,0 +1,120 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TFT_Overlay.Resource"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <!--/////////////////-->
+    <!--Item Descriptions-->
+    <!--&#10; = LineBreak-->
+    <!--/////////////////-->
+
+    <!--Blade of the Ruined King-->
+    <s:String x:Key="BOTRK" xml:space="preserve">Blade of the Ruined King</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Nosilec je tudi Blademaster.</s:String>
+    <!--Darkin-->
+    <s:String x:Key="Darkin" xml:space="preserve">Darkin</s:String>
+    <s:String x:Key="Darkin1" xml:space="preserve">&#10;Nosilec je tudi Demon.</s:String>
+    <!--Force of Nature-->
+    <s:String x:Key="ForceOfNature" xml:space="preserve">Force of Nature</s:String>
+    <s:String x:Key="ForceOfNature1" xml:space="preserve">&#10;Povečaj število ekipe +1.</s:String>
+    <!--Frozen Mallet-->
+    <s:String x:Key="FrozenMallet" xml:space="preserve">Frozen Mallet</s:String>
+    <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Nosilec je tudi Glacial.</s:String>
+    <!--Knight's Vow-->
+    <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>
+    <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Nosilec je tudi Knight.</s:String>
+    <!--Runaan's Hurricane-->
+    <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Napadeš bližnje heroje ter 50% večji dmg.</s:String>
+    <!--Youmuu's Ghostblade-->
+    <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
+    <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Nosilec je tudi Assassin.</s:String>
+    <!--Yuumi-->
+    <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
+    <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Nosilec je tudi Sorcerer.</s:String>
+
+    <!--Descriptions by Object#3031-->
+    <!--Bloodthirster-->
+    <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Napad te pozdravi za 50%.</s:String>
+    <!--Cursed Blade-->
+    <s:String x:Key="CursedBlade" xml:space="preserve">Cursed Blade</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Napad ima majhno možnost da nasprotniku zniža 1 level</s:String>
+    <!--Dragon's Claw-->
+    <s:String x:Key="DragonsClaw" xml:space="preserve">Dragon's Claw</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;83% zaščita pred abilitiji</s:String>
+    <!--Frozen Heart-->
+    <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;20% nižja hitrost napada za nasprotnike okoli tebe</s:String>
+    <!--Guardian Angel-->
+    <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;oživiš se z 300 življenja</s:String>
+    <!--Guinsoo's Rageblade-->
+    <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Vsak napad da 3% hitrosti napada</s:String>
+    <!--Hextech Gunblade-->
+    <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Pozdravi se za 25% celotne škode</s:String>
+    <!--Hush-->
+    <s:String x:Key="Hush" xml:space="preserve">Hush</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Napad ima visoko možnost silencat nasprotnika</s:String>
+    <!--Infinity Edge-->
+    <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Kritični napad naredi 100% več škode</s:String>
+    <!--Ionic Spark-->
+    <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Ko nasprotnik uporabi ability prejme 200dmg</s:String>
+    <!--Locket of the Iron Solari-->
+    <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Na začetku runde vsak heroj v bližini dobi 200 ščita</s:String>
+    <!--Luden's Echo-->
+    <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Ability naredi dodatnega 200 splash dmg</s:String>
+    <!--Morellonomicon-->
+    <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Ability naredi 2,5% dmg glede na nasprotnikov max življenje</s:String>
+    <!--Phantom Dancer-->
+    <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
+    <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Lastnik se izmakne vsem kritičnim napadom</s:String>
+    <!--Rabadon's Deathcap-->
+    <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Ability Power</s:String>
+    <!--Rapid Firecannon-->
+    <s:String x:Key="RapidFirecannon" xml:space="preserve">Rapid Firecannon</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Napadalčevi napadi nemorejo biti izmaknjeni, pridobi dvojni napadalni doseg</s:String>
+    <!--Red Buff-->
+    <s:String x:Key="RedBuff" xml:space="preserve">Red Buff</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Napad onemogoči zdravljenje nasprotnika ter 2,5% burn dmg.</s:String>
+    <!--Redemption-->
+    <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Ko umreš pozdraviš ostale za 1000 življenja</s:String>
+    <!--Seraph's Embrace-->
+    <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Pridobi 20 mane vsakič ko je ability uporabljen</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Spear of Shojin</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 15% of its max mana per attack</s:String>
+    <!--Spear of Shojin-->
+    <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Vsaj 3. napad naredi dodatnih 100 splash dmg</s:String>
+    <!--Sword Breaker-->
+    <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Napad ima možnost da nasprotniku izniči iteam</s:String>
+    <!--Sword of the Divine-->
+    <s:String x:Key="SwordDivine" xml:space="preserve">Sword of the Divine</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Vsako sekundo ima 5% možnosti za 100% kritični napad</s:String>
+    <!--Thornmail-->
+    <s:String x:Key="Thornmail" xml:space="preserve">Thornmail</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;35% dmg je vrnjenega nasprotniku</s:String>
+    <!--Titanic Hydra-->
+    <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Napad naredi 10% od lastnikovega max hp kot splash dmg</s:String>
+    <!--Warmog's Armor-->
+    <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Lastnik regenerira 3% življenja na sekundo</s:String>
+    <!--Zeke's Herald-->
+    <s:String x:Key="ZekesHerald" xml:space="preserve">Zeke's Herald</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Bližnji heroji dobijo 10% hitrosti napada</s:String>
+    <!--Zephyr-->
+    <s:String x:Key="Zephyr" xml:space="preserve">Zephyr</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;Na začetku kroga za 5sec onesposobi nasprotnika</s:String>
+</ResourceDictionary>

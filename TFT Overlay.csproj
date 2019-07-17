@@ -240,6 +240,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Resource\Localization\ItemStrings_SL.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Resource\Localization\ItemStrings_vi-VN.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
