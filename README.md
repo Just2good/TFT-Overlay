@@ -8,6 +8,8 @@
 `7.7.2019 @ 9:20PM PST: Apologies for the slow updates, was pretty much vacation week. Should ramp up again soon.`  
 
 `7.14.2019 @ 2:56PM PST: Trying to add/fix multiple things at once seems to be slowing things down a bit. Once I finish everything I'm working on, I'll most likely stick to working on something 1 at a time. Also for people working on Localization, there are more strings you can copy from ItemStrings.xaml.
+  
+`7.16.2019 @ 8:55PM PST: Going to be slow for just a tiny bit longer, then I can spend hours coding again. Remember to DM me on discord or post an issue here with any feedback you may have.
 
 ## How to use:
   -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
@@ -20,8 +22,14 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.16.2019**   
+  - [1.9.7](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.7)  
+     - Updated for 9.14 (ItemStrings and en-US only)
+     - Localization: SL added, PL was updated to include origins/classes
+     - Icon Opacity in context menu (Changes opacity of item builder only)
+  
 - **7.10.2019**  
-  - [1.9.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)  
+  - [1.9.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.5)  
      - Added Item Builder by narcolic#6374
      - Added de-DE
      - Moved Context Bar and Opacity Slider for Multi-Tab functionality
