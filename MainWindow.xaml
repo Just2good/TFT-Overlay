@@ -78,6 +78,9 @@
                                             <MenuItem Header="Français">
                                                 <MenuItem Header="fr-FR" Click="Localization_Handler"/>
                                             </MenuItem>
+                                            <MenuItem Header="Magyar">
+                                                <MenuItem Header="HU" Click="Localization_Handler"/>
+                                            </MenuItem>
                                             <MenuItem Header="Italiano">
                                                 <MenuItem Header="it-IT" Click="Localization_Handler"/>
                                             </MenuItem>

@@ -22,6 +22,12 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.18.2019**   
+  - [1.9.8](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.7) 
+     - Added Twisted Fate
+     - Changed Elise from 2g to 1g
+     - Updated it-IT & Added HU  
+
 - **7.16.2019**   
   - [1.9.7](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.7)  
      - Updated for 9.14 (ItemStrings and en-US only)

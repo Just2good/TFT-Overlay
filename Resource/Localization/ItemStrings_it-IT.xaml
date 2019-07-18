@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Chi lo indossa è anche un Cavaliere.</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Gli attacchi colpisono 2 nemici extra. I colpi extra infliggono il 50% del danno.</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Gli attacchi colpisono un nemico extra. I colpi extra infliggono il 25% del danno.</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Chi lo indossa è anche unn Assassino.</s:String>
@@ -46,10 +46,10 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;I nemici adiacenti perdono il 20% di Velocità di Attacco</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
-    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Chi lo indossa rinasce con 300 punti vita</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Chi lo indossa rinasce con 1000 punti vita</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
-    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Ogni attacco garantisce il 3% di velocità d'Attacco. (Continua all'infinito)</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Ogni attacco garantisce il 4% di velocità d'Attacco. (Continua all'infinito)</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Cura del 25% del danno inflitto</s:String>
@@ -64,13 +64,13 @@
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Ogni qualcosa un nemico lancia un'ablitià, subisce 200 danni</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;All'inizio del combattimento, tutti gli alleati guadagno 200 di scudo</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Protegge con uno scudo di 300 il portatore e i campioni nei due spazi a sinistra e a destra del portatore all'inizio del turno</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Le abilità infliggono 200 danni ad area per ogni colpo</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Le abilità bruciano il nemico, infliggendoli 2.5% della sua vita massima.</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Le abilità bruciano il nemico, infliggendoli 3% della sua vita massima.</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Chi lo indossa schiva tutti i colpi critici</s:String>
@@ -85,7 +85,7 @@
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Gli attacchi bruciano il nemico infliggendoli 2.5% della sua vita massima come danno e negando le cure</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Alla morte tutti gli alleati si curano di 1000 punti vita</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Quando il portatore raggiunge il 25% della sua saluta cura tutti gli alleati vicini (e se stesso se ancora vivo) di 1000</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Riottieni 20 mana per ogni abilità lanciata</s:String>
@@ -94,7 +94,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Dopo il lancio, ottieni 15% di mana massimo per ogni attacco</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Ogni terzo attacco infligge 100 danni ad area</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Ogni terzo attacco infligge 100 danni a 3 bersagli aggiuntivi</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Gli attacchi hanno una possibilità di disarmare</s:String>
@@ -103,16 +103,16 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Ogni secondo, chi lo indossa ha il 5% di ottenere al 100% un Colpo Critico</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Thornmail</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Rifletti il 35% del danno subito dagli attacchi</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Rifletti come danno pure il 100% dei danni fisici mitigati</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Gli attacchi infliggono il 10% della vita massima di chi lo indossa come danni ad area</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
-    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Chi lo indossa rigenera il  3% dei punti vita ogni secondo</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Chi lo indossa rigenera il  6% dei punti vita ogni secondo</s:String>
     <!--Zeke's Herald-->
     <s:String x:Key="ZekesHerald" xml:space="preserve">Zeke's Herald</s:String>
-    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Ogni alleato vicino guadagna il 10% di velocità d'attacco</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Ogni alleato vicino guadagna il 15% di velocità d'attacco</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">Zephyr</s:String>
     <s:String x:Key="Zephyr1" xml:space="preserve">&#10;All'inizio del combattimento, bandisci un nemico per 5 secondi</s:String>
