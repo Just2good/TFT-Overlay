@@ -65,7 +65,7 @@
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 200 true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start.</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 200 shield on round start.</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 200 primary and 200 splash damage on hit</s:String>
