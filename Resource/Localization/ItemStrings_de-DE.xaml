@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Träger ist gleichzeitig ein Ritter.</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaans Wirbelsturm</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Angriffe treffen zwei zusätzliche Gegner. Diese zusätzlichen Angriffe verursachen 50% Schaden.</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Angriffe treffen zwei zusätzliche Gegner und verursachen 25% Schaden.</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmus Geistklinge</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Träger ist gleichzeitig ein Assasine.</s:String>
@@ -49,7 +49,7 @@
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Träger wird mit 300 Leben wiederbelebt</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoos Wutklinge</s:String>
-    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Angriffe gewähren 3% Angriffstempo (unbegrenzt steigerbar)</s:String>
+    <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Angriffe gewähren 4% Angriffstempo (unbegrenzt steigerbar)</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech-Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heilt um 25% des insgesamt verursachten Schadens</s:String>
@@ -64,13 +64,13 @@
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Wenn ein Gegner eine Fähigkeit einsetzt, erleidet er 200 Schaden</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Reif der eisernen Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Bei Kampfbeginn erhalten alle angrenzenden Verbündeten einen Schild in Höhe von 200</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Bei Kampfbeginn erhalten der Träger sowie zwei Champions links und rechts des Trägers einen Schild in Höhe von 200</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Ludens Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Fähigkeiten verursachen bei Treffern 200 Flächenschaden.</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomikon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Fähigkeiten verursachen Verbrennungsschaden in Höhe von 5% des max. Leben des Gegners pro Sek.</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Fähigkeiten verursachen Verbrennungsschaden in Höhe von 3% des max. Leben des Gegners pro Sek.</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantomtänzer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Träger weicht allen kritischen Treffern aus</s:String>
@@ -79,13 +79,13 @@
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;Fähigkeitsschaden des Trägers ist um 50% erhöht</s:String>
     <!--Rapid Firecannon-->
     <s:String x:Key="RapidFirecannon" xml:space="preserve">Schnellfeuer-Geschütz</s:String>
-    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Angriffen des trägers kann nicht ausgewichen werden. Angriffsreichweite ist verdoppelt.</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Angriffen des Trägers kann nicht ausgewichen werden. Angriffsreichweite ist verdoppelt.</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">Roter Buff</s:String>
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Angriffe verursachen 2,5% Verbrennungsschaden.</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Befreiungsschlag</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Heilt beim Tod alle nahen Verbündeten um 1000 Leben.</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Heilt bei 25% Leben des Trägers alle nahen Verbündeten um 1000 Leben.</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Umarmung des Seraphen</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Erhalte bei jedem Einsatz einer Fähigkeit 20 Mana zurück.</s:String>
@@ -94,7 +94,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Nach Fähigkeitsaktivierung wird dem Träger pro Angriff 15% seines max. Mana gewährt.</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikks Stich</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Jeder dritte Angriff verursacht 100 magischen Flächenschaden.</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Jeder dritte Angriff verursacht 100 magischen Flächenschaden auf drei zusätzliche Ziele.</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Schwertbrecher</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Angriffe haben eine Chance, den Gegner zu entwaffnen</s:String>
@@ -103,16 +103,16 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Der Träger hat jede Sekunde eine Chance von 5% auf 100% kritische Treffer</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Dornenpanzer</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Wirft 35% des erlittenen Schadens durch Angriffe zurück</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Wirft 100% des gemilderten Schadens durch Angriffe zurück</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanische Hydra</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Angriffe verursachen 10% des maximalen Lebens des Trägers als Flächenschaden</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmogs Rüstung</s:String>
-    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Träger regeneriert 3% seines maximalen Lebens pro Sekunde.</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Träger regeneriert 6% seines fehlenden Lebens pro Sekunde.</s:String>
     <!--Zeke's Herald-->
     <s:String x:Key="ZekesHerald" xml:space="preserve">Zekes Herold</s:String>
-    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Angrenzende Verbündete erhalten +10% Angriffstempo</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Zwei Verbündete links und rechts des Trägers erhalten +15% Angriffstempo</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">Zephir</s:String>
     <s:String x:Key="Zephyr1" xml:space="preserve">&#10;Verbanne bei Kampfbeginn einen Gegner 5 Sekunden lang.</s:String>
