@@ -14,6 +14,13 @@ namespace TFT_Overlay
     /// </summary>
     public partial class MainWindow : Window
     {
+        [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Auto, ExactSpelling = true)]
+        public static extern IntPtr GetForegroundWindow();
+        [System.Runtime.InteropServices.DllImport("user32.dll", EntryPoint = "SetForegroundWindow")]
+        public static extern bool SetForegroundWindow(IntPtr hWnd);
+        public IntPtr myHandle;
+        private System.Timers.Timer tTop;
+
         private readonly Cursor LoLNormal = CustomCursor.FromByteArray(Properties.Resources.LoLNormal);
         private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
         private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
@@ -37,6 +44,17 @@ namespace TFT_Overlay
             InitializeComponent();
             LoadStringResource(Settings.Default.Language);
             this.Cursor = LoLNormal;
+
+            this.WindowState = System.Windows.WindowState.Normal;
+            this.ShowInTaskbar = false;
+            this.Topmost = OnTop;
+            myHandle = new System.Windows.Interop.WindowInteropHelper(this).Handle;
+            //...
+            tTop = new System.Timers.Timer(15000);//set Timer  
+            tTop.Elapsed += new System.Timers.ElapsedEventHandler(theout);
+            tTop.AutoReset = true;
+            tTop.Enabled = true;
+
             CanDrag = !Settings.Default.Lock;
 
             if (Settings.Default.AutoDim == true)
@@ -47,6 +65,34 @@ namespace TFT_Overlay
                 };
 
                 t.Start();
+            }
+        }
+
+        public void theout(object source, System.Timers.ElapsedEventArgs e)
+        {
+            if (OnTop)
+            {
+                if (myHandle != GetForegroundWindow()) //let the win always on focus
+                {
+                    SetForegroundWindow(myHandle);
+                }
+                try
+                {
+                    this.Dispatcher.Invoke(
+                        new Action(
+                            delegate
+                            {
+                                this.Topmost = false;
+                                this.Topmost = true;
+
+                            }
+                        )
+                    );
+                }
+                catch (System.Threading.Tasks.TaskCanceledException errMsg)
+                {
+                    tTop.Stop();
+                }
             }
         }
 
@@ -62,12 +108,12 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 23rd, 2019 @ 5:45PM PST", "About");
+            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 24th, 2019 @ 4:25 PST", "About");
         }
 
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Big thanks to:\nChaoticoz: Lock Window, Always on Top, and Mouseover\nAsemco/Asemco#7390: Adding Origins and Classes\nAthenyx#9406: Designs\nTenebris: Auto-Updater\nOBJECT#3031: Items/Origins/Classes Strings Base\nJpgdev: Readme format\nKbphan\nEerilai\nꙅꙅɘᴎTqAbɘbᴎɘld#1175: Window Position/Size Saving, CPU Threading Fix\nNarcolic#6374: Item Builder\n\nShoutout to:\nAlexander321#7153 for the Discord Nitro Gift!\nAnonymous for Reddit Gold\nu/test01011 for Reddit Gold\n\nmac#0001 & bNatural#0001(Feel free to bug these 2 on Discord) ;)\nShamish#4895 (Make sure you bug this guy a lot)\nDekinosai#7053 (Buy this man tons of drinks)", "Credits");
+            MessageBox.Show("Big thanks to:\nChaoticoz: Lock Window, Always on Top, and Mouseover\nAsemco/Asemco#7390: Adding Origins and Classes\nAthenyx#9406: Designs\nTenebris: Auto-Updater\nOBJECT#3031: Items/Origins/Classes Strings Base\nJpgdev: Readme format\nKbphan\nEerilai\nꙅꙅɘᴎTqAbɘbᴎɘld#1175: Window Position/Size Saving, CPU Threading Fix\nNarcolic#6374: Item Builder\nIzoyo: Fullscreen\n\nShoutout to:\nAlexander321#7153 for the Discord Nitro Gift!\nAnonymous for Reddit Gold\nu/test01011 for Reddit Gold\n\nmac#0001 & bNatural#0001(Feel free to bug these 2 on Discord) ;)\nShamish#4895 (Make sure you bug this guy a lot)\nDekinosai#7053 (Buy this man tons of drinks)", "Credits");
         }
 
         private void MenuItem_Click_Lock(object sender, RoutedEventArgs e)

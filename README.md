@@ -22,6 +22,12 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.24.2019**   
+  -[2.0.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.1) 
+     - Fullscreen by Izoyo
+     - Updated for 9.14B
+     - IT & FR Updated
+
 - **7.23.2019**   
   - [1.9.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.9) 
      - Added Player Damage Chart
