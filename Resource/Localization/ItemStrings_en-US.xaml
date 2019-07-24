@@ -322,6 +322,10 @@
     <!--Tier Roll Chance + Pool Size-->
     <s:String x:Key="Charts_Title" xml:space="preserve">Tier Roll Chance + Pool Size</s:String>
 
+    <!--Player Damage Formula-->
+    <s:String x:Key="Charts_Damage" xml:space="preserve">Player Damage Formula</s:String>
+    <s:String x:Key="Charts_Damage1" xml:space="preserve">2 Damage(Little Legend) + </s:String>
+    <s:String x:Key="Charts_Damage2" xml:space="preserve">Per Unit</s:String>
 
     <!--/////////////////-->
     <!--MainWindow.xaml-->

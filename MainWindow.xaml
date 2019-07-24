@@ -214,6 +214,13 @@
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
+                                        <local:OptionalRadioButton x:Name="PlayerDmg" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border>
+                                                    <Image Source="Images\rounds/carousel.png" Height="44" Width="44"/>
+                                                </Border>
+                                            </Border>
+                                        </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Origins" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="10" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Origins}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
@@ -292,6 +299,10 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=PlayerDmg, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Playerdamage}"/>
+                        <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Origins, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Origins}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
@@ -366,6 +377,13 @@
                             <Condition Binding="{Binding ElementName=Probability, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
+                            <Condition Binding="{Binding ElementName=PlayerDmg, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Playerdamage}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -452,6 +470,13 @@
                             <Condition Binding="{Binding ElementName=Probability, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Probability}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=PlayerDmg, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Playerdamage}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>

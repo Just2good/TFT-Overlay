@@ -62,7 +62,7 @@ namespace TFT_Overlay
 
         private void MenuItem_Click_About(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 18th, 2019 @ 4:19PM PST", "About");
+            MessageBox.Show("TFT Information Overlay V" + CurrentVersion + " by J2GKaze/Jinsoku#4019\n\nDM me on Discord if you have any questions\n\nLast Updated: July 23rd, 2019 @ 5:45PM PST", "About");
         }
 
         private void MenuItem_Click_Credits(object sender, RoutedEventArgs e)

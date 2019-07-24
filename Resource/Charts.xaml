@@ -106,6 +106,81 @@
         </WrapPanel>
     </DataTemplate>
 
+    <DataTemplate x:Key="Playerdamage" DataType="{x:Type vm:MainViewModel}">
+        <WrapPanel>
+            <Grid>
+                <Grid.Background>
+                    <SolidColorBrush Color="Black" Opacity="{Binding ElementName=OpacitySlider,Path=Value}"></SolidColorBrush>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                    <ColumnDefinition Width="40.5"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
 
+                </Grid.RowDefinitions>
+                <!--Border-->
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="1 0 0 0" Grid.Column="0" Grid.Row="1" Grid.RowSpan="5" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="1 0 1 0" Grid.Column="1" Grid.Row="2" Grid.RowSpan="5" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="1 0 1 0" Grid.Column="3" Grid.Row="2" Grid.RowSpan="5" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="1 0 1 0" Grid.Column="5" Grid.Row="2" Grid.RowSpan="5" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 1 0" Grid.Column="6" Grid.Row="1" Grid.RowSpan="5" />
+                                
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 1 0 1" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="7" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="6" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="6" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="6" />
+                <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="7" />
+
+
+                <TextBlock Text="{DynamicResource Charts_Damage}" Margin="10 0 0 0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="6" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                <TextBlock Text="{DynamicResource Charts_Damage1}" Margin="10 0 0 0" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                
+                <TextBlock Text="Tier/Cost" Grid.Row="2" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="1" Grid.Row="2" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="2" Grid.Row="2" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LawnGreen" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="3" Grid.Row="2" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Aqua" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="4" Grid.Row="2" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Magenta" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="5" Grid.Row="2" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Orange" FontWeight="Bold"></TextBlock>
+
+                <TextBlock Text="1 Star" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="1" Grid.Row="3" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="2" Grid.Row="3" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="2" Grid.Row="3" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="3" Grid.Row="3" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="4" Grid.Row="3" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+
+
+                <TextBlock Text="2 Star" Grid.Row="4" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="2" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="3" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="4" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="5" Grid.Row="4" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="6" Grid.Row="4" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+
+                <TextBlock Text="3 Star" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="4" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="5" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="6" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="7" Grid.Row="5" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="8" Grid.Row="5" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+
+                <TextBlock Text="{DynamicResource Charts_Damage2}" Grid.Row="2" Grid.Column="6" Grid.RowSpan="4" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+            </Grid>
+        </WrapPanel>
+    </DataTemplate>
 
 </ResourceDictionary>
