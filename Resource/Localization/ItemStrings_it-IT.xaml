@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Chi lo indossa è anche un Cavaliere.</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Gli attacchi colpisono un nemico extra. I colpi extra infliggono il 25% del danno.</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Gli attacchi colpisono un nemico extra. Il colpo extra infligge il 25% del danno, può applicare effetti a colpo.</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Chi lo indossa è anche unn Assassino.</s:String>
@@ -46,7 +46,7 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;I nemici adiacenti perdono il 20% di Velocità di Attacco</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
-    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Chi lo indossa rinasce con 1000 punti vita</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Chi lo indossa rinasce con 1000 punti vita dopo 2 secondi</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Ogni attacco garantisce il 4% di velocità d'Attacco. (Continua all'infinito)</s:String>
@@ -365,5 +365,6 @@
 
     <!--Reset Button-->
     <s:String x:Key="ItemsBuilder_ResetButton" xml:space="preserve">Reset</s:String>
+
 
 </ResourceDictionary>

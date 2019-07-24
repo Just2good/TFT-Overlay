@@ -59,19 +59,19 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Les auto attaques ont une chance importante de réduire la cible au silence.</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Lame D'infini</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Les dégâts des coups critiques sont augmentés de 100%.</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Les dégâts des coups critiques sont augmentés de 150%.</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Etincelle Ionique</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Chaque fois qu'un adversaire lance un sort, il subit 200 dégâts bruts.</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Médaillon De L'iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Au début du combat, les alliés à gauche et à droite gagnent un bouclier de 300 PV.</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Au début du combat, les alliés à gauche et à droite gagnent un bouclier de 200 PV.</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Echo De Luden</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Les sorts infligent 200 dégâts à la cible principale et 200 dégâts de zone aux alentours lorsqu'ils touchent une cible.</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Les sorts brûlent les adversaires à hauteur de 3% de leurs PV maximum chaque seconde.</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Les sorts brûlent les adversaires à hauteur de 5% de leurs PV maximum chaque seconde.</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Danseur Fantôme</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Le champion équipé esquive tous les coups critiques.</s:String>
@@ -206,7 +206,7 @@
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Sauvage</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Les attaques génèrent des effets de Fureur (Cumulable jusqu'à 5 fois). Chaque effets de Fureur octroie 8%</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Les attaques génèrent des effets de Fureur (Cumulable jusqu'à 5 fois). Chaque effets de Fureur octroie 10%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">de vitesse d'attaque.</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">Alliés Sauvages (2) Tous les Alliés (4)</s:String>
 
@@ -223,7 +223,7 @@
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassin</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Au début du combat, Les Assassins bondissent sur l'ennemi le plus éloigné et les coups critiques infligent des</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">Dégâts des coups critiques supplémentaires.</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+150%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+125%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">Dégâts des coups critiques supplémentaires.</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Dégâts des coups critiques supplémentaires.</s:String>
@@ -307,7 +307,7 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">avec leurs attaques et tous les alliés augmente leur</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">Puissance des sorts.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+35% de</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+45% de</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">Puissance des sorts.</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100% de</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">Puissance des sorts.</s:String>
