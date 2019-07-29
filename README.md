@@ -1,15 +1,11 @@
 # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
    
-`7.1.2019 @ 2:13PM PST: Working on a huge update for the overlay `
-
-`7.2.2019 @ 5:18AM PST: Code cleanup then will implement Design + Champions section`
-  
-`7.7.2019 @ 9:20PM PST: Apologies for the slow updates, was pretty much vacation week. Should ramp up again soon.`  
-
 `7.14.2019 @ 2:56PM PST: Trying to add/fix multiple things at once seems to be slowing things down a bit. Once I finish everything I'm working on, I'll most likely stick to working on something 1 at a time. Also for people working on Localization, there are more strings you can copy from ItemStrings.xaml.
   
 `7.16.2019 @ 8:55PM PST: Going to be slow for just a tiny bit longer, then I can spend hours coding again. Remember to DM me on discord or post an issue here with any feedback you may have.
+
+`7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.
 
 ## How to use:
   -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
@@ -22,6 +18,12 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **7.28.2019**   
+  -[2.0.3](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.3)  
+     - Added + - effects
+     - Fixed Program not showing in task bar  
+     - Updated Item Descriptions + Updated it-IT  
+  
 - **7.24.2019**   
   -[2.0.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.2) 
      - Fixed really dumb auto updater  
