@@ -19,16 +19,16 @@
 
 ## Version History  
 - **7.28.2019**   
-  -[2.0.3](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.3)  
+  - [2.0.3](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.3)  
      - Added + - effects
      - Fixed Program not showing in task bar  
      - Updated Item Descriptions + Updated it-IT  
   
 - **7.24.2019**   
-  -[2.0.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.2) 
+  - [2.0.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.2) 
      - Fixed really dumb auto updater  
 
-  -[2.0.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.1) 
+  - [2.0.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.1) 
      - Fullscreen by Izoyo  
      - Updated for 9.14B  
      - IT & FR Updated  
