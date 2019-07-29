@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight.</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 2 additional enemies and deal 25% damage. Can apply on-hit effects</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 1 additional enemy and deal 25% damage. Can apply on-hit effects</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin.</s:String>
@@ -38,13 +38,13 @@
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 50% of damage.</s:String>
     <!--Cursed Blade-->
     <s:String x:Key="CursedBlade" xml:space="preserve">Cursed Blade</s:String>
-    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Attacks have a 20% to shrink (Reduce enemy's star level by 1)</s:String>
+    <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Attacks have a 20% to shrink (-1 enemy star, down to 0)</s:String>
     <!--Dragon's Claw-->
     <s:String x:Key="DragonsClaw" xml:space="preserve">Dragon's Claw</s:String>
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 20% attack speed</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 1000 health after 2 secs</s:String>
@@ -53,7 +53,7 @@
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 4% attack speed (Stacks infinitely)</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
-    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 33% of all damage dealt</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">Hush</s:String>
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 50% chance to Silence</s:String>
@@ -71,7 +71,7 @@
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 200 primary and 200 splash damage on hit</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and disable healing</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
@@ -83,7 +83,7 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Wearer's attacks cannot be dodged. Attack range is doubled</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">Red Buff</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2.5% max HP and disable healing.</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 13% max HP and disable healing.</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 25% health, heal all nearby allies for 1000 health</s:String>

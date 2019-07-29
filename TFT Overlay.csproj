@@ -530,6 +530,40 @@
   <ItemGroup>
     <Resource Include="Images\champs\TwistedFate-Icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BFPB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BFMB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BeltMB.png" />
+    <Resource Include="Images\cstyle\BowMB.png" />
+    <Resource Include="Images\cstyle\CapeMB.png" />
+    <Resource Include="Images\cstyle\RodMB.png" />
+    <Resource Include="Images\cstyle\SpatulaMB.png" />
+    <Resource Include="Images\cstyle\TearMB.png" />
+    <Resource Include="Images\cstyle\VestMB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BeltPB.png" />
+    <Resource Include="Images\cstyle\BowPB.png" />
+    <Resource Include="Images\cstyle\CapePB.png" />
+    <Resource Include="Images\cstyle\RodPB.png" />
+    <Resource Include="Images\cstyle\SpatulaPB.png" />
+    <Resource Include="Images\cstyle\TearPB.png" />
+    <Resource Include="Images\cstyle\VestPB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\BeltAB.png" />
+    <Resource Include="Images\cstyle\BFAB.png" />
+    <Resource Include="Images\cstyle\BowAB.png" />
+    <Resource Include="Images\cstyle\CapeAB.png" />
+    <Resource Include="Images\cstyle\RodAB.png" />
+    <Resource Include="Images\cstyle\SpatulaAB.png" />
+    <Resource Include="Images\cstyle\TearAB.png" />
+    <Resource Include="Images\cstyle\VestAB.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

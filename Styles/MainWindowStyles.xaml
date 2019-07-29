@@ -188,6 +188,240 @@
             </Setter.Value>
         </Setter>
     </Style>
+    
+    <!--BF-->
+    <Style x:Key="StyleBF" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="BF_Image" Source="pack://application:,,,/Images/cstyle/BFPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="BF_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BFMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="BF_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BFPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="BF_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BFAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Bow-->
+    <Style x:Key="StyleBow" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Bow_Image" Source="pack://application:,,,/Images/cstyle/BowPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Bow_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BowMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Bow_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BowPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Bow_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BowAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Rod-->
+    <Style x:Key="StyleRod" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Rod_Image" Source="pack://application:,,,/Images/cstyle/RodPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Rod_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/RodMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Rod_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/RodPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Rod_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/RodAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Tear-->
+    <Style x:Key="StyleTear" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Tear_Image" Source="pack://application:,,,/Images/cstyle/TearPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Tear_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/TearMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Tear_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/TearPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Tear_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/TearAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Vest-->
+    <Style x:Key="StyleVest" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Vest_Image" Source="pack://application:,,,/Images/cstyle/VestPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Vest_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/VestMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Vest_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/VestPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Vest_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/VestAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Cape-->
+    <Style x:Key="StyleCape" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Cape_Image" Source="pack://application:,,,/Images/cstyle/CapePM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Cape_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/CapeMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Cape_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/CapePB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Cape_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/CapeAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Belt-->
+    <Style x:Key="StyleBelt" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Belt_Image" Source="pack://application:,,,/Images/cstyle/BeltPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Belt_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BeltMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Belt_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BeltPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Belt_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/BeltAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--Spatula-->
+    <Style x:Key="StyleSpatula" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Spatula_Image" Source="pack://application:,,,/Images/cstyle/SpatulaPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Spatula_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/SpatulaMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Spatula_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/SpatulaPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Spatula_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/SpatulaAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <!--Cursor Keys-->
     <Cursor x:Key="LoLNormal">\Cursor\LoLNormal.cur</Cursor>
     <Cursor x:Key="LoLPointer">\Cursor\LoLPointer.cur</Cursor>
