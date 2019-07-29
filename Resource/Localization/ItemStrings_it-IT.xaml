@@ -58,7 +58,7 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Gli attacchi hanno un'alta possibilità di silenziare</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Gli attacchi critici infliggono +100% dei danni</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Gli attacchi critici infliggono +150% dei danni</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Ogni qualcosa un nemico lancia un'ablitià, subisce 200 danni</s:String>
@@ -70,7 +70,7 @@
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Le abilità infliggono 200 danni ad area per ogni colpo</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Le abilità bruciano il nemico, infliggendoli 3% della sua vita massima.</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Le abilità bruciano il nemico, infliggendoli 5% della sua vita massima.</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Chi lo indossa schiva tutti i colpi critici</s:String>
@@ -82,7 +82,7 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Gli attacchi di chi lo indossa non possono essere schivati. Il suo raggio d'attacco è raddoppiato</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">Red Buff</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Gli attacchi bruciano il nemico infliggendoli 2.5% della sua vita massima come danno e negando le cure</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Gli attacchi bruciano il nemico infliggendoli 13% della sua vita massima come danno e negando le cure</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;Quando il portatore raggiunge il 25% della sua saluta cura tutti gli alleati vicini (e se stesso se ancora vivo) di 1000</s:String>
@@ -206,7 +206,7 @@
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Selvaggi</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Gli attacchi generano Furia (fino a 5). Ogni furia garantisce l'8%</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Gli attacchi generano Furia (fino a 5). Ogni furia garantisce l'10%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">di Velocità d'Attacco.</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">Solo Selvaggi (2) Tutti gli Alleati (4)</s:String>
 
@@ -223,7 +223,7 @@
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassini</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Gli Assassini attaccano il nemico più lontano e infliggono</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">Danni Critici.</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+150%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+125%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">Danni Critici</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Danni Critici</s:String>
@@ -302,12 +302,12 @@
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Sorcerer -->
-    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Maghi</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">i Maghi ottengono doppio</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Stregoni</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">Stregoni ottengono doppio</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">per attacco e gli alleati infliggono più</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">Danno Magico.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+45%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">Danno Magico.</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">Danno Magico.</s:String>
@@ -365,6 +365,5 @@
 
     <!--Reset Button-->
     <s:String x:Key="ItemsBuilder_ResetButton" xml:space="preserve">Reset</s:String>
-
 
 </ResourceDictionary>
