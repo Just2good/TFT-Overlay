@@ -18,6 +18,12 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **8.01.2019**   
+  - [2.0.4](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.4)  
+     - Updated to 9.15 Hotfix #2
+     - Added tooltip to Combined items in Item Builder
+     - Added Icon to app  
+
 - **7.28.2019**   
   - [2.0.3](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.3)  
      - Added + - effects
