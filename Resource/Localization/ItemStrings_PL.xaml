@@ -55,22 +55,22 @@
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Leczy za 33% wszystkich zadanych obrażeń.</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">Uciszacz</s:String>
-    <s:String x:Key="Hush1" xml:space="preserve">&#10;Ataki mają 50% szans na Uciszenie.</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Ataki mają 50% szans na Uciszenie trwające 3 sekundy.</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Ostrze Nieskończoności</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Trafienia krytyczne zadają +100% obrażeń.</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Jonowa Iskra</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Gdy jakikolwiek przeciwnik użyje umiejętności, otrzymuje on 200 nieuchronnych obrażeń.</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Gdy jakikolwiek przeciwnik użyje umiejętności, otrzymuje on 150 nieuchronnych obrażeń.</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Naszyjnik Żelaznych Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Posiadacz i sojusznicy na 2 miejsca od lewej i prawej otrzymują 200 punktów tarczy na początek rundy.</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Posiadacz i sojusznicy na 2 miejsca od lewej i prawej otrzymują 250 punktów tarczy na początek rundy.</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Echo Luden</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Umiejętności zadają podstawowo 200 oraz 200 rozpryskowych obrażeń na trafienie.</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Umiejętnosći palą wrogów za 5% ich maksymalnego zdrowia na sekundę i uniemożliwiają leczenie.</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Umiejętności palą wrogów za 5% ich maksymalnego zdrowia na sekundę i uniemożliwiają leczenie.</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Widmowy Tancerz</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Posiadacz unika wszystkie Trafienia Krytyczne.</s:String>
@@ -85,16 +85,16 @@
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Ataki palą wrogów za 13% ich maksymalnego zdrowia i uniemożliwiają leczenie.</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Odkupienie</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Kiedy posiadacz ma 25% zdrowia leczy pobliskich sojuszników o 1000 punktów zdrowia.</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;Kiedy posiadacz ma 25% zdrowia leczy pobliskich sojuszników o 1000 punktów życia.</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Uścisk Serafina</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Odnawia 20 many za każdym razem kiedy używana jest umiejętność.</s:String>
     <!--Spear of Shojin-->
-    <s:String x:Key="SpearofShojin" xml:space="preserve">Włócznia Shojina</s:String>
+    <s:String x:Key="SpearofShojin" xml:space="preserve">Włócznia Shojin</s:String>
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;Po użyciu umiejętności, posiadacz odnawia 15% many po każdym ataku.</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Kosa Statikka</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Co każdy 3 atak zadaje 100 magicznych obrażeń 3 dodatkowym wrogom.</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Co każdy 3 atak zadaje 90 rozpryskowych magicznych obrażeń 3 dodatkowym wrogom.</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Łamimiecz</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Ataki mają 25% szanse na rozbrojenie.</s:String>
@@ -103,7 +103,7 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Co każdą sekundę, ma 5% szans na zdobycie 100% szans na Trafienie Krytyczne.</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Kolczasta Kolczuga</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Odbija 100% otrzymanych fizycznych obrażeń.</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Odbija 100% otrzymanych fizycznych obrażeń jako obrażenia magiczne.</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Kolosalna Hydra</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Ataki zadają 10% maksymalnego zdrowia posiadacza jako obrażenia rozpryskowe.</s:String>
@@ -127,21 +127,21 @@
 
     <!-- Demons -->
     <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">Demon</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) szans podczas ataku na spalenie całej</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">Demony mają 20% (2), 35% (4), 60% (6) szans podczas ataku na spalenie całej</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">aktualnej many celu</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, zadając</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">nieuchronne obrażenia</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">równej spalonej manie.</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">równe spalonej manie..</s:String>
 
     <!-- Dragon -->
     <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">Smok</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">Smoki są odporne na </s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">Smoki redukują</s:String>
     <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">Magiczne Obrażenia.</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2) 83% Odporności Na Magię.</s:String>
 
     <!-- Exile -->
     <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Wygnaniec</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">Wygnaniec otrzymuje na początku walki tarczę równą 100% </s:String>
+    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">Wygnańcy otrzymują na początku walki tarczę równą 100% </s:String>
     <s:String x:Key="ClassOrigins_Exile_Describe2" xml:space="preserve">PŻ</s:String>
     <s:String x:Key="ClassOrigins_Exile_Describe3" xml:space="preserve">jeżeli nie sąsiaduje z innymi jednostkami. (1)</s:String>
 
@@ -160,26 +160,26 @@
     <!-- Noble -->
     <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">Szlachcic</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">Szlachcice otrzymują</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+100 Pancerza </s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">60 Pancerza + Odporności Na Magię</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">i</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">leczenie za 35</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">na trafienie.</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">Jeden Losowy Sojusznik (3) Wszyscy sojusznicy (6)</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">(3) Jeden Losowy Sojusznik (6) Wszyscy sojusznicy</s:String>
 
     <!-- Ninja -->
     <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">Ninja</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">Ninje otrzymują procentowe</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">Obrażenia Od Ataku.</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">Ninja otrzymuje +40%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">Obrażeń Od Ataku</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(Dokładnie 1)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">Wszyscy Ninja otrzymują +60%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">Obrażeń Od Ataku</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">Ninje otrzymują zwiększenie</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">Obrażenia Od Ataku + Moc Umiejętności.</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">(Dokładnie 1) Ninja otrzymuje +40</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">Obrażeń + Mocy</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve"> +60</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">Obrażeń + Mocy</s:String>
+
 
     <!-- Pirate -->
     <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">Pirat</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">Zyskują do 4 dodatkowych sztuk</s:String>
+    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">Piraci zyskują do 4 dodatkowych sztuk</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe2" xml:space="preserve">złota</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">po walce</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">z innym graczem.</s:String>
@@ -187,7 +187,7 @@
 
     <!-- Phantom -->
     <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">Widmo</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">Na start walki przeklinają losowego przeciwnika, ustawiając jego PŻ na </s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">Na start walki przeklinają losowego przeciwnika, ustawiając jego PŻ na</s:String>
     <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">100.</s:String>
     <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">(2)</s:String>
 
@@ -199,9 +199,8 @@
 
     <!-- Void -->
     <s:String x:Key="ClassOrigins_Void" xml:space="preserve">Mieszkaniec Pustki</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">Podstawowe ataki twojej drużyny ignorują 50%</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">pancerza.</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">(3) Mieszkańcy Pustki zadają</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">Nieuchronne Obrażenia</s:String>
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Dziki</s:String>
@@ -211,9 +210,9 @@
 
     <!-- Yordle -->
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">Ataki przeciwko Yordlom mają szanse na</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">Ataki i Efekty przy trafieniu przeciwko Yordlom mają szanse na</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">pudło.</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25% szansy na pudło (3) 60% szansy na pudło (6)</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">(3) 30% szansy na pudło (6) 55% szansy na pudło</s:String>
 
     <!--Classes | Effects and Champions-->
     <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Klasy | Efekty i Bohaterowie</s:String>
@@ -227,23 +226,23 @@
     <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Obrażeń Krytycznych</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
-
+    
     <!-- Blademaster -->
     <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Mistrz Miecza</s:String>
     <s:String x:Key="ClassOrigins_Blademaster_Describe1" xml:space="preserve">Mistrzowie Miecza mają 45% szans na wyprowadzenie</s:String>
     <s:String x:Key="ClassOrigins_Blademaster_Describe2" xml:space="preserve">dodatkowego ciosu</s:String>
     <s:String x:Key="ClassOrigins_Blademaster_Describe3" xml:space="preserve">podczas każdego ataku.</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">Jeden dodatkowy cios (3) Dwa dodatkowe ciosy (6)</s:String>
+    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">(3) 1 Cios (6) 2 Ciosy (9) 4 Ciosy</s:String>
 
     <!-- Brawler -->
     <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">Osiłek</s:String>
     <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">Osiłki otrzymują dodatkowe</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">maksymalne zdrowie.</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve"> +300 bonusowego</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">maksymalnego zdrowia</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(2) +700 bonusowego</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">maksymalnego zdrowia</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">maksymalne życie.</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve">(2) +300</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">PŻ</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(4) +700</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">PŻ</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(6) +1200 PŻ</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Mistrz Żywiołów</s:String>
@@ -256,33 +255,32 @@
 
     <!-- Guardian -->
     <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Strażnik</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">Na początku rundy Strażnicy i sąsiadujący sojusznicy otrzymują +40</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">Na początku rundy Strażnicy i sąsiadujący sojusznicy otrzymują (2) +50</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">pancerza.</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">Strażnicy nie mogą wzmacniać się nawzajem.</s:String>
 
     <!-- Gunslinger -->
     <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">Rewolwerowiec</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">Po ataku Rewolwerowcy mają 50% szans na wystrzelenie</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">dodatkowego pocisku.</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Pocisk uderza dodatkowo</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">1 losowego</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">przeciwnika (2) Pocisk uderza dodatkowo</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">2 losowych przeciwników</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">(4) w zasięgu.</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">(2) 1</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">Dodatkowy</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">pocisk</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">(4) 2 pocisky (6) 3 pociski</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">w zasięgu.</s:String>
 
     <!-- Knight -->
     <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Rycerz</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">Rycerze</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">blokują obrażenia</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">od</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">podstawowych ataków.</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">20</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">Wszyscy sojusznicy</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">ignorują obrażenia</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">od wszystkich</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">źródeł.</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">(2) 15</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">zablokowanych obrażeń</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 30</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">zablokowanych obrażeń</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 55</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">zablokowanych obrażeń</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
 
     <!-- Ranger -->
     <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">Zwiadowca</s:String>
@@ -294,11 +292,11 @@
     <!-- Shapeshifter -->
     <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Zmiennokształtny</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">Zmiennokształtni otrzymują dodatkowe</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">maksymalne zdrowie</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">maksymalne życie</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">kiedy się przemieniają.</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+60% bonusowego</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">maksymalnego zdrowia</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">(3) +60% bonusowych</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">PŻ</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(6) +120% bonusowych PŻ</s:String>
 
     <!-- Sorcerer -->
     <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Czarodziej</s:String>
@@ -312,19 +310,19 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">obrażeń magicznych.</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
 
-
+      
     <!--/////////////////-->
     <!--Charts-->
     <!--&#10; = LineBreak-->
     <!--/////////////////-->
 
     <!--Tier Roll Chance + Pool Size-->
-    <s:String x:Key="Charts_Title" xml:space="preserve">Tier Roll Chance + Pool Size</s:String>
+    <s:String x:Key="Charts_Title" xml:space="preserve">Szansa Na Poziom Bohatera Z Rolowania + Ilość W Puli</s:String>
 
     <!--Player Damage Formula-->
-    <s:String x:Key="Charts_Damage" xml:space="preserve">Player Damage Formula</s:String>
-    <s:String x:Key="Charts_Damage1" xml:space="preserve">2 Damage(Little Legend) + </s:String>
-    <s:String x:Key="Charts_Damage2" xml:space="preserve">Per Unit</s:String>
+    <s:String x:Key="Charts_Damage" xml:space="preserve">Formuła Zadawanych Obrażeń Przez Gracza</s:String>
+    <s:String x:Key="Charts_Damage1" xml:space="preserve">2 Punkty Obrażeń (Mała Legenda) + </s:String>
+    <s:String x:Key="Charts_Damage2" xml:space="preserve">Na jednostkę</s:String>
 
     <!--/////////////////-->
     <!--MainWindow.xaml-->
@@ -332,34 +330,34 @@
     <!--/////////////////-->
 
     <!--Head MAIN-->
-    <s:String x:Key="MainWindow_Main" xml:space="preserve">MAIN</s:String>
+    <s:String x:Key="MainWindow_Main" xml:space="preserve">GŁÓWNY</s:String>
 
     <!--Head ITEM BUILDER-->
-    <s:String x:Key="MainWindow_ItemBuilder" xml:space="preserve">ITEM BUILDER</s:String>
+    <s:String x:Key="MainWindow_ItemBuilder" xml:space="preserve">KREATOR PRZEDMIOTÓW</s:String>
 
     <!--ToolTip Opacity-->
-    <s:String x:Key="MainWindow_ToolTip_Opacity" xml:space="preserve">Opacity</s:String>
+    <s:String x:Key="MainWindow_ToolTip_Opacity" xml:space="preserve">Przezroczystość</s:String>
 
     <!--ToolTip options-->
-    <s:String x:Key="MainWindow_ToolTip_Options" xml:space="preserve">Right click for options or drag to move</s:String>
+    <s:String x:Key="MainWindow_ToolTip_Options" xml:space="preserve">Kliknij prawy przycisk myszy, aby wejść w opcje albo przytrzymaj lewy by ruszyć</s:String>
 
     <!--Options-->
-    <s:String x:Key="MainWindow_Options_Preferences" xml:space="preserve">Preferences</s:String>
-    <s:String x:Key="MainWindow_Options_Preferences_Lock" xml:space="preserve">Lock</s:String>
-    <s:String x:Key="MainWindow_Options_Preferences_Resize" xml:space="preserve">Resize</s:String>
-    <s:String x:Key="MainWindow_Options_Preferences_IconOpacity" xml:space="preserve">Icon Opacity</s:String>
-    <s:String x:Key="MainWindow_Options_Preferences_AlwaysOnTop" xml:space="preserve">Always On Top</s:String>
-    <s:String x:Key="MainWindow_Options_Language" xml:space="preserve">Language</s:String>
-    <s:String x:Key="MainWindow_Options_Language_Credits" xml:space="preserve">Credits</s:String>
-    <s:String x:Key="MainWindow_Options_Help" xml:space="preserve">Help</s:String>
-    <s:String x:Key="MainWindow_Options_Help_About" xml:space="preserve">About</s:String>
-    <s:String x:Key="MainWindow_Options_Help_Credits" xml:space="preserve">Credits</s:String>
-    <s:String x:Key="MainWindow_Options_Help_Changelog" xml:space="preserve">Changelog</s:String>
-    <s:String x:Key="MainWindow_Options_Help_Localization" xml:space="preserve">Localization</s:String>
-    <s:String x:Key="MainWindow_Options_AutoDim" xml:space="preserve">Auto-Dim</s:String>
-    <s:String x:Key="MainWindow_Options_AutoUpdate" xml:space="preserve">Auto-Updater</s:String>
-    <s:String x:Key="MainWindow_Options_ResetToDefault" xml:space="preserve">Reset to default</s:String>
-    <s:String x:Key="MainWindow_Options_Exit" xml:space="preserve">Exit</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences" xml:space="preserve">Preferencje</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Lock" xml:space="preserve">Zablokuj</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_Resize" xml:space="preserve">Powiększenie</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_IconOpacity" xml:space="preserve">Przezroczystość Ikonek</s:String>
+    <s:String x:Key="MainWindow_Options_Preferences_AlwaysOnTop" xml:space="preserve">Zawsze na górze</s:String>
+    <s:String x:Key="MainWindow_Options_Language" xml:space="preserve">Język</s:String>
+    <s:String x:Key="MainWindow_Options_Language_Credits" xml:space="preserve">Napisy</s:String>
+    <s:String x:Key="MainWindow_Options_Help" xml:space="preserve">Pomoc</s:String>
+    <s:String x:Key="MainWindow_Options_Help_About" xml:space="preserve">Informacje</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Credits" xml:space="preserve">Napisy</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Changelog" xml:space="preserve">Lista Zmian</s:String>
+    <s:String x:Key="MainWindow_Options_Help_Localization" xml:space="preserve">Lokalizacja</s:String>
+    <s:String x:Key="MainWindow_Options_AutoDim" xml:space="preserve">Auto-Przygaszacz</s:String>
+    <s:String x:Key="MainWindow_Options_AutoUpdate" xml:space="preserve">Auto-Aktualizacja</s:String>
+    <s:String x:Key="MainWindow_Options_ResetToDefault" xml:space="preserve">Przywróć do domyślnych</s:String>
+    <s:String x:Key="MainWindow_Options_Exit" xml:space="preserve">Wyjście</s:String>
 
     <!--/////////////////-->
     <!--ItemsBuilder.xaml-->
