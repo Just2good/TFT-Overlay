@@ -59,7 +59,7 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 50% chance to Silence</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Critical strikes deal +100% damage</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Critical strikes deal +150% damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 200 true damage</s:String>
@@ -265,11 +265,11 @@
     <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">Gunslinger</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">After attacking, Gunslingers have a 50% chance to fire </s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">additional attacks.</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Attack another</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">random</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">enemy (2) Attack</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">2 random enemies</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">(4) in range.</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">(2) 1</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">Additional</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">attack</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">(4) 2 attacks (6) 3 attacks</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">in range.</s:String>
     
     <!-- Knight -->
     <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Knight</s:String>

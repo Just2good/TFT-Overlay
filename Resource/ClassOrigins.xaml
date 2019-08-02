@@ -279,7 +279,6 @@
                                         <Run Text="{DynamicResource ClassOrigins_Ninja_Describe5}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Ninja_Describe6}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Ninja_Describe7}" Foreground="Red"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe8}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/ninja.jpg" Grid.Row="14" Grid.Column="0"></Image>
 
@@ -387,8 +386,7 @@
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
                                         <Run Text="{DynamicResource ClassOrigins_Void_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe2}" Foreground="Yellow"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe2}" Foreground="Purple"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/void.jpg" Grid.Row="22" Grid.Column="0"></Image>
 
@@ -725,7 +723,7 @@
                                         <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe3}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe4}" Foreground="PaleVioletRed"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe5}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe6}" Foreground="PaleVioletRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe6}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Gunslinger_Describe7}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/gunslinger.jpg" Grid.Row="12" Grid.Column="0"></Image>
@@ -765,7 +763,6 @@
                                         <Run Text="{DynamicResource ClassOrigins_Knight_Describe8}" Foreground="Yellow"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Knight_Describe9}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Knight_Describe10}" Foreground="Yellow"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Knight_Describe11}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/knight.jpg" Grid.Row="14" Grid.Column="0"></Image>
 
