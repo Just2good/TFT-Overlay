@@ -24,7 +24,7 @@
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;携带者也是一名骑士</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">卢安娜的飓风</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;攻击可选取1个额外敌人,这些额外攻击造成25%伤害并施加攻击特效</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;攻击可选取1个额外敌人,造成25%伤害并施加攻击特效</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">幽梦之灵</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;携带者也是一名刺客</s:String>
@@ -55,16 +55,16 @@
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+25%全能吸血</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
-    <s:String x:Key="Hush1" xml:space="preserve">&#10;攻击有50%几率造成沉默效果</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;攻击有50%几率造成沉默效果，持续3秒</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;暴击造成+150%伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;敌人在每次施放技能时,都会承受200真实伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;敌人在每次施放技能时,都会承受150真实伤害</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄施加一个200点护盾</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供250点护盾，持续4秒</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能在命中时造成200溅射伤害</s:String>
@@ -82,7 +82,7 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击不会被闪避,攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击造成2.5%燃烧伤害</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击造成2.5%燃烧伤害，并阻止生命回复</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;生命值低于25%时，治疗附近友军1000生命值</s:String>
@@ -94,7 +94,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在第一次技能施放后,每次攻击回复自身15%最大法力值</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;携带者的第三次攻击会造成100%溅射魔法伤害</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;携带者的第三次攻击会对额外3个目标造成90点魔法伤害</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有25%几率造成缴械效果</s:String>
@@ -103,7 +103,7 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有5%几率获得100%暴击几率</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">荆棘之甲</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所减免伤害的100%的真实伤害</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所减免伤害的100%的魔法伤害</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击造成基于携带者10%最大生命值的溅射伤害</s:String>
@@ -127,17 +127,17 @@
 
     <!-- Demons -->
     <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">恶魔</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) 概率燃烧普攻命中的目标的</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">20% (2), 35% (4), 60% (6) 概率燃烧普攻命中的目标的</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">当前魔力</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, 并造成</s:String>
     <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">真实伤害</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">（等同于燃烧的魔力值）</s:String>
+    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">(等同于燃烧的魔力值)</s:String>
 
     <!-- Dragon -->
     <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">龙</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">龙免疫</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">龙减少</s:String>
     <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">魔法伤害</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2) 83%魔法免伤</s:String>
 
     <!-- Exile -->
     <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">浪人</s:String>
@@ -160,7 +160,7 @@
     <!-- Noble -->
     <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">贵族</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">贵族获得</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+100护甲</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+60护甲和魔抗</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">并且每次攻击</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">治疗35生命值</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">.</s:String>
@@ -168,14 +168,14 @@
 
     <!-- Ninja -->
     <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">忍者</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">忍者获得百分比</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">伤害加成</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">忍者获得40%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">伤害加成</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(1位忍者)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">所有忍者获得80%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">伤害加成</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">忍者获得额外的</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">攻击力和法术强度</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">(1名) 忍者 +40</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">攻击力和法强</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">所有忍者 +60</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">攻击力和法强</s:String>
+
 
     <!-- Pirate -->
     <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">海盗</s:String>
@@ -199,9 +199,8 @@
 
     <!-- Void -->
     <s:String x:Key="ClassOrigins_Void" xml:space="preserve">虚空</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">所有普攻</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">无视敌人50%的护甲</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">(3) 虚空单位造成</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">真实伤害</s:String>
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">狂野</s:String>
@@ -211,9 +210,9 @@
 
     <!-- Yordle -->
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">约德尔人</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">对友方约德尔人进行的攻击会有一定几率</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">对友方约德尔人进行的攻击(包括攻击特效)会有一定几率</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">未命中</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25%几率造成未命中(3)  60几率造成未命中(6)</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">30%几率造成未命中(3)  55%几率造成未命中(6)</s:String>
 
     <!--Classes | Effects and Champions-->
     <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">职业 | 羁绊效果</s:String>
@@ -256,9 +255,9 @@
 
     <!-- Guardian -->
     <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">护卫</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">在战斗开始时，所有护卫和邻近格子的友军+40</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">在战斗开始时，所有护卫邻近格子的友军 (2)+50</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">护甲</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">护卫们不会给自己提供增益</s:String>
 
     <!-- Gunslinger -->
     <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">枪手</s:String>
@@ -272,17 +271,16 @@
 
     <!-- Knight -->
     <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">骑士</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">骑士们</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">格挡</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">来自</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">普攻的伤害，</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">格挡20</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">伤害</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2)  格挡40</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">伤害</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4)  格挡80</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">伤害</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">你的队伍</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">无视</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">来自所有</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">来源的</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">(2) 15</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">点伤害</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 30</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">点伤害</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 55</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">点伤害</s:String>
 
     <!-- Ranger -->
     <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">游侠</s:String>
@@ -320,7 +318,12 @@
 
     <!--Tier Roll Chance + Pool Size-->
     <s:String x:Key="Charts_Title" xml:space="preserve">每级随机英雄几率 + 英雄随机池大小</s:String>
-  
+
+    <!--Player Damage Formula-->
+    <s:String x:Key="Charts_Damage" xml:space="preserve">玩家伤害公式</s:String>
+    <s:String x:Key="Charts_Damage1" xml:space="preserve">2点(小小英雄) + </s:String>
+    <s:String x:Key="Charts_Damage2" xml:space="preserve">每个单位的伤害</s:String>
+
     <!--/////////////////-->
     <!--MainWindow.xaml-->
     <!--&#10; = LineBreak-->
