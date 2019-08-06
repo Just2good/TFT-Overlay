@@ -7,6 +7,8 @@
 
 `7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.
 
+`8.6.2019 @ 3PM PST: Apologies for the extremely slow updates, been working a lot of overtime to pay off late bills. I do still want to keep continuing this project and will update whenever I can.
+
 ## How to use:
   -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
   -  Extract the file and run `TFT Overlay.exe`
