@@ -1,4 +1,4 @@
-# TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
+ # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
    
 `7.14.2019 @ 2:56PM PST: Trying to add/fix multiple things at once seems to be slowing things down a bit. Once I finish everything I'm working on, I'll most likely stick to working on something 1 at a time. Also for people working on Localization, there are more strings you can copy from ItemStrings.xaml.
@@ -20,6 +20,10 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **8.01.2019**    
+  - [2.0.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.5)  
+     - Updated ch-ZN
+
 - **8.01.2019**   
   - [2.0.4](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.4)  
      - Updated to 9.15 Hotfix #2
