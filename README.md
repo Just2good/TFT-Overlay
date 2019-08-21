@@ -1,11 +1,7 @@
  # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
    
-`7.14.2019 @ 2:56PM PST: Trying to add/fix multiple things at once seems to be slowing things down a bit. Once I finish everything I'm working on, I'll most likely stick to working on something 1 at a time. Also for people working on Localization, there are more strings you can copy from ItemStrings.xaml.`
-  
-`7.16.2019 @ 8:55PM PST: Going to be slow for just a tiny bit longer, then I can spend hours coding again. Remember to DM me on discord or post an issue here with any feedback you may have.`
-
-`7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.
+`7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.`
 
 `8.6.2019 @ 3PM PDT: Apologies for the extremely slow updates, been working a lot of overtime to pay off late bills. I do still want to keep continuing this project and will update whenever I can.`
 
