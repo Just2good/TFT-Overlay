@@ -5,7 +5,6 @@ namespace TFT_Overlay
 {
     public class OptionalRadioButton : RadioButton
     {
-        #region bool IsOptional dependency property
         public static DependencyProperty IsOptionalProperty =
             DependencyProperty.Register(
                 "IsOptional",
@@ -31,7 +30,6 @@ namespace TFT_Overlay
         {
             // TODO: Add event handler if needed
         }
-        #endregion
 
         protected override void OnClick()
         {

@@ -10,24 +10,14 @@ namespace TFT_Overlay
         private ICommand _upCommand;
         private ICommand _downCommand;
 
-        #region Methods...
-
         private void UpPoints() => Value += Step;
 
         private void DownPoints() => Value -= Step;
 
-        #endregion
-
-        #region Commands...
         public ICommand UpCommand => _upCommand ?? (_upCommand = new DelegateCommand(() => UpPoints()));
 
         public ICommand DownCommand => _downCommand ?? (_downCommand = new DelegateCommand(() => DownPoints()));
 
-        #endregion
-
-        #region Properties...
-
-        #region ValueProperty
         public static DependencyProperty ValueProperty =
            DependencyProperty.Register(
                "Value",
@@ -47,9 +37,7 @@ namespace TFT_Overlay
                 SetValue(ValueProperty, value);
             }
         }
-        #endregion
 
-        #region MinValueProperty
         public readonly static DependencyProperty MinValueProperty = DependencyProperty.Register(
             "MinValue",
             typeof(int),
@@ -66,9 +54,7 @@ namespace TFT_Overlay
                 SetValue(MinValueProperty, value);
             }
         }
-        #endregion
 
-        #region MaxValueProperty
         public readonly static DependencyProperty MaxValueProperty = DependencyProperty.Register(
             "MaxValue",
             typeof(int),
@@ -85,9 +71,7 @@ namespace TFT_Overlay
                 SetValue(MaxValueProperty, value);
             }
         }
-        #endregion
 
-        #region StepProperty
         public readonly static DependencyProperty StepProperty = DependencyProperty.Register(
             "Step",
             typeof(int),
@@ -102,8 +86,5 @@ namespace TFT_Overlay
                 SetValue(StepProperty, value);
             }
         }
-        #endregion
-
-        #endregion
     }
 }
