@@ -18,6 +18,11 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **9.09.2019**    
+  - [2.0.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.6)  
+     - Updated to 9.17 patch
+	 - Added Hextech origin and Pantheon to Dragon/Guardian
+
 - **8.01.2019**    
   - [2.0.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.5)  
      - Updated ch-ZN

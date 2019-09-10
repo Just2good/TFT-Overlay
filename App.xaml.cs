@@ -17,7 +17,7 @@ namespace TFT_Overlay
             {
                 try
                 {
-                    string htmlCode = client.DownloadString("https://raw.githubusercontent.com/Just2good/TFT-Overlay/master/Version.cs");
+                    string htmlCode = client.DownloadString("https://raw.githubusercontent.com/jtborn/TFT-Overlay/master/Version.cs");
                     int versionFind = htmlCode.IndexOf("public static string version = ");
                     string version = htmlCode.Substring(versionFind + 32, 5);
                     if (currentVersion != version && Settings.Default.AutoUpdate)
