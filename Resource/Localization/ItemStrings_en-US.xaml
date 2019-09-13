@@ -32,6 +32,10 @@
     <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer</s:String>
 
     <!--Descriptions by Object#3031-->
+    <!--Neeko's Help-->
+    <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
+    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
+
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 40% of damage</s:String>
@@ -43,7 +47,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed for 4 seconds</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 500 health after 2 secs and clears grievous wounds</s:String>
@@ -64,13 +68,13 @@
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 250 shield on round start for 6 seconds</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 7 seconds</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and disable healing</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and reduce healing by 80%</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
@@ -82,13 +86,13 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Wearer's attacks cannot be dodged. Attack range is doubled</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">Red Buff</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2% max HP per second for 10 seconds and disable healing</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2% max HP per second for 10 seconds and reduce healing by 80%</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 25% health, heal all nearby allies for 1200 health</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
-    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;Regain 20 mana each time a spell is cast</s:String>
+    <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;After casting a spell, the wearer gains 20 mana</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="SpearofShojin" xml:space="preserve">Spear of Shojin</s:String>
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 15% of its max mana per attack</s:String>
@@ -97,7 +101,7 @@
     <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 100 magic damage to the target and 2 additional targets</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
-    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Attacks have a 25% chance to disarm the target for 4 seconds</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Attacks have a 33% chance to disarm the target for 3 seconds</s:String>
     <!--Sword of the Divine-->
     <s:String x:Key="SwordDivine" xml:space="preserve">Sword of the Divine</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Each second, the wearer has a 7% chance to gain 100% Critical Strike</s:String>
@@ -115,7 +119,7 @@
     <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;Grants 15% attack speed to champions two spaces to the left and right of the wearer</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">Zephyr</s:String>
-    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;On start of combat, banish an enemy opposite wearer for 5 seconds</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;On start of combat, banish an enemy opposite wearer for 6 seconds</s:String>
 
     <!--/////////////////-->
     <!--ClassOrigins Descriptions-->
@@ -210,7 +214,7 @@
     <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 12%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">attack speed</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">, up to 60%</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe4" xml:space="preserve">(2) Wild Allies (4) All Allies</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe4" xml:space="preserve">(2) Wild Allies (4) All Allies AND their basic attacks can't miss</s:String>
 
     <!-- Yordle -->
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
@@ -232,7 +236,11 @@
     <s:String x:Key="ClassOrigins_Assassin_Describe8" xml:space="preserve">Critical Strike Chance</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe9" xml:space="preserve">and +150%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe10" xml:space="preserve">Critical Strike Damage</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe11" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe11" xml:space="preserve">(6) + 40%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe12" xml:space="preserve">Critical Strike Chance</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe13" xml:space="preserve">and +225%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe14" xml:space="preserve">Critical Strike Damage</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe15" xml:space="preserve">(9)</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Blademaster</s:String>
@@ -284,9 +292,9 @@
     <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">sources</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">(2) 15</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 30</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 35</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 55</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 65</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">damage blocked</s:String>
 
     <!-- Ranger -->
@@ -315,7 +323,8 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">spell damage</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6) + 175%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe10" xml:space="preserve">spell damage</s:String>
 
 
     <!--/////////////////-->

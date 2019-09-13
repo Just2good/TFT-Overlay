@@ -1054,7 +1054,7 @@
     </DataTemplate>
 
     <!--Spatula No Text-->
-    <DataTemplate x:Key="Scarf1" DataType="{x:Type vm:MainViewModel}">
+    <DataTemplate x:Key="Spatula1" DataType="{x:Type vm:MainViewModel}">
         <WrapPanel>
             <Grid>
                 <Rectangle Opacity="{Binding ElementName=OpacitySlider,Path=Value}" Fill="Black" Grid.ColumnSpan="1" Grid.RowSpan="1"></Rectangle>

@@ -143,17 +143,25 @@
                                         <local:OptionalRadioButton Style="{StaticResource StyleCape}" x:Name="Cape" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="6" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items5}"/>
                                         <local:OptionalRadioButton Style="{StaticResource StyleBelt}" x:Name="Belt" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="7" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items6}"/>
                                         <local:OptionalRadioButton Style="{StaticResource StyleSpatula}" x:Name="Spatula" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="8" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items7}"/>
+                                        
+                                        <local:OptionalRadioButton x:Name="Neekos" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
+                                            <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                                                <Border>
+                                                    <Image Source="Images\cstyle\items\neekos_help.png" Height="48" Width="48"/>
+                                                </Border>
+                                            </Border>
+                                        </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="Probability" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\Cstyle\TiersIcon.png" Height="48" Width="48"/>
+                                                    <Image Source="Images\cstyle\TiersIcon.png" Height="48" Width="48"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
                                         <local:OptionalRadioButton x:Name="PlayerDmg" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
                                                 <Border>
-                                                    <Image Source="Images\rounds/carousel.png" Height="48" Width="48"/>
+                                                    <Image Source="Images\rounds\carousel.png" Height="48" Width="48"/>
                                                 </Border>
                                             </Border>
                                         </local:OptionalRadioButton>
@@ -228,9 +236,13 @@
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Scarf1}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Spatula1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+                    <!--DataTrigger Binding="{Binding ElementName=Neekos, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Neekos}"/>
+                        <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </-->
                     <DataTrigger Binding="{Binding ElementName=Probability, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
@@ -305,7 +317,14 @@
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
                             <Condition Binding="{Binding ElementName=Spatula, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
-                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Scarf}"/>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Spatula}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
+                            <Condition Binding="{Binding ElementName=Neekos, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Neekos}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -335,13 +354,13 @@
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Classes}"/>
                     </MultiDataTrigger>
-                    <!--      <MultiDataTrigger>
+                    <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
                             <Condition Binding="{Binding ElementName=ItemsBuilder, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource ItemsBuilder}"/>
-                    </MultiDataTrigger> -->
+                    </MultiDataTrigger>
 
                     <!--Mouseover And Button is Toggled-->
                     <MultiDataTrigger>
@@ -398,7 +417,14 @@
                             <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
                             <Condition Binding="{Binding ElementName=Spatula, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
-                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Scarf}"/>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Spatula}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=Neeko, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Neekos}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>

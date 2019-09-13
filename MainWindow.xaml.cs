@@ -286,12 +286,12 @@ namespace TFT_Overlay
 
         private void OpenChangelog_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/README.md#version-history");
+            System.Diagnostics.Process.Start("https://github.com/jtborn/TFT-Overlay/blob/master/README.md#version-history");
         }
 
         private void LocalizationHelp_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md");
+            System.Diagnostics.Process.Start("https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md");
         }
     }
 }
