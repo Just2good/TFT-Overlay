@@ -9,7 +9,7 @@
 
     <!--Blade of the Ruined King-->
     <s:String x:Key="BOTRK" xml:space="preserve">破败王者之刃</s:String>
-    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;携带者也是一名剑师</s:String>
+    <s:String x:Key="BOTRK1" xml:space="preserve">&#10;携带者也是一名剑士</s:String>
     <!--Darkin-->
     <s:String x:Key="Darkin" xml:space="preserve">暗裔</s:String>
     <s:String x:Key="Darkin1" xml:space="preserve">&#10;携带者也是一名恶魔</s:String>
