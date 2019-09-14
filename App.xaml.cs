@@ -26,7 +26,7 @@ namespace TFT_Overlay
 
                         if (result == MessageBoxResult.Yes)
                         {
-                            string link = "https://github.com/Just2good/TFT-Overlay/releases/download/V" + version + "/TFT.Overlay.V" + version + ".zip";
+                            string link = "https://github.com/jtborn/TFT-Overlay/releases/download/V" + version + "/TFT.Overlay.V" + version + ".zip";
                             ServicePointManager.Expect100Continue = true;
                             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                             client.DownloadFile(new Uri(link), "TFTOverlay.zip");

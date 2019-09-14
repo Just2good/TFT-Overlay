@@ -154,7 +154,6 @@
     <Compile Include="Utilities\AttachedControls.cs" />
     <Compile Include="Utilities\CommandRunner.cs" />
     <Compile Include="Utilities\IsEqualOrGreaterThanConverter.cs" />
-    <Compile Include="Utilities\Version.cs" />
     <Compile Include="Version.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
