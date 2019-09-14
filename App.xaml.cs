@@ -22,7 +22,7 @@ namespace TFT_Overlay
                     string version = htmlCode.Substring(versionFind + 32, 5);
                     if (currentVersion != version && Settings.Default.AutoUpdate)
                     {
-                        var result = MessageBox.Show($"A new update is available.\nWould you like to download V{version}?", "TFT Overlay Update Available", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                        var result = MessageBox.Show($"A new update is available.\nWould you like to download V{version}? This update is ahead of current patch. Old releases can still be found on Github if you want to revert.", "TFT Overlay Update Available", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
                         if (result == MessageBoxResult.Yes)
                         {

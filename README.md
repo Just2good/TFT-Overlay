@@ -1,7 +1,7 @@
- # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
+ # TFT Overlay by J2GKaze (Taken over by jtborn)
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
 
-`9.09.2019 @ 11:36PM PST: Ive forked the repo and will try to keep it updated when new patches hit. Big thanks to Just2good for starting this project.`
+`9.09.2019 @ 11:36PM PST: I've forked the repo and will try to keep it updated when new patches hit. Big thanks to Just2good for starting this project.`
 
 ## How to use:
   -  [Download TFT Overlay](https://github.com/jtborn/TFT-Overlay/releases/)  
@@ -14,6 +14,13 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **9.14.2019**
+  - [2.1.0](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.0)  
+     - **WARNING** This is ahead of the current patch. Infinity Edge changed recipe and Sword of the Divine has been removed
+	 - Adds all Sparring Gloves items
+	 - Fixed CN localization update, it wasn't loading due to an xaml error
+	 - Changed ItemBuilder tooltip position to fix usability improvement suggested by widget
+
 - **9.13.2019**
   - [2.0.8](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.8)  
      - Fixed Auto-Updater to point to my repo
