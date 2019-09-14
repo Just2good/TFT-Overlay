@@ -11,7 +11,7 @@
 ![Image](https://giant.gfycat.com/VastWeakHen.gif)
 
 ## Localization
-  -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
+  -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
 - **9.13.2019**
