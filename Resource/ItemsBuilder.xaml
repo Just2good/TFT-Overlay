@@ -34,8 +34,12 @@
                         <ColumnDefinition Width="5"/>
                         <ColumnDefinition Width="35"/>
                         <ColumnDefinition Width="5"/>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="5"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
                         <RowDefinition Height="5"/>
                         <RowDefinition Height="35"/>
@@ -69,17 +73,17 @@
                     <TextBlock Grid.Row="2" Grid.Column="3" Text="{Binding ElementName=BFCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
                     <Button Grid.Row="2" Grid.Column="4" Width="20" Command="{Binding ElementName=BFCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
 
-                    <!-- Rod-->
-                    <Image Grid.Row="4" Grid.Column="0" Source="../Images/cstyle/items/Rod.png" Style="{StaticResource ImageStyle}"/>
-                    <Button Grid.Row="4" Grid.Column="2" Width="20" Command="{Binding ElementName=RodCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
-                    <TextBlock Grid.Row="4" Grid.Column="3" Text="{Binding ElementName=RodCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
-                    <Button Grid.Row="4" Grid.Column="4" Width="20" Command="{Binding ElementName=RodCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
+                    <!-- Recurve Bow -->
+                    <Image Grid.Row="4" Grid.Column="0" Source="../Images/cstyle/items/Bow.png" Style="{StaticResource ImageStyle}"/>
+                    <Button Grid.Row="4" Grid.Column="2" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+                    <TextBlock Grid.Row="4" Grid.Column="3" Text="{Binding ElementName=RecurveBowCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
+                    <Button Grid.Row="4" Grid.Column="4" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
 
-                    <!-- Recurve Bow-->
-                    <Image Grid.Row="6" Grid.Column="0" Source="../Images/cstyle/items/Bow.png" Style="{StaticResource ImageStyle}"/>
-                    <Button Grid.Row="6" Grid.Column="2" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
-                    <TextBlock Grid.Row="6" Grid.Column="3" Text="{Binding ElementName=RecurveBowCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
-                    <Button Grid.Row="6" Grid.Column="4" Width="20" Command="{Binding ElementName=RecurveBowCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
+                    <!-- Rod -->
+                    <Image Grid.Row="6" Grid.Column="0" Source="../Images/cstyle/items/Rod.png" Style="{StaticResource ImageStyle}"/>
+                    <Button Grid.Row="6" Grid.Column="2" Width="20" Command="{Binding ElementName=RodCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}" />
+                    <TextBlock Grid.Row="6" Grid.Column="3" Text="{Binding ElementName=RodCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
+                    <Button Grid.Row="6" Grid.Column="4" Width="20" Command="{Binding ElementName=RodCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}" />
 
                     <!-- Tear-->
                     <Image Grid.Row="8" Grid.Column="0" Source="../Images/cstyle/items/Tear.png" Style="{StaticResource ImageStyle}"/>
@@ -105,54 +109,62 @@
                     <TextBlock Grid.Row="14" Grid.Column="3" Text="{Binding ElementName=GiantsBeltCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
                     <Button Grid.Row="14" Grid.Column="4" Width="20" Command="{Binding ElementName=GiantsBeltCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
 
+                    <!-- Sparring Gloves -->
+                    <Image Grid.Row="16" Grid.Column="0" Source="../Images/cstyle/items/Gloves.png" Style="{StaticResource ImageStyle}"/>
+                    <Button Grid.Row="16" Grid.Column="2" Width="20" Command="{Binding ElementName=GlovesCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="16" Grid.Column="3" Text="{Binding ElementName=GlovesCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
+                    <Button Grid.Row="16" Grid.Column="4" Width="20" Command="{Binding ElementName=GlovesCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+
                     <!-- Spatula-->
-                    <Image Grid.Row="16" Grid.Column="0" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
-                    <Button Grid.Row="16" Grid.Column="2" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
-                    <TextBlock Grid.Row="16" Grid.Column="3" Text="{Binding ElementName=SpatulaCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
-                    <Button Grid.Row="16" Grid.Column="4" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <Image Grid.Row="18" Grid.Column="0" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
+                    <Button Grid.Row="18" Grid.Column="2" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="18" Grid.Column="3" Text="{Binding ElementName=SpatulaCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
+                    <Button Grid.Row="18" Grid.Column="4" Width="20" Command="{Binding ElementName=SpatulaCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
 
 
                     <!--GRID TEPLATE-->
                     <Image Grid.Row="0" Grid.Column="7" Source="../Images/cstyle/items/BF.png" Style="{StaticResource ImageStyle}"/>
-                    <Image Grid.Row="0" Grid.Column="9" Source="../Images/cstyle/items/Rod.png" Style="{StaticResource ImageStyle}"/>
-                    <Image Grid.Row="0" Grid.Column="11" Source="../Images/cstyle/items/Bow.png" Style="{StaticResource ImageStyle}"/>
+                    <Image Grid.Row="0" Grid.Column="9" Source="../Images/cstyle/items/Bow.png" Style="{StaticResource ImageStyle}"/>
+                    <Image Grid.Row="0" Grid.Column="11" Source="../Images/cstyle/items/Rod.png" Style="{StaticResource ImageStyle}"/>
                     <Image Grid.Row="0" Grid.Column="13" Source="../Images/cstyle/items/Tear.png" Style="{StaticResource ImageStyle}"/>
                     <Image Grid.Row="0" Grid.Column="15" Source="../Images/cstyle/items/Vest.png" Style="{StaticResource ImageStyle}"/>
                     <Image Grid.Row="0" Grid.Column="17" Source="../Images/cstyle/items/Cape.png" Style="{StaticResource ImageStyle}"/>
                     <Image Grid.Row="0" Grid.Column="19" Source="../Images/cstyle/items/Belt.png" Style="{StaticResource ImageStyle}"/>
-                    <Image Grid.Row="0" Grid.Column="21" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
+                    <Image Grid.Row="0" Grid.Column="21" Source="../Images/cstyle/items/Gloves.png" Style="{StaticResource ImageStyle}"/>
+                    <Image Grid.Row="0" Grid.Column="23" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
 
-                    <Border x:Name="Infinity" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference Infinity}" >
-                        <Image Source="../Images/infinity_edge.png" Style="{StaticResource ImageStyle}">
+                    <!-- BF Combos -->
+                    <Border x:Name="LordsEdge" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference LordsEdge}" >
+                        <Image Source="../Images/Lords_Edge.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource InfinityEdge}"/>
-                                    <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource LordsEdge}"/>
+                                    <Run Text="{DynamicResource LordsEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Hextech" Grid.Row="2" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Hextech}" >
+                    <Border x:Name="LastWhisper" Grid.Row="2" Grid.Column="9" utilities:AttachedControls.RelatedControl="{x:Reference LastWhisper}" >
+                        <Image Source="../Images/Last_Whisper.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource LastWhisper}"/>
+                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Hextech" Grid.Row="2" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Hextech}" >
                         <Image Source="../Images/hextech_gunblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource HextechGunblade}"/>
                                     <Run Text="{DynamicResource HextechGunblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="SwordOfDivine" Grid.Row="2" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference SwordOfDivine}" >
-                        <Image Source="../Images/sword_of_the_divine.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource SwordDivine}"/>
-                                    <Run Text="{DynamicResource SwordDivine1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -206,7 +218,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Youmuus" Grid.Row="2" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Youmuus}" >
+                    <Border x:Name="Infinity" Grid.Row="2" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Infinity}" >
+                        <Image Source="../Images/infinity_edge.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource InfinityEdge}"/>
+                                    <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Youmuus" Grid.Row="2" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Youmuus}" >
                         <Image Source="../Images/youmuus_ghostblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -219,14 +243,14 @@
                         </Image>
                     </Border>
 
-
-                    <Border x:Name="Deathcap" Grid.Row="4" Grid.Column="9"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" >
-                        <Image Source="../Images/rabadons_deathcap.png" Style="{StaticResource ImageStyle}">
+                    <!-- Bow Combos -->
+                    <Border x:Name="Rapid" Grid.Row="4" Grid.Column="9"  utilities:AttachedControls.RelatedControl="{x:Reference Rapid}" >
+                        <Image Source="../Images/rapid_firecannon.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RabadonsDeathcap}"/>
-                                    <Run Text="{DynamicResource RabadonsDeathcap1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource RapidFirecannon}"/>
+                                    <Run Text="{DynamicResource RapidFirecannon1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -239,6 +263,92 @@
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource GuinsoosRageblade}"/>
                                     <Run Text="{DynamicResource GuinsoosRageblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Shiv" Grid.Row="4" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Shiv}" >
+                        <Image Source="../Images/statikk_shiv.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource StatikkShiv}"/>
+                                    <Run Text="{DynamicResource StatikkShiv1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="PD" Grid.Row="4" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference PD}" >
+                        <Image Source="../Images/phantom_dancer.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource PhantomDancer}"/>
+                                    <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="CursedBlade" Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade}" >
+                        <Image Source="../Images/cursed_blade.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource CursedBlade}"/>
+                                    <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Hydra" Grid.Row="4" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Hydra}" >
+                        <Image Source="../Images/titanic_hydra.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource TitanicHydra}"/>
+                                    <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Crossbow" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Crossbow}" >
+                        <Image Source="../Images/Repeating_Crossbow.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource RepeatingCrossbow}"/>
+                                    <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Blade" Grid.Row="4" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Blade}" >
+                        <Image Source="../Images/blade_of_the_ruined_king.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource BOTRK}"/>
+                                    <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    
+                    <!-- Rod Combos -->
+                    <Border x:Name="Deathcap" Grid.Row="4" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" >
+                        <Image Source="../Images/rabadons_deathcap.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource RabadonsDeathcap}"/>
+                                    <Run Text="{DynamicResource RabadonsDeathcap1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -292,7 +402,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Sorceror" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" >
+                    <Border x:Name="ArcaneGauntlet" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference ArcaneGauntlet}" >
+                        <Image Source="../Images/Arcane_Gauntlet.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource ArcaneGauntlet}"/>
+                                    <Run Text="{DynamicResource ArcaneGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Sorceror" Grid.Row="4" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" >
                         <Image Source="../Images/yuumi.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -305,82 +427,7 @@
                         </Image>
                     </Border>
 
-
-
-                    <Border x:Name="Rapid" Grid.Row="6" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference Rapid}" >
-                        <Image Source="../Images/rapid_firecannon.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RapidFirecannon}"/>
-                                    <Run Text="{DynamicResource RapidFirecannon1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="Shiv" Grid.Row="6" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Shiv}" >
-                        <Image Source="../Images/statikk_shiv.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource StatikkShiv}"/>
-                                    <Run Text="{DynamicResource StatikkShiv1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="PD" Grid.Row="6" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference PD}" >
-                        <Image Source="../Images/phantom_dancer.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource PhantomDancer}"/>
-                                    <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="CursedBlade" Grid.Row="6" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade}" >
-                        <Image Source="../Images/cursed_blade.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource CursedBlade}"/>
-                                    <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="Hydra" Grid.Row="6" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Hydra}" >
-                        <Image Source="../Images/titanic_hydra.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource TitanicHydra}"/>
-                                    <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-                    <Border x:Name="Blade" Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Blade}" >
-                        <Image Source="../Images/blade_of_the_ruined_king.png" Style="{StaticResource ImageStyle}">
-                            <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource BOTRK}"/>
-                                    <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                    </TextBlock>
-                                </ToolTip>
-                            </Image.ToolTip>
-                        </Image>
-                    </Border>
-
-
+                    <!-- Tear Combos -->
                     <Border x:Name="Seraphs" Grid.Row="8" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Seraphs}" >
                         <Image Source="../Images/seraphs_embrace.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
@@ -429,7 +476,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Demon" Grid.Row="8" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Demon}" >
+                    <Border x:Name="HandOfJustice" Grid.Row="8" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference HandOfJustice}" >
+                        <Image Source="../Images/hand_of_justice.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource HandOfJustice}"/>
+                                    <Run Text="{DynamicResource HandOfJustice1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Demon" Grid.Row="8" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Demon}" >
                         <Image Source="../Images/darkin.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -442,7 +501,7 @@
                         </Image>
                     </Border>
 
-
+                    <!-- Vest Combos -->
                     <Border x:Name="Thornmail" Grid.Row="10" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Thornmail}" >
                         <Image Source="../Images/thornmail.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
@@ -479,7 +538,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="KnightsVow" Grid.Row="10" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference KnightsVow}" >
+                    <Border x:Name="IcebornGauntlet" Grid.Row="10" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference IcebornGauntlet}" >
+                        <Image Source="../Images/iceborn_gauntlet.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource IcebornGauntlet}"/>
+                                    <Run Text="{DynamicResource IcebornGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="KnightsVow" Grid.Row="10" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference KnightsVow}" >
                         <Image Source="../Images/knights_vow.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -492,7 +563,7 @@
                         </Image>
                     </Border>
 
-
+                    <!-- Cloak Combos -->
                     <Border x:Name="DragonsClaw" Grid.Row="12" Grid.Column="17" utilities:AttachedControls.RelatedControl="{x:Reference DragonsClaw}" >
                         <Image Source="../Images/dragons_claw.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
@@ -517,7 +588,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Hurricane" Grid.Row="12" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Hurricane}" >
+                    <Border x:Name="Quicksilver" Grid.Row="12" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Quicksilver}" >
+                        <Image Source="../Images/quicksilver.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource Quicksilver}"/>
+                                    <Run Text="{DynamicResource Quicksilver1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Hurricane" Grid.Row="12" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference Hurricane}" >
                         <Image Source="../Images/runaans_hurricane.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -530,7 +613,7 @@
                         </Image>
                     </Border>
 
-
+                    <!-- Belt Combos -->
                     <Border x:Name="Warmongs" Grid.Row="14" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference Warmongs}" >
                         <Image Source="../Images/warmogs_armor.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
@@ -543,7 +626,19 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="FrozenMallet" Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference FrozenMallet}" >
+                    <Border x:Name="Backhand" Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Backhand}" >
+                        <Image Source="../Images/backhand.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource Backhand}"/>
+                                    <Run Text="{DynamicResource Backhand1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="FrozenMallet" Grid.Row="14" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference FrozenMallet}" >
                         <Image Source="../Images/frozen_mallet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -555,9 +650,35 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
+                    
+                    <!-- Gloves Combos -->
+                    <Border x:Name="ThiefsGloves" Grid.Row="16" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference ThiefsGloves}" >
+                        <Image Source="../Images/thiefs_gloves.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource ThiefsGloves}"/>
+                                    <Run Text="{DynamicResource ThiefsGloves1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
+                    <Border x:Name="Mittens" Grid.Row="16" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference Mittens}" >
+                        <Image Source="../Images/mittens.png" Style="{StaticResource ImageStyle}">
+                            <Image.ToolTip>
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource Mittens}"/>
+                                    <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    </TextBlock>
+                                </ToolTip>
+                            </Image.ToolTip>
+                        </Image>
+                    </Border>
 
-
-                    <Border x:Name="ForceOfNature" Grid.Row="16" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference ForceOfNature}" >
+                    <!-- Spatula -->
+                    <Border x:Name="ForceOfNature" Grid.Row="18" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference ForceOfNature}" >
                         <Image Source="../Images/force_of_nature.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -580,7 +701,7 @@
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="Infinity" Property="Style" Value="{DynamicResource ButtonBorder}"/>
+                <Setter TargetName="LordsEdge" Property="Style" Value="{DynamicResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -594,7 +715,7 @@
                     <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="SwordOfDivine" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="LastWhisper" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -627,12 +748,69 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Infinity" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="Youmuus" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
 
             <!--Row 2-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Rapid" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Shiv" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="PD" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="CursedBlade" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Hydra" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="LastWhisper" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Blade" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            
+            <!--Row 3-->
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
@@ -677,52 +855,16 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="ArcaneGauntlet" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="Sorceror" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-
-            <!--Row 3-->
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="Rapid" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="Shiv" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="PD" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="CursedBlade" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="Hydra" Property="Style" Value="{StaticResource ButtonBorder}"/>
-            </MultiDataTrigger>
-            <MultiDataTrigger>
-                <MultiDataTrigger.Conditions>
-                    <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
-                </MultiDataTrigger.Conditions>
-                <Setter TargetName="Blade" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
 
             <!--Row 4-->
@@ -756,6 +898,13 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="HandOfJustice" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=TearCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="Demon" Property="Style" Value="{StaticResource ButtonBorder}"/>
@@ -785,6 +934,13 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="IcebornGauntlet" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=ChainVestCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="KnightsVow" Property="Style" Value="{StaticResource ButtonBorder}"/>
@@ -807,6 +963,13 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Quicksilver" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="Hurricane" Property="Style" Value="{StaticResource ButtonBorder}"/>
@@ -822,12 +985,34 @@
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Backhand" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
                 <Setter TargetName="FrozenMallet" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
 
-            <!--Row 8-->
+            <!-- Row 8-->
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="ThiefsGloves" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                    <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
+                </MultiDataTrigger.Conditions>
+                <Setter TargetName="Mittens" Property="Style" Value="{StaticResource ButtonBorder}"/>
+            </MultiDataTrigger>
+
+            <!--Row 9-->
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=SpatulaCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />

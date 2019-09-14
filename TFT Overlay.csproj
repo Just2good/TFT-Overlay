@@ -347,9 +347,6 @@
     <Resource Include="Images\thornmail.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\null.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -586,6 +583,29 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\items\neekos_help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\Arcane_Gauntlet.png" />
+    <Resource Include="Images\cstyle\items\Backhand.png" />
+    <Resource Include="Images\cstyle\items\Gloves.png" />
+    <Resource Include="Images\cstyle\items\Hand_of_Justice.png" />
+    <Resource Include="Images\cstyle\items\Iceborn_Gauntlet.png" />
+    <Resource Include="Images\cstyle\items\Mittens.png" />
+    <Resource Include="Images\cstyle\items\Quicksilver.png" />
+    <Resource Include="Images\cstyle\items\Repeating_Crossbow.png" />
+    <Resource Include="Images\cstyle\items\Thiefs_Gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\GlovesAB.png" />
+    <Resource Include="Images\cstyle\GlovesMB.png" />
+    <Resource Include="Images\cstyle\GlovesPB.png" />
+    <Resource Include="Images\cstyle\GlovesPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Thiefs_Gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Gloves.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
