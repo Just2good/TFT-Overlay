@@ -489,12 +489,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\items\bloodthirster.png" />
-    <Resource Include="Images\cstyle\items\Guardian_Angel.png" />
-    <Resource Include="Images\cstyle\items\Hextech_Gunblade.png" />
+    <Resource Include="Images\cstyle\items\guardian_angel.png" />
+    <Resource Include="Images\cstyle\items\hextech_gunblade.png" />
     <Resource Include="Images\cstyle\items\Infinity_Edge.png" />
-    <Resource Include="Images\cstyle\items\Spear_Of_Shojin.png" />
-    <Resource Include="Images\cstyle\items\Sword_Of_The_Divine.png" />
-    <Resource Include="Images\cstyle\items\Zekes_Herald.png" />
+    <Resource Include="Images\cstyle\items\spear_of_shojin.png" />
+    <Resource Include="Images\cstyle\items\sword_of_the_divine.png" />
+    <Resource Include="Images\cstyle\items\zekes_herald.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\items\cursed_blade.png" />
@@ -585,15 +585,15 @@
     <Resource Include="Images\cstyle\items\neekos_help.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\cstyle\items\Arcane_Gauntlet.png" />
-    <Resource Include="Images\cstyle\items\Backhand.png" />
+    <Resource Include="Images\cstyle\items\arcane_gauntlet.png" />
+    <Resource Include="Images\cstyle\items\backhand.png" />
     <Resource Include="Images\cstyle\items\Gloves.png" />
-    <Resource Include="Images\cstyle\items\Hand_of_Justice.png" />
-    <Resource Include="Images\cstyle\items\Iceborn_Gauntlet.png" />
-    <Resource Include="Images\cstyle\items\Mittens.png" />
-    <Resource Include="Images\cstyle\items\Quicksilver.png" />
-    <Resource Include="Images\cstyle\items\Repeating_Crossbow.png" />
-    <Resource Include="Images\cstyle\items\Thiefs_Gloves.png" />
+    <Resource Include="Images\cstyle\items\hand_of_justice.png" />
+    <Resource Include="Images\cstyle\items\iceborn_gauntlet.png" />
+    <Resource Include="Images\cstyle\items\mittens.png" />
+    <Resource Include="Images\cstyle\items\quicksilver.png" />
+    <Resource Include="Images\cstyle\items\repeating_crossbow.png" />
+    <Resource Include="Images\cstyle\items\thiefs_gloves.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\GlovesAB.png" />
@@ -602,10 +602,33 @@
     <Resource Include="Images\cstyle\GlovesPM.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Thiefs_Gloves.png" />
+    <Resource Include="Images\thiefs_gloves.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\last_whisper.png" />
+    <Resource Include="Images\lords_edge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backhand.png" />
+    <Resource Include="Images\hand_of_justice.png" />
+    <Resource Include="Images\Iceborn_Gauntlet.png" />
+    <Resource Include="Images\repeating_crossbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\quicksilver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\last_whisper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\lords_edge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arcane_Gauntlet.png" />
+    <Resource Include="Images\Mittens.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />

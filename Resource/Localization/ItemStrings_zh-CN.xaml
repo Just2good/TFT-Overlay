@@ -226,8 +226,8 @@
     <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3)  +150%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">暴击伤害 +25%暴击几率</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6) +225%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">暴击伤害 +40%暴击几率</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(9)</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe8" xml:space="preserve">暴击伤害 +40%暴击几率</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe9" xml:space="preserve">(9)</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">剑士</s:String>

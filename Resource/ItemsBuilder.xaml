@@ -111,9 +111,9 @@
 
                     <!-- Sparring Gloves -->
                     <Image Grid.Row="16" Grid.Column="0" Source="../Images/cstyle/items/Gloves.png" Style="{StaticResource ImageStyle}"/>
-                    <Button Grid.Row="16" Grid.Column="2" Width="20" Command="{Binding ElementName=GlovesCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
-                    <TextBlock Grid.Row="16" Grid.Column="3" Text="{Binding ElementName=GlovesCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
-                    <Button Grid.Row="16" Grid.Column="4" Width="20" Command="{Binding ElementName=GlovesCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
+                    <Button Grid.Row="16" Grid.Column="2" Width="20" Command="{Binding ElementName=SparringGlovesCounter, Path=DownCommand}" Content="-" Style="{StaticResource ButtonStyle}"/>
+                    <TextBlock Grid.Row="16" Grid.Column="3" Text="{Binding ElementName=SparringGlovesCounter, Path=Value}" Style="{StaticResource CounterStyle}"></TextBlock>
+                    <Button Grid.Row="16" Grid.Column="4" Width="20" Command="{Binding ElementName=SparringGlovesCounter, Path=UpCommand}" Content="+" Style="{StaticResource ButtonStyle}"/>
 
                     <!-- Spatula-->
                     <Image Grid.Row="18" Grid.Column="0" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
@@ -135,7 +135,7 @@
 
                     <!-- BF Combos -->
                     <Border x:Name="LordsEdge" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference LordsEdge}" >
-                        <Image Source="../Images/Lords_Edge.png" Style="{StaticResource ImageStyle}">
+                        <Image Source="../Images/lords_edge.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -147,7 +147,7 @@
                         </Image>
                     </Border>
                     <Border x:Name="LastWhisper" Grid.Row="2" Grid.Column="9" utilities:AttachedControls.RelatedControl="{x:Reference LastWhisper}" >
-                        <Image Source="../Images/Last_Whisper.png" Style="{StaticResource ImageStyle}">
+                        <Image Source="../Images/last_whisper.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -316,8 +316,8 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Crossbow" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference Crossbow}" >
-                        <Image Source="../Images/Repeating_Crossbow.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="RepeatingCrossbow" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference RepeatingCrossbow}" >
+                        <Image Source="../Images/repeating_crossbow.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -342,7 +342,7 @@
                     </Border>
                     
                     <!-- Rod Combos -->
-                    <Border x:Name="Deathcap" Grid.Row="4" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" >
+                    <Border x:Name="Deathcap" Grid.Row="6" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" >
                         <Image Source="../Images/rabadons_deathcap.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -354,7 +354,7 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Ludens" Grid.Row="4" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Ludens}" >
+                    <Border x:Name="Ludens" Grid.Row="6" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Ludens}" >
                         <Image Source="../Images/ludens_echo.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -366,7 +366,7 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Locket" Grid.Row="4" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Locket}" >
+                    <Border x:Name="Locket" Grid.Row="6" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Locket}" >
                         <Image Source="../Images/locket_of_the_iron_solari.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -378,7 +378,7 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Spark" Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Spark}" >
+                    <Border x:Name="Spark" Grid.Row="6" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Spark}" >
                         <Image Source="../Images/ionic_spark.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -390,7 +390,7 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Morello" Grid.Row="4" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Morello}" >
+                    <Border x:Name="Morello" Grid.Row="6" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Morello}" >
                         <Image Source="../Images/morellonomicon.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -402,8 +402,8 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="ArcaneGauntlet" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference ArcaneGauntlet}" >
-                        <Image Source="../Images/Arcane_Gauntlet.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="ArcaneGauntlet" Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference ArcaneGauntlet}" >
+                        <Image Source="../Images/arcane_gauntlet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -414,7 +414,7 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Sorceror" Grid.Row="4" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" >
+                    <Border x:Name="Sorceror" Grid.Row="6" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" >
                         <Image Source="../Images/yuumi.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
@@ -800,7 +800,7 @@
                     <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="LastWhisper" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="RepeatingCrossbow" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>

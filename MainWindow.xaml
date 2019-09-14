@@ -142,7 +142,8 @@
                                         <local:OptionalRadioButton Style="{StaticResource StyleVest}" x:Name="Vest" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="5" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items4}"/>
                                         <local:OptionalRadioButton Style="{StaticResource StyleCape}" x:Name="Cape" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="6" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items5}"/>
                                         <local:OptionalRadioButton Style="{StaticResource StyleBelt}" x:Name="Belt" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="7" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items6}"/>
-                                        <local:OptionalRadioButton Style="{StaticResource StyleSpatula}" x:Name="Spatula" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="8" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items7}"/>
+                                        <local:OptionalRadioButton Style="{StaticResource StyleGloves}" x:Name="Gloves" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="8" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items7}"/>
+                                        <local:OptionalRadioButton Style="{StaticResource StyleSpatula}" x:Name="Spatula" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="9" Background="Transparent" BorderBrush="Transparent" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Items8}"/>
                                         
                                         <local:OptionalRadioButton x:Name="Neekos" GroupName="Toggle" Width="Auto" Height="Auto" Grid.Column="1" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" IsChecked="{Binding ElementName=RadioTabs, Path=RadioGroup, Converter={StaticResource RadioConverter}, ConverterParameter=Chart}">
                                             <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
@@ -191,6 +192,7 @@
                                         <local:ItemsCounter x:Name="ChainVestCounter" MaxValue="10" MinValue="0" />
                                         <local:ItemsCounter x:Name="NegatronCounter" MaxValue="10" MinValue="0" />
                                         <local:ItemsCounter x:Name="GiantsBeltCounter" MaxValue="10" MinValue="0" />
+                                        <local:ItemsCounter x:Name="SparringGlovesCounter" MaxValue="10" MinValue="0" />
                                         <local:ItemsCounter x:Name="SpatulaCounter" MaxValue="10" MinValue="0" />
                                     </WrapPanel>
                                 </TabItem>
@@ -235,14 +237,18 @@
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
+                    <DataTrigger Binding="{Binding ElementName=Gloves, Path=IsChecked}" Value="True">
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Gloves1}"/>
+                        <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
+                    </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Spatula, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Spatula1}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
                     </DataTrigger>
-                    <!--DataTrigger Binding="{Binding ElementName=Neekos, Path=IsChecked}" Value="True">
+                    <DataTrigger Binding="{Binding ElementName=Neekos, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Neekos}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
-                    </-->
+                    </DataTrigger>
                     <DataTrigger Binding="{Binding ElementName=Probability, Path=IsChecked}" Value="True">
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Probability}"/>
                         <Setter TargetName="Modifier" Property="IsChecked" Value="True"/>
@@ -311,6 +317,13 @@
                             <Condition Binding="{Binding ElementName=Belt, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Giants}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="False" />
+                            <Condition Binding="{Binding ElementName=Gloves, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame" Property="ContentTemplate" Value="{StaticResource Gloves}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
@@ -411,6 +424,13 @@
                             <Condition Binding="{Binding ElementName=Belt, Path=IsMouseOver}" Value="True" />
                         </MultiDataTrigger.Conditions>
                         <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Giants}"/>
+                    </MultiDataTrigger>
+                    <MultiDataTrigger>
+                        <MultiDataTrigger.Conditions>
+                            <Condition Binding="{Binding ElementName=Modifier, Path=IsChecked}" Value="True" />
+                            <Condition Binding="{Binding ElementName=Gloves, Path=IsMouseOver}" Value="True" />
+                        </MultiDataTrigger.Conditions>
+                        <Setter TargetName="Frame2" Property="ContentTemplate" Value="{StaticResource Gloves}"/>
                     </MultiDataTrigger>
                     <MultiDataTrigger>
                         <MultiDataTrigger.Conditions>
