@@ -137,8 +137,8 @@
                     <Border x:Name="LordsEdge" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference LordsEdge}" >
                         <Image Source="../Images/lords_edge.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
+                                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource LordsEdge}"/>
                                     <Run Text="{DynamicResource LordsEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
@@ -149,7 +149,7 @@
                     <Border x:Name="LastWhisper" Grid.Row="2" Grid.Column="9" utilities:AttachedControls.RelatedControl="{x:Reference LastWhisper}" >
                         <Image Source="../Images/last_whisper.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource LastWhisper}"/>
                                     <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -161,7 +161,7 @@
                     <Border x:Name="Hextech" Grid.Row="2" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Hextech}" >
                         <Image Source="../Images/hextech_gunblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource HextechGunblade}"/>
                                     <Run Text="{DynamicResource HextechGunblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -173,7 +173,7 @@
                     <Border x:Name="Spear" Grid.Row="2" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Spear}" >
                         <Image Source="../Images/spear_of_shojin.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource SpearofShojin}"/>
                                     <Run Text="{DynamicResource SpearofShojin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -185,7 +185,7 @@
                     <Border x:Name="GA" Grid.Row="2" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference GA}" >
                         <Image Source="../Images/guardian_angel.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource GuardianAngel}"/>
                                     <Run Text="{DynamicResource GuardianAngel1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -197,7 +197,7 @@
                     <Border x:Name="BT" Grid.Row="2" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference BT}" >
                         <Image Source="../Images/bloodthirster.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Bloodthirster}"/>
                                     <Run Text="{DynamicResource Bloodthirster1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -209,7 +209,7 @@
                     <Border x:Name="Herald" Grid.Row="2" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Herald}" >
                         <Image Source="../Images/zekes_herald.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource ZekesHerald}"/>
                                     <Run Text="{DynamicResource ZekesHerald1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -221,7 +221,7 @@
                     <Border x:Name="Infinity" Grid.Row="2" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Infinity}" >
                         <Image Source="../Images/infinity_edge.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource InfinityEdge}"/>
                                     <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -233,7 +233,7 @@
                     <Border x:Name="Youmuus" Grid.Row="2" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Youmuus}" >
                         <Image Source="../Images/youmuus_ghostblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource YoumuusGhostblade}"/>
                                     <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -247,7 +247,7 @@
                     <Border x:Name="Rapid" Grid.Row="4" Grid.Column="9"  utilities:AttachedControls.RelatedControl="{x:Reference Rapid}" >
                         <Image Source="../Images/rapid_firecannon.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource RapidFirecannon}"/>
                                     <Run Text="{DynamicResource RapidFirecannon1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -259,7 +259,7 @@
                     <Border x:Name="Guinsoos" Grid.Row="4" Grid.Column="11"  utilities:AttachedControls.RelatedControl="{x:Reference Guinsoos}" >
                         <Image Source="../Images/guinsoos_rageblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource GuinsoosRageblade}"/>
                                     <Run Text="{DynamicResource GuinsoosRageblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -271,7 +271,7 @@
                     <Border x:Name="Shiv" Grid.Row="4" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Shiv}" >
                         <Image Source="../Images/statikk_shiv.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource StatikkShiv}"/>
                                     <Run Text="{DynamicResource StatikkShiv1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -283,7 +283,7 @@
                     <Border x:Name="PD" Grid.Row="4" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference PD}" >
                         <Image Source="../Images/phantom_dancer.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource PhantomDancer}"/>
                                     <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -295,7 +295,7 @@
                     <Border x:Name="CursedBlade" Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade}" >
                         <Image Source="../Images/cursed_blade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource CursedBlade}"/>
                                     <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -307,7 +307,7 @@
                     <Border x:Name="Hydra" Grid.Row="4" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Hydra}" >
                         <Image Source="../Images/titanic_hydra.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource TitanicHydra}"/>
                                     <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -319,7 +319,7 @@
                     <Border x:Name="RepeatingCrossbow" Grid.Row="4" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference RepeatingCrossbow}" >
                         <Image Source="../Images/repeating_crossbow.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource RepeatingCrossbow}"/>
                                     <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -331,7 +331,7 @@
                     <Border x:Name="Blade" Grid.Row="4" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Blade}" >
                         <Image Source="../Images/blade_of_the_ruined_king.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource BOTRK}"/>
                                     <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -345,7 +345,7 @@
                     <Border x:Name="Deathcap" Grid.Row="6" Grid.Column="11"   utilities:AttachedControls.RelatedControl="{x:Reference Deathcap}" >
                         <Image Source="../Images/rabadons_deathcap.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource RabadonsDeathcap}"/>
                                     <Run Text="{DynamicResource RabadonsDeathcap1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -357,7 +357,7 @@
                     <Border x:Name="Ludens" Grid.Row="6" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Ludens}" >
                         <Image Source="../Images/ludens_echo.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource LudensEcho}"/>
                                     <Run Text="{DynamicResource LudensEcho1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -369,7 +369,7 @@
                     <Border x:Name="Locket" Grid.Row="6" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Locket}" >
                         <Image Source="../Images/locket_of_the_iron_solari.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource LocketSolari}"/>
                                     <Run Text="{DynamicResource LocketSolari1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -381,7 +381,7 @@
                     <Border x:Name="Spark" Grid.Row="6" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Spark}" >
                         <Image Source="../Images/ionic_spark.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource IonicSpark}"/>
                                     <Run Text="{DynamicResource IonicSpark1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -393,7 +393,7 @@
                     <Border x:Name="Morello" Grid.Row="6" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Morello}" >
                         <Image Source="../Images/morellonomicon.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Morello}"/>
                                     <Run Text="{DynamicResource Morello1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -405,7 +405,7 @@
                     <Border x:Name="ArcaneGauntlet" Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference ArcaneGauntlet}" >
                         <Image Source="../Images/arcane_gauntlet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource ArcaneGauntlet}"/>
                                     <Run Text="{DynamicResource ArcaneGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -417,7 +417,7 @@
                     <Border x:Name="Sorceror" Grid.Row="6" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Sorceror}" >
                         <Image Source="../Images/yuumi.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Yuumi}"/>
                                     <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -431,7 +431,7 @@
                     <Border x:Name="Seraphs" Grid.Row="8" Grid.Column="13"  utilities:AttachedControls.RelatedControl="{x:Reference Seraphs}" >
                         <Image Source="../Images/seraphs_embrace.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource SeraphsEmbrace}"/>
                                     <Run Text="{DynamicResource SeraphsEmbrace1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -443,7 +443,7 @@
                     <Border x:Name="FrozenHeart" Grid.Row="8" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference FrozenHeart}" >
                         <Image Source="../Images/frozen_heart.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource FrozenHeart}"/>
                                     <Run Text="{DynamicResource FrozenHeart1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -455,7 +455,7 @@
                     <Border x:Name="Hush" Grid.Row="8" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference Hush}" >
                         <Image Source="../Images/hush.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Hush}"/>
                                     <Run Text="{DynamicResource Hush1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -467,7 +467,7 @@
                     <Border x:Name="Redemption" Grid.Row="8" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Redemption}" >
                         <Image Source="../Images/redemption.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Redemption}"/>
                                     <Run Text="{DynamicResource Redemption1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -479,7 +479,7 @@
                     <Border x:Name="HandOfJustice" Grid.Row="8" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference HandOfJustice}" >
                         <Image Source="../Images/hand_of_justice.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource HandOfJustice}"/>
                                     <Run Text="{DynamicResource HandOfJustice1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -491,7 +491,7 @@
                     <Border x:Name="Demon" Grid.Row="8" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference Demon}" >
                         <Image Source="../Images/darkin.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Darkin}"/>
                                     <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -505,7 +505,7 @@
                     <Border x:Name="Thornmail" Grid.Row="10" Grid.Column="15"  utilities:AttachedControls.RelatedControl="{x:Reference Thornmail}" >
                         <Image Source="../Images/thornmail.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Thornmail}"/>
                                     <Run Text="{DynamicResource Thornmail1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -517,7 +517,7 @@
                     <Border x:Name="SwordBreaker" Grid.Row="10" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference SwordBreaker}" >
                         <Image Source="../Images/sword_breaker.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource SwordBreaker}"/>
                                     <Run Text="{DynamicResource SwordBreaker1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -529,7 +529,7 @@
                     <Border x:Name="Red" Grid.Row="10" Grid.Column="19"  utilities:AttachedControls.RelatedControl="{x:Reference Red}" >
                         <Image Source="../Images/red_buff.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource RedBuff}"/>
                                     <Run Text="{DynamicResource RedBuff1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -541,7 +541,7 @@
                     <Border x:Name="IcebornGauntlet" Grid.Row="10" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference IcebornGauntlet}" >
                         <Image Source="../Images/iceborn_gauntlet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource IcebornGauntlet}"/>
                                     <Run Text="{DynamicResource IcebornGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -553,7 +553,7 @@
                     <Border x:Name="KnightsVow" Grid.Row="10" Grid.Column="23"  utilities:AttachedControls.RelatedControl="{x:Reference KnightsVow}" >
                         <Image Source="../Images/knights_vow.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource KnightsVow}"/>
                                     <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -567,7 +567,7 @@
                     <Border x:Name="DragonsClaw" Grid.Row="12" Grid.Column="17" utilities:AttachedControls.RelatedControl="{x:Reference DragonsClaw}" >
                         <Image Source="../Images/dragons_claw.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource DragonsClaw}"/>
                                     <Run Text="{DynamicResource DragonClaw1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -579,7 +579,7 @@
                     <Border x:Name="Zephyr" Grid.Row="12" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference Zephyr}" >
                         <Image Source="../Images/zephyr.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Zephyr}"/>
                                     <Run Text="{DynamicResource Zephyr1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -591,7 +591,7 @@
                     <Border x:Name="Quicksilver" Grid.Row="12" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Quicksilver}" >
                         <Image Source="../Images/quicksilver.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Quicksilver}"/>
                                     <Run Text="{DynamicResource Quicksilver1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -603,7 +603,7 @@
                     <Border x:Name="Hurricane" Grid.Row="12" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference Hurricane}" >
                         <Image Source="../Images/runaans_hurricane.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource RunaansHurricane}"/>
                                     <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -617,7 +617,7 @@
                     <Border x:Name="Warmongs" Grid.Row="14" Grid.Column="19" utilities:AttachedControls.RelatedControl="{x:Reference Warmongs}" >
                         <Image Source="../Images/warmogs_armor.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource WarmogsArmor}"/>
                                     <Run Text="{DynamicResource WarmogsArmor1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -629,7 +629,7 @@
                     <Border x:Name="Backhand" Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Backhand}" >
                         <Image Source="../Images/backhand.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Backhand}"/>
                                     <Run Text="{DynamicResource Backhand1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -641,7 +641,7 @@
                     <Border x:Name="FrozenMallet" Grid.Row="14" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference FrozenMallet}" >
                         <Image Source="../Images/frozen_mallet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource FrozenMallet}"/>
                                     <Run Text="{DynamicResource FrozenMallet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -655,7 +655,7 @@
                     <Border x:Name="ThiefsGloves" Grid.Row="16" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference ThiefsGloves}" >
                         <Image Source="../Images/thiefs_gloves.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource ThiefsGloves}"/>
                                     <Run Text="{DynamicResource ThiefsGloves1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -667,7 +667,7 @@
                     <Border x:Name="Mittens" Grid.Row="16" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference Mittens}" >
                         <Image Source="../Images/mittens.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource Mittens}"/>
                                     <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
@@ -681,7 +681,7 @@
                     <Border x:Name="ForceOfNature" Grid.Row="18" Grid.Column="23" utilities:AttachedControls.RelatedControl="{x:Reference ForceOfNature}" >
                         <Image Source="../Images/force_of_nature.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
-                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
                                     <Run Text="{DynamicResource ForceOfNature}"/>
                                     <Run Text="{DynamicResource ForceOfNature1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
