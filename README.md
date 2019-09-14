@@ -14,6 +14,16 @@
   -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **9.13.2019**
+  - [2.0.8](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.8)  
+     - Fixed Auto-Updater to point to my repo
+     - Added CN localization update by golol
+
+- **9.12.2019**
+  - [2.0.7](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.7)  
+    - Updated to 9.18 patch
+    - Added Neeko's Help
+
 - **9.09.2019**    
   - [2.0.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.6)  
      - Updated to 9.17 patch
