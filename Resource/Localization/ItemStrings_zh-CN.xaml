@@ -221,11 +221,13 @@
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">刺客</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">刺客们会获得额外的</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">暴击伤害</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+125%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">暴击伤害</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3)  +350%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">暴击伤害</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+75%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">暴击伤害 +10%暴击几率</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3)  +150%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">暴击伤害 +25%暴击几率</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6) +225%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">暴击伤害 +40%暴击几率</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(9)</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">剑士</s:String>
