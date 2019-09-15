@@ -22,9 +22,6 @@
     <!--Knight's Vow-->
     <s:String x:Key="KnightsVow" xml:space="preserve">骑士之誓</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;携带者也是一名骑士</s:String>
-    <!--Mittens-->
-    <s:String x:Key="Mittens" xml:space="preserve">Mittens</s:String>
-    <s:String x:Key="Mittens1" xml:space="preserve">&#10;Wearer is also a Yordle</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">卢安娜的飓风</s:String>
     <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;攻击可选取1个额外敌人,造成25%伤害并施加攻击特效</s:String>
@@ -35,13 +32,6 @@
     <s:String x:Key="Yuumi" xml:space="preserve">悠米</s:String>
     <s:String x:Key="Yuumi1" xml:space="preserve">&#10;携带者也是一名法师</s:String>
 
-    <!--Description help by Object#3031-->
-    <!--Arcane Gauntlet-->
-    <s:String x:Key="ArcaneGauntlet" xml:space="preserve">Arcane Gauntlet</s:String>
-    <s:String x:Key="ArcaneGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
-    <!--Backhand-->
-    <s:String x:Key="Backhand" xml:space="preserve">Backhand</s:String>
-    <s:String x:Key="Backhand1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">饮血剑</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;+40%普通攻击吸血</s:String>
@@ -60,48 +50,30 @@
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">鬼索的狂暴之刃</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;攻击提供4%攻击速度。可无限叠加</s:String>
-    <!--Hand of Justice-->
-    <s:String x:Key="HandOfJustice" xml:space="preserve">Hand Of Justice</s:String>
-    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;At the start of the round gain either 40% increased damage or 40 on-hit healing</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技枪刃</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+25%全能吸血</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
     <s:String x:Key="Hush1" xml:space="preserve">&#10;攻击有50%几率造成沉默效果，持续3秒</s:String>
-    <!--Iceborn Gauntlet-->
-    <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After dodging an attack, gain an aura that slows the attack speed of nearby enemies by 30%. Each successive dodge increases radius</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;暴击造成+150%伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;敌人在每次施放技能时,都会承受150真实伤害</s:String>
-    <!--Last Whisper-->
-    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
-    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供300盾，持续7秒</s:String>
-    <!--Lord's Edge-->
-    <s:String x:Key="LordsEdge" xml:space="preserve">Lord's Edge</s:String>
-    <s:String x:Key="LordsEdge1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能在命中时造成200溅射伤害</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;技能造成燃烧伤害,每秒伤害值相当于敌人5%的最大生命值</s:String>
-    <!--Neeko's Help-->
-    <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
-    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">幻影之舞</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;携带者会闪避所有暴击</s:String>
-    <!--Quicksilver-->
-    <s:String x:Key="Quicksilver" xml:space="preserve">Quicksilver</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 5 second cooldown</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50%法术伤害</s:String>
@@ -114,9 +86,6 @@
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;生命值低于25%时，治疗附近友军1000生命值</s:String>
-    <!--Repeating Crossbow-->
-    <s:String x:Key="RepeatingCrossbow" xml:space="preserve">Repeating Crossbow</s:String>
-    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;On death, item passes to another ally and grants an additional 20% AS and Crit Chance. Effect stacks with each death</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">炽天使之拥</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;在每有一个技能被施放时回复20法力</s:String>
@@ -132,9 +101,6 @@
     <!--Sword of the Divine-->
     <s:String x:Key="SwordDivine" xml:space="preserve">神圣之剑</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有5%几率获得100%暴击几率</s:String>
-    <!--Thief's Gloves-->
-    <s:String x:Key="ThiefsGloves" xml:space="preserve">Thief's Gloves</s:String>
-    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;Each round, wearer is equipped with two random items that are removed at round end. Item holder cannot have any other items equipped</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">荆棘之甲</s:String>
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所减免伤害的100%的魔法伤害</s:String>
@@ -189,7 +155,7 @@
     <s:String x:Key="ClassOrigins_Hextech" xml:space="preserve">海克斯科技</s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe1" xml:space="preserve">在战斗开始时发射一枚脉冲导弹,来使附近敌人的装备</s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe2" xml:space="preserve">暂时</s:String>
-    <s:String x:Key="ClassOrigins_Hextech_Describe3" xml:space="preserve">失效7秒</s:String>
+    <s:String x:Key="ClassOrigins_Hextech_Describe3" xml:space="preserve">失效7秒/s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe4" xml:space="preserve">(2) 1格半径 (4) 2格半径</s:String>
     
     <!-- Imperial -->
@@ -217,12 +183,6 @@
     <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">.</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">(3)1名随机友军  (6)所有友军</s:String>
 
-    <!-- Phantom -->
-    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">暗影</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">在战斗开始时诅咒一名随机的敌人,将其</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">生命值设置为100</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">(2)</s:String>       
-
     <!-- Pirate -->
     <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">海盗</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">赚取最多4枚</s:String>
@@ -230,6 +190,12 @@
     <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">在与另一名玩家</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">战斗之后</s:String>
     <s:String x:Key="ClassOrigins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
+
+    <!-- Phantom -->
+    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">暗影</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">在战斗开始时诅咒一名随机的敌人,将其</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">生命值设置为100</s:String>
+    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Robot -->
     <s:String x:Key="ClassOrigins_Robot" xml:space="preserve">机器人</s:String>
