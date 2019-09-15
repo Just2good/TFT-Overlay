@@ -14,6 +14,10 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **9.15.2019**
+  - [2.1.1](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.1)  
+     - Added CN localization updates by kukudy1982 and sunuanxiaopy
+
 - **9.14.2019**
   - [2.1.0](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.0)  
      - **WARNING** This is ahead of the current patch. Infinity Edge changed recipe and Sword of the Divine has been removed
