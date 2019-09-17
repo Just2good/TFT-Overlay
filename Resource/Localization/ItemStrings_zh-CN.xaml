@@ -37,11 +37,11 @@
 
     <!--Description help by Object#3031-->
     <!--Arcane Gauntlet-->
-    <s:String x:Key="ArcaneGauntlet" xml:space="preserve">Arcane Gauntlet</s:String>
-    <s:String x:Key="ArcaneGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
+    <s:String x:Key="ArcaneGauntlet" xml:space="preserve">奥数护手</s:String>
+    <s:String x:Key="ArcaneGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以爆击</s:String>
     <!--Backhand-->
-    <s:String x:Key="Backhand" xml:space="preserve">Backhand</s:String>
-    <s:String x:Key="Backhand1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
+    <s:String x:Key="Backhand" xml:space="preserve">反击之手</s:String>
+    <s:String x:Key="Backhand1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被长时间眩晕</s:String>
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">饮血剑</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;普攻攻击附带40%吸血</s:String>
@@ -61,8 +61,8 @@
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">鬼索的狂暴之刃</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;每次攻击增加5%攻击速度，无上限</s:String>
     <!--Hand of Justice-->
-    <s:String x:Key="HandOfJustice" xml:space="preserve">Hand Of Justice</s:String>
-    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;At the start of the round gain either 40% increased damage or 40 on-hit healing</s:String>
+    <s:String x:Key="HandOfJustice" xml:space="preserve">正义之拳</s:String>
+    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;在准备阶段开始，装备持有者将随机增加40%伤害或者 40 点生命偷取</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技枪刃</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+25%全能吸血</s:String>
@@ -70,8 +70,8 @@
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
     <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有50%对敌人造成3秒沉默</s:String>
     <!--Iceborn Gauntlet-->
-    <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After dodging an attack, gain an aura that slows the attack speed of nearby enemies by 30%. Each successive dodge increases radius</s:String>
+    <s:String x:Key="IcebornGauntlet" xml:space="preserve">冰脉护手</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+150%暴击伤害</s:String>
@@ -79,14 +79,14 @@
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到150点真实伤害</s:String>
     <!--Last Whisper-->
-    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
-    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
+    <s:String x:Key="LastWhisper" xml:space="preserve">最后的轻语</s:String>
+    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;攻击不能被闪避，并且造成目标最大生命值5%的真实伤害</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供300盾，持续7秒</s:String>
     <!--Lord's Edge-->
-    <s:String x:Key="LordsEdge" xml:space="preserve">Lord's Edge</s:String>
-    <s:String x:Key="LordsEdge1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
+    <s:String x:Key="LordsEdge" xml:space="preserve">领主之剑</s:String>
+    <s:String x:Key="LordsEdge1" xml:space="preserve">&#10;携带者不能装备其它装备。参与击杀后，获得一把暴风大剑，直到该轮结束</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标造成200点溅射伤害</s:String>
@@ -94,14 +94,14 @@
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;技能造成燃烧伤害,每秒伤害值相当于敌人5%的最大生命值</s:String>
     <!--Neeko's Help-->
-    <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
-    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
+    <s:String x:Key="NeekosHelp" xml:space="preserve">妮蔻之助</s:String>
+    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;创建一个与其相同的1星卡牌,将它添加到您的台上</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">幻影之舞</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;装备者闪避所有暴击攻击（包含来自技能的暴击伤害）</s:String>
     <!--Quicksilver-->
-    <s:String x:Key="Quicksilver" xml:space="preserve">Quicksilver</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 5 second cooldown</s:String>
+    <s:String x:Key="Quicksilver" xml:space="preserve">水银披风</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;躲避下一次施加于自己的硬控效果，每过5秒刷新一次</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加50%技能伤害</s:String>
@@ -115,8 +115,8 @@
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;在生命值降低到25%时，治疗附近所有友军1200点生命值</s:String>
     <!--Repeating Crossbow-->
-    <s:String x:Key="RepeatingCrossbow" xml:space="preserve">Repeating Crossbow</s:String>
-    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;On death, item passes to another ally and grants an additional 20% AS and Crit Chance. Effect stacks with each death</s:String>
+    <s:String x:Key="RepeatingCrossbow" xml:space="preserve">连发弩</s:String>
+    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;携带者死亡时，该装备转移至一个新单位，并且其获得20%攻速和20%暴击率，每次交接都会叠加</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">炽天使之拥</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;佩戴者每次施放技能时，回复20点法力值</s:String>
@@ -133,8 +133,8 @@
     <s:String x:Key="SwordDivine" xml:space="preserve">神圣之剑</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有5%几率获得100%暴击几率</s:String>
     <!--Thief's Gloves-->
-    <s:String x:Key="ThiefsGloves" xml:space="preserve">Thief's Gloves</s:String>
-    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;Each round, wearer is equipped with two random items that are removed at round end. Item holder cannot have any other items equipped</s:String>
+    <s:String x:Key="ThiefsGloves" xml:space="preserve">盗贼手套</s:String>
+    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;携带者不能装备其它装备。准备阶段，暂时获得2件装备，品质取决于自身等级</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">荆棘之甲</s:String>
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所受到伤害的100%的魔法伤害</s:String>
@@ -251,9 +251,9 @@
 
     <!-- Yordle -->
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">约德尔人</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">对友方约德尔人进行的攻击(包括攻击特效)会有一定几率</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">未命中</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">35%几率造成未命中(3)  60几率造成未命中(6)</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">友方约德尔人有一定几率闪避攻击和(</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">攻击特效</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">35%几率闪避(3)  60%几率闪避(6)</s:String>
 
     <!--Classes | Effects and Champions-->
     <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">职业 | 羁绊效果</s:String>
@@ -351,9 +351,10 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">技能伤害</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3)  +100%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">技能伤害</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)  +175%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe10" xml:space="preserve">技能伤害</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe11" xml:space="preserve">(9)</s:String>
 
-  
     <!--/////////////////-->
     <!--Charts-->
     <!--&#10; = LineBreak-->
