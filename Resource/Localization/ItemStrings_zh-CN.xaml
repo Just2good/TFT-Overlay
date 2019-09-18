@@ -23,8 +23,8 @@
     <s:String x:Key="KnightsVow" xml:space="preserve">骑士之誓</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;携带者也是骑士单位</s:String>
     <!--Mittens-->
-    <s:String x:Key="Mittens" xml:space="preserve">Mittens</s:String>
-    <s:String x:Key="Mittens1" xml:space="preserve">&#10;Wearer is also a Yordle</s:String>
+    <s:String x:Key="Mittens" xml:space="preserve">连指手套</s:String>
+    <s:String x:Key="Mittens1" xml:space="preserve">&#10;携带者也是一名约德尔人</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">卢安娜的飓风</s:String>
     <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;普攻对额外1个目标造成伤害，额外攻击造成75%的伤害，附带普攻特效</s:String>
@@ -74,7 +74,7 @@
     <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+150%暴击伤害</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+200%暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到150点真实伤害</s:String>
@@ -107,7 +107,7 @@
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加50%技能伤害</s:String>
     <!--Rapid Firecannon-->
     <s:String x:Key="RapidFirecannon" xml:space="preserve">疾射火炮</s:String>
-    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击不会被闪避,攻击距离翻倍</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击造成2.5%燃烧伤害，并阻止生命回复</s:String>
@@ -137,7 +137,7 @@
     <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;携带者不能装备其它装备。准备阶段，暂时获得2件装备，品质取决于自身等级</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">荆棘之甲</s:String>
-    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所受到伤害的100%的魔法伤害</s:String>
+    <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所受到伤害的100%的真实伤害</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对敌人造成携带者10%最大生命值的溅射伤害</s:String>
@@ -251,7 +251,7 @@
 
     <!-- Yordle -->
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">约德尔人</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">友方约德尔人有一定几率闪避攻击和(</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">友方约德尔人有一定几率闪避攻击和</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">攻击特效</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">35%几率闪避(3)  60%几率闪避(6)</s:String>
 
