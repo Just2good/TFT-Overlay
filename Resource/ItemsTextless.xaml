@@ -42,12 +42,12 @@
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
                     <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/lords_edge.png">
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/deathblade.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource LordsEdge}"/>
-                                    <Run Text="{DynamicResource LordsEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource Deathblade}"/>
+                                    <Run Text="{DynamicResource Deathblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -56,12 +56,12 @@
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/last_whisper.png" >
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/giant_slayer.png" >
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource LastWhisper}"/>
-                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource GiantSlayer}"/>
+                                    <Run Text="{DynamicResource GiantSlayer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -209,12 +209,12 @@
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="0" Grid.Column="0" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
                     <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/last_whisper.png">
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/giant_slayer.png">
                         <Image.ToolTip>
                         <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource LastWhisper}"/>
-                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource GiantSlayer}"/>
+                                    <Run Text="{DynamicResource GiantSlayer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -469,16 +469,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Arcane Gauntlet -->
+                    <!-- Jeweled Gauntlet -->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/arcane_gauntlet.png">
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/jeweled_gauntlet.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource ArcaneGauntlet}"/>
-                                    <Run Text="{DynamicResource ArcaneGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet}"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1133,16 +1133,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Backhand -->
+                    <!-- trap_claw -->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/backhand.png">
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/trap_claw.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Backhand}"/>
-                                    <Run Text="{DynamicResource Backhand1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource trap_claw}"/>
+                                    <Run Text="{DynamicResource trap_claw1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1229,16 +1229,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Arcane Gauntlet -->
+                    <!-- Jeweled Gauntlet -->
                     <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/arcane_gauntlet.png">
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/jeweled_gauntlet.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource ArcaneGauntlet}"/>
-                                    <Run Text="{DynamicResource ArcaneGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet}"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1285,16 +1285,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Backhand -->
+                    <!-- trap_claw -->
                     <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/backhand.png">
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/trap_claw.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Backhand}"/>
-                                    <Run Text="{DynamicResource Backhand1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource trap_claw}"/>
+                                    <Run Text="{DynamicResource trap_claw1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>

@@ -36,12 +36,12 @@
 
    
     <!--Description help by Object#3031-->
-    <!--Arcane Gauntlet-->
-    <s:String x:Key="ArcaneGauntlet" xml:space="preserve">Arcane Gauntlet</s:String>
-    <s:String x:Key="ArcaneGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
-    <!--Backhand-->
-    <s:String x:Key="Backhand" xml:space="preserve">Backhand</s:String>
-    <s:String x:Key="Backhand1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
+    <!--Jeweled Gauntlet-->
+    <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
+    <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
+    <!--trap_claw-->
+    <s:String x:Key="trap_claw" xml:space="preserve">trap_claw</s:String>
+    <s:String x:Key="trap_claw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 40% of damage</s:String>
@@ -79,14 +79,14 @@
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
     <!--Last Whisper-->
-    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
-    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
+    <s:String x:Key="GiantSlayer" xml:space="preserve">Last Whisper</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 7 seconds</s:String>
     <!--Lord's Edge-->
-    <s:String x:Key="LordsEdge" xml:space="preserve">Lord's Edge</s:String>
-    <s:String x:Key="LordsEdge1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
+    <s:String x:Key="Deathblade" xml:space="preserve">Lord's Edge</s:String>
+    <s:String x:Key="Deathblade1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>

@@ -14,6 +14,12 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **9.24.2019**
+  - [2.1.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.4)  
+     - Updated to Patch 9.19
+     - Changed item names to Riot's new names
+     - Updated CN item changes for the patch, still need translations for new item names
+
 - **9.17.2019**
   - [2.1.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.3)  
      - Further CN updates

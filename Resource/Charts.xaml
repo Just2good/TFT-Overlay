@@ -185,23 +185,22 @@
 
                 <TextBlock Text="1 Star" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="1" Grid.Row="3" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
-                <TextBlock Text="2" Grid.Row="3" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="1" Grid.Row="3" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="2" Grid.Row="3" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="2" Grid.Row="3" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="3" Grid.Row="3" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
 
-
                 <TextBlock Text="2 Star" Grid.Row="4" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="2" Grid.Row="4" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
-                <TextBlock Text="3" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="2" Grid.Row="4" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="3" Grid.Row="4" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="4" Grid.Row="4" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="5" Grid.Row="4" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
 
                 <TextBlock Text="3 Star" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
-                <TextBlock Text="4" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
-                <TextBlock Text="5" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
-                <TextBlock Text="6" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="3" Grid.Row="5" Grid.Column="1" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="4" Grid.Row="5" Grid.Column="2" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="5" Grid.Row="5" Grid.Column="3" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="6" Grid.Row="5" Grid.Column="4" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
                 <TextBlock Text="8" Grid.Row="5" Grid.Column="5" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"></TextBlock>
 

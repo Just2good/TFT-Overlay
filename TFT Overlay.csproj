@@ -585,8 +585,8 @@
     <Resource Include="Images\cstyle\items\neekos_help.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\cstyle\items\arcane_gauntlet.png" />
-    <Resource Include="Images\cstyle\items\backhand.png" />
+    <Resource Include="Images\cstyle\items\jeweled_gauntlet.png" />
+    <Resource Include="Images\cstyle\items\trap_claw.png" />
     <Resource Include="Images\cstyle\items\Gloves.png" />
     <Resource Include="Images\cstyle\items\hand_of_justice.png" />
     <Resource Include="Images\cstyle\items\iceborn_gauntlet.png" />
@@ -608,27 +608,30 @@
     <Resource Include="Images\Gloves.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\last_whisper.png" />
-    <Resource Include="Images\lords_edge.png" />
+    <Resource Include="Images\giant_slayer.png" />
+    <Resource Include="Images\deathblade.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\backhand.png" />
+    <Resource Include="Images\trap_claw.png" />
     <Resource Include="Images\hand_of_justice.png" />
-    <Resource Include="Images\Iceborn_Gauntlet.png" />
+    <Resource Include="Images\iceborn_gauntlet.png" />
     <Resource Include="Images\repeating_crossbow.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\quicksilver.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\cstyle\items\last_whisper.png" />
+    <Resource Include="Images\cstyle\items\giant_slayer.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\cstyle\items\lords_edge.png" />
+    <Resource Include="Images\cstyle\items\deathblade.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Arcane_Gauntlet.png" />
+    <Resource Include="Images\jeweled_gauntlet.png" />
     <Resource Include="Images\Mittens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\KaiSa-Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />

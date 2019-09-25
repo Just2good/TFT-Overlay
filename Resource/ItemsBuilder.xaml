@@ -134,25 +134,25 @@
                     <Image Grid.Row="0" Grid.Column="23" Source="../Images/cstyle/items/Spatula.png" Style="{StaticResource ImageStyle}"/>
 
                     <!-- BF Combos -->
-                    <Border x:Name="LordsEdge" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference LordsEdge}" >
-                        <Image Source="../Images/lords_edge.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="Deathblade" Grid.Row="2" Grid.Column="7" utilities:AttachedControls.RelatedControl="{x:Reference Deathblade}" >
+                        <Image Source="../Images/deathblade.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource LordsEdge}"/>
-                                    <Run Text="{DynamicResource LordsEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource Deathblade}"/>
+                                    <Run Text="{DynamicResource Deathblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="LastWhisper" Grid.Row="2" Grid.Column="9" utilities:AttachedControls.RelatedControl="{x:Reference LastWhisper}" >
-                        <Image Source="../Images/last_whisper.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="GiantSlayer" Grid.Row="2" Grid.Column="9" utilities:AttachedControls.RelatedControl="{x:Reference GiantSlayer}" >
+                        <Image Source="../Images/giant_slayer.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource LastWhisper}"/>
-                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource GiantSlayer}"/>
+                                    <Run Text="{DynamicResource GiantSlayer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -402,13 +402,13 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="ArcaneGauntlet" Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference ArcaneGauntlet}" >
-                        <Image Source="../Images/arcane_gauntlet.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="JeweledGauntlet" Grid.Row="6" Grid.Column="21"  utilities:AttachedControls.RelatedControl="{x:Reference JeweledGauntlet}" >
+                        <Image Source="../Images/jeweled_gauntlet.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource ArcaneGauntlet}"/>
-                                    <Run Text="{DynamicResource ArcaneGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet}"/>
+                                    <Run Text="{DynamicResource JeweledGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -626,13 +626,13 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="Backhand" Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference Backhand}" >
-                        <Image Source="../Images/backhand.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="TrapClaw" Grid.Row="14" Grid.Column="21" utilities:AttachedControls.RelatedControl="{x:Reference TrapClaw}" >
+                        <Image Source="../Images/trap_claw.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Backhand}"/>
-                                    <Run Text="{DynamicResource Backhand1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource TrapClaw}"/>
+                                    <Run Text="{DynamicResource TrapClaw1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -701,7 +701,7 @@
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=2}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="LordsEdge" Property="Style" Value="{DynamicResource ButtonBorder}"/>
+                <Setter TargetName="Deathblade" Property="Style" Value="{DynamicResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -715,7 +715,7 @@
                     <Condition Binding="{Binding ElementName=BFCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="LastWhisper" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="GiantSlayer" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -857,7 +857,7 @@
                     <Condition Binding="{Binding ElementName=RodCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="ArcaneGauntlet" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="JeweledGauntlet" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -987,7 +987,7 @@
                     <Condition Binding="{Binding ElementName=GiantsBeltCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=SparringGlovesCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="Backhand" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="TrapClaw" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>

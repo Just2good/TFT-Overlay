@@ -434,6 +434,9 @@
                 <Image Source="pack://application:,,,/Images/champs/ChoGath-Icon.png" Grid.Row="24" Grid.Column="4"></Image>
                 <TextBlock Text="4" Grid.Row="24" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
+                <Image Source="pack://application:,,,/Images/champs/KaiSa-Icon.png" Grid.Row="24" Grid.Column="5"></Image>
+                <TextBlock Text="5" Grid.Row="24" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
 
                 <!-- Wild -->
 
@@ -582,15 +585,18 @@
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
                                         <Run Text="{DynamicResource ClassOrigins_Assassin_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe4}" Foreground="OrangeRed"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe5}" Foreground="White"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe6}" Foreground="OrangeRed"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe7}" Foreground="White"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe8}" Foreground="OrangeRed"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe9}" Foreground="White"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe10}" Foreground="OrangeRed"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe11}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe2}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe3}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe4}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe5}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe6}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe7}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe8}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe9}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe10}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe11}" Foreground="OrangeRed"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe12}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Assassin_Describe13}" Foreground="OrangeRed"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/classes/assassin.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
@@ -614,6 +620,9 @@
 
                 <Image Source="pack://application:,,,/Images/champs/Akali-Icon.png" Grid.Row="2" Grid.Column="7"></Image>
                 <TextBlock Text="4" Grid.Row="2" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                <Image Source="pack://application:,,,/Images/champs/KaiSa-Icon.png" Grid.Row="2" Grid.Column="8"></Image>
+                <TextBlock Text="5" Grid.Row="2" Grid.Column="8" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
 
                 <!-- Blademaster -->
@@ -860,6 +869,9 @@
 
                 <Image Source="pack://application:,,,/Images/champs/Kindred-Icon.png" Grid.Row="16" Grid.Column="4"></Image>
                 <TextBlock Text="4" Grid.Row="16" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                <Image Source="pack://application:,,,/Images/champs/KaiSa-Icon.png" Grid.Row="16" Grid.Column="5"></Image>
+                <TextBlock Text="5" Grid.Row="16" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
 
                 <!-- Shapeshifter -->

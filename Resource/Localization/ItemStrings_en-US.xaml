@@ -4,7 +4,7 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib">
     <!--/////////////////-->
     <!--Item Descriptions-->
-    <!--&#10; = LineBreak-->
+    <!-- Spatula Items -->
     <!--/////////////////-->
     <!--Blade of the Ruined King-->
     <s:String x:Key="BOTRK" xml:space="preserve">Blade of the Ruined King</s:String>
@@ -36,24 +36,24 @@
 
 
     <!--Description help by Object#3031-->
-    <!--Arcane Gauntlet-->
-    <s:String x:Key="ArcaneGauntlet" xml:space="preserve">Arcane Gauntlet</s:String>
-    <s:String x:Key="ArcaneGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
-    <!--Backhand-->
-    <s:String x:Key="Backhand" xml:space="preserve">Backhand</s:String>
-    <s:String x:Key="Backhand1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 40% of damage</s:String>
     <!--Cursed Blade-->
     <s:String x:Key="CursedBlade" xml:space="preserve">Cursed Blade</s:String>
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Attacks have a 20% to shrink (-1 enemy star, down to 0)</s:String>
+    <!--Deathblade-->
+    <s:String x:Key="Deathblade" xml:space="preserve">Deathblade</s:String>
+    <s:String x:Key="Deathblade1" xml:space="preserve">&#10;On takedown, gain 15 attack damage for the remainder of the round (Stacks infinitely)</s:String>
     <!--Dragon's Claw-->
     <s:String x:Key="DragonsClaw" xml:space="preserve">Dragon's Claw</s:String>
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed for 4 seconds</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 35% attack speed for 4 seconds</s:String>
+    <!--Giant Slayer-->
+    <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 5% of target's max health as true damage</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 500 health after 2 secs and clears grievous wounds</s:String>
@@ -71,22 +71,19 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 33% chance to mana-lock the target for 4 seconds, preventing them from gaining mana</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After dodging an attack, gain an aura that slows the attack speed of nearby enemies by 30%. Each successive dodge increases radius</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;On dodge, create an expandable zone that lowers enemy attack speed by 35%</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 200% bonus critical strike damage</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 150% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
-    <!--Last Whisper-->
-    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
-    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
+    <!--Jeweled Gauntlet-->
+    <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
+    <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 7 seconds</s:String>
-    <!--Lord's Edge-->
-    <s:String x:Key="LordsEdge" xml:space="preserve">Lord's Edge</s:String>
-    <s:String x:Key="LordsEdge1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>
@@ -107,7 +104,7 @@
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Ability Power</s:String>
     <!--Rapid Firecannon-->
     <s:String x:Key="RapidFirecannon" xml:space="preserve">Rapid Firecannon</s:String>
-    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Wearer's attacks cannot be dodged. Attack range is doubled</s:String>
+    <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Attack range is doubled</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">Red Buff</s:String>
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2% max HP per second for 10 seconds and reduce healing by 80%</s:String>
@@ -134,13 +131,16 @@
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Each second, the wearer has a 7% chance to gain 100% Critical Strike</s:String>
     <!--Thief's Gloves-->
     <s:String x:Key="ThiefsGloves" xml:space="preserve">Thief's Gloves</s:String>
-    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;Each round, wearer is equipped with two random items that are removed at round end. Item holder cannot have any other items equipped</s:String>
+    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;This item takes all three item slots. On round begin, copy two random items</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Thornmail</s:String>
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflect 100% of physical damage mitigated from attacks as Magic Damage</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
-    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Attacks deal 10% of wearer's max health as splash damage</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Attacks deal 3% of wearer's max health to target and adjacent enemies behind them</s:String>
+    <!--Trap Claw-->
+    <s:String x:Key="TrapClaw" xml:space="preserve">Trap Claw</s:String>
+    <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
     <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Wearer regenerates 6% missing health per second (max 400 per tick)</s:String>
@@ -170,7 +170,7 @@
     <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">Dragon</s:String>
     <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">Dragons take reduced </s:String>
     <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">Magic Damage</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2) 83% Magic Immunity</s:String>
+    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2) 75% Magic Immunity</s:String>
 
     <!-- Exile -->
     <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Exile</s:String>
@@ -180,9 +180,9 @@
 
     <!-- Glacial -->
     <s:String x:Key="ClassOrigins_Glacial" xml:space="preserve">Glacial</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 30%, (6) 45% to</s:String>
+    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 33%, (6) 50% to</s:String>
     <s:String x:Key="ClassOrigins_Glacial_Describe2" xml:space="preserve">stun</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">for 2 seconds</s:String>
+    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">for 1.5 seconds</s:String>
 
     <!-- Hextech -->
     <s:String x:Key="ClassOrigins_Hextech" xml:space="preserve">Hextech</s:String>
@@ -204,7 +204,7 @@
     <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">(Exactly 1) Ninja gains +50</s:String>
     <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">AD + AP</s:String>
     <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(4)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">All Ninjas gain +70</s:String>
+    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">All Ninjas gain +80</s:String>
     <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">AD + AP</s:String>
 
     <!-- Noble -->
@@ -212,7 +212,7 @@
     <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">Nobles grant</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">50 Armor + MR</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">and</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">heal for 25</s:String>
+    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">heal for 30</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">on hit</s:String>
     <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">(3) One Random Ally (6) All Allies</s:String>
 
@@ -236,8 +236,10 @@
 
     <!-- Void -->
     <s:String x:Key="ClassOrigins_Void" xml:space="preserve">Void</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">(3) Void units deal</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">(2) One random void unit deals</s:String>
     <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">True Damage</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(4) All void units deal</s:String>
+    <s:String x:Key="ClassOrigins_Void_Describe4" xml:space="preserve">True Damage</s:String>
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Wild</s:String>
@@ -250,27 +252,26 @@
     <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">Attacks + On-hit effects against ally Yordles can</s:String>
     <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">miss</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">(3) 35% chance to miss (6) 60% chance to miss</s:String>
+    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">(3) 30% chance to miss (6) 60% chance to miss (9) 90% chance to miss</s:String>
 
     <!--Classes | Effects and Champions-->
     <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Classes | Effects and Champions</s:String>
 
     <!-- Assassin -->
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassin</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Assassins stealth and leap to the farthest enemy at the start of combat and gain additional</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+10%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">Critical Strike Chance</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">and +75%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Critical Strike Damage</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(3) +25%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe8" xml:space="preserve">Critical Strike Chance</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe9" xml:space="preserve">and +150%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe10" xml:space="preserve">Critical Strike Damage</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe11" xml:space="preserve">(6) + 40%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe12" xml:space="preserve">Critical Strike Chance</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe13" xml:space="preserve">and +225%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe14" xml:space="preserve">Critical Strike Damage</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe15" xml:space="preserve">(9)</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Assassins gain additional</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">(3) +10%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">Crit Chance</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">and +75%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">Crit Damage</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">(6) +20%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">Crit Chance</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe8" xml:space="preserve">and +150%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe9" xml:space="preserve">Crit Damage</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe10" xml:space="preserve">(9) + 30%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe11" xml:space="preserve">Crit Chance</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe12" xml:space="preserve">and +225%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe13" xml:space="preserve">Crit Damage</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Blademaster</s:String>
@@ -332,7 +333,7 @@
     <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their</s:String>
     <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">attack speed</s:String>
     <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">for the next 3 seconds</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">30% chance (2) 70% chance (4)</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25% chance (2) 70% chance (4)</s:String>
 
     <!-- Shapeshifter -->
     <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
@@ -341,7 +342,7 @@
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">when they transform</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">(3) +60% bonus</s:String>
     <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">HP</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(6) +120% bonus HP</s:String>
+    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(6) +100% bonus HP</s:String>
 
     <!-- Sorcerer -->
     <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Sorcerer</s:String>
