@@ -8,7 +8,7 @@
   -  Extract the file and run `TFT Overlay.exe`
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
-![Image](https://giant.gfycat.com/VastWeakHen.gif)
+![Image](https://imgur.com/a/JbTTaqK)
 
 ## Localization
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
