@@ -8,7 +8,7 @@
   -  Extract the file and run `TFT Overlay.exe`
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
-![Imgur](https://i.imgur.com/mLBNGst.mp4)
+![Imgur](https://i.imgur.com/mLBNGst.gif)
 
 ## Localization
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
