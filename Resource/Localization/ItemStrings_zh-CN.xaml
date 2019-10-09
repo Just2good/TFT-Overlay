@@ -44,16 +44,16 @@
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;普通攻击有20%使敌人缩小1星</s:String>
     <!--Deathblade-->
     <s:String x:Key="Deathblade" xml:space="preserve">领主之剑</s:String>
-    <s:String x:Key="Deathblade1" xml:space="preserve">&#10;携带者不能装备其它装备。参与击杀后，获得一把暴风大剑，直到该轮结束</s:String>
+    <s:String x:Key="Deathblade1" xml:space="preserve">&#10;在击杀或助攻后，获得一层额外的15攻击力，持续到战斗结束（可无限叠加）。</s:String>
     <!--Dragon's Claw-->
     <s:String x:Key="DragonsClaw" xml:space="preserve">巨龙之爪</s:String>
-    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得83%魔法抗性</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得75%魔法抗性</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">冰霜之心</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低35%攻击速度</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低20%攻击速度</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">最后的轻语</s:String>
-    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击不能被闪避，并且造成目标最大生命值5%的真实伤害</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击造成目标最大生命值5%的额外真实伤害</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">守护天使</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;阵亡2秒后复活,复活后恢复500生命值</s:String>
@@ -71,7 +71,7 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有50%对敌人造成3秒沉默</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">冰脉护手</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人35%攻速</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+150%暴击伤害</s:String>
@@ -80,7 +80,7 @@
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到150点真实伤害</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">奥数护手</s:String>
-    <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以爆击</s:String>
+    <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供300盾，持续7秒</s:String>
@@ -107,7 +107,7 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击造成2.5%燃烧伤害，并阻止生命回复</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击在10秒内灼烧目标20%最大生命值并禁止治疗</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;在生命值降低到25%时，治疗附近所有友军1200点生命值</s:String>
@@ -122,7 +122,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复15%最大法力值</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，造成90点溅射魔法伤害。总会命中3个额外的目标</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，造成100点溅射魔法伤害。总会命中3个额外的目标</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有33%造成3秒缴械效果</s:String>
@@ -137,10 +137,10 @@
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所受到伤害的100%的真实伤害</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
-    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对敌人造成携带者10%最大生命值的溅射伤害</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对敌人造成携带者6%最大生命值的溅射伤害</s:String>
     <!--TrapClaw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">反击之手</s:String>
-    <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被长时间眩晕</s:String>
+    <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕5秒</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">狂徒铠甲</s:String>
     <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;每秒恢复6%已损失生命值</s:String>
