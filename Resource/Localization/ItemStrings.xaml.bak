@@ -21,6 +21,9 @@
     <!--Knight's Vow-->
     <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight</s:String>
+    <!--Mittens-->
+    <s:String x:Key="Mittens" xml:space="preserve">Mittens</s:String>
+    <s:String x:Key="Mittens1" xml:space="preserve">&#10;Wearer is also a Yordle</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
     <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 1 additional enemy and deal 75% damage, applying on-hit effects</s:String>
@@ -31,11 +34,14 @@
     <s:String x:Key="Yuumi" xml:space="preserve">Yuumi</s:String>
     <s:String x:Key="Yuumi1" xml:space="preserve">&#10;Wearer is also a Sorcerer</s:String>
 
-    <!--Descriptions by Object#3031-->
-    <!--Neeko's Help-->
-    <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
-    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
-
+   
+    <!--Description help by Object#3031-->
+    <!--Jeweled Gauntlet-->
+    <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
+    <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
+    <!--trap_claw-->
+    <s:String x:Key="trap_claw" xml:space="preserve">trap_claw</s:String>
+    <s:String x:Key="trap_claw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 40% of damage</s:String>
@@ -54,30 +60,48 @@
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 5% attack speed (Stacks infinitely)</s:String>
+    <!--Hand of Justice-->
+    <s:String x:Key="HandOfJustice" xml:space="preserve">Hand Of Justice</s:String>
+    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;At the start of the round gain either 40% increased damage or 40 on-hit healing</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">Hush</s:String>
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 33% chance to mana-lock the target for 4 seconds, preventing them from gaining mana</s:String>
+    <!--Iceborn Gauntlet-->
+    <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After dodging an attack, gain an aura that slows the attack speed of nearby enemies by 30%. Each successive dodge increases radius</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 200% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
+    <!--Last Whisper-->
+    <s:String x:Key="GiantSlayer" xml:space="preserve">Last Whisper</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Basic attacks can't miss and deal 5% of target's max health as true damage</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 7 seconds</s:String>
+    <!--Lord's Edge-->
+    <s:String x:Key="Deathblade" xml:space="preserve">Lord's Edge</s:String>
+    <s:String x:Key="Deathblade1" xml:space="preserve">&#10;On takedown, gain a BF sword for the remainder of the round. Item holder cannot have any other items equipped</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and reduce healing by 80%</s:String>
+    <!--Neeko's Help-->
+    <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
+    <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
     <!--Phantom Dancer-->
     <s:String x:Key="PhantomDancer" xml:space="preserve">Phantom Dancer</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
+    <!--Quicksilver-->
+    <s:String x:Key="Quicksilver" xml:space="preserve">Quicksilver</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 5 second cooldown</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Ability Power</s:String>
@@ -90,6 +114,9 @@
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
     <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 25% health, heal all nearby allies for 1200 health</s:String>
+    <!--Repeating Crossbow-->
+    <s:String x:Key="RepeatingCrossbow" xml:space="preserve">Repeating Crossbow</s:String>
+    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;On death, item passes to another ally and grants an additional 20% AS and Crit Chance. Effect stacks with each death</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;After casting a spell, the wearer gains 20 mana</s:String>
@@ -105,6 +132,9 @@
     <!--Sword of the Divine-->
     <s:String x:Key="SwordDivine" xml:space="preserve">Sword of the Divine</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;Each second, the wearer has a 7% chance to gain 100% Critical Strike</s:String>
+    <!--Thief's Gloves-->
+    <s:String x:Key="ThiefsGloves" xml:space="preserve">Thief's Gloves</s:String>
+    <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;Each round, wearer is equipped with two random items that are removed at round end. Item holder cannot have any other items equipped</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">Thornmail</s:String>
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;Reflect 100% of physical damage mitigated from attacks as Magic Damage</s:String>

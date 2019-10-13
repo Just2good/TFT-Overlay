@@ -50,7 +50,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 35% attack speed for 4 seconds</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 35% attack speed for 1 seconds</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
     <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 5% of target's max health as true damage</s:String>
@@ -74,7 +74,7 @@
     <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;On dodge, create an expandable zone that lowers enemy attack speed by 35%</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 150% bonus critical strike damage</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 125% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
     <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
@@ -98,7 +98,7 @@
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
     <!--Quicksilver-->
     <s:String x:Key="Quicksilver" xml:space="preserve">Quicksilver</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 5 second cooldown</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 3 second cooldown</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Ability Power</s:String>
@@ -243,7 +243,7 @@
 
     <!-- Wild -->
     <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Wild</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 12%</s:String>
+    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">attack speed</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">, up to 60%</s:String>
     <s:String x:Key="ClassOrigins_Wild_Describe4" xml:space="preserve">(2) Wild Allies (4) All Allies AND their basic attacks can't miss</s:String>
@@ -260,7 +260,7 @@
     <!-- Assassin -->
     <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Assassin</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Assassins gain additional</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">(3) +10%</s:String>
+    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">(3) +5%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">Crit Chance</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">and +75%</s:String>
     <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">Crit Damage</s:String>
@@ -301,7 +301,7 @@
 
     <!-- Guardian -->
     <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Guardian</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive (2) +35</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive (2) +45</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">armor</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">Guardian's can't buff themselves</s:String>
 
@@ -312,7 +312,7 @@
     <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">(2) 1</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">Additional</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">attack</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">(4) 2 attacks (6) 3 attacks</s:String>
+    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">(4) 2 attacks (6) 4 attacks</s:String>
     <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">in range</s:String>
 
     <!-- Knight -->
@@ -325,7 +325,7 @@
     <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">damage blocked</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 35</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 65</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 60</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">damage blocked</s:String>
 
     <!-- Ranger -->
