@@ -14,6 +14,12 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History  
+- **10.13.2019**
+  - [2.1.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.5)  
+     - Updated to Patch 9.20
+     - CN localization updates
+     - Giant Slayer updated to correct image
+
 - **9.24.2019**
   - [2.1.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.4)  
      - Updated to Patch 9.19
