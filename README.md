@@ -13,7 +13,11 @@
 ## Localization
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
-## Version History  
+## Version History
+- **10.15.2019**
+  - [2.1.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.6)  
+     - Fixed bug submitted by SuTree showing BF instead of Gloves for IE recipe
+
 - **10.13.2019**
   - [2.1.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.5)  
      - Updated to Patch 9.20
