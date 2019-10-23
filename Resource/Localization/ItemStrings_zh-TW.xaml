@@ -123,194 +123,194 @@
     <!--/////////////////-->
 
     <!--Origins | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Origins" xml:space="preserve">血統效果與英雄</s:String>
+    <s:String x:Key="Origins_Label" xml:space="preserve">血統效果與英雄</s:String>
 
     <!-- Demons -->
-    <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">惡魔</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) 機率普攻命中燃燒目標的</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">當前魔力</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">，並造成</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">真實傷害</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">(等同於燃燒的魔力值)。</s:String>
+    <s:String x:Key="Origins_Demons" xml:space="preserve">惡魔</s:String>
+    <s:String x:Key="Origins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) 機率普攻命中燃燒目標的</s:String>
+    <s:String x:Key="Origins_Demons_Describe2" xml:space="preserve">當前魔力</s:String>
+    <s:String x:Key="Origins_Demons_Describe3" xml:space="preserve">，並造成</s:String>
+    <s:String x:Key="Origins_Demons_Describe4" xml:space="preserve">真實傷害</s:String>
+    <s:String x:Key="Origins_Demons_Describe5" xml:space="preserve">(等同於燃燒的魔力值)。</s:String>
 
     <!-- Dragon -->
-    <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">飛龍</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">飛龍免疫</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">魔法傷害。</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Origins_Dragon" xml:space="preserve">飛龍</s:String>
+    <s:String x:Key="Origins_Dragon_Describe1" xml:space="preserve">飛龍免疫</s:String>
+    <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">魔法傷害。</s:String>
+    <s:String x:Key="Origins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Exile -->
-    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">浪人</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">在戰鬥開始時，如果浪人的鄰近棋格沒有友軍，浪人會獲得一個護盾，等同於100%最大</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe2" xml:space="preserve">生命值</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe3" xml:space="preserve">。(鄰近棋格不能有友軍) (1)</s:String>
+    <s:String x:Key="Origins_Exile" xml:space="preserve">浪人</s:String>
+    <s:String x:Key="Origins_Exile_Describe1" xml:space="preserve">在戰鬥開始時，如果浪人的鄰近棋格沒有友軍，浪人會獲得一個護盾，等同於100%最大</s:String>
+    <s:String x:Key="Origins_Exile_Describe2" xml:space="preserve">生命值</s:String>
+    <s:String x:Key="Origins_Exile_Describe3" xml:space="preserve">。(鄰近棋格不能有友軍) (1)</s:String>
 
     <!-- Glacial -->
-    <s:String x:Key="ClassOrigins_Glacial" xml:space="preserve">冰川使者</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">冰川使者的攻擊有 20% (2), 30% (4), 45% (6) 機率</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe2" xml:space="preserve">暈眩</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">目標2秒。</s:String>
+    <s:String x:Key="Origins_Glacial" xml:space="preserve">冰川使者</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">冰川使者的攻擊有 20% (2), 30% (4), 45% (6) 機率</s:String>
+    <s:String x:Key="Origins_Glacial_Describe2" xml:space="preserve">暈眩</s:String>
+    <s:String x:Key="Origins_Glacial_Describe3" xml:space="preserve">目標2秒。</s:String>
 
     <!-- Imperial -->
-    <s:String x:Key="ClassOrigins_Imperial" xml:space="preserve">帝王</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe1" xml:space="preserve">帝王造成</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe2" xml:space="preserve">雙倍傷害。</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe3" xml:space="preserve">1個隨機帝王(1) 所有帝王(4)</s:String>
+    <s:String x:Key="Origins_Imperial" xml:space="preserve">帝王</s:String>
+    <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">帝王造成</s:String>
+    <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">雙倍傷害。</s:String>
+    <s:String x:Key="Origins_Imperial_Describe3" xml:space="preserve">1個隨機帝王(1) 所有帝王(4)</s:String>
 
     <!-- Noble -->
-    <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">貴族</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">貴族給予</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">100護甲</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">與</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">35生命值</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">(普攻時)</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">一位隨機隊友(3) 整個隊伍(6)</s:String>
+    <s:String x:Key="Origins_Noble" xml:space="preserve">貴族</s:String>
+    <s:String x:Key="Origins_Noble_Describe1" xml:space="preserve">貴族給予</s:String>
+    <s:String x:Key="Origins_Noble_Describe2" xml:space="preserve">100護甲</s:String>
+    <s:String x:Key="Origins_Noble_Describe3" xml:space="preserve">與</s:String>
+    <s:String x:Key="Origins_Noble_Describe4" xml:space="preserve">35生命值</s:String>
+    <s:String x:Key="Origins_Noble_Describe5" xml:space="preserve">(普攻時)</s:String>
+    <s:String x:Key="Origins_Noble_Describe6" xml:space="preserve">一位隨機隊友(3) 整個隊伍(6)</s:String>
 
     <!-- Ninja -->
-    <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">忍者</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">忍者獲得百分比的</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">物理攻擊。</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">忍者獲得40%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">物理攻擊</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(僅限1位)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">所有忍者獲得80%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">物理攻擊</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="Origins_Ninja" xml:space="preserve">忍者</s:String>
+    <s:String x:Key="Origins_Ninja_Describe1" xml:space="preserve">忍者獲得百分比的</s:String>
+    <s:String x:Key="Origins_Ninja_Describe2" xml:space="preserve">物理攻擊。</s:String>
+    <s:String x:Key="Origins_Ninja_Describe3" xml:space="preserve">忍者獲得40%</s:String>
+    <s:String x:Key="Origins_Ninja_Describe4" xml:space="preserve">物理攻擊</s:String>
+    <s:String x:Key="Origins_Ninja_Describe5" xml:space="preserve">(僅限1位)</s:String>
+    <s:String x:Key="Origins_Ninja_Describe6" xml:space="preserve">所有忍者獲得80%</s:String>
+    <s:String x:Key="Origins_Ninja_Describe7" xml:space="preserve">物理攻擊</s:String>
+    <s:String x:Key="Origins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
 
     <!-- Pirate -->
-    <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">海盜</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">獲得最多額外4</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe2" xml:space="preserve">金幣。(</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">在戰鬥之後</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">)</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Origins_Pirate" xml:space="preserve">海盜</s:String>
+    <s:String x:Key="Origins_Pirate_Describe1" xml:space="preserve">獲得最多額外4</s:String>
+    <s:String x:Key="Origins_Pirate_Describe2" xml:space="preserve">金幣。(</s:String>
+    <s:String x:Key="Origins_Pirate_Describe3" xml:space="preserve">在戰鬥之後</s:String>
+    <s:String x:Key="Origins_Pirate_Describe4" xml:space="preserve">)</s:String>
+    <s:String x:Key="Origins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
 
     <!-- Phantom -->
-    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">鬼魂</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">在遊戲一開始詛咒一個隨機的敵人，降低他們的起始生命至</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">100</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">。(2)</s:String>
+    <s:String x:Key="Origins_Phantom" xml:space="preserve">鬼魂</s:String>
+    <s:String x:Key="Origins_Phantom_Describe1" xml:space="preserve">在遊戲一開始詛咒一個隨機的敵人，降低他們的起始生命至</s:String>
+    <s:String x:Key="Origins_Phantom_Describe2" xml:space="preserve">100</s:String>
+    <s:String x:Key="Origins_Phantom_Describe3" xml:space="preserve">。(2)</s:String>
 
     <!-- Robot -->
-    <s:String x:Key="ClassOrigins_Robot" xml:space="preserve">機器人</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe1" xml:space="preserve">機器人在戰鬥開始時獲得全滿的</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe2" xml:space="preserve">魔力。</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe3" xml:space="preserve">(1)</s:String>
+    <s:String x:Key="Origins_Robot" xml:space="preserve">機器人</s:String>
+    <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">機器人在戰鬥開始時獲得全滿的</s:String>
+    <s:String x:Key="Origins_Robot_Describe2" xml:space="preserve">魔力。</s:String>
+    <s:String x:Key="Origins_Robot_Describe3" xml:space="preserve">(1)</s:String>
 
     <!-- Void -->
-    <s:String x:Key="ClassOrigins_Void" xml:space="preserve">虛空生物</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">你的隊伍無視目標50%的</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">物防。</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Origins_Void" xml:space="preserve">虛空生物</s:String>
+    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">你的隊伍無視目標50%的</s:String>
+    <s:String x:Key="Origins_Void_Describe2" xml:space="preserve">物防。</s:String>
+    <s:String x:Key="Origins_Void_Describe3" xml:space="preserve">(3)</s:String>
 
     <!-- Wild -->
-    <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">獸人</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">攻擊時獲得野性堆疊(最多5層)。每次堆疊獲得8%</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">攻速。</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">獸人成員 (2) 所有隊員 (4)</s:String>
+    <s:String x:Key="Origins_Wild" xml:space="preserve">獸人</s:String>
+    <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">攻擊時獲得野性堆疊(最多5層)。每次堆疊獲得8%</s:String>
+    <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">攻速。</s:String>
+    <s:String x:Key="Origins_Wild_Describe3" xml:space="preserve">獸人成員 (2) 所有隊員 (4)</s:String>
 
     <!-- Yordle -->
-    <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">約德爾人</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">攻擊約德爾人時有一定機率</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">無法命中。</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25%機率無法命中(3) 60%機率無法命中(6)</s:String>
+    <s:String x:Key="Origins_Yordle" xml:space="preserve">約德爾人</s:String>
+    <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">攻擊約德爾人時有一定機率</s:String>
+    <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">無法命中。</s:String>
+    <s:String x:Key="Origins_Yordle_Describe3" xml:space="preserve">25%機率無法命中(3) 60%機率無法命中(6)</s:String>
 
     <!--Classes | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">職業效果與英雄</s:String>
+    <s:String x:Key="Classes_Label" xml:space="preserve">職業效果與英雄</s:String>
 
     <!-- Assassin -->
-    <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">刺客</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">刺客於戰鬥的一開始會跳躍至最遠的目標並且製造額外的</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">爆擊傷害。</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+150%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">爆擊傷害</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">爆擊傷害</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Assassin" xml:space="preserve">刺客</s:String>
+    <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">刺客於戰鬥的一開始會跳躍至最遠的目標並且製造額外的</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">爆擊傷害。</s:String>
+    <s:String x:Key="Class_Assassin_Describe3" xml:space="preserve">+150%</s:String>
+    <s:String x:Key="Class_Assassin_Describe4" xml:space="preserve">爆擊傷害</s:String>
+    <s:String x:Key="Class_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
+    <s:String x:Key="Class_Assassin_Describe6" xml:space="preserve">爆擊傷害</s:String>
+    <s:String x:Key="Class_Assassin_Describe7" xml:space="preserve">(6)</s:String>
 
     <!-- Blademaster -->
-    <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">劍士</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe1" xml:space="preserve">劍士有35%機率獲得</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe2" xml:space="preserve">額外攻擊次數</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe3" xml:space="preserve">(每次普攻)。</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">額外1次攻擊(3) 額外2次攻擊(6)</s:String>
+    <s:String x:Key="Class_Blademaster" xml:space="preserve">劍士</s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">劍士有35%機率獲得</s:String>
+    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">額外攻擊次數</s:String>
+    <s:String x:Key="Class_Blademaster_Describe3" xml:space="preserve">(每次普攻)。</s:String>
+    <s:String x:Key="Class_Blademaster_Describe4" xml:space="preserve">額外1次攻擊(3) 額外2次攻擊(6)</s:String>
 
     <!-- Brawler -->
-    <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">武鬥家</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">武鬥家獲得額外</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">最大生命值。</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve"> +300 額外</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">最大生命值</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(2) +700 額外</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">最大生命值</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="Class_Brawler" xml:space="preserve">武鬥家</s:String>
+    <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">武鬥家獲得額外</s:String>
+    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">最大生命值。</s:String>
+    <s:String x:Key="Class_Brawler_Describe3" xml:space="preserve"> +300 額外</s:String>
+    <s:String x:Key="Class_Brawler_Describe4" xml:space="preserve">最大生命值</s:String>
+    <s:String x:Key="Class_Brawler_Describe5" xml:space="preserve">(2) +700 額外</s:String>
+    <s:String x:Key="Class_Brawler_Describe6" xml:space="preserve">最大生命值</s:String>
+    <s:String x:Key="Class_Brawler_Describe7" xml:space="preserve">(4)</s:String>
 
     <!-- Elementalist -->
-    <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">元素使</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">元素使獲得雙倍 </s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe2" xml:space="preserve">魔力</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe3" xml:space="preserve">(普攻時)。</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe4" xml:space="preserve">在戰鬥一開始時召喚1個</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe5" xml:space="preserve">魔像</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe6" xml:space="preserve">來為你而戰。(3)</s:String>
+    <s:String x:Key="Class_Elementalist" xml:space="preserve">元素使</s:String>
+    <s:String x:Key="Class_Elementalist_Describe1" xml:space="preserve">元素使獲得雙倍 </s:String>
+    <s:String x:Key="Class_Elementalist_Describe2" xml:space="preserve">魔力</s:String>
+    <s:String x:Key="Class_Elementalist_Describe3" xml:space="preserve">(普攻時)。</s:String>
+    <s:String x:Key="Class_Elementalist_Describe4" xml:space="preserve">在戰鬥一開始時召喚1個</s:String>
+    <s:String x:Key="Class_Elementalist_Describe5" xml:space="preserve">魔像</s:String>
+    <s:String x:Key="Class_Elementalist_Describe6" xml:space="preserve">來為你而戰。(3)</s:String>
 
     <!-- Guardian -->
-    <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">守護者</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">守護者於戰鬥的一開始給予他們和鄰近他們一格的友軍30</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">物防。</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Class_Guardian" xml:space="preserve">守護者</s:String>
+    <s:String x:Key="Class_Guardian_Describe1" xml:space="preserve">守護者於戰鬥的一開始給予他們和鄰近他們一格的友軍30</s:String>
+    <s:String x:Key="Class_Guardian_Describe2" xml:space="preserve">物防。</s:String>
+    <s:String x:Key="Class_Guardian_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Gunslinger -->
-    <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">神射手</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">神射手的攻擊有50%機率命中</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">額外目標。</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">攻擊額外1名</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">隨機</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">敵人(2) 攻擊額外</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">2名隨機敵人</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">(4)(在攻擊範圍內)</s:String>
+    <s:String x:Key="Class_Gunslinger" xml:space="preserve">神射手</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">神射手的攻擊有50%機率命中</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">額外目標。</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe3" xml:space="preserve">攻擊額外1名</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe4" xml:space="preserve">隨機</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe5" xml:space="preserve">敵人(2) 攻擊額外</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe6" xml:space="preserve">2名隨機敵人</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe7" xml:space="preserve">(4)(在攻擊範圍內)</s:String>
 
     <!-- Knight -->
-    <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">騎士</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">騎士</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">格擋傷害</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">(來自</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">普攻的傷害)。</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">20</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">傷害格擋</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">傷害格擋</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">傷害格擋</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Knight" xml:space="preserve">騎士</s:String>
+    <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">騎士</s:String>
+    <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">格擋傷害</s:String>
+    <s:String x:Key="Class_Knight_Describe3" xml:space="preserve">(來自</s:String>
+    <s:String x:Key="Class_Knight_Describe4" xml:space="preserve">普攻的傷害)。</s:String>
+    <s:String x:Key="Class_Knight_Describe5" xml:space="preserve">20</s:String>
+    <s:String x:Key="Class_Knight_Describe6" xml:space="preserve">傷害格擋</s:String>
+    <s:String x:Key="Class_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
+    <s:String x:Key="Class_Knight_Describe8" xml:space="preserve">傷害格擋</s:String>
+    <s:String x:Key="Class_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
+    <s:String x:Key="Class_Knight_Describe10" xml:space="preserve">傷害格擋</s:String>
+    <s:String x:Key="Class_Knight_Describe11" xml:space="preserve">(6)</s:String>
 
     <!-- Ranger -->
-    <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">遊俠</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">遊俠有一定機率獲得雙倍</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">攻擊速度</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">，在接下來的3秒內。</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25%機率(2) 65%機率(4)</s:String>
+    <s:String x:Key="Class_Ranger" xml:space="preserve">遊俠</s:String>
+    <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">遊俠有一定機率獲得雙倍</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">攻擊速度</s:String>
+    <s:String x:Key="Class_Ranger_Describe3" xml:space="preserve">，在接下來的3秒內。</s:String>
+    <s:String x:Key="Class_Ranger_Describe4" xml:space="preserve">25%機率(2) 65%機率(4)</s:String>
 
     <!-- Shapeshifter -->
-    <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">變形師</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">變形師獲得額外</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">最大生命值</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">，當他們轉換型態時。</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+60%額外</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">最大生命值</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Class_Shapeshifter" xml:space="preserve">變形師</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">變形師獲得額外</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">最大生命值</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe3" xml:space="preserve">，當他們轉換型態時。</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe4" xml:space="preserve">+60%額外</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe5" xml:space="preserve">最大生命值</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Sorcerer -->
-    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">巫師</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">巫師會普攻獲得雙倍</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">魔力</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">，並且隨著巫師增加獲得</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">魔法攻擊。</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">魔法攻擊</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">魔法攻擊</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Sorcerer" xml:space="preserve">巫師</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">巫師會普攻獲得雙倍</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">魔力</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe3" xml:space="preserve">，並且隨著巫師增加獲得</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe4" xml:space="preserve">魔法攻擊。</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe6" xml:space="preserve">魔法攻擊</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe8" xml:space="preserve">魔法攻擊</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
 
 
     <!--/////////////////-->

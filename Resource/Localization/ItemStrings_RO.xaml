@@ -123,193 +123,193 @@
     <!--/////////////////-->
 
     <!--Origins | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Origins" xml:space="preserve">Origini | Efecte și Campioni</s:String>
+    <s:String x:Key="Origins_Label" xml:space="preserve">Origini | Efecte și Campioni</s:String>
 
     <!-- Demons -->
-    <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">Demoni</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">40% (2), 60% (4), 80% (6) pe lovitură pentru a arde toți inamicii</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">mana curenta</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, dând</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">daune adevărate</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">egale cu mana arsă</s:String>
+    <s:String x:Key="Origins_Demons" xml:space="preserve">Demoni</s:String>
+    <s:String x:Key="Origins_Demons_Describe1" xml:space="preserve">40% (2), 60% (4), 80% (6) pe lovitură pentru a arde toți inamicii</s:String>
+    <s:String x:Key="Origins_Demons_Describe2" xml:space="preserve">mana curenta</s:String>
+    <s:String x:Key="Origins_Demons_Describe3" xml:space="preserve">, dând</s:String>
+    <s:String x:Key="Origins_Demons_Describe4" xml:space="preserve">daune adevărate</s:String>
+    <s:String x:Key="Origins_Demons_Describe5" xml:space="preserve">egale cu mana arsă</s:String>
 
     <!-- Dragon -->
-    <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">Dragon</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">Dragonii sunt imuni la </s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">Daune Magice.</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Origins_Dragon" xml:space="preserve">Dragon</s:String>
+    <s:String x:Key="Origins_Dragon_Describe1" xml:space="preserve">Dragonii sunt imuni la </s:String>
+    <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">Daune Magice.</s:String>
+    <s:String x:Key="Origins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Exile -->
-    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Exil</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">Exilații incep lupta cu un scut egal cu 100% din</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe2" xml:space="preserve">Viața Maximă</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe3" xml:space="preserve">când este plasat adiacent cu NICIO alta unitate. (1)</s:String>
+    <s:String x:Key="Origins_Exile" xml:space="preserve">Exil</s:String>
+    <s:String x:Key="Origins_Exile_Describe1" xml:space="preserve">Exilații incep lupta cu un scut egal cu 100% din</s:String>
+    <s:String x:Key="Origins_Exile_Describe2" xml:space="preserve">Viața Maximă</s:String>
+    <s:String x:Key="Origins_Exile_Describe3" xml:space="preserve">când este plasat adiacent cu NICIO alta unitate. (1)</s:String>
 
     <!-- Glacial -->
-    <s:String x:Key="ClassOrigins_Glacial" xml:space="preserve">Glacial</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">Pe lovitura, Glacialii au 20% (2), 30% (4), 45% (6) să</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe2" xml:space="preserve">amețească inamicii</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">pentru 2 secunde.</s:String>
+    <s:String x:Key="Origins_Glacial" xml:space="preserve">Glacial</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">Pe lovitura, Glacialii au 20% (2), 30% (4), 45% (6) să</s:String>
+    <s:String x:Key="Origins_Glacial_Describe2" xml:space="preserve">amețească inamicii</s:String>
+    <s:String x:Key="Origins_Glacial_Describe3" xml:space="preserve">pentru 2 secunde.</s:String>
 
     <!-- Imperial -->
-    <s:String x:Key="ClassOrigins_Imperial" xml:space="preserve">Imperial</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe1" xml:space="preserve">Imperialii dau</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe2" xml:space="preserve">Daune Duble.</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe3" xml:space="preserve">1 Imperial la Nimereala (1) Toți Imperialii (4)</s:String>
+    <s:String x:Key="Origins_Imperial" xml:space="preserve">Imperial</s:String>
+    <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">Imperialii dau</s:String>
+    <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">Daune Duble.</s:String>
+    <s:String x:Key="Origins_Imperial_Describe3" xml:space="preserve">1 Imperial la Nimereala (1) Toți Imperialii (4)</s:String>
 
     <!-- Noble -->
-    <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">Nobil</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">Nobilii beneficiază de</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+100 Armură</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">și</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">vindecă pentru 35</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">pe lovitură.</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">Un Aliat la Nimereală (3) Toți Aliații (6)</s:String>
+    <s:String x:Key="Origins_Noble" xml:space="preserve">Nobil</s:String>
+    <s:String x:Key="Origins_Noble_Describe1" xml:space="preserve">Nobilii beneficiază de</s:String>
+    <s:String x:Key="Origins_Noble_Describe2" xml:space="preserve">+100 Armură</s:String>
+    <s:String x:Key="Origins_Noble_Describe3" xml:space="preserve">și</s:String>
+    <s:String x:Key="Origins_Noble_Describe4" xml:space="preserve">vindecă pentru 35</s:String>
+    <s:String x:Key="Origins_Noble_Describe5" xml:space="preserve">pe lovitură.</s:String>
+    <s:String x:Key="Origins_Noble_Describe6" xml:space="preserve">Un Aliat la Nimereală (3) Toți Aliații (6)</s:String>
 
     <!-- Ninja -->
-    <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">Ninja</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">Ninja beneficiază de un procentaj de</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">Daune de Atac.</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">Ninja beneficiază de +40%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">Daune de Atac</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(Exact 1)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">Toți Ninja beneficiază de +60%</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">Daune de Atac</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="Origins_Ninja" xml:space="preserve">Ninja</s:String>
+    <s:String x:Key="Origins_Ninja_Describe1" xml:space="preserve">Ninja beneficiază de un procentaj de</s:String>
+    <s:String x:Key="Origins_Ninja_Describe2" xml:space="preserve">Daune de Atac.</s:String>
+    <s:String x:Key="Origins_Ninja_Describe3" xml:space="preserve">Ninja beneficiază de +40%</s:String>
+    <s:String x:Key="Origins_Ninja_Describe4" xml:space="preserve">Daune de Atac</s:String>
+    <s:String x:Key="Origins_Ninja_Describe5" xml:space="preserve">(Exact 1)</s:String>
+    <s:String x:Key="Origins_Ninja_Describe6" xml:space="preserve">Toți Ninja beneficiază de +60%</s:String>
+    <s:String x:Key="Origins_Ninja_Describe7" xml:space="preserve">Daune de Atac</s:String>
+    <s:String x:Key="Origins_Ninja_Describe8" xml:space="preserve">(4)</s:String>
 
     <!-- Pirate -->
-    <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">Pirate</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">Primește pana la 4 adițional</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe2" xml:space="preserve">aur</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">după luptă</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">contra alt jucător.</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Origins_Pirate" xml:space="preserve">Pirate</s:String>
+    <s:String x:Key="Origins_Pirate_Describe1" xml:space="preserve">Primește pana la 4 adițional</s:String>
+    <s:String x:Key="Origins_Pirate_Describe2" xml:space="preserve">aur</s:String>
+    <s:String x:Key="Origins_Pirate_Describe3" xml:space="preserve">după luptă</s:String>
+    <s:String x:Key="Origins_Pirate_Describe4" xml:space="preserve">contra alt jucător.</s:String>
+    <s:String x:Key="Origins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
 
     <!-- Phantom -->
-    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">Fantomă</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">Blestemă un inamic la nimereală la începutul luptei, setendu-i Viața la</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">100.</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Origins_Phantom" xml:space="preserve">Fantomă</s:String>
+    <s:String x:Key="Origins_Phantom_Describe1" xml:space="preserve">Blestemă un inamic la nimereală la începutul luptei, setendu-i Viața la</s:String>
+    <s:String x:Key="Origins_Phantom_Describe2" xml:space="preserve">100.</s:String>
+    <s:String x:Key="Origins_Phantom_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Robot -->
-    <s:String x:Key="ClassOrigins_Robot" xml:space="preserve">Robot</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe1" xml:space="preserve">Roboții incep lupta cu</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe2" xml:space="preserve">mana plina.</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe3" xml:space="preserve">(1)</s:String>
+    <s:String x:Key="Origins_Robot" xml:space="preserve">Robot</s:String>
+    <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">Roboții incep lupta cu</s:String>
+    <s:String x:Key="Origins_Robot_Describe2" xml:space="preserve">mana plina.</s:String>
+    <s:String x:Key="Origins_Robot_Describe3" xml:space="preserve">(1)</s:String>
 
     <!-- Void -->
-    <s:String x:Key="ClassOrigins_Void" xml:space="preserve">Void</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">Atacurile normale ale echipei tale ignora 50% din armura</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">inamicilor.</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Origins_Void" xml:space="preserve">Void</s:String>
+    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">Atacurile normale ale echipei tale ignora 50% din armura</s:String>
+    <s:String x:Key="Origins_Void_Describe2" xml:space="preserve">inamicilor.</s:String>
+    <s:String x:Key="Origins_Void_Describe3" xml:space="preserve">(3)</s:String>
 
     <!-- Wild -->
-    <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Sălbatic</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Atacurile genereaza stacuri de Furie (pâna la 5).  Fiecare atac de Furie beneficiază de 7%</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">viteză de atac.</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">Aliați Sălbatici (2) Toți aliații (4)</s:String>
+    <s:String x:Key="Origins_Wild" xml:space="preserve">Sălbatic</s:String>
+    <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">Atacurile genereaza stacuri de Furie (pâna la 5).  Fiecare atac de Furie beneficiază de 7%</s:String>
+    <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">viteză de atac.</s:String>
+    <s:String x:Key="Origins_Wild_Describe3" xml:space="preserve">Aliați Sălbatici (2) Toți aliații (4)</s:String>
 
     <!-- Yordle -->
-    <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">Atacurile contra aliații Yordle au o șansă de</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">a rata.</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25% șansă de a rata (3) 60% șansă de a rata (6)</s:String>
+    <s:String x:Key="Origins_Yordle" xml:space="preserve">Yordle</s:String>
+    <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">Atacurile contra aliații Yordle au o șansă de</s:String>
+    <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">a rata.</s:String>
+    <s:String x:Key="Origins_Yordle_Describe3" xml:space="preserve">25% șansă de a rata (3) 60% șansă de a rata (6)</s:String>
 
     <!--Classes | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Clase | Efecte și Campioni</s:String>
+    <s:String x:Key="Classes_Label" xml:space="preserve">Clase | Efecte și Campioni</s:String>
 
     <!-- Assassin -->
-    <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Asasin</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Asasinii sar la cel mai îndepărtat inamic la începutul luptei și dau adițional</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">Daune la Loviturile Critice.</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">+150%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">Daune la Loviturile Critice</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">Daune la Loviturile Critice</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Assassin" xml:space="preserve">Asasin</s:String>
+    <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">Asasinii sar la cel mai îndepărtat inamic la începutul luptei și dau adițional</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">Daune la Loviturile Critice.</s:String>
+    <s:String x:Key="Class_Assassin_Describe3" xml:space="preserve">+150%</s:String>
+    <s:String x:Key="Class_Assassin_Describe4" xml:space="preserve">Daune la Loviturile Critice</s:String>
+    <s:String x:Key="Class_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
+    <s:String x:Key="Class_Assassin_Describe6" xml:space="preserve">Daune la Loviturile Critice</s:String>
+    <s:String x:Key="Class_Assassin_Describe7" xml:space="preserve">(6)</s:String>
 
     <!-- Blademaster -->
-    <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Maestrul Lamelor</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe1" xml:space="preserve">Maestrii Lamelor au 35% șansă de a lovi</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe2" xml:space="preserve">timpuri adiționale</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe3" xml:space="preserve">pentru fiecare atac.</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">O lovitură adițională (3) Două lovituri adiționale (6)</s:String>
+    <s:String x:Key="Class_Blademaster" xml:space="preserve">Maestrul Lamelor</s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">Maestrii Lamelor au 35% șansă de a lovi</s:String>
+    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">timpuri adiționale</s:String>
+    <s:String x:Key="Class_Blademaster_Describe3" xml:space="preserve">pentru fiecare atac.</s:String>
+    <s:String x:Key="Class_Blademaster_Describe4" xml:space="preserve">O lovitură adițională (3) Două lovituri adiționale (6)</s:String>
 
     <!-- Brawler -->
-    <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">Scandalagiu</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">Scandalagii primesc bonus</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">viață maximă.</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve"> +300 bonus</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">viață maximă</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(2) +700 bonus</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">viață maximă</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="Class_Brawler" xml:space="preserve">Scandalagiu</s:String>
+    <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">Scandalagii primesc bonus</s:String>
+    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">viață maximă.</s:String>
+    <s:String x:Key="Class_Brawler_Describe3" xml:space="preserve"> +300 bonus</s:String>
+    <s:String x:Key="Class_Brawler_Describe4" xml:space="preserve">viață maximă</s:String>
+    <s:String x:Key="Class_Brawler_Describe5" xml:space="preserve">(2) +700 bonus</s:String>
+    <s:String x:Key="Class_Brawler_Describe6" xml:space="preserve">viață maximă</s:String>
+    <s:String x:Key="Class_Brawler_Describe7" xml:space="preserve">(4)</s:String>
 
     <!-- Elementalist -->
-    <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Elementalist</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">Elementaliștii beneficiază de</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe2" xml:space="preserve">dublă mana</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe3" xml:space="preserve">de la atacuri.</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe4" xml:space="preserve">La inceputul luptei, cheamă un</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe5" xml:space="preserve">Elemental</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Class_Elementalist" xml:space="preserve">Elementalist</s:String>
+    <s:String x:Key="Class_Elementalist_Describe1" xml:space="preserve">Elementaliștii beneficiază de</s:String>
+    <s:String x:Key="Class_Elementalist_Describe2" xml:space="preserve">dublă mana</s:String>
+    <s:String x:Key="Class_Elementalist_Describe3" xml:space="preserve">de la atacuri.</s:String>
+    <s:String x:Key="Class_Elementalist_Describe4" xml:space="preserve">La inceputul luptei, cheamă un</s:String>
+    <s:String x:Key="Class_Elementalist_Describe5" xml:space="preserve">Elemental</s:String>
+    <s:String x:Key="Class_Elementalist_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Guardian -->
-    <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Gardian</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">La inceputul luptei, toți Gardienii și adiacent aliații primesc +30</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">armura.</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Class_Guardian" xml:space="preserve">Gardian</s:String>
+    <s:String x:Key="Class_Guardian_Describe1" xml:space="preserve">La inceputul luptei, toți Gardienii și adiacent aliații primesc +30</s:String>
+    <s:String x:Key="Class_Guardian_Describe2" xml:space="preserve">armura.</s:String>
+    <s:String x:Key="Class_Guardian_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Gunslinger -->
-    <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">Pistolar</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">Dupa atacare, Pistolarii au 50% șansă de a trage </s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">atacuri adiționale.</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Atacă alt</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">inamic</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">la nimereală (2) Atacă</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">toți inamicii</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">in rază. (4)</s:String>
+    <s:String x:Key="Class_Gunslinger" xml:space="preserve">Pistolar</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">Dupa atacare, Pistolarii au 50% șansă de a trage </s:String>
+    <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">atacuri adiționale.</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe3" xml:space="preserve">Atacă alt</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe4" xml:space="preserve">inamic</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe5" xml:space="preserve">la nimereală (2) Atacă</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe6" xml:space="preserve">toți inamicii</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe7" xml:space="preserve">in rază. (4)</s:String>
 
     <!-- Knight -->
-    <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Cavaler</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">Cavalerii</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">blochează daunele</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">de la</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">atacurile de bază.</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">20</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">daune blocate</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">daune blocate</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">daune blocate</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Knight" xml:space="preserve">Cavaler</s:String>
+    <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">Cavalerii</s:String>
+    <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">blochează daunele</s:String>
+    <s:String x:Key="Class_Knight_Describe3" xml:space="preserve">de la</s:String>
+    <s:String x:Key="Class_Knight_Describe4" xml:space="preserve">atacurile de bază.</s:String>
+    <s:String x:Key="Class_Knight_Describe5" xml:space="preserve">20</s:String>
+    <s:String x:Key="Class_Knight_Describe6" xml:space="preserve">daune blocate</s:String>
+    <s:String x:Key="Class_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
+    <s:String x:Key="Class_Knight_Describe8" xml:space="preserve">daune blocate</s:String>
+    <s:String x:Key="Class_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
+    <s:String x:Key="Class_Knight_Describe10" xml:space="preserve">daune blocate</s:String>
+    <s:String x:Key="Class_Knight_Describe11" xml:space="preserve">(6)</s:String>
 
     <!-- Ranger -->
-    <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">Distanțier</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">Distanțierii au o șansă de a-și dubla</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">viteza de atac</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">pentru următoarele 3 seconds.</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25% șansă (2) 65% șansă (4)</s:String>
+    <s:String x:Key="Class_Ranger" xml:space="preserve">Distanțier</s:String>
+    <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">Distanțierii au o șansă de a-și dubla</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">viteza de atac</s:String>
+    <s:String x:Key="Class_Ranger_Describe3" xml:space="preserve">pentru următoarele 3 seconds.</s:String>
+    <s:String x:Key="Class_Ranger_Describe4" xml:space="preserve">25% șansă (2) 65% șansă (4)</s:String>
 
     <!-- Shapeshifter -->
-    <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Schimbător Formei</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">Schimbătorii Formei beneficiază de bonus</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">viață maximă</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">când se transformă.</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+100% bonus</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">viață maximă</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Class_Shapeshifter" xml:space="preserve">Schimbător Formei</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">Schimbătorii Formei beneficiază de bonus</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">viață maximă</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe3" xml:space="preserve">când se transformă.</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe4" xml:space="preserve">+100% bonus</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe5" xml:space="preserve">viață maximă</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Sorcerer -->
-    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Vrăjitor</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">Vrăjitorii beneficiază de dublă</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">după atacuri și aliații au crescute</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">daune de la speluri.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">daune de la speluri.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">daune de la speluri.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Sorcerer" xml:space="preserve">Vrăjitor</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">Vrăjitorii beneficiază de dublă</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe3" xml:space="preserve">după atacuri și aliații au crescute</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe4" xml:space="preserve">daune de la speluri.</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe5" xml:space="preserve">+35%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe6" xml:space="preserve">daune de la speluri.</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe8" xml:space="preserve">daune de la speluri.</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
     
 </ResourceDictionary>

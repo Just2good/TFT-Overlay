@@ -31,7 +31,7 @@
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="35"/> <!-- Hextech text -->
+                    <RowDefinition Height="50"/> <!-- Hextech text -->
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
@@ -71,7 +71,7 @@
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="26" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="28" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Origins}"
+                <TextBlock Text="{DynamicResource Origins_Label}"
                                                FontSize="16"
                                                VerticalAlignment="Center"
                                                HorizontalAlignment="Center"
@@ -80,7 +80,7 @@
                                                Grid.ColumnSpan="8"></TextBlock>
                 <!-- Demons -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Demons}" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Demons}" Grid.Row="1" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="1"
                                                Grid.Column="1"
@@ -88,11 +88,11 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe2}" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe4}" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Demons_Describe5}"></Run>
+                                        <Run Text="{DynamicResource Origins_Demons_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Demons_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource Origins_Demons_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Demons_Describe4}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource Origins_Demons_Describe5}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/demon.jpg" Grid.Row="2" Grid.Column="0"></Image>
 
@@ -120,7 +120,7 @@
 
                 <!-- Dragon -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Dragon}" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Dragon}" Grid.Row="3" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="3"
                                                Grid.Column="1"
@@ -128,9 +128,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe2}" Foreground="MediumPurple"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Dragon_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Dragon_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Dragon_Describe2}" Foreground="MediumPurple"></Run>
+                                        <Run Text="{DynamicResource Origins_Dragon_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/dragon.jpg" Grid.Row="4" Grid.Column="0"></Image>
 
@@ -146,7 +146,7 @@
 
                 <!-- Exile -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Exile}" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Exile}" Grid.Row="5" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="5"
                                                Grid.Column="1"
@@ -166,7 +166,7 @@
 
                 <!-- Glacial -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Glacial}" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Glacial}" Grid.Row="7" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="7"
                                                Grid.Column="1"
@@ -174,9 +174,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe2}" Foreground="Yellow"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Glacial_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Glacial_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Glacial_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource Origins_Glacial_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/glacial.jpg" Grid.Row="8" Grid.Column="0"></Image>
 
@@ -199,7 +199,7 @@
                 <TextBlock Text="5" Grid.Row="8" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                 <!-- Hextech -->
-                <TextBlock Text="{DynamicResource ClassOrigins_Hextech}" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Hextech}" Grid.Row="9" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="9"
                                                Grid.Column="1"
@@ -207,9 +207,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Hextech_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Hextech_Describe2}" Foreground="Red"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Hextech_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Hextech_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Hextech_Describe2}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource Origins_Hextech_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/hextech.jpg" Grid.Row="10" Grid.Column="0"></Image>
 
@@ -227,7 +227,7 @@
 
                 <!-- Imperial -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Imperial}" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Imperial}" Grid.Row="11" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="11"
                                                Grid.Column="1"
@@ -235,9 +235,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe2}" Foreground="Red"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Imperial_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Imperial_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Imperial_Describe2}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource Origins_Imperial_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/imperial.jpg" Grid.Row="12" Grid.Column="0"></Image>
 
@@ -256,7 +256,7 @@
 
                 <!-- Noble -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Noble}" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Noble}" Grid.Row="13" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="13"
                                                Grid.Column="1"
@@ -264,13 +264,13 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe2}" Foreground="Yellow"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe4}" Foreground="ForestGreen"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe5}"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe2}" Foreground="Yellow"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe4}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe5}"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="{DynamicResource ClassOrigins_Noble_Describe6}"></Run>
+                                        <Run Text="{DynamicResource Origins_Noble_Describe6}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/noble.jpg" Grid.Row="14" Grid.Column="0"></Image>
 
@@ -295,7 +295,7 @@
 
                 <!-- Ninja -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Ninja}" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Ninja}" Grid.Row="15" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="15"
                                                Grid.Column="1"
@@ -303,13 +303,13 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe2}" Foreground="Red"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe4}" Foreground="Red"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe5}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe6}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Ninja_Describe7}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe2}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe4}" Foreground="Red"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe5}"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe6}"></Run>
+                                        <Run Text="{DynamicResource Origins_Ninja_Describe7}" Foreground="Red"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/ninja.jpg" Grid.Row="16" Grid.Column="0"></Image>
 
@@ -328,7 +328,7 @@
 
                 <!-- Phantom -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Phantom}" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Phantom}" Grid.Row="17" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="17"
                                                Grid.Column="1"
@@ -336,9 +336,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe2}" Foreground="ForestGreen"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Phantom_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Phantom_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Phantom_Describe2}" Foreground="ForestGreen"></Run>
+                                        <Run Text="{DynamicResource Origins_Phantom_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/phantom.jpg" Grid.Row="18" Grid.Column="0"></Image>
 
@@ -353,7 +353,7 @@
 
                 <!-- Pirate -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Pirate}" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Pirate}" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="19"
                                                Grid.Column="1"
@@ -361,11 +361,11 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe2}" Foreground="LightYellow"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe4}" FontWeight="Bold"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Pirate_Describe5}"></Run>
+                                        <Run Text="{DynamicResource Origins_Pirate_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Pirate_Describe2}" Foreground="LightYellow"></Run>
+                                        <Run Text="{DynamicResource Origins_Pirate_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Pirate_Describe4}" FontWeight="Bold"></Run>
+                                        <Run Text="{DynamicResource Origins_Pirate_Describe5}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/pirate.jpg" Grid.Row="20" Grid.Column="0"></Image>
 
@@ -387,7 +387,7 @@
 
                 <!-- Robot -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Robot}" Grid.Row="21" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Robot}" Grid.Row="21" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="21"
                                                Grid.Column="1"
@@ -395,9 +395,9 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe2}" Foreground="DeepSkyBlue"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Robot_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Robot_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Robot_Describe2}" Foreground="DeepSkyBlue"></Run>
+                                        <Run Text="{DynamicResource Origins_Robot_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/robot.jpg" Grid.Row="22" Grid.Column="0"></Image>
 
@@ -407,7 +407,7 @@
 
                 <!-- Void -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Void}" Grid.Row="23" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Void}" Grid.Row="23" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="23"
                                                Grid.Column="1"
@@ -415,10 +415,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe2}" Foreground="Purple"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe3}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe4}" Foreground="Purple"></Run>
+                                        <Run Text="{DynamicResource Origins_Void_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Void_Describe2}" Foreground="Purple"></Run>
+                                        <Run Text="{DynamicResource Origins_Void_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Void_Describe4}" Foreground="Purple"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/void.jpg" Grid.Row="24" Grid.Column="0"></Image>
 
@@ -440,7 +440,7 @@
 
                 <!-- Wild -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Wild}" Grid.Row="25" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Wild}" Grid.Row="25" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="25"
                                                Grid.Column="1"
@@ -448,10 +448,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe1}"/>
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe2}" Foreground="LightYellow"/>                                        
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe3}"/>
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe4}"/>
+                                        <Run Text="{DynamicResource Origins_Wild_Describe1}"/>
+                                        <Run Text="{DynamicResource Origins_Wild_Describe2}" Foreground="LightYellow"/>                                        
+                                        <Run Text="{DynamicResource Origins_Wild_Describe3}"/>
+                                        <Run Text="{DynamicResource Origins_Wild_Describe4}"/>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/wild.jpg" Grid.Row="26" Grid.Column="0"></Image>
 
@@ -473,7 +473,7 @@
 
                 <!-- Yordle -->
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Yordle}" Grid.Row="27" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                <TextBlock Text="{DynamicResource Origins_Yordle}" Grid.Row="27" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Grid.ColumnSpan="7"
                                                Grid.Row="27"
                                                Grid.Column="1"
@@ -481,10 +481,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe2}" Foreground="White"></Run>
+                                        <Run Text="{DynamicResource Origins_Yordle_Describe1}"></Run>
+                                        <Run Text="{DynamicResource Origins_Yordle_Describe2}" Foreground="White"></Run>
                                         <LineBreak></LineBreak>
-                                        <Run Text="{DynamicResource ClassOrigins_Yordle_Describe3}"></Run>
+                                        <Run Text="{DynamicResource Origins_Yordle_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/yordle.jpg" Grid.Row="28" Grid.Column="0"></Image>
 
@@ -566,7 +566,7 @@
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="18" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
                 <Border BorderBrush="LightGoldenrodYellow" BorderThickness="0 0 0 1" Grid.Row="20" Grid.ColumnSpan="9" Margin="0, 0, 0, -3" />
 
-                <TextBlock Text="{DynamicResource ClassOrigins_Classes}"
+                <TextBlock Text="{DynamicResource Class_Label}"
                                                FontSize="16"
                                                VerticalAlignment="Center"
                                                HorizontalAlignment="Center"
