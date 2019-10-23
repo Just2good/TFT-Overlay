@@ -31,7 +31,7 @@
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="50"/> <!-- Hextech text -->
+                    <RowDefinition Height="35"/> <!-- Hextech text -->
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
@@ -43,13 +43,13 @@
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="20"/> <!-- Robot -->
+                    <RowDefinition Height="20"/> <!-- Robot text -->
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="50"/>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="10"/>
                 </Grid.RowDefinitions>
@@ -130,7 +130,6 @@
                                                TextWrapping="Wrap">
                                         <Run Text="{DynamicResource ClassOrigins_Dragon_Describe1}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Dragon_Describe2}" Foreground="MediumPurple"></Run>
-                                        <LineBreak></LineBreak>
                                         <Run Text="{DynamicResource ClassOrigins_Dragon_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/dragon.jpg" Grid.Row="4" Grid.Column="0"></Image>
@@ -238,7 +237,6 @@
                                                TextWrapping="Wrap">
                                         <Run Text="{DynamicResource ClassOrigins_Imperial_Describe1}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Imperial_Describe2}" Foreground="Red"></Run>
-                                        <LineBreak></LineBreak>
                                         <Run Text="{DynamicResource ClassOrigins_Imperial_Describe3}"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/imperial.jpg" Grid.Row="12" Grid.Column="0"></Image>
@@ -419,6 +417,8 @@
                                                TextWrapping="Wrap">
                                         <Run Text="{DynamicResource ClassOrigins_Void_Describe1}"></Run>
                                         <Run Text="{DynamicResource ClassOrigins_Void_Describe2}" Foreground="Purple"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe3}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Void_Describe4}" Foreground="Purple"></Run>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/void.jpg" Grid.Row="24" Grid.Column="0"></Image>
 
@@ -448,11 +448,10 @@
                                                Foreground="LightGoldenrodYellow"
                                                VerticalAlignment="Center"
                                                TextWrapping="Wrap">
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe1}"></Run>
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe2}" Foreground="LightYellow"></Run>                                        
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe3}"></Run>
-                                        <LineBreak></LineBreak>
-                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe4}"></Run>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe1}"/>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe2}" Foreground="LightYellow"/>                                        
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe3}"/>
+                                        <Run Text="{DynamicResource ClassOrigins_Wild_Describe4}"/>
                 </TextBlock>
                 <Image Source="pack://application:,,,/Images/origins/wild.jpg" Grid.Row="26" Grid.Column="0"></Image>
 

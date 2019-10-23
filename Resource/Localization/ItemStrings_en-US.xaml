@@ -83,7 +83,7 @@
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 7 seconds</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 8 seconds</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>
@@ -110,16 +110,16 @@
     <s:String x:Key="RedBuff1" xml:space="preserve">&#10;Attacks burn for 2% max HP per second for 10 seconds and reduce healing by 80%</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">Redemption</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 25% health, heal all nearby allies for 1200 health</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;At 30% health, heal all nearby allies for 1200 health</s:String>
     <!--Repeating Crossbow-->
     <s:String x:Key="RepeatingCrossbow" xml:space="preserve">Repeating Crossbow</s:String>
-    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;On death, item passes to another ally and grants an additional 20% AS and Crit Chance. Effect stacks with each death</s:String>
+    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;On death, item passes to another ally and grants an additional 30% AS and Crit Chance. Effect stacks with each death</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">Seraph's Embrace</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;After casting a spell, the wearer gains 20 mana</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="SpearofShojin" xml:space="preserve">Spear of Shojin</s:String>
-    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 15% of its max mana per attack</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 18% of its max mana per attack</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
     <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 100 magic damage to the target and 2 additional targets</s:String>
@@ -140,7 +140,7 @@
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Attacks deal 3% of wearer's max health to target and adjacent enemies behind them</s:String>
     <!--Trap Claw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">Trap Claw</s:String>
-    <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned</s:String>
+    <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned for 4 seconds</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">Warmog's Armor</s:String>
     <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;Wearer regenerates 6% missing health per second (max 400 per tick)</s:String>
@@ -188,7 +188,7 @@
     <s:String x:Key="ClassOrigins_Hextech" xml:space="preserve">Hextech</s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe1" xml:space="preserve">At the start of combat, throws a bomb at an enemy unit with an item, and</s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe2" xml:space="preserve">disables</s:String>
-    <s:String x:Key="ClassOrigins_Hextech_Describe3" xml:space="preserve">all nearby items for 7 seconds.</s:String>
+    <s:String x:Key="ClassOrigins_Hextech_Describe3" xml:space="preserve">all nearby items for 5 seconds.</s:String>
     <s:String x:Key="ClassOrigins_Hextech_Describe4" xml:space="preserve">(2) Within a 1 hex radius (4) Within a 2 hex radius</s:String>
 
     <!-- Imperial -->
@@ -284,11 +284,7 @@
     <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">Brawler</s:String>
     <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">Brawlers receive bonus</s:String>
     <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">maximum health</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve">(2) +250</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">HP</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(4) +500</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">HP</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(6) +900 HP</s:String>
+    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve">(2) +250 HP (4) +500 HP (6) +900 HP</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Elementalist</s:String>
@@ -301,7 +297,7 @@
 
     <!-- Guardian -->
     <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Guardian</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive (2) +45</s:String>
+    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive (2) +40</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">armor</s:String>
     <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">Guardian's can't buff themselves</s:String>
 
@@ -323,7 +319,7 @@
     <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">sources</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">(2) 15</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 35</s:String>
+    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(4) 30</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">damage blocked</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(6) 60</s:String>
     <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">damage blocked</s:String>
@@ -333,7 +329,7 @@
     <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their</s:String>
     <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">attack speed</s:String>
     <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">for the next 3 seconds</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25% chance (2) 70% chance (4)</s:String>
+    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">40% chance (2) 70% chance (4)</s:String>
 
     <!-- Shapeshifter -->
     <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
@@ -352,9 +348,9 @@
     <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">spell damage</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">+40%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +100%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +120%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6) + 175%</s:String>
+    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6) + 200%</s:String>
     <s:String x:Key="ClassOrigins_Sorcerer_Describe10" xml:space="preserve">spell damage</s:String>
 
 
