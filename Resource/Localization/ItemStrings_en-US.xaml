@@ -156,8 +156,8 @@
     <!--&#10; = LineBreak-->
     <!--/////////////////-->
 
-    <!--Origins | Effects and Champions-->
-    <s:String x:Key="Origins_Label" xml:space="preserve">Origins | Effects and Champions</s:String>
+    <!--Elements | Effects and Champions-->
+    <s:String x:Key="Origins_Label" xml:space="preserve">Elements | Effects and Champions</s:String>
 
     <!-- Cloud -->
     <s:String x:Key="Origins_Cloud" xml:space="preserve">Cloud</s:String>
@@ -166,7 +166,7 @@
 
     <!-- Crystal -->
     <s:String x:Key="Origins_Crystal" xml:space="preserve">Crystal</s:String>
-    <s:String x:Key="Origins_Crystal_Describe1" xml:space="preserve">Crystal Champs have a max amount of damage they can take from a single hit</s:String>
+    <s:String x:Key="Origins_Crystal_Describe1" xml:space="preserve">Crystal units have a max amount of damage they can take from a single hit</s:String>
     <s:String x:Key="Origins_Crystal_Describe2" xml:space="preserve">(2) 100 Max Damage (4) 60 Max Damage</s:String>
 
     <!-- Demons -->
@@ -186,12 +186,12 @@
 
     <!-- Electric -->
     <s:String x:Key="Origins_Electric" xml:space="preserve">Electric</s:String>
-    <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">Electric Champs shock nearby enemies when they deal or receive a critical strike</s:String>
+    <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">Electric units shock nearby enemies when they deal or receive a critical strike</s:String>
     <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 60 Damage (3) 200 Damage (4) 500 Damage</s:String>
 
     <!-- Exile -->
-    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Exile</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">(1) Exiles start combat with a shield equal to 100% max HP when placed adjacement to NO other allied units</s:String>
+    <s:String x:Key="Origins_Exile" xml:space="preserve">Exile</s:String>
+    <s:String x:Key="Origins_Exile_Describe1" xml:space="preserve">(1) Exiles start combat with a shield equal to 100% max HP when placed adjacement to NO other allied units</s:String>
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">Glacial</s:String>
@@ -199,15 +199,13 @@
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">Hextech</s:String>
-    <s:String x:Key="Origins_Hextech_Describe1" xml:space="preserve">At the start of combat, throws a bomb at an enemy unit with an item, and</s:String>
-    <s:String x:Key="Origins_Hextech_Describe2" xml:space="preserve">disables</s:String>
-    <s:String x:Key="Origins_Hextech_Describe3" xml:space="preserve">all nearby items for 5 seconds. (2) Within a 1 hex radius (4) Within a 2 hex radius</s:String>
+    <s:String x:Key="Origins_Hextech_Describe1" xml:space="preserve">At the start of combat, throws a bomb at an enemy unit with an item, and disables all nearby items for 5 seconds</s:String>
+    <s:String x:Key="Origins_Hextech_Describe2" xml:space="preserve">(2) Within a 1 hex radius (4) Within a 2 hex radius</s:String>
 
     <!-- Imperial -->
     <s:String x:Key="Origins_Imperial" xml:space="preserve">Imperial</s:String>
-    <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">Imperials deal</s:String>
-    <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">Double Damage</s:String>
-    <s:String x:Key="Origins_Imperial_Describe3" xml:space="preserve">(1) 1 Random Imperial (4) All Imperials</s:String>
+    <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">Imperials deal Double Damage</s:String>
+    <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">(1) 1 Random Imperial (4) All Imperials</s:String>
 
     <!-- Inferno -->
     <s:String x:Key="Origins_Inferno" xml:space="preserve">Inferno</s:String>
@@ -216,7 +214,7 @@
 
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
-    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light Champion dies, all other Light Champions gain Attack Speed and are healed for 25% of their Max HP</s:String>
+    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of their Max HP</s:String>
     <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +25% AS (9) +50% AS</s:String>
 
     <!-- Mountain -->
@@ -248,107 +246,106 @@
 
     <!-- Poison -->
     <s:String x:Key="Origins_Poison" xml:space="preserve">Poison</s:String>
-    <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) Poison Champs apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%</s:String>
+    <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) Poison units apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%</s:String>
 
     <!-- Robot -->
     <s:String x:Key="Origins_Robot" xml:space="preserve">Robot</s:String>
-    <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">(1) Robots start combat at full</s:String>
-    <s:String x:Key="Origins_Robot_Describe2" xml:space="preserve">mana</s:String>
+    <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">(1) Robots start combat at full mana</s:String>
 
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">Shadow</s:String>
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 5 seconds at combat start, refreshed on Takedown</s:String>
     <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 50% Increased Damage, Self Takedown (4) 100% Increased Damage, any Shadow Takedown</s:String>
 
+    <!-- Steel -->
+    <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
+    <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">Steel units gain damage immunity when they are reduced below 50% health</s:String>
+    <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 seconds of immunity (3) 3 seconds (4) 4 seconds</s:String>
+
     <!-- Void -->
     <s:String x:Key="Origins_Void" xml:space="preserve">Void</s:String>
-    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">(2) One random void unit deals</s:String>
-    <s:String x:Key="Origins_Void_Describe2" xml:space="preserve">True Damage</s:String>
-    <s:String x:Key="Origins_Void_Describe3" xml:space="preserve">(4) All void units deal</s:String>
-    <s:String x:Key="Origins_Void_Describe4" xml:space="preserve">True Damage</s:String>
+    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">(2) One random void unit deals True Damage (4) All void units deal True Damage</s:String>
 
     <!-- Wild -->
     <s:String x:Key="Origins_Wild" xml:space="preserve">Wild</s:String>
-    <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10%</s:String>
-    <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">attack speed</s:String>
-    <s:String x:Key="Origins_Wild_Describe3" xml:space="preserve">, up to 60%</s:String>
-    <s:String x:Key="Origins_Wild_Describe4" xml:space="preserve">(2) Wild Allies (4) All Allies AND their basic attacks can't miss</s:String>
+    <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">Attacks generate stacks of Fury (up to 5). Each stack of Fury grants 10% atack speed, up to 60%</s:String>
+    <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">(2) Wild Allies (4) All Allies AND their basic attacks can't miss</s:String>
+
+    <!-- Woodland -->
+    <s:String x:Key="Origins_Woodland" xml:space="preserve">Woodland</s:String>
+    <s:String x:Key="Origins_Woodland_Describe1" xml:space="preserve">(3) At the start of combat, a random Woodland Champ makes a copy of themselves</s:String>
 
     <!-- Yordle -->
     <s:String x:Key="Origins_Yordle" xml:space="preserve">Yordle</s:String>
-    <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">Attacks + On-hit effects against ally Yordles can</s:String>
-    <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">miss</s:String>
-    <s:String x:Key="Origins_Yordle_Describe3" xml:space="preserve">(3) 30% chance to miss (6) 60% chance to miss (9) 90% chance to miss</s:String>
+    <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">Attacks + On-hit effects against ally Yordles can miss</s:String>
+    <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">(3) 30% chance (6) 60% chance (9) 90% chance </s:String>
 
     <!--Classes | Effects and Champions-->
     <s:String x:Key="Class_Label" xml:space="preserve">Classes | Effects and Champions</s:String>
 
+    <!-- Alchemist -->
+    <s:String x:Key="Class_Alchemist" xml:space="preserve">Alchemist</s:String>
+    <s:String x:Key="Class_Alchemist_Describe1" xml:space="preserve">Alchemists ignore collision and never stop moving</s:String>
+
     <!-- Assassin -->
     <s:String x:Key="Class_Assassin" xml:space="preserve">Assassin</s:String>
     <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">Assassins gain additional</s:String>
-    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) +5%</s:String>
-    <s:String x:Key="Class_Assassin_Describe3" xml:space="preserve">Crit Chance</s:String>
-    <s:String x:Key="Class_Assassin_Describe4" xml:space="preserve">and +75%</s:String>
-    <s:String x:Key="Class_Assassin_Describe5" xml:space="preserve">Crit Damage</s:String>
-    <s:String x:Key="Class_Assassin_Describe6" xml:space="preserve">(6) +20%</s:String>
-    <s:String x:Key="Class_Assassin_Describe7" xml:space="preserve">Crit Chance</s:String>
-    <s:String x:Key="Class_Assassin_Describe8" xml:space="preserve">and +150%</s:String>
-    <s:String x:Key="Class_Assassin_Describe9" xml:space="preserve">Crit Damage</s:String>
-    <s:String x:Key="Class_Assassin_Describe10" xml:space="preserve">(9) + 30%</s:String>
-    <s:String x:Key="Class_Assassin_Describe11" xml:space="preserve">Crit Chance</s:String>
-    <s:String x:Key="Class_Assassin_Describe12" xml:space="preserve">and +225%</s:String>
-    <s:String x:Key="Class_Assassin_Describe13" xml:space="preserve">Crit Damage</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) +10% Crit Chance and +75% Crit Damage (6) +20% CS and +150% CD</s:String>
+
+    <!-- Avatar -->
+    <s:String x:Key="Class_Avatar" xml:space="preserve">Avatar</s:String>
+    <s:String x:Key="Class_Avatar_Describe1" xml:space="preserve">An Avatar's Origin Element is counted twice for Trait bonuses</s:String>
+
+    <!-- Berserker -->
+    <s:String x:Key="Class_Berserker" xml:space="preserve">Berserker</s:String>
+    <s:String x:Key="Class_Berserker_Describe1" xml:space="preserve">Berserkers have a chance to hit all units in a cone in front of them with their attacks</s:String>
+    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 40% chance (6) 80% chance</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">Blademaster</s:String>
-    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">Blademasters have a 35% chance to strike</s:String>
-    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">additional times</s:String>
-    <s:String x:Key="Class_Blademaster_Describe3" xml:space="preserve">each attack</s:String>
-    <s:String x:Key="Class_Blademaster_Describe4" xml:space="preserve">(3) 1 Strike (6) 2 Strikes (9) 4 Strikes  </s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">Blademasters have a 40% chance to strike additional times each attack</s:String>
+    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">(2) 1 Strike (4) 2 Strikes (6) 3 Strikes</s:String>
 
     <!-- Brawler -->
     <s:String x:Key="Class_Brawler" xml:space="preserve">Brawler</s:String>
-    <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">Brawlers receive bonus</s:String>
-    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">maximum health</s:String>
-    <s:String x:Key="Class_Brawler_Describe3" xml:space="preserve">(2) +250 HP (4) +500 HP (6) +900 HP</s:String>
+    <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">Brawlers receive bonus max health</s:String>
+    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">(2) +250 HP (4) +500 HP (6) +900 HP</s:String>
+
+    <!-- Druid -->
+    <s:String x:Key="Class_Druid" xml:space="preserve">Druid</s:String>
+    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) Druids regenerate 40 health per second</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="Class_Elementalist" xml:space="preserve">Elementalist</s:String>
-    <s:String x:Key="Class_Elementalist_Describe1" xml:space="preserve">Elementalists gain double </s:String>
-    <s:String x:Key="Class_Elementalist_Describe2" xml:space="preserve">mana</s:String>
-    <s:String x:Key="Class_Elementalist_Describe3" xml:space="preserve">from attacks</s:String>
-    <s:String x:Key="Class_Elementalist_Describe4" xml:space="preserve">At the start of combat, summon a</s:String>
-    <s:String x:Key="Class_Elementalist_Describe5" xml:space="preserve">Golem</s:String>
-    <s:String x:Key="Class_Elementalist_Describe6" xml:space="preserve">with 2200 health and 100 AD (3)</s:String>
+    <s:String x:Key="Class_Elementalist_Describe1" xml:space="preserve">(3) Elementalists gain double mana from attacks. At the start of combat summon a Golem with 2200 health and 100 AD</s:String>
 
     <!-- Guardian -->
     <s:String x:Key="Class_Guardian" xml:space="preserve">Guardian</s:String>
-    <s:String x:Key="Class_Guardian_Describe1" xml:space="preserve">At the start of combat, all Guardians and adjacent allies receive (2) +40</s:String>
-    <s:String x:Key="Class_Guardian_Describe2" xml:space="preserve">armor</s:String>
-    <s:String x:Key="Class_Guardian_Describe3" xml:space="preserve">Guardian's can't buff themselves</s:String>
+    <s:String x:Key="Class_Guardian_Describe1" xml:space="preserve">(2) At the start of combat, all Guardians and adjacent allies receive +40 armor. Guardians can't buff themselves</s:String>
 
     <!-- Gunslinger -->
     <s:String x:Key="Class_Gunslinger" xml:space="preserve">Gunslinger</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">After attacking, Gunslingers have a 50% chance to fire </s:String>
-    <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">additional attacks</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe3" xml:space="preserve">(2) 1</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe4" xml:space="preserve">Additional</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe5" xml:space="preserve">attack</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe6" xml:space="preserve">(4) 2 attacks (6) 4 attacks</s:String>
-    <s:String x:Key="Class_Gunslinger_Describe7" xml:space="preserve">in range</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">After attacking, Gunslingers have a 50% chance to fire additional attacks to a random target in range</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">(2) 1 Additional attack (4) 2 attacks (6) 4 attacks</s:String>
 
     <!-- Knight -->
     <s:String x:Key="Class_Knight" xml:space="preserve">Knight</s:String>
-    <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">All allies</s:String>
-    <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">ignore damage</s:String>
-    <s:String x:Key="Class_Knight_Describe3" xml:space="preserve">from all</s:String>
-    <s:String x:Key="Class_Knight_Describe4" xml:space="preserve">sources</s:String>
-    <s:String x:Key="Class_Knight_Describe5" xml:space="preserve">(2) 15</s:String>
-    <s:String x:Key="Class_Knight_Describe6" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="Class_Knight_Describe7" xml:space="preserve">(4) 30</s:String>
-    <s:String x:Key="Class_Knight_Describe8" xml:space="preserve">damage blocked</s:String>
-    <s:String x:Key="Class_Knight_Describe9" xml:space="preserve">(6) 60</s:String>
-    <s:String x:Key="Class_Knight_Describe10" xml:space="preserve">damage blocked</s:String>
+    <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">All allies ignore damage from all sources</s:String>
+    <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">(2) 15 damage blocked (4) 30 damage blocked (6) 60 damage blocked</s:String>
+
+    <!-- Mage -->
+    <s:String x:Key="Class_Mage" xml:space="preserve">Mage</s:String>
+    <s:String x:Key="Class_Mage_Describe1" xml:space="preserve">Mages have a chance on cast to instead Doublecast</s:String>
+    <s:String x:Key="Class_Mage_Describe2" xml:space="preserve">(3) 50% chance (6) 100% chance</s:String>
+
+    <!-- Mystic -->
+    <s:String x:Key="Class_Mystic" xml:space="preserve">Mystic</s:String>
+    <s:String x:Key="Class_Mystic_Describe1" xml:space="preserve">All allies gain increased Magic Resist</s:String>
+    <s:String x:Key="Class_Mystic_Describe2" xml:space="preserve">(2) 70 Magic Resist (4) 150 Magic Resist</s:String>
+
+    <!-- Predator -->
+    <s:String x:Key="Class_Predator" xml:space="preserve">Predator</s:String>
+    <s:String x:Key="Class_Predator_Describe1" xml:space="preserve">(3) Predators insantly kill enemies they damage who are below 20% health</s:String>
 
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">Ranger</s:String>
@@ -357,25 +354,23 @@
 
     <!-- Shapeshifter -->
     <s:String x:Key="Class_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">Shapeshifters gain bonus</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">maximum health</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe3" xml:space="preserve">when they transform</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe4" xml:space="preserve">(3) +60% bonus</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe5" xml:space="preserve">HP</s:String>
-    <s:String x:Key="Class_Shapeshifter_Describe6" xml:space="preserve">(6) +100% bonus HP</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">Shapeshifters gain bonus max health when they transform</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">(3) +60% bonus HP (6) +100% bonus HP</s:String>
 
     <!-- Sorcerer -->
     <s:String x:Key="Class_Sorcerer" xml:space="preserve">Sorcerer</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">Sorcers gain double</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">mana</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe3" xml:space="preserve">from attacking and allies have increased</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe4" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe5" xml:space="preserve">+40%</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe6" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe7" xml:space="preserve">(3) +120%</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe8" xml:space="preserve">spell damage</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe9" xml:space="preserve">(6) + 200%</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe10" xml:space="preserve">spell damage</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">Sorcers gain double mana from attacking and allies have increased spell damage</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">(3) +40% spell damage (6) +120% (9) +200%</s:String>
+
+    <!-- Summoner -->
+    <s:String x:Key="Class_Summoner" xml:space="preserve">Summoner</s:String>
+    <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">Summoned units have increased health and duration</s:String>
+    <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 40% increase (6) 100% increase</s:String>
+
+    <!-- Warden -->
+    <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>
+    <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">Wardens gain increased total Armor</s:String>
+    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +100% Armor (4) +250% Armor (6) +400% Armor</s:String>
 
 
     <!--/////////////////-->

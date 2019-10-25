@@ -43,7 +43,7 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="17"/>
                                 <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="975"/>
+                                <RowDefinition Height="1015"/>
                             </Grid.RowDefinitions>
                             <Rectangle Width="60" Fill="DarkOrange" Height="10" ToolTip="{DynamicResource MainWindow_ToolTip_Options}" HorizontalAlignment="Left" Margin="75 0 0 0">
                                 <Rectangle.ContextMenu>
