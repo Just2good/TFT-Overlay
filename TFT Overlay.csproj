@@ -412,7 +412,6 @@
     <Resource Include="Images\champs\Warwick-Icon.png" />
     <Resource Include="Images\champs\Yasuo-Icon.png" />
     <Resource Include="Images\champs\Zed-Icon.png" />
-    <Resource Include="Images\classes\assassin.jpg" />
     <Resource Include="Images\classes\blademaster.jpg" />
     <Resource Include="Images\classes\brawler.jpg" />
     <Resource Include="Images\classes\elementalist.jpg" />
@@ -632,6 +631,47 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\champs\KaiSa-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\DrMundo-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\KogMaw-Icon.png" />
+    <Resource Include="Images\champs\Neeko-Icon.png" />
+    <Resource Include="Images\champs\Renekton-Icon.png" />
+    <Resource Include="Images\champs\Singed-Icon.png" />
+    <Resource Include="Images\champs\Skarner-Icon.png" />
+    <Resource Include="Images\champs\Soraka-Icon.png" />
+    <Resource Include="Images\champs\Taliyah-Icon.png" />
+    <Resource Include="Images\champs\Twitch-Icon.png" />
+    <Resource Include="Images\champs\Zyra-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Janna-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Annie-Icon.png" />
+    <Resource Include="Images\champs\Azir-Icon.png" />
+    <Resource Include="Images\champs\Malzahar-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Maokai-Icon.png" />
+    <Resource Include="Images\champs\MasterYi-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Taric-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Sivir-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Ezreal-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Warden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Assassin.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
