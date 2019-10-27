@@ -304,6 +304,8 @@
     <Resource Include="Images\bloodthirster.png" />
     <Resource Include="Images\Bow.png" />
     <Resource Include="Images\Cape.png" />
+    <Resource Include="Images\classes\Blademaster.png" />
+    <Resource Include="Images\classes\Ranger.png" />
     <Resource Include="Images\Cost.png" />
     <Resource Include="Images\cursed_blade.png" />
     <Resource Include="Images\darkin.png" />
@@ -321,6 +323,7 @@
     <Resource Include="Images\locket_of_the_iron_solari.png" />
     <Resource Include="Images\ludens_echo.png" />
     <Resource Include="Images\morellonomicon.png" />
+    <Resource Include="Images\origins\Glacial.png" />
     <Resource Include="Images\phantom_dancer.png" />
     <Resource Include="Images\rabadons_deathcap.png" />
     <Resource Include="Images\rapid_firecannon.png" />
@@ -357,10 +360,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\assassin.jpg" />
-    <Resource Include="Images\demon.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\champs\Aatrox-Icon.png" />
@@ -412,28 +411,6 @@
     <Resource Include="Images\champs\Warwick-Icon.png" />
     <Resource Include="Images\champs\Yasuo-Icon.png" />
     <Resource Include="Images\champs\Zed-Icon.png" />
-    <Resource Include="Images\classes\blademaster.jpg" />
-    <Resource Include="Images\classes\brawler.jpg" />
-    <Resource Include="Images\classes\elementalist.jpg" />
-    <Resource Include="Images\classes\guardian.jpg" />
-    <Resource Include="Images\classes\gunslinger.jpg" />
-    <Resource Include="Images\classes\knight.jpg" />
-    <Resource Include="Images\classes\ranger.jpg" />
-    <Resource Include="Images\classes\shapeshifter.jpg" />
-    <Resource Include="Images\classes\sorcerer.jpg" />
-    <Resource Include="Images\origins\demon.jpg" />
-    <Resource Include="Images\origins\dragon.jpg" />
-    <Resource Include="Images\origins\exile.jpg" />
-    <Resource Include="Images\origins\glacial.jpg" />
-    <Resource Include="Images\origins\imperial.jpg" />
-    <Resource Include="Images\origins\ninja.jpg" />
-    <Resource Include="Images\origins\noble.jpg" />
-    <Resource Include="Images\origins\phantom.jpg" />
-    <Resource Include="Images\origins\pirate.jpg" />
-    <Resource Include="Images\origins\robot.jpg" />
-    <Resource Include="Images\origins\void.jpg" />
-    <Resource Include="Images\origins\wild.jpg" />
-    <Resource Include="Images\origins\yordle.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\champs\ChoGath-Icon.png" />
@@ -570,12 +547,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\champs\Vi-Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\classes\hextech.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\origins\hextech.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\champs\Pantheon-Icon.png" />

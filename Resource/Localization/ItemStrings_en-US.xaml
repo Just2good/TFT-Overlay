@@ -262,6 +262,10 @@
     <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">Steel units gain damage immunity when they are reduced below 50% health</s:String>
     <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 seconds of immunity (3) 3 seconds (4) 4 seconds</s:String>
 
+    <!-- Variable -->
+    <s:String x:Key="Origins_Variable" xml:space="preserve">Variable</s:String>
+    <s:String x:Key="Origins_Variable_Describe1" xml:space="preserve">These champions can have any of the Elemental Traits</s:String>
+
     <!-- Void -->
     <s:String x:Key="Origins_Void" xml:space="preserve">Void</s:String>
     <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">(2) One random void unit deals True Damage (4) All void units deal True Damage</s:String>
