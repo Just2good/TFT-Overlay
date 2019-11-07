@@ -514,7 +514,7 @@
                 <TextBlock Text="4" Grid.Row="18" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                 <Image Source="pack://application:,,,/Images/champs/Nami-Icon.png" Grid.Row="18" Grid.Column="5"></Image>
-                <TextBlock Text="5" Grid.Row="18" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="5" Grid.Row="18" Grid.Column="5" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                 <!-- Phantom -->
 
@@ -594,7 +594,7 @@
                 <Image Source="pack://application:,,,/Images/champs/Twitch-Icon.png" Grid.Row="20" Grid.Column="3"></Image>
                 <TextBlock Text="4" Grid.Row="20" Grid.Column="3" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                <Image Source="pack://application:,,,/Images/champs/Singed-Icon.png" Grid.Row="20" Grid.Column="3"></Image>
+                <Image Source="pack://application:,,,/Images/champs/Singed-Icon.png" Grid.Row="20" Grid.Column="4"></Image>
                 <TextBlock Text="5" Grid.Row="20" Grid.Column="4" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                 <!-- Robot -->

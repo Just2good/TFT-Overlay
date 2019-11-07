@@ -330,12 +330,12 @@
                         <Run Text="{DynamicResource JeweledGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     
-                    <!-- Yuumi -->
+                    <!-- Inferno Cinder -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Yuumi}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/inferno_cinder.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource InfernoCinder}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource InfernoCinder1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
@@ -443,12 +443,12 @@
                         <Run Text="{DynamicResource HandOfJustice1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Darkin -->
+                    <!-- Mages Cap -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Darkin}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mages_cap.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource MagesCap}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource MagesCap1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
@@ -556,12 +556,12 @@
                         <Run Text="{DynamicResource IcebornGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Knights Vow -->
+                    <!-- Wardens Mail -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource KnightsVow}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/wardens_mail.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource WardensMail}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource WardensMail1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
@@ -669,12 +669,12 @@
                         <Run Text="{DynamicResource Quicksilver1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Runaans Hurricane -->
+                    <!-- Talisman Of Light -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RunaansHurricane}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/talisman_of_light.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource TalismanOfLight}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource TalismanOfLight1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
@@ -895,12 +895,12 @@
                         <Run Text="{DynamicResource ThiefsGloves1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Mittens -->
+                    <!-- Berserker Axe -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mittens.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Mittens}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/berserker_axe.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource BerserkerAxe}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource BerserkerAxe1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
@@ -960,36 +960,36 @@
                         <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Yuumi -->
+                    <!-- Inferno Cinder -->
                     <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png" />
-                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Yuumi}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/inferno_cinder.png" />
+                    <TextBlock Grid.Row="4" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource InfernoCinder}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource InfernoCinder1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Darkin -->
+                    <!-- Mages Cap -->
                     <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png" />
-                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Darkin}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mages_cap.png" />
+                    <TextBlock Grid.Row="6" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource MagesCap}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource MagesCap1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Knights Vow -->
+                    <!-- Wardens Mail -->
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png" />
-                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource KnightsVow}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/wardens_mail.png" />
+                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource WardensMail}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource WardensMail1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Runaans Hurricane -->
+                    <!-- Talisman Of Light -->
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png" />
-                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RunaansHurricane}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/talisman_of_light.png" />
+                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource TalismanOfLight}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource TalismanOfLight1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Frozen Mallet -->
@@ -1000,12 +1000,12 @@
                         <Run Text="{DynamicResource FrozenMallet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Mittens -->
+                    <!-- Berserker Axe -->
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mittens.png" />
-                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Mittens}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/berserker_axe.png" />
+                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource BerserkerAxe}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource BerserkerAxe1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Force of Nature -->

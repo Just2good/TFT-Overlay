@@ -6,7 +6,9 @@
     <!--Item Descriptions-->
     <!--&#10; = LineBreak-->
     <!--/////////////////-->
-
+    <!--Berserker Axe-->
+    <s:String x:Key="BerserkerAxe" xml:space="preserve">Berserker Axe</s:String>
+    <s:String x:Key="BerserkerAxe1" xml:space="preserve">&#10;Wearer is also a Berserker</s:String>
     <!--Blade of the Ruined King-->
     <s:String x:Key="BOTRK" xml:space="preserve">破败王者之刃</s:String>
     <s:String x:Key="BOTRK1" xml:space="preserve">&#10;携带者也是剑士</s:String>
@@ -19,15 +21,27 @@
     <!--Frozen Mallet-->
     <s:String x:Key="FrozenMallet" xml:space="preserve">冰霜之锤</s:String>
     <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;装备者也视为极地</s:String>
+    <!--Inferno Cinder-->
+    <s:String x:Key="InfernoCinder" xml:space="preserve">Inferno Cinder</s:String>
+    <s:String x:Key="InfernoCinder1" xml:space="preserve">&#10;Wearer is also an Inferno</s:String>
     <!--Knight's Vow-->
     <s:String x:Key="KnightsVow" xml:space="preserve">骑士之誓</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;携带者也是骑士单位</s:String>
+    <!--Mage's Cap-->
+    <s:String x:Key="MagesCap" xml:space="preserve">Mage's Cap</s:String>
+    <s:String x:Key="MagesCap1" xml:space="preserve">&#10;Wearer is also a Mage</s:String>
     <!--Mittens-->
     <s:String x:Key="Mittens" xml:space="preserve">连指手套</s:String>
     <s:String x:Key="Mittens1" xml:space="preserve">&#10;携带者也是一名约德尔人</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">卢安娜的飓风</s:String>
     <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;普攻对额外1个目标造成伤害，额外攻击造成75%的伤害，附带普攻特效</s:String>
+    <!--Talisman Of Light-->
+    <s:String x:Key="TalismanOfLight" xml:space="preserve">Talisman Of Light</s:String>
+    <s:String x:Key="TalismanOfLight1" xml:space="preserve">&#10;Wearer is also a Light</s:String>
+    <!--Warden's Mail-->
+    <s:String x:Key="WardensMail" xml:space="preserve">Warden's Mail</s:String>
+    <s:String x:Key="WardensMail1" xml:space="preserve">&#10;Wearer is also a Warden</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">幽梦之灵</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;携带者也是刺客单位</s:String>
@@ -47,12 +61,12 @@
     <s:String x:Key="Deathblade1" xml:space="preserve">&#10;在击杀或助攻后，获得一层额外的15攻击力，持续到战斗结束（可无限叠加）。</s:String>
     <!--Dragon's Claw-->
     <s:String x:Key="DragonsClaw" xml:space="preserve">巨龙之爪</s:String>
-    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得75%魔法抗性</s:String>
+    <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得83%魔法抗性</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">冰霜之心</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低20%攻击速度</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低35%攻击速度</s:String>
     <!--Giant Slayer-->
-    <s:String x:Key="GiantSlayer" xml:space="preserve">最后的轻语</s:String>
+    <s:String x:Key="GiantSlayer" xml:space="preserve">巨人杀手</s:String>
     <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击造成目标最大生命值5%的额外真实伤害</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">守护天使</s:String>
@@ -68,25 +82,25 @@
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+25%全能吸血</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
-    <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有50%对敌人造成3秒沉默</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有33%对敌人造成4秒沉默</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">冰脉护手</s:String>
     <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人35%攻速</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+150%暴击伤害</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+125%暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到150点真实伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到125点真实伤害</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">奥数护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供300盾，持续7秒</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供300盾，持续8秒</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标造成200点溅射伤害</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标造成180点溅射伤害</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;技能造成燃烧伤害,每秒伤害值相当于敌人5%的最大生命值</s:String>
@@ -98,7 +112,7 @@
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;装备者闪避所有暴击攻击（包含来自技能的暴击伤害）</s:String>
     <!--Quicksilver-->
     <s:String x:Key="Quicksilver" xml:space="preserve">水银披风</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;躲避下一次施加于自己的硬控效果，每过5秒刷新一次</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;躲避下一次施加于自己的硬控效果，每过3秒刷新一次</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加50%技能伤害</s:String>
@@ -107,28 +121,28 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击在10秒内灼烧目标20%最大生命值并禁止治疗</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击每秒燃烧2％最大生命值，持续10秒，并使恢复速度降低80％</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;在生命值降低到25%时，治疗附近所有友军1200点生命值</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;在生命值降低到30%时，治疗附近所有友军1200点生命值</s:String>
     <!--Repeating Crossbow-->
     <s:String x:Key="RepeatingCrossbow" xml:space="preserve">连发弩</s:String>
-    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;携带者死亡时，该装备转移至一个新单位，并且其获得20%攻速和20%暴击率，每次交接都会叠加</s:String>
+    <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;携带者死亡时，该装备转移至一个新单位，并且其获得30%攻速和30%暴击率，每次交接都会叠加</s:String>
     <!--Seraph's Embrace-->
     <s:String x:Key="SeraphsEmbrace" xml:space="preserve">炽天使之拥</s:String>
     <s:String x:Key="SeraphsEmbrace1" xml:space="preserve">&#10;佩戴者每次施放技能时，回复20点法力值</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="SpearofShojin" xml:space="preserve">朔极之矛</s:String>
-    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复15%最大法力值</s:String>
+    <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复18%最大法力值</s:String>
     <!--Spear of Shojin-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，造成100点溅射魔法伤害。总会命中3个额外的目标</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，造成100点溅射魔法伤害。总会命中2个额外的目标</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有33%造成3秒缴械效果</s:String>
     <!--Sword of the Divine-->
     <s:String x:Key="SwordDivine" xml:space="preserve">神圣之剑</s:String>
-    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有5%几率获得100%暴击几率</s:String>
+    <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有7%几率获得100%暴击几率</s:String>
     <!--Thief's Gloves-->
     <s:String x:Key="ThiefsGloves" xml:space="preserve">盗贼手套</s:String>
     <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;携带者不能装备其它装备。准备阶段，暂时获得2件装备，品质取决于自身等级</s:String>
@@ -159,15 +173,35 @@
     <!--Origins | Effects and Champions-->
     <s:String x:Key="Origins_Label" xml:space="preserve">种族 | 羁绊效果</s:String>
 
+    <!-- Cloud -->
+    <s:String x:Key="Origins_Cloud" xml:space="preserve">Cloud</s:String>
+    <s:String x:Key="Origins_Cloud_Describe1" xml:space="preserve">All allies gain dodge chance</s:String>
+    <s:String x:Key="Origins_Cloud_Describe2" xml:space="preserve">(2) 25% dodge chance (3) 40% dodge chance (4) 60% dodge chance</s:String>
+
+    <!-- Crystal -->
+    <s:String x:Key="Origins_Crystal" xml:space="preserve">Crystal</s:String>
+    <s:String x:Key="Origins_Crystal_Describe1" xml:space="preserve">Crystal units have a max amount of damage they can take from a single hit</s:String>
+    <s:String x:Key="Origins_Crystal_Describe2" xml:space="preserve">(2) 100 Max Damage (4) 60 Max Damage</s:String>
+
     <!-- Demons -->
     <s:String x:Key="Origins_Demons" xml:space="preserve">恶魔</s:String>
-    <s:String x:Key="Origins_Demons_Describe1" xml:space="preserve">20% (2), 35% (4), 60% (6) 概率燃烧普攻命中的目标的</s:String>
-    <s:String x:Key="Origins_Demons_Describe2" xml:space="preserve">当前魔力, 并造成真实伤害(等同于燃烧的魔力值)</s:String>
+    <s:String x:Key="Origins_Demons_Describe1" xml:space="preserve">20% (2), 35% (4), 60% (6) </s:String>
+    <s:String x:Key="Origins_Demons_Describe2" xml:space="preserve">概率燃烧普攻命中的目标的</s:String>
+
+    <!-- Desert -->
+    <s:String x:Key="Origins_Desert" xml:space="preserve">Desert</s:String>
+    <s:String x:Key="Origins_Desert_Describe1" xml:space="preserve">Reduces each enemy's armor</s:String>
+    <s:String x:Key="Origins_Desert_Describe2" xml:space="preserve">(2) 50% Armor reduction (4) 90% Armor reduction</s:String>
 
     <!-- Dragon -->
     <s:String x:Key="Origins_Dragon" xml:space="preserve">龙</s:String>
     <s:String x:Key="Origins_Dragon_Describe1" xml:space="preserve">龙减少魔法伤害</s:String>
     <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">(2) 75%魔法免伤</s:String>
+
+    <!-- Electric -->
+    <s:String x:Key="Origins_Electric" xml:space="preserve">Electric</s:String>
+    <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">Electric units shock nearby enemies when they deal or receive a critical strike</s:String>
+    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 60 Damage (3) 200 Damage (4) 500 Damage</s:String>
 
     <!-- Exile -->
     <s:String x:Key="Origins_Exile" xml:space="preserve">浪人</s:String>
@@ -187,6 +221,20 @@
     <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">帝国单位们造成双倍伤害</s:String>
     <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">(2)1名随机帝国单位  (4)所有帝国单位</s:String>
 
+    <!-- Inferno -->
+    <s:String x:Key="Origins_Inferno" xml:space="preserve">Inferno</s:String>
+    <s:String x:Key="Origins_Inferno_Describe1" xml:space="preserve">Infernos spell damage burns the ground beneath their target, dealing</s:String>
+    <s:String x:Key="Origins_Inferno_Describe2" xml:space="preserve">(3) +80% (6) +175% (9) +275% of that spell's damage over 5 seconds</s:String>
+
+    <!-- Light -->
+    <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
+    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of their Max HP</s:String>
+    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +25% AS (9) +50% AS</s:String>
+
+    <!-- Mountain -->
+    <s:String x:Key="Origins_Mountain" xml:space="preserve">Mountain</s:String>
+    <s:String x:Key="Origins_Mountain_Describe1" xml:space="preserve">(2) At the start of combat, one random ally gains a 1500 health Stoneshield</s:String>
+
     <!-- Ninja -->
     <s:String x:Key="Origins_Ninja" xml:space="preserve">忍者</s:String>
     <s:String x:Key="Origins_Ninja_Describe1" xml:space="preserve">忍者获得额外的攻击力和法术强度</s:String>
@@ -197,6 +245,11 @@
     <s:String x:Key="Origins_Noble_Describe1" xml:space="preserve">贵族获得50甲和魔抗并且每次攻击治疗30生命值</s:String>
     <s:String x:Key="Origins_Noble_Describe2" xml:space="preserve">(3)1名随机友军  (6)所有友军</s:String>
 
+    <!-- Ocean -->
+    <s:String x:Key="Origins_Ocean" xml:space="preserve">Ocean</s:String>
+    <s:String x:Key="Origins_Ocean_Describe1" xml:space="preserve">All allies restore mana every 4 seconds</s:String>
+    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +10 mana (4) +20 mana (6) +40 mana</s:String>
+
     <!-- Phantom -->
     <s:String x:Key="Origins_Phantom" xml:space="preserve">暗影</s:String>
     <s:String x:Key="Origins_Phantom_Describe1" xml:space="preserve">在战斗开始时诅咒一名随机的敌人,将其生命值设置为100 (2)</s:String>
@@ -205,9 +258,27 @@
     <s:String x:Key="Origins_Pirate" xml:space="preserve">海盗</s:String>
     <s:String x:Key="Origins_Pirate_Describe1" xml:space="preserve">赚取最多4枚金币在与另一名玩家战斗之后 (3)</s:String>
 
+    <!-- Poison -->
+    <s:String x:Key="Origins_Poison" xml:space="preserve">Poison</s:String>
+    <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) Poison units apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%</s:String>
+
     <!-- Robot -->
     <s:String x:Key="Origins_Robot" xml:space="preserve">机器人</s:String>
     <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">机器人在开始战斗时就有满额的法力值 (1)</s:String>
+
+    <!-- Shadow -->
+    <s:String x:Key="Origins_Shadow" xml:space="preserve">Shadow</s:String>
+    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 5 seconds at combat start, refreshed on Takedown</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 50% Increased Damage, Self Takedown (4) 100% Increased Damage, any Shadow Takedown</s:String>
+
+    <!-- Steel -->
+    <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
+    <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">Steel units gain damage immunity when they are reduced below 50% health</s:String>
+    <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 seconds of immunity (3) 3 seconds (4) 4 seconds</s:String>
+
+    <!-- Variable -->
+    <s:String x:Key="Origins_Variable" xml:space="preserve">Variable</s:String>
+    <s:String x:Key="Origins_Variable_Describe1" xml:space="preserve">These champions can have any of the Elemental Traits</s:String>
 
     <!-- Void -->
     <s:String x:Key="Origins_Void" xml:space="preserve">虚空</s:String>
@@ -218,18 +289,35 @@
     <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">攻击会生成怒气层数(最多可叠5层),每层怒气提供12%攻击速度,最高60%</s:String>
     <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">(2) 狂野单位 (4) 所有友军且攻击不能被闪避</s:String>
 
+    <!-- Woodland -->
+    <s:String x:Key="Origins_Woodland" xml:space="preserve">Woodland</s:String>
+    <s:String x:Key="Origins_Woodland_Describe1" xml:space="preserve">(3) At the start of combat, a random Woodland Champ makes a copy of themselves</s:String>
+
     <!-- Yordle -->
     <s:String x:Key="Origins_Yordle" xml:space="preserve">约德尔人</s:String>
     <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">友方约德尔人有一定几率闪避攻击和攻击特效</s:String>
     <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">30%几率闪避(3)  60%几率闪避(6)  90%几率闪避(9)</s:String>
 
     <!--Classes | Effects and Champions-->
-    <s:String x:Key="Classes_Label" xml:space="preserve">职业 | 羁绊效果</s:String>
+    <s:String x:Key="Class_Label" xml:space="preserve">职业 | 羁绊效果</s:String>
+
+    <!-- Alchemist -->
+    <s:String x:Key="Class_Alchemist" xml:space="preserve">Alchemist</s:String>
+    <s:String x:Key="Class_Alchemist_Describe1" xml:space="preserve">Alchemists ignore collision and never stop moving</s:String>
 
     <!-- Assassin -->
     <s:String x:Key="Class_Assassin" xml:space="preserve">刺客</s:String>
     <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">刺客们会获得额外的</s:String>
     <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) +75%暴击伤害+10%暴击几率(6) +150%暴击伤害+25%暴击几率(9) +225%暴击伤害+40%暴击几率</s:String>
+
+    <!-- Avatar -->
+    <s:String x:Key="Class_Avatar" xml:space="preserve">Avatar</s:String>
+    <s:String x:Key="Class_Avatar_Describe1" xml:space="preserve">An Avatar's Origin Element is counted twice for Trait bonuses</s:String>
+
+    <!-- Berserker -->
+    <s:String x:Key="Class_Berserker" xml:space="preserve">Berserker</s:String>
+    <s:String x:Key="Class_Berserker_Describe1" xml:space="preserve">Berserkers have a chance to hit all units in a cone in front of them with their attacks</s:String>
+    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 40% chance (6) 80% chance</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">剑士</s:String>
@@ -240,6 +328,10 @@
     <s:String x:Key="Class_Brawler" xml:space="preserve">斗士</s:String>
     <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">斗士获得额外的最大生命值</s:String>
     <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">250额外生命值(2) 500额外生命值(4) 900额外生命值</s:String>
+
+    <!-- Druid -->
+    <s:String x:Key="Class_Druid" xml:space="preserve">Druid</s:String>
+    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) Druids regenerate 40 health per second</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="Class_Elementalist" xml:space="preserve">元素使</s:String>
@@ -259,6 +351,20 @@
     <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">你的队伍无视来自所有来源的</s:String>
     <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">(2) 15点伤害(4) 35点伤害(6) 65点伤害</s:String>
 
+    <!-- Mage -->
+    <s:String x:Key="Class_Mage" xml:space="preserve">Mage</s:String>
+    <s:String x:Key="Class_Mage_Describe1" xml:space="preserve">Mages have a chance on cast to instead Doublecast</s:String>
+    <s:String x:Key="Class_Mage_Describe2" xml:space="preserve">(3) 50% chance (6) 100% chance</s:String>
+
+    <!-- Mystic -->
+    <s:String x:Key="Class_Mystic" xml:space="preserve">Mystic</s:String>
+    <s:String x:Key="Class_Mystic_Describe1" xml:space="preserve">All allies gain increased Magic Resist</s:String>
+    <s:String x:Key="Class_Mystic_Describe2" xml:space="preserve">(2) 70 Magic Resist (4) 150 Magic Resist</s:String>
+
+    <!-- Predator -->
+    <s:String x:Key="Class_Predator" xml:space="preserve">Predator</s:String>
+    <s:String x:Key="Class_Predator_Describe1" xml:space="preserve">(3) Predators insantly kill enemies they damage who are below 20% health</s:String>
+
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">游侠</s:String>
     <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">游侠们每3秒都有一定几率来使他们在接下来的3秒内攻速翻倍</s:String>
@@ -273,6 +379,16 @@
     <s:String x:Key="Class_Sorcerer" xml:space="preserve">法师</s:String>
     <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">法师们的攻击提供双倍魔法值。友军的技能伤害得到提升</s:String>
     <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">+45%技能伤害(3) +100%技能伤害(6) +175%技能伤害(9)</s:String>
+
+    <!-- Summoner -->
+    <s:String x:Key="Class_Summoner" xml:space="preserve">Summoner</s:String>
+    <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">Summoned units have increased health and duration</s:String>
+    <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 40% increase (6) 100% increase</s:String>
+
+    <!-- Warden -->
+    <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>
+    <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">Wardens gain increased total Armor</s:String>
+    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +100% Armor (4) +250% Armor (6) +400% Armor</s:String>
 
     <!--/////////////////-->
     <!--Charts-->

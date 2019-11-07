@@ -6,6 +6,9 @@
     <!--Item Descriptions-->
     <!-- Spatula Items -->
     <!--/////////////////-->
+    <!--Berserker Axe-->
+    <s:String x:Key="BerserkerAxe" xml:space="preserve">Berserker Axe</s:String>
+    <s:String x:Key="BerserkerAxe1" xml:space="preserve">&#10;Wearer is also a Berserker</s:String>
     <!--Blade of the Ruined King-->
     <s:String x:Key="BOTRK" xml:space="preserve">Blade of the Ruined King</s:String>
     <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Wearer is also a Blademaster</s:String>
@@ -18,15 +21,27 @@
     <!--Frozen Mallet-->
     <s:String x:Key="FrozenMallet" xml:space="preserve">Frozen Mallet</s:String>
     <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Wearer is also a Glacial</s:String>
+    <!--Inferno Cinder-->
+    <s:String x:Key="InfernoCinder" xml:space="preserve">Inferno Cinder</s:String>
+    <s:String x:Key="InfernoCinder1" xml:space="preserve">&#10;Wearer is also an Inferno</s:String>
     <!--Knight's Vow-->
     <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight</s:String>
+    <!--Mage's Cap-->
+    <s:String x:Key="MagesCap" xml:space="preserve">Mage's Cap</s:String>
+    <s:String x:Key="MagesCap1" xml:space="preserve">&#10;Wearer is also a Mage</s:String>
     <!--Mittens-->
     <s:String x:Key="Mittens" xml:space="preserve">Mittens</s:String>
     <s:String x:Key="Mittens1" xml:space="preserve">&#10;Wearer is also a Yordle</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
     <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 1 additional enemy and deal 75% damage, applying on-hit effects</s:String>
+    <!--Talisman Of Light-->
+    <s:String x:Key="TalismanOfLight" xml:space="preserve">Talisman Of Light</s:String>
+    <s:String x:Key="TalismanOfLight1" xml:space="preserve">&#10;Wearer is also a Light</s:String>
+    <!--Warden's Mail-->
+    <s:String x:Key="WardensMail" xml:space="preserve">Warden's Mail</s:String>
+    <s:String x:Key="WardensMail1" xml:space="preserve">&#10;Wearer is also a Warden</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin</s:String>

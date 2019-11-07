@@ -644,6 +644,50 @@
   <ItemGroup>
     <Resource Include="Images\classes\Assassin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Diana-Icon.PNG" />
+    <Resource Include="Images\champs\Jax-Icon.PNG" />
+    <Resource Include="Images\champs\LeBlanc-Icon.PNG" />
+    <Resource Include="Images\champs\Lux-Icon.PNG" />
+    <Resource Include="Images\champs\Nami-Icon.PNG" />
+    <Resource Include="Images\champs\Nasus-Icon.PNG" />
+    <Resource Include="Images\champs\Nocturne-Icon.png" />
+    <Resource Include="Images\champs\Ornn-Icon.PNG" />
+    <Resource Include="Images\champs\Qiyana-Icon.PNG" />
+    <Resource Include="Images\champs\Syndra-Icon.PNG" />
+    <Resource Include="Images\champs\Yorick-Icon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Nautilus-Icon.png" />
+    <Resource Include="Images\champs\Sion-Icon.png" />
+    <Resource Include="Images\champs\Thresh-Icon.png" />
+    <Resource Include="Images\champs\Vladimir-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Ivern-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Malphite-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\berserker_axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Olaf-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\inferno_cinder.png" />
+    <Resource Include="Images\mages_cap.png" />
+    <Resource Include="Images\talisman_of_light.png" />
+    <Resource Include="Images\wardens_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\berserker_axe.png" />
+    <Resource Include="Images\cstyle\items\inferno_cinder.png" />
+    <Resource Include="Images\cstyle\items\mages_cap.png" />
+    <Resource Include="Images\cstyle\items\talisman_of_light.png" />
+    <Resource Include="Images\cstyle\items\wardens_mail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
