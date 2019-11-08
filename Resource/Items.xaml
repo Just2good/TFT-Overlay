@@ -193,12 +193,12 @@
                         <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Cursed Blade -->
+                    <!-- Runaans -->
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/cursed_blade.png" />
-                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource CursedBlade}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png" />
+                    <TextBlock Grid.Row="10" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RunaansHurricane}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Titanic Hydra -->
@@ -613,12 +613,12 @@
                         <Run Text="{DynamicResource Bloodthirster1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Cursed Blade -->
+                    <!-- Runaan's Hurricane -->
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/cursed_blade.png" />
-                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource CursedBlade}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png" />
+                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RunaansHurricane}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Ionic Spark -->

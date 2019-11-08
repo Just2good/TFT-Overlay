@@ -292,13 +292,13 @@
                             </Image.ToolTip>
                         </Image>
                     </Border>
-                    <Border x:Name="CursedBlade" Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference CursedBlade}" >
-                        <Image Source="../Images/cursed_blade.png" Style="{StaticResource ImageStyle}">
+                    <Border x:Name="RunaansHurricane" Grid.Row="4" Grid.Column="17"  utilities:AttachedControls.RelatedControl="{x:Reference RunaansHurricane}" >
+                        <Image Source="../Images/runaans_hurricane.png" Style="{StaticResource ImageStyle}">
                             <Image.ToolTip>
                                 <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black" Placement="Top">
                                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource CursedBlade}"/>
-                                    <Run Text="{DynamicResource CursedBlade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource RunaansHurricane}"/>
+                                    <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                     </TextBlock>
                                 </ToolTip>
                             </Image.ToolTip>
@@ -786,7 +786,7 @@
                     <Condition Binding="{Binding ElementName=RecurveBowCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                     <Condition Binding="{Binding ElementName=NegatronCounter, Path=Value, Converter={x:Static utilities:IsEqualOrGreaterThanConverter.Instance}, ConverterParameter=1}" Value="True" />
                 </MultiDataTrigger.Conditions>
-                <Setter TargetName="CursedBlade" Property="Style" Value="{StaticResource ButtonBorder}"/>
+                <Setter TargetName="RunaansHurricane" Property="Style" Value="{StaticResource ButtonBorder}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>

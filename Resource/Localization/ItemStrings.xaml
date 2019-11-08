@@ -6,6 +6,9 @@
     <!--Item Descriptions-->
     <!-- Spatula Items -->
     <!--/////////////////-->
+    <!--Berserker Axe-->
+    <s:String x:Key="BerserkerAxe" xml:space="preserve">Berserker Axe</s:String>
+    <s:String x:Key="BerserkerAxe1" xml:space="preserve">&#10;Wearer is also a Berserker</s:String>
     <!--Blade of the Ruined King-->
     <s:String x:Key="BOTRK" xml:space="preserve">Blade of the Ruined King</s:String>
     <s:String x:Key="BOTRK1" xml:space="preserve">&#10;Wearer is also a Blademaster</s:String>
@@ -18,15 +21,27 @@
     <!--Frozen Mallet-->
     <s:String x:Key="FrozenMallet" xml:space="preserve">Frozen Mallet</s:String>
     <s:String x:Key="FrozenMallet1" xml:space="preserve">&#10;Wearer is also a Glacial</s:String>
+    <!--Inferno Cinder-->
+    <s:String x:Key="InfernoCinder" xml:space="preserve">Inferno Cinder</s:String>
+    <s:String x:Key="InfernoCinder1" xml:space="preserve">&#10;Wearer is also an Inferno</s:String>
     <!--Knight's Vow-->
     <s:String x:Key="KnightsVow" xml:space="preserve">Knight's Vow</s:String>
     <s:String x:Key="KnightsVow1" xml:space="preserve">&#10;Wearer is also a Knight</s:String>
+    <!--Mage's Cap-->
+    <s:String x:Key="MagesCap" xml:space="preserve">Mage's Cap</s:String>
+    <s:String x:Key="MagesCap1" xml:space="preserve">&#10;Wearer is also a Mage</s:String>
     <!--Mittens-->
     <s:String x:Key="Mittens" xml:space="preserve">Mittens</s:String>
     <s:String x:Key="Mittens1" xml:space="preserve">&#10;Wearer is also a Yordle</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">Runaan's Hurricane</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 1 additional enemy and deal 75% damage, applying on-hit effects</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;Attacks hit 1 additional enemy and deal 60% damage, applying on-hit effects</s:String>
+    <!--Talisman Of Light-->
+    <s:String x:Key="TalismanOfLight" xml:space="preserve">Talisman Of Light</s:String>
+    <s:String x:Key="TalismanOfLight1" xml:space="preserve">&#10;Wearer is also a Light</s:String>
+    <!--Warden's Mail-->
+    <s:String x:Key="WardensMail" xml:space="preserve">Warden's Mail</s:String>
+    <s:String x:Key="WardensMail1" xml:space="preserve">&#10;Wearer is also a Warden</s:String>
     <!--Youmuu's Ghostblade-->
     <s:String x:Key="YoumuusGhostblade" xml:space="preserve">Youmuu's Ghostblade</s:String>
     <s:String x:Key="YoumuusGhostblade1" xml:space="preserve">&#10;Wearer is also an Assassin</s:String>
@@ -53,16 +68,16 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 35% attack speed for 1 seconds</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
-    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 5% of target's max health as true damage</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 8% of target's current health as physical damage</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
-    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 500 health after 2 secs and clears grievous wounds</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 400 health after 2 secs and clears grievous wounds</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">Guinsoo's Rageblade</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;Attacks grant 5% attack speed (Stacks infinitely)</s:String>
     <!--Hand of Justice-->
     <s:String x:Key="HandOfJustice" xml:space="preserve">Hand Of Justice</s:String>
-    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;At the start of the round gain either 40% increased damage or 40 on-hit healing</s:String>
+    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;At the start of the round gain either 50% increased damage or 50 on-hit healing</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">Hextech Gunblade</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>
@@ -77,7 +92,7 @@
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 125% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 125 true damage</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 100 true damage</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
@@ -86,7 +101,7 @@
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 8 seconds</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 180 magic damage to all adjacent enemies to target</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 150 magic damage to all adjacent enemies to target</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and reduce healing by 80%</s:String>
@@ -101,7 +116,7 @@
     <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 3 second cooldown</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap</s:String>
-    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+50% Ability Power</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+75% Ability Power</s:String>
     <!--Rapid Firecannon-->
     <s:String x:Key="RapidFirecannon" xml:space="preserve">Rapid Firecannon</s:String>
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;Attack range is doubled</s:String>
@@ -162,7 +177,7 @@
     <!-- Cloud -->
     <s:String x:Key="Origins_Cloud" xml:space="preserve">Cloud</s:String>
     <s:String x:Key="Origins_Cloud_Describe1" xml:space="preserve">All allies gain dodge chance</s:String>
-    <s:String x:Key="Origins_Cloud_Describe2" xml:space="preserve">(2) 25% dodge chance (3) 40% dodge chance (4) 60% dodge chance</s:String>
+    <s:String x:Key="Origins_Cloud_Describe2" xml:space="preserve">(2) 15% dodge chance (3) 20% dodge chance (4) 30% dodge chance</s:String>
 
     <!-- Crystal -->
     <s:String x:Key="Origins_Crystal" xml:space="preserve">Crystal</s:String>
@@ -182,20 +197,20 @@
     <!-- Dragon -->
     <s:String x:Key="Origins_Dragon" xml:space="preserve">Dragon</s:String>
     <s:String x:Key="Origins_Dragon_Describe1" xml:space="preserve">Dragons take reduced magic damage</s:String>
-    <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">(2) 75% Magic Immunity</s:String>
+    <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">(2) 50% Magic Immunity</s:String>
 
     <!-- Electric -->
     <s:String x:Key="Origins_Electric" xml:space="preserve">Electric</s:String>
     <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">Electric units shock nearby enemies when they deal or receive a critical strike</s:String>
-    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 60 Damage (3) 200 Damage (4) 500 Damage</s:String>
+    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 70 Damage (3) 250 Damage (4) 500 Damage</s:String>
 
     <!-- Exile -->
-    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Exile</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">(1) Exiles start combat with a shield equal to 100% max HP when placed adjacement to NO other allied units</s:String>
+    <s:String x:Key="Origins_Exile" xml:space="preserve">Exile</s:String>
+    <s:String x:Key="Origins_Exile_Describe1" xml:space="preserve">(1) Exiles start combat with a shield equal to 100% max HP when placed adjacement to NO other allied units</s:String>
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">Glacial</s:String>
-    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 33%, (6) 50% to stun for 1.5 seconds</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 40%, (6) 60% to stun for 1.5 seconds</s:String>
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">Hextech</s:String>
@@ -215,7 +230,7 @@
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
     <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of their Max HP</s:String>
-    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +25% AS (9) +50% AS</s:String>
+    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +20% AS (9) +35% AS</s:String>
 
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">Mountain</s:String>
@@ -234,7 +249,7 @@
     <!-- Ocean -->
     <s:String x:Key="Origins_Ocean" xml:space="preserve">Ocean</s:String>
     <s:String x:Key="Origins_Ocean_Describe1" xml:space="preserve">All allies restore mana every 4 seconds</s:String>
-    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +10 mana (4) +20 mana (6) +40 mana</s:String>
+    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 mana (4) +30 mana (6) +50 mana</s:String>
 
     <!-- Phantom -->
     <s:String x:Key="Origins_Phantom" xml:space="preserve">Phantom</s:String>
@@ -261,6 +276,10 @@
     <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
     <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">Steel units gain damage immunity when they are reduced below 50% health</s:String>
     <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 seconds of immunity (3) 3 seconds (4) 4 seconds</s:String>
+
+    <!-- Variable -->
+    <s:String x:Key="Origins_Variable" xml:space="preserve">Variable</s:String>
+    <s:String x:Key="Origins_Variable_Describe1" xml:space="preserve">These champions can have any of the Elemental Traits</s:String>
 
     <!-- Void -->
     <s:String x:Key="Origins_Void" xml:space="preserve">Void</s:String>
@@ -299,7 +318,7 @@
     <!-- Berserker -->
     <s:String x:Key="Class_Berserker" xml:space="preserve">Berserker</s:String>
     <s:String x:Key="Class_Berserker_Describe1" xml:space="preserve">Berserkers have a chance to hit all units in a cone in front of them with their attacks</s:String>
-    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 40% chance (6) 80% chance</s:String>
+    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 45% chance (6) 100% chance</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">Blademaster</s:String>
@@ -345,12 +364,12 @@
 
     <!-- Predator -->
     <s:String x:Key="Class_Predator" xml:space="preserve">Predator</s:String>
-    <s:String x:Key="Class_Predator_Describe1" xml:space="preserve">(3) Predators insantly kill enemies they damage who are below 20% health</s:String>
+    <s:String x:Key="Class_Predator_Describe1" xml:space="preserve">(3) Predators insantly kill enemies they damage who are below 25% health</s:String>
 
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">Ranger</s:String>
     <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their attack speed for the next 3 seconds</s:String>
-    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 30% chance (4) 65% chance (6) 100% chance</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 30% chance (4) 60% chance (6) 100% chance</s:String>
 
     <!-- Shapeshifter -->
     <s:String x:Key="Class_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
@@ -370,7 +389,7 @@
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>
     <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">Wardens gain increased total Armor</s:String>
-    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +100% Armor (4) +250% Armor (6) +400% Armor</s:String>
+    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +125% Armor (4) +275% Armor (6) +450% Armor</s:String>
 
 
     <!--/////////////////-->
@@ -383,7 +402,7 @@
 
     <!--Player Damage Formula-->
     <s:String x:Key="Charts_Damage" xml:space="preserve">Player Damage Formula</s:String>
-    <s:String x:Key="Charts_Damage1" xml:space="preserve">2 Damage(Little Legend) + </s:String>
+    <s:String x:Key="Charts_Damage1" xml:space="preserve">Stage</s:String>
     <s:String x:Key="Charts_Damage2" xml:space="preserve">Per Unit</s:String>
 
     <!--/////////////////-->
