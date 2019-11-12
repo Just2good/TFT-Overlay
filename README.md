@@ -14,6 +14,10 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History
+- **11.12.2019**
+  - [2.2.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.2)  
+     - CN language updates
+
 - **11.07.2019**
   - [2.2.1](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.1)  
      - Further set 2 updates for item/synergy stats
