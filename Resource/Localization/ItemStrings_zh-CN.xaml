@@ -57,7 +57,7 @@
     <s:String x:Key="CursedBlade" xml:space="preserve">诅咒之刃</s:String>
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;普通攻击有 20% 使敌人缩小 1 星</s:String>
     <!--Deathblade-->
-    <s:String x:Key="Deathblade" xml:space="preserve">领主之剑</s:String>
+    <s:String x:Key="Deathblade" xml:space="preserve">死亡之刃</s:String>
     <s:String x:Key="Deathblade1" xml:space="preserve">&#10;在击杀或助攻后，获得一层额外的 15 攻击力，持续到战斗结束(可无限叠加)</s:String>
     <!--Dragon's Claw-->
     <s:String x:Key="DragonsClaw" xml:space="preserve">巨龙之爪</s:String>
@@ -75,7 +75,7 @@
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">鬼索的狂暴之刃</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;每次攻击增加 5% 攻击速度，无上限</s:String>
     <!--Hand of Justice-->
-    <s:String x:Key="HandOfJustice" xml:space="preserve">正义之拳</s:String>
+    <s:String x:Key="HandOfJustice" xml:space="preserve">正义之手</s:String>
     <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;在准备阶段开始，装备持有者将随机增加 50% 伤害或者 50 点生命偷取</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技枪刃</s:String>
@@ -111,7 +111,7 @@
     <s:String x:Key="PhantomDancer" xml:space="preserve">幻影之舞</s:String>
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;装备者闪避所有暴击攻击（包含来自技能的暴击伤害）</s:String>
     <!--Quicksilver-->
-    <s:String x:Key="Quicksilver" xml:space="preserve">水银披风</s:String>
+    <s:String x:Key="Quicksilver" xml:space="preserve">水银</s:String>
     <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;躲避下一次施加于自己的硬控效果，每过 3 秒刷新一次</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
@@ -144,7 +144,7 @@
     <s:String x:Key="SwordDivine" xml:space="preserve">神圣之剑</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有 7% 几率获得 100% 暴击几率</s:String>
     <!--Thief's Gloves-->
-    <s:String x:Key="ThiefsGloves" xml:space="preserve">盗贼手套</s:String>
+    <s:String x:Key="ThiefsGloves" xml:space="preserve">窃贼手套</s:String>
     <s:String x:Key="ThiefsGloves1" xml:space="preserve">&#10;携带者不能装备其它装备。准备阶段，暂时获得 2 件装备，品质取决于自身等级</s:String>
     <!--Thornmail-->
     <s:String x:Key="Thornmail" xml:space="preserve">荆棘之甲</s:String>
@@ -153,7 +153,7 @@
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对目标及目标身后的敌人造成携带者 3% 最大生命值的溅射伤害</s:String>
     <!--TrapClaw-->
-    <s:String x:Key="TrapClaw" xml:space="preserve">反击之手</s:String>
+    <s:String x:Key="TrapClaw" xml:space="preserve">伏击之爪</s:String>
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕 4 秒</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">狂徒铠甲</s:String>
