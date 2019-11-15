@@ -15,6 +15,12 @@
 
 ## Version History
 - **11.12.2019**
+  - [2.2.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.3)  
+     - Updated CN items to client names
+     - Added missing origin/class pictures
+     - Removed "variable" origin and added Qiyana and Lux to each element that they can spawn as for more clarity
+
+- **11.12.2019**
   - [2.2.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.2)  
      - CN language updates
 

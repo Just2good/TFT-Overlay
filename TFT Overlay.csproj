@@ -688,6 +688,34 @@
     <Resource Include="Images\cstyle\items\talisman_of_light.png" />
     <Resource Include="Images\cstyle\items\wardens_mail.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Woodland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Cloud.png" />
+    <Resource Include="Images\origins\Crystal.png" />
+    <Resource Include="Images\origins\Desert.png" />
+    <Resource Include="Images\origins\Electric.png" />
+    <Resource Include="Images\origins\Inferno.png" />
+    <Resource Include="Images\origins\Light.png" />
+    <Resource Include="Images\origins\Ocean.png" />
+    <Resource Include="Images\origins\Poison.png" />
+    <Resource Include="Images\origins\Shadow.png" />
+    <Resource Include="Images\origins\Steel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Alchemist.png" />
+    <Resource Include="Images\classes\Avatar.png" />
+    <Resource Include="Images\classes\Berserker.png" />
+    <Resource Include="Images\classes\Druid.png" />
+    <Resource Include="Images\classes\Mage.png" />
+    <Resource Include="Images\classes\Mystic.png" />
+    <Resource Include="Images\classes\Predator.png" />
+    <Resource Include="Images\classes\Summoner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Mountain.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
