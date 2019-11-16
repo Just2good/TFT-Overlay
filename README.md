@@ -15,6 +15,10 @@
 
 ## Version History
 - **11.12.2019**
+  - [2.2.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.4)  
+     - Corrected unit costs
+     
+- **11.15.2019**
   - [2.2.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.3)  
      - Updated CN items to client names
      - Added missing origin/class pictures
