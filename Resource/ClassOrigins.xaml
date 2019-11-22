@@ -383,8 +383,11 @@
                 <Image Source="pack://application:,,,/Images/champs/Annie-Icon.png" Grid.Row="12" Grid.Column="6"></Image>
                 <TextBlock Text="4" Grid.Row="12" Grid.Column="6" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
-                <Image Source="pack://application:,,,/Images/champs/Lux-Icon.png" Grid.Row="12" Grid.Column="7"></Image>
-                <TextBlock Text="7" Grid.Row="12" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+                <Image Source="pack://application:,,,/Images/champs/Brand-Icon.png" Grid.Row="12" Grid.Column="7"></Image>
+                <TextBlock Text="4" Grid.Row="12" Grid.Column="7" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
+
+                <Image Source="pack://application:,,,/Images/champs/Lux-Icon.png" Grid.Row="12" Grid.Column="8"></Image>
+                <TextBlock Text="7" Grid.Row="12" Grid.Column="8" FontSize="12" VerticalAlignment="Bottom" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontWeight="Bold"></TextBlock>
 
                 <!-- Light -->
 

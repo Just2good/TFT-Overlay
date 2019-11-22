@@ -65,7 +65,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 35% attack speed for 1 seconds</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed for 1 seconds</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
     <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 8% of target's current health as physical damage</s:String>
@@ -86,13 +86,13 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 33% chance to mana-lock the target for 4 seconds, preventing them from gaining mana</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;On dodge, create an expandable zone that lowers enemy attack speed by 35%</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;On dodge, create an expandable zone that lowers enemy attack speed by 25%</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 125% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 100 true damage</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 90 true damage</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
@@ -210,7 +210,7 @@
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">Glacial</s:String>
-    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 40%, (6) 60% to stun for 1.5 seconds</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">On hit, Glacials have a (2) 20%, (4) 35%, (6) 50% to stun for 1.5 seconds</s:String>
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">Hextech</s:String>
@@ -229,7 +229,7 @@
 
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
-    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of their Max HP</s:String>
+    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of the dying Champ's Max HP</s:String>
     <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +20% AS (9) +35% AS</s:String>
 
     <!-- Mountain -->
@@ -249,7 +249,7 @@
     <!-- Ocean -->
     <s:String x:Key="Origins_Ocean" xml:space="preserve">Ocean</s:String>
     <s:String x:Key="Origins_Ocean_Describe1" xml:space="preserve">All allies restore mana every 4 seconds</s:String>
-    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 mana (4) +30 mana (6) +50 mana</s:String>
+    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 mana (4) +35 mana (6) +60 mana</s:String>
 
     <!-- Phantom -->
     <s:String x:Key="Origins_Phantom" xml:space="preserve">Phantom</s:String>
@@ -270,7 +270,7 @@
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">Shadow</s:String>
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 5 seconds at combat start, refreshed on Takedown</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 50% Increased Damage, Self Takedown (4) 100% Increased Damage, any Shadow Takedown</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 45% Increased Damage, Self Takedown (4) 85% Increased Damage, any Shadow Takedown</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
@@ -389,7 +389,7 @@
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>
     <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">Wardens gain increased total Armor</s:String>
-    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +125% Armor (4) +275% Armor (6) +450% Armor</s:String>
+    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +150% Armor (4) +300% Armor (6) +450% Armor</s:String>
 
 
     <!--/////////////////-->

@@ -64,7 +64,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得 50% 魔法抗性</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">冰霜之心</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低 35% 攻击速度</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低 25% 攻击速度</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">巨人杀手</s:String>
     <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击造成目标当前生命值 8% 的物理伤害</s:String>
@@ -85,13 +85,13 @@
     <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有 33% 对敌人造成 4 秒沉默</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">冰脉护手</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人 35% 攻速</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人 25% 攻速</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+125% 暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到 100 点真实伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到 90 点真实伤害</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">珠光护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
@@ -209,7 +209,7 @@
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">极地</s:String>
-    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有 (2) 20%, (4) 40%, (6) 60% 几率眩晕目标 1.5 秒</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有 (2) 20%, (4) 35%, (6) 50% 几率眩晕目标 1.5 秒</s:String>
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">海克斯科技</s:String>
@@ -248,7 +248,7 @@
     <!-- Ocean -->
     <s:String x:Key="Origins_Ocean" xml:space="preserve">海洋</s:String>
     <s:String x:Key="Origins_Ocean_Describe1" xml:space="preserve">所有友军每 4 秒回复</s:String>
-    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 法力值 (4) +30 法力值 (6) +50 法力值</s:String>
+    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 法力值 (4) +35 法力值 (6) +60 法力值</s:String>
 
     <!-- Phantom -->
     <s:String x:Key="Origins_Phantom" xml:space="preserve">暗影</s:String>
@@ -269,7 +269,7 @@
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">影</s:String>
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">当影英雄造成伤害时，在 5 秒内提升</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 自身 50% 的伤害 (4) 全体风影英雄 100% 的伤害</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 自身 45% 的伤害 (4) 全体风影英雄 85% 的伤害</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">钢铁</s:String>
@@ -388,7 +388,7 @@
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">守护神</s:String>
     <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">守护者提升所有友军的护甲</s:String>
-    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +125% 护甲 (4) +275% 护甲 (6) +450% 护甲</s:String>
+    <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +150% 护甲 (4) +300% 护甲 (6) +450% 护甲</s:String>
 
     <!--/////////////////-->
     <!--Charts-->

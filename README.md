@@ -14,6 +14,11 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History
+- **11.21.2019**
+  - [2.2.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.5)  
+     - Updated to Patch 9.23
+     - Added Brand to Inferno
+
 - **11.12.2019**
   - [2.2.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.4)  
      - Corrected unit costs
