@@ -185,12 +185,12 @@
                         <Run Text="{DynamicResource StatikkShiv1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Phantom Dancer -->
+                    <!-- Titans Resolve -->
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/phantom_dancer.png" />
-                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource PhantomDancer}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/titans_resolve.png" />
+                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource TitansResolve}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource TitansResolve1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Runaans -->
@@ -209,12 +209,12 @@
                         <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Repeating Crossbow -->
+                    <!-- LastWhisper -->
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/repeating_crossbow.png" />
-                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RepeatingCrossbow}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/last_whisper.png" />
+                    <TextBlock Grid.Row="14" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource LastWhisper}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     
                     <!-- Blade of the Ruined King -->
@@ -500,12 +500,12 @@
                         <Run Text="{DynamicResource GuardianAngel1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Phantom Dancer -->
+                    <!-- TitansResolve -->
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/phantom_dancer.png" />
-                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource PhantomDancer}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/titans_resolve.png" />
+                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource TitansResolve}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource TitansResolve1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Locket of The Iron Solari -->
@@ -524,12 +524,12 @@
                         <Run Text="{DynamicResource FrozenHeart1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Thornmail -->
+                    <!-- BrambleVest -->
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/thornmail.png" />
-                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource Thornmail}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource Thornmail1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Bramble_Vest.png" />
+                    <TextBlock Grid.Row="8" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource BrambleVest}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource BrambleVest1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Sword Breaker -->
@@ -839,12 +839,12 @@
                         <Run Text="{DynamicResource InfinityEdge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
-                    <!-- Repeating Crossbow -->
+                    <!-- LastWhisper -->
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/repeating_crossbow.png" />
-                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource RepeatingCrossbow}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/last_whisper.png" />
+                    <TextBlock Grid.Row="2" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource LastWhisper}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
 
                     <!-- Jeweled Gauntlet -->

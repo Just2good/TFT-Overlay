@@ -14,6 +14,13 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History
+- **1.18.2020**
+  - [2.2.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.6)  
+     - Updated to Patch 10.1
+     - Added Amumu, Leona, Karma, Lucian, Senna
+     - Added Soulbound and Lunar
+     - Added Titan's Resolve, Bramble Vest, Last Whisper
+
 - **11.21.2019**
   - [2.2.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.5)  
      - Updated to Patch 9.23

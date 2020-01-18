@@ -716,6 +716,29 @@
   <ItemGroup>
     <Resource Include="Images\origins\Mountain.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bramble_vest.png" />
+    <Resource Include="Images\last_whisper.png" />
+    <Resource Include="Images\titans_resolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Karma-Icon.png" />
+    <Resource Include="Images\champs\Senna-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Soulbound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\bramble_vest.png" />
+    <Resource Include="Images\cstyle\items\last_whisper.png" />
+    <Resource Include="Images\cstyle\items\titans_resolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Lunar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Amumu-Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

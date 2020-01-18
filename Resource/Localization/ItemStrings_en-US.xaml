@@ -54,6 +54,9 @@
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">Bloodthirster</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;Attacks heal for 40% of damage</s:String>
+    <!--Bramble Vest-->
+    <s:String x:Key="BrambleVest" xml:space="preserve">Bramble Vest</s:String>
+    <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;Negates bonus dmg from crits. After being hit by a basic attack deal 80/120/160 (* lvl) magic dmg to all nearby enemies</s:String>
     <!--Cursed Blade-->
     <s:String x:Key="CursedBlade" xml:space="preserve">Cursed Blade</s:String>
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;Attacks have a 20% to shrink (-1 enemy star, down to 0)</s:String>
@@ -65,7 +68,7 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;Gain 83% resistance to magic damage</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">Frozen Heart</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Adjacent enemies lose 25% attack speed for 1 seconds</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Nearby enemies lose 40% attack speed</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
     <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 8% of target's current health as physical damage</s:String>
@@ -83,28 +86,31 @@
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;Heal for 25% of all damage dealt</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">Hush</s:String>
-    <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 33% chance to mana-lock the target for 4 seconds, preventing them from gaining mana</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;Attacks have a 20% chance to mana-lock the target for 4 seconds, preventing them from gaining mana</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">Iceborn Gauntlet</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;On dodge, create an expandable zone that lowers enemy attack speed by 25%</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After casting a spell, the wearer's next basic attack freezes the target for 1.5 seconds</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 125% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Whenever an enemy casts a spell, they take 90 true damage</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Enemies within 3 hexes take damage equal to 200% of their max mana every spell cast</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
+    <!--Last Whisper-->
+    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
+    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Crits reduce target's Armor by 90% for 3 seconds (doesn't stack)</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">Locket of the Iron Solari</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 300 shield on round start for 8 seconds</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 250/275/300 (* lvl) shield on round start for 8 seconds</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 150 magic damage to all adjacent enemies to target</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 120/160/200 (* lvl) magic damage to all adjacent enemies to target</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 5% of the enemy's maximum health per second and reduce healing by 80%</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 18% of the enemy's maximum health over 10 seconds and reduce healing by 80%</s:String>
     <!--Neeko's Help-->
     <s:String x:Key="NeekosHelp" xml:space="preserve">Neeko's Help</s:String>
     <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;Place on a champion to create a 1-star copy of that champion and add it to your bench. Consumes item</s:String>
@@ -113,7 +119,7 @@
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;Wearer dodges all Critical Strikes</s:String>
     <!--Quicksilver-->
     <s:String x:Key="Quicksilver" xml:space="preserve">Quicksilver</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Ignore the next crowd control effect applied to you. 3 second cooldown</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;Wearer is immune to crowd control</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">Rabadon's Deathcap</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;+75% Ability Power</s:String>
@@ -135,9 +141,9 @@
     <!--Spear of Shojin-->
     <s:String x:Key="SpearofShojin" xml:space="preserve">Spear of Shojin</s:String>
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 18% of its max mana per attack</s:String>
-    <!--Spear of Shojin-->
+    <!--Statikk Shiv-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 100 magic damage to the target and 2 additional targets</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 80 magic damage to the target and 3/4/5 (* level) additional targets</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Attacks have a 33% chance to disarm the target for 3 seconds</s:String>
@@ -153,6 +159,9 @@
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">Titanic Hydra</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;Attacks deal 3% of wearer's max health to target and adjacent enemies behind them</s:String>
+    <!--Titan's Resolve-->
+    <s:String x:Key="TitansResolve" xml:space="preserve">Titan's Resolve</s:String>
+    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;When wearer is hit or inflicts a crit, they gain a 2% stacking damage bonus, up to 100%. At 50 stacks, gain 25 Armor + MR</s:String>
     <!--Trap Claw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">Trap Claw</s:String>
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;Begin combat with a spell shield. The enemy who breaks the shield is stunned for 4 seconds</s:String>
@@ -177,7 +186,7 @@
     <!-- Cloud -->
     <s:String x:Key="Origins_Cloud" xml:space="preserve">Cloud</s:String>
     <s:String x:Key="Origins_Cloud_Describe1" xml:space="preserve">All allies gain dodge chance</s:String>
-    <s:String x:Key="Origins_Cloud_Describe2" xml:space="preserve">(2) 15% dodge chance (3) 20% dodge chance (4) 30% dodge chance</s:String>
+    <s:String x:Key="Origins_Cloud_Describe2" xml:space="preserve">(2) 20% dodge chance (3) 25% dodge chance (4) 35% dodge chance</s:String>
 
     <!-- Crystal -->
     <s:String x:Key="Origins_Crystal" xml:space="preserve">Crystal</s:String>
@@ -202,7 +211,7 @@
     <!-- Electric -->
     <s:String x:Key="Origins_Electric" xml:space="preserve">Electric</s:String>
     <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">Electric units shock nearby enemies when they deal or receive a critical strike</s:String>
-    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 70 Damage (3) 250 Damage (4) 500 Damage</s:String>
+    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 100 Damage (3) 300 Damage (4) 500 Damage</s:String>
 
     <!-- Exile -->
     <s:String x:Key="Origins_Exile" xml:space="preserve">Exile</s:String>
@@ -224,13 +233,18 @@
 
     <!-- Inferno -->
     <s:String x:Key="Origins_Inferno" xml:space="preserve">Inferno</s:String>
-    <s:String x:Key="Origins_Inferno_Describe1" xml:space="preserve">Infernos spell damage burns the ground beneath their target, dealing</s:String>
-    <s:String x:Key="Origins_Inferno_Describe2" xml:space="preserve">(3) +80% (6) +175% (9) +275% of that spell's damage over 5 seconds</s:String>
+    <s:String x:Key="Origins_Inferno_Describe1" xml:space="preserve">Infernos spell damage and crits burn the ground beneath their target, dealing</s:String>
+    <s:String x:Key="Origins_Inferno_Describe2" xml:space="preserve">(3) +70% (6) +120% 3 hexes (9) +180% 5 hexes bonus damage over 4 seconds</s:String>
 
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
     <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of the dying Champ's Max HP</s:String>
-    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +10% AS (6) +20% AS (9) +35% AS</s:String>
+    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +15% AS (6) +35% AS (9) +55% AS</s:String>
+
+    <!-- Lunar -->
+    <s:String x:Key="Origins_Lunar" xml:space="preserve">Lunar</s:String>
+    <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">Every 7 seconds your team gains crit chance, damage, and spell power (stacks up to 4 times)</s:String>
+    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% CS, 15% Crit Damage, 10% Spell Power</s:String>
 
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">Mountain</s:String>
@@ -249,7 +263,7 @@
     <!-- Ocean -->
     <s:String x:Key="Origins_Ocean" xml:space="preserve">Ocean</s:String>
     <s:String x:Key="Origins_Ocean_Describe1" xml:space="preserve">All allies restore mana every 4 seconds</s:String>
-    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +15 mana (4) +35 mana (6) +60 mana</s:String>
+    <s:String x:Key="Origins_Ocean_Describe2" xml:space="preserve">(2) +10 mana (4) +30 mana (6) +60 mana</s:String>
 
     <!-- Phantom -->
     <s:String x:Key="Origins_Phantom" xml:space="preserve">Phantom</s:String>
@@ -269,8 +283,8 @@
 
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">Shadow</s:String>
-    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 5 seconds at combat start, refreshed on Takedown</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 45% Increased Damage, Self Takedown (4) 85% Increased Damage, any Shadow Takedown</s:String>
+    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 4 seconds at combat start, refreshed on Takedown</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 65% Increased Damage, Self Takedown (4) 150% Increased Damage, any Shadow Takedown</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
@@ -318,7 +332,7 @@
     <!-- Berserker -->
     <s:String x:Key="Class_Berserker" xml:space="preserve">Berserker</s:String>
     <s:String x:Key="Class_Berserker_Describe1" xml:space="preserve">Berserkers have a chance to hit all units in a cone in front of them with their attacks</s:String>
-    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 45% chance (6) 100% chance</s:String>
+    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 45% chance (6) 100% chance + 25 AD</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">Blademaster</s:String>
@@ -332,7 +346,7 @@
 
     <!-- Druid -->
     <s:String x:Key="Class_Druid" xml:space="preserve">Druid</s:String>
-    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) Druids regenerate 40 health per second</s:String>
+    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) Druids regenerate 45 health per second</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="Class_Elementalist" xml:space="preserve">Elementalist</s:String>
@@ -369,12 +383,16 @@
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">Ranger</s:String>
     <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their attack speed for the next 3 seconds</s:String>
-    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 30% chance (4) 60% chance (6) 100% chance</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 35% chance (4) 80% chance (6) 100% chance</s:String>
 
     <!-- Shapeshifter -->
     <s:String x:Key="Class_Shapeshifter" xml:space="preserve">Shapeshifter</s:String>
     <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">Shapeshifters gain bonus max health when they transform</s:String>
     <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">(3) +60% bonus HP (6) +100% bonus HP</s:String>
+
+    <!-- Soulbound -->
+    <s:String x:Key="Class_Soulbound" xml:space="preserve">Soulbound</s:String>
+    <s:String x:Key="Class_Soulbound_Describe1" xml:space="preserve">(2) The first Soulbound unit to die will instead enter the Spirit Realm becoming untargetable and continuing to fight until all other Soulbound units are dead</s:String>
 
     <!-- Sorcerer -->
     <s:String x:Key="Class_Sorcerer" xml:space="preserve">Sorcerer</s:String>
@@ -384,7 +402,7 @@
     <!-- Summoner -->
     <s:String x:Key="Class_Summoner" xml:space="preserve">Summoner</s:String>
     <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">Summoned units have increased health and duration</s:String>
-    <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 40% increase (6) 100% increase</s:String>
+    <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 30% increase (6) 120% increase</s:String>
 
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>

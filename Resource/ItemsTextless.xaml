@@ -52,7 +52,7 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Last Whisper -->
+                    <!-- GiantSlayer -->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
@@ -203,7 +203,7 @@
                         <RowDefinition Height="40"/>
                         <RowDefinition Height="3"/>
                     </Grid.RowDefinitions>
-                    <!-- Last Whisper -->
+                    <!-- GiantSlayer -->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="0" Grid.Column="0" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
@@ -260,16 +260,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Phantom Dancer -->
+                    <!-- TitansResolve -->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/phantom_dancer.png">
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Titans_Resolve.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource PhantomDancer}"/>
-                                    <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource TitansResolve}"/>
+                                    <Run Text="{DynamicResource TitansResolve1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -302,16 +302,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Repeating Crossbow -->
+                    <!-- LastWhisper -->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/repeating_crossbow.png">
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Last_Whisper.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RepeatingCrossbow}"/>
-                                    <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource LastWhisper}"/>
+                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -716,16 +716,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Phantom Dancer -->
+                    <!-- TitansResolve -->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/phantom_dancer.png">
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Titans_Resolve.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource PhantomDancer}"/>
-                                    <Run Text="{DynamicResource PhantomDancer1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource TitansResolve}"/>
+                                    <Run Text="{DynamicResource TitansResolve1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -758,16 +758,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Thornmail -->
+                    <!-- BrambleVest -->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/thornmail.png">
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Bramble_Vest.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Thornmail}"/>
-                                    <Run Text="{DynamicResource Thornmail1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource BrambleVest}"/>
+                                    <Run Text="{DynamicResource BrambleVest1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1214,16 +1214,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Repeating Crossbow -->
+                    <!-- LastWhisper -->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/repeating_crossbow.png">
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/Last_Whisper.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RepeatingCrossbow}"/>
-                                    <Run Text="{DynamicResource RepeatingCrossbow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource LastWhisper}"/>
+                                    <Run Text="{DynamicResource LastWhisper1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
