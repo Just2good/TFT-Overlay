@@ -54,8 +54,8 @@
     <s:String x:Key="Bloodthirster" xml:space="preserve">饮血剑</s:String>
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;普攻攻击附带 40% 吸血</s:String>
     <!--Bramble Vest-->
-    <s:String x:Key="BrambleVest" xml:space="preserve">Bramble Vest</s:String>
-    <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;Negates bonus dmg from crits. After being hit by a basic attack deal 80/120/160 (* lvl) magic dmg to all nearby enemies</s:String>
+    <s:String x:Key="BrambleVest" xml:space="preserve">荆刺背心</s:String>
+    <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;使来自暴击的额外伤害变得无效。在被一次普通攻击命中时，对附近的所有敌人造成 80/120/160 （携带者星级）魔法伤害（每 2 秒最多出发 1 次）</s:String>
     <!--Cursed Blade-->
     <s:String x:Key="CursedBlade" xml:space="preserve">诅咒之刃</s:String>
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;普通攻击有 20% 使敌人缩小 1 星</s:String>
@@ -99,8 +99,8 @@
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">珠光护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
     <!--Last Whisper-->
-    <s:String x:Key="LastWhisper" xml:space="preserve">Last Whisper</s:String>
-    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;Crits reduce target's Armor by 90% for 3 seconds (doesn't stack)</s:String>
+    <s:String x:Key="LastWhisper" xml:space="preserve">最后的轻语</s:String>
+    <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;暴击会使目标的护甲降低至 90%，持续 3 秒（效果不叠加）</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供 300 盾，持续 8 秒</s:String>
@@ -159,8 +159,8 @@
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对目标及目标身后的敌人造成携带者 3% 最大生命值的溅射伤害</s:String>
     <!--Titan's Resolve-->
-    <s:String x:Key="TitansResolve" xml:space="preserve">Titan's Resolve</s:String>
-    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;When wearer is hit or inflicts a crit, they gain a 2% stacking damage bonus, up to 100%. At 50 stacks, gain 25 Armor + MR</s:String>
+    <s:String x:Key="TitansResolve" xml:space="preserve">泰坦的坚决</s:String>
+    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;当携带者打出或受到一次暴击，会获得一层 2% 伤害的加成，至多叠加至 100%。在被攻击 50 次时，携带者获得 25 护甲和魔法抗性，并且体型提升</s:String>
     <!--TrapClaw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">伏击之爪</s:String>
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕 4 秒</s:String>
@@ -241,9 +241,9 @@
     <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +15% 攻速 (6) +35% 攻速 (9) +55% 攻速</s:String>
 
     <!-- Lunar -->
-    <s:String x:Key="Origins_Lunar" xml:space="preserve">Lunar</s:String>
-    <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">Every 7 seconds your team gains crit chance, damage, and spell power (stacks up to 4 times)</s:String>
-    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% CS, 15% Crit Damage, 10% Spell Power</s:String>
+    <s:String x:Key="Origins_Lunar" xml:space="preserve">月蚀</s:String>
+    <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">每过 7 秒，队伍中所有英雄获得 暴击几率、暴击伤害和法术强度的提升（至多叠加 4 层）</s:String>
+    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% 暴击几率, 15% 暴击伤害, 10% 法术强度</s:String>
 
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">山脉</s:String>
@@ -390,8 +390,8 @@
     <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">(3) +60%额外最大生命值 (6) +100%额外最大生命值</s:String>
 
     <!-- Soulbound -->
-    <s:String x:Key="Class_Soulbound" xml:space="preserve">Soulbound</s:String>
-    <s:String x:Key="Class_Soulbound_Describe1" xml:space="preserve">(2) The first Soulbound unit to die will instead enter the Spirit Realm becoming untargetable and continuing to fight until all other Soulbound units are dead</s:String>
+    <s:String x:Key="Class_Soulbound" xml:space="preserve">系魂</s:String>
+    <s:String x:Key="Class_Soulbound_Describe1" xml:space="preserve">(2) 第一位【系魂】英雄在阵亡后将作为不可被选取的灵体来继续作战，直到所有其他的【系魂】英雄阵亡为止</s:String>
 
     <!-- Sorcerer -->
     <s:String x:Key="Class_Sorcerer" xml:space="preserve">法师</s:String>
