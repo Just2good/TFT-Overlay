@@ -71,7 +71,7 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;Nearby enemies lose 40% attack speed</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">Giant Slayer</s:String>
-    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 8% of target's current health as physical damage</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;Attacks deal an additional 9% of target's current health as physical damage</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">Guardian Angel</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;Wearer revives with 400 health after 2 secs and clears grievous wounds</s:String>

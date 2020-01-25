@@ -14,6 +14,10 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History
+- **1.25.2020**
+  - [2.2.9](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.9)  
+     - CN lang update
+
 - **1.22.2020**
   - [2.2.8](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.8)  
      - Patch 10.2

@@ -67,34 +67,34 @@
     <s:String x:Key="DragonClaw1" xml:space="preserve">&#10;装备者获得 50% 魔法抗性</s:String>
     <!--Frozen Heart-->
     <s:String x:Key="FrozenHeart" xml:space="preserve">冰霜之心</s:String>
-    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;邻近格子的敌人降低 25% 攻击速度</s:String>
+    <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;降低邻近格子的敌人 25% 攻击速度，持续1秒(多个 冰霜之心 可提升效果的半径，而非减速的幅度)</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">巨人杀手</s:String>
-    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击造成目标当前生命值 8% 的物理伤害</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击额外造成目标当前生命值 9% 的物理伤害</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">守护天使</s:String>
-    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;阵亡 2 秒后复活,复活后恢复 400 生命值</s:String>
+    <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;阵亡后清除自身的负面效果， 2 秒后复活且恢复 400 生命值，在复活状态期间不能被治疗</s:String>
     <!--Guinsoo's Rageblade-->
     <s:String x:Key="GuinsoosRageblade" xml:space="preserve">鬼索的狂暴之刃</s:String>
     <s:String x:Key="GuinsoosRageblade1" xml:space="preserve">&#10;每次攻击增加 5% 攻击速度，无上限</s:String>
     <!--Hand of Justice-->
     <s:String x:Key="HandOfJustice" xml:space="preserve">正义之手</s:String>
-    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;在准备阶段开始，装备持有者将随机增加 50% 伤害或者 50 点生命偷取</s:String>
+    <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;在准备阶段开始，装备持有者将增加 50% 的伤害或在普通攻击命中时治疗自身 50 生命值</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技枪刃</s:String>
     <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+33% 全能吸血</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
-    <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有 33% 对敌人造成 4 秒沉默</s:String>
+    <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有25%的几率沉默敌人，在4秒内阻止敌人获取法力值</s:String>
     <!--Iceborn Gauntlet-->
     <s:String x:Key="IcebornGauntlet" xml:space="preserve">冰脉护手</s:String>
-    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;躲避成功时，生成一个扩展的冰封区域，降低敌人 25% 攻速</s:String>
+    <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;在施放一次技能后，携带者的下次普通攻击会冻结目标2.5秒</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+125% 暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;每当敌人使用技能，他们受到 90 点真实伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;3 格内的敌人在施放技能时会被震击，受到相当于其 200% 最大法力值的魔法伤害</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">珠光护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
@@ -103,13 +103,13 @@
     <s:String x:Key="LastWhisper1" xml:space="preserve">&#10;暴击会使目标的护甲降低至 90%，持续 3 秒（效果不叠加）</s:String>
     <!--Locket of the Iron Solari-->
     <s:String x:Key="LocketSolari" xml:space="preserve">钢铁烈阳之匣</s:String>
-    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供 250/275/350 盾，持续 8 秒</s:String>
+    <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供 250/275/350 （携带者星级）的护盾，持续 8 秒</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标造成 125/175/250 点溅射伤害且每次技能施放时都会触发一次</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标以及周围英雄造成 125/175/250 （携带者星级）魔法伤害</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;技能 10 秒内灼烧敌人最大生命值 20% ，并禁止 80% 治疗效果（无法叠加）</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;技能 10 秒内共造成敌人最大生命值 18% 的真实伤害，并阻止 80% 治疗效果（无法叠加）</s:String>
     <!--Neeko's Help-->
     <s:String x:Key="NeekosHelp" xml:space="preserve">妮蔻之助</s:String>
     <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;创建一个与其相同的 1 星卡牌,将它添加到您的台上</s:String>
@@ -118,7 +118,7 @@
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;装备者闪避所有暴击攻击（包含来自技能的暴击伤害）</s:String>
     <!--Quicksilver-->
     <s:String x:Key="Quicksilver" xml:space="preserve">水银</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;躲避下一次施加于自己的硬控效果，每过 3 秒刷新一次</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;携带者免疫控制效果</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
     <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加 75% 技能伤害</s:String>
@@ -127,10 +127,10 @@
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击每秒燃烧 2% 最大生命值，持续 10 秒，并禁止 80% 治疗效果（无法叠加）</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击后 10 秒内共造成敌人最大生命值 18% 的真实伤害，并禁止 80% 治疗效果（无法叠加）</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;在生命值降低到 30% 时，治疗附近所有友军 1200 点生命值</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;携带者生命值降低到 30% 时，2.5 秒后治疗附近所有友军 1200 点生命值</s:String>
     <!--Repeating Crossbow-->
     <s:String x:Key="RepeatingCrossbow" xml:space="preserve">复用型十字弩</s:String>
     <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;携带者死亡时，该装备转移至一个新单位，并且其获得 30% 攻速和 30% 暴击率，每次交接都会叠加</s:String>
@@ -142,10 +142,10 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复 18% 最大法力值</s:String>
     <!--Statikk Shiv-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，造成 80 点溅射魔法伤害。总会命中 3/4/5 个额外的目标</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，对 3/4/5 （携带者星级）个目标造成 80 点魔法伤害。</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
-    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有 33% 造成 3 秒缴械效果</s:String>
+    <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有 25% 造成 3 秒缴械效果</s:String>
     <!--Sword of the Divine-->
     <s:String x:Key="SwordDivine" xml:space="preserve">神圣之剑</s:String>
     <s:String x:Key="SwordDivine1" xml:space="preserve">&#10;携带者每秒都有 7% 几率获得 100% 暴击几率</s:String>
@@ -157,10 +157,10 @@
     <s:String x:Key="Thornmail1" xml:space="preserve">&#10;反弹所受到物理伤害的 100% 的真实伤害</s:String>
     <!--Titanic Hydra-->
     <s:String x:Key="TitanicHydra" xml:space="preserve">巨型九头蛇</s:String>
-    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对目标及目标身后的敌人造成携带者 3% 最大生命值的溅射伤害</s:String>
+    <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对目标及目标身后的敌人造成携带者 3% 最大生命值的魔法伤害</s:String>
     <!--Titan's Resolve-->
     <s:String x:Key="TitansResolve" xml:space="preserve">泰坦的坚决</s:String>
-    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;当携带者打出或受到一次暴击，会获得一层 2% 伤害的加成，至多叠加至 100%。在被攻击 50 次时，携带者获得 25 护甲和魔法抗性，并且体型提升</s:String>
+    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;当携带者受到伤害或造成暴击时，会获得一层 2% 伤害的加成，至多叠加至 100%。在叠加 50 层后获得 25 护甲和魔抗且体型提升</s:String>
     <!--TrapClaw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">伏击之爪</s:String>
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕 4 秒</s:String>
@@ -172,7 +172,7 @@
     <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;为持有者左右两格内的英雄提供 15% 攻速</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">灵风</s:String>
-    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;战斗开始时，放逐 1 个敌人持续 6 秒</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;战斗开始时，将棋盘斜对面 1 个敌人放逐 6 秒</s:String>
 
     <!--/////////////////-->
     <!--ClassOrigins Descriptions-->
@@ -210,7 +210,7 @@
     <!-- Electric -->
     <s:String x:Key="Origins_Electric" xml:space="preserve">雷霆</s:String>
     <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">雷霆英雄在暴击或受到暴击时对相邻敌方单位造成</s:String>
-    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 100 点伤害 (3) 300 点伤害 (4) 500 点伤害</s:String>
+    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 80 点伤害 (3) 250 点伤害 (4) 500 点伤害</s:String>
 
     <!-- Exile -->
     <s:String x:Key="Origins_Exile" xml:space="preserve">浪人</s:String>
@@ -231,13 +231,13 @@
     <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">(2)1名随机帝国单位  (4)所有帝国单位</s:String>
 
     <!-- Inferno -->
-    <s:String x:Key="Origins_Inferno" xml:space="preserve">地狱火</s:String>
-    <s:String x:Key="Origins_Inferno_Describe1" xml:space="preserve">地狱火英雄的技能在接下来的 5 秒内灼烧地面，对目标额外造成</s:String>
-    <s:String x:Key="Origins_Inferno_Describe2" xml:space="preserve">(3) +70% 魔法伤害 (6) +150% 魔法伤害 (9) +250% 魔法伤害</s:String>
+    <s:String x:Key="Origins_Inferno" xml:space="preserve">炼狱</s:String>
+    <s:String x:Key="Origins_Inferno_Describe1" xml:space="preserve">炼狱英雄的技能或普攻暴击会在 4 秒内灼烧地面，对目标额外造成</s:String>
+    <s:String x:Key="Origins_Inferno_Describe2" xml:space="preserve">(3) +70% 魔法伤害 (6) +150% 魔法伤害、灼烧3格 (9) +250% 魔法伤害、灼烧5格</s:String>
 
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">光</s:String>
-    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">光英雄死亡时，对其他光英雄施加 25% 最大生命值的治疗，并提升他们</s:String>
+    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">光英雄死亡时，对其他光英雄施加阵亡单位 25% 最大生命值的治疗，并提升他们</s:String>
     <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +15% 攻速 (6) +35% 攻速 (9) +55% 攻速</s:String>
 
     <!-- Lunar -->
@@ -282,12 +282,12 @@
 
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">影</s:String>
-    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">当影英雄造成伤害时，在 4 秒内提升</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 自身 65% 的伤害 (6) 全体风影英雄 175% 的伤害</s:String>
+    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">影英雄在开局 4 秒内提升</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 65% 的伤害，参与击杀后刷新 (6) 175% 的伤害，任意影单位参与击杀后刷新</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">钢铁</s:String>
-    <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">钢铁英雄生命值低于 50% 时，获得免疫伤害，持续</s:String>
+    <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">钢铁英雄生命值低于 50% 时，获得免疫伤害的效果，持续</s:String>
     <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 秒 (3) 3 秒 (4) 4 秒</s:String>
 
     <!-- Variable -->
@@ -317,7 +317,7 @@
 
     <!-- Alchemist -->
     <s:String x:Key="Class_Alchemist" xml:space="preserve">炼金师</s:String>
-    <s:String x:Key="Class_Alchemist_Describe1" xml:space="preserve">炼金师会穿过其他单位并且永不停止移动</s:String>
+    <s:String x:Key="Class_Alchemist_Describe1" xml:space="preserve">炼金师会穿过其他单位并且永不停止移动（免疫灵风）</s:String>
 
     <!-- Assassin -->
     <s:String x:Key="Class_Assassin" xml:space="preserve">刺客</s:String>
@@ -327,6 +327,7 @@
     <!-- Avatar -->
     <s:String x:Key="Class_Avatar" xml:space="preserve">大元素使</s:String>
     <s:String x:Key="Class_Avatar_Describe1" xml:space="preserve">大元素使在计算元素特质加成时按双倍计算</s:String>
+    <s:String x:Key="Class_Avatar_Describe2" xml:space="preserve">通过转职装备获得的羁绊不享有双倍效果</s:String>
 
     <!-- Berserker -->
     <s:String x:Key="Class_Berserker" xml:space="preserve">狂战士</s:String>
@@ -345,7 +346,7 @@
 
     <!-- Druid -->
     <s:String x:Key="Class_Druid" xml:space="preserve">德鲁伊</s:String>
-    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) 德鲁伊获得每秒 45 点的生命回复</s:String>
+    <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) 德鲁伊英雄每秒获得 45 点的生命回复</s:String>
 
     <!-- Elementalist -->
     <s:String x:Key="Class_Elementalist" xml:space="preserve">元素使</s:String>
@@ -382,7 +383,7 @@
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">游侠</s:String>
     <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">游侠们每 3 秒都有一定几率来使他们在接下来的 3 秒内攻速翻倍</s:String>
-    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 35% 几率使攻速翻倍  (4) 80% 几率使攻速翻倍 (6) 100% 几率使攻速翻倍</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">(2) 35% 几率  (4) 80% 几率 (6) 100% 获得2.5倍攻速</s:String>
 
     <!-- Shapeshifter -->
     <s:String x:Key="Class_Shapeshifter" xml:space="preserve">换形师</s:String>
@@ -399,13 +400,13 @@
     <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">+40%技能伤害(3) +120%技能伤害(6) +200%技能伤害(9)</s:String>
 
     <!-- Summoner -->
-    <s:String x:Key="Class_Summoner" xml:space="preserve">召唤师</s:String>
-    <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">增加召唤精灵的生命值和持续时间</s:String>
+    <s:String x:Key="Class_Summoner" xml:space="preserve">召唤使</s:String>
+    <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">增加召唤物的生命值和持续时间</s:String>
     <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 30% 提升 (6) 120% 提升</s:String>
 
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">守护神</s:String>
-    <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">守护者提升所有友军的护甲</s:String>
+    <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">守护者们获得额外护甲</s:String>
     <s:String x:Key="Class_Warden_Describe2" xml:space="preserve">(2) +150% 护甲 (4) +300% 护甲 (6) +999% 护甲</s:String>
 
     <!--/////////////////-->
@@ -418,7 +419,7 @@
 
     <!--Player Damage Formula-->
     <s:String x:Key="Charts_Damage" xml:space="preserve">玩家伤害公式</s:String>
-    <s:String x:Key="Charts_Damage1" xml:space="preserve">2/3/4/5/6/7 (根据舞台) + </s:String>
+    <s:String x:Key="Charts_Damage1" xml:space="preserve">2/3/4/5/6/7 (根据游戏阶段) + </s:String>
     <s:String x:Key="Charts_Damage2" xml:space="preserve">每个单位的伤害</s:String>
 
     <!--/////////////////-->
