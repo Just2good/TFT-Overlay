@@ -92,10 +92,10 @@
     <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;After casting a spell, the wearer's next basic attack freezes the target for 2.5 seconds</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">Infinity Edge</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 125% bonus critical strike damage</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;Grants 100% bonus critical strike damage</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">Ionic Spark</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Enemies within 3 hexes take damage equal to 200% of their max mana every spell cast</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;Enemies within 3 hexes take damage equal to 225% of their max mana every spell cast</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">Jeweled Gauntlet</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;Wearer's Special Ability can critically strike</s:String>
@@ -107,7 +107,7 @@
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;Wearer and Champions 2 spaces to the left and right gain 250/275/350 (* lvl) shield on round start for 8 seconds</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">Luden's Echo</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 125/175/250 (* lvl) magic damage to all adjacent enemies to target</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;Spells deal 150/175/225 (* lvl) magic damage to all adjacent enemies to target</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">Morellonomicon</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;Spells deal burn damage equal to 18% of the enemy's maximum health over 10 seconds and reduce healing by 80%</s:String>
@@ -143,7 +143,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;After casting, wearer gains 18% of its max mana per attack</s:String>
     <!--Statikk Shiv-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">Statikk Shiv</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 80 magic damage to the target and 3/4/5 (* level) additional targets</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;Every 3rd attack deals 85 magic damage to the target and 3/4/5 (* level) additional targets</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">Sword Breaker</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;Attacks have a 33% chance to disarm the target for 3 seconds</s:String>
@@ -238,13 +238,13 @@
 
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">Light</s:String>
-    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 25% of the dying Champ's Max HP</s:String>
-    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +15% AS (6) +35% AS (9) +55% AS</s:String>
+    <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">When a Light unit dies, all other Light units gain Attack Speed and are healed for 20% of the dying Champ's Max HP</s:String>
+    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +20% AS (6) +30% AS (9) +50% AS</s:String>
 
     <!-- Lunar -->
     <s:String x:Key="Origins_Lunar" xml:space="preserve">Lunar</s:String>
     <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">Every 7 seconds your team gains crit chance, damage, and spell power (stacks up to 4 times)</s:String>
-    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% CS, 15% Crit Damage, 10% Spell Power</s:String>
+    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% CS, 15% Crit Damage, 15% Spell Power</s:String>
 
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">Mountain</s:String>
@@ -284,7 +284,7 @@
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">Shadow</s:String>
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 6 seconds at combat start, refreshed on Takedown</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 65% Increased Damage, Self Takedown (4) 175% Increased Damage, any Shadow Takedown</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 65% Increased Damage, Self Takedown (4) 165% Increased Damage, any Shadow Takedown</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
@@ -323,7 +323,7 @@
     <!-- Assassin -->
     <s:String x:Key="Class_Assassin" xml:space="preserve">Assassin</s:String>
     <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">Assassins gain additional</s:String>
-    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) +10% Crit Chance and +65% Crit Damage (6) +20% CS and +225% CD</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) +10% Crit Chance and +70% Crit Damage (6) +20% CS and +210% CD</s:String>
 
     <!-- Avatar -->
     <s:String x:Key="Class_Avatar" xml:space="preserve">Avatar</s:String>
