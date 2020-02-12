@@ -55,7 +55,7 @@
     <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;普攻攻击附带 50% 吸血</s:String>
     <!--Bramble Vest-->
     <s:String x:Key="BrambleVest" xml:space="preserve">荆刺背心</s:String>
-    <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;使来自暴击的额外伤害变得无效。在被一次普通攻击命中时，对附近的所有敌人造成 80/140/200 （携带者星级）魔法伤害（每 2 秒最多出发 1 次）</s:String>
+    <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;使来自暴击的额外伤害变得无效。在被一次普通攻击命中时，对附近的所有敌人造成 100/140/200 （携带者星级）魔法伤害（每 2 秒最多触发 1 次）</s:String>
     <!--Cursed Blade-->
     <s:String x:Key="CursedBlade" xml:space="preserve">诅咒之刃</s:String>
     <s:String x:Key="CursedBlade1" xml:space="preserve">&#10;普通攻击有 20% 使敌人缩小 1 星</s:String>
@@ -91,10 +91,10 @@
     <s:String x:Key="IcebornGauntlet1" xml:space="preserve">&#10;在施放一次技能后，携带者的下次普通攻击会冻结目标2.5秒</s:String>
     <!--Infinity Edge-->
     <s:String x:Key="InfinityEdge" xml:space="preserve">无尽之刃</s:String>
-    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+125% 暴击伤害</s:String>
+    <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+100% 暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;3 格内的敌人在施放技能时会被震击，受到相当于其 200% 最大法力值的魔法伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;3 格内的敌人在施放技能时会被震击，受到相当于其 225% 最大法力值的魔法伤害</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">珠光护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
@@ -106,7 +106,7 @@
     <s:String x:Key="LocketSolari1" xml:space="preserve">&#10;战斗开始时，为持有者及其左右两格内的英雄提供 250/275/350 （携带者星级）的护盾，持续 8 秒</s:String>
     <!--Luden's Echo-->
     <s:String x:Key="LudensEcho" xml:space="preserve">卢登的回声</s:String>
-    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标以及周围英雄造成 125/175/250 （携带者星级）魔法伤害</s:String>
+    <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标以及周围英雄造成 120/160/200 （携带者星级）魔法伤害</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
     <s:String x:Key="Morello1" xml:space="preserve">&#10;技能 10 秒内共造成敌人最大生命值 18% 的真实伤害，并阻止 80% 治疗效果（无法叠加）</s:String>
@@ -142,7 +142,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复 18% 最大法力值</s:String>
     <!--Statikk Shiv-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，对 3/4/5 （携带者星级）个目标造成 80 点魔法伤害。</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，对 3/4/5 （携带者星级）个目标造成 85 点魔法伤害。</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有 25% 造成 3 秒缴械效果</s:String>
@@ -160,7 +160,7 @@
     <s:String x:Key="TitanicHydra1" xml:space="preserve">&#10;攻击对目标及目标身后的敌人造成携带者 3% 最大生命值的魔法伤害</s:String>
     <!--Titan's Resolve-->
     <s:String x:Key="TitansResolve" xml:space="preserve">泰坦的坚决</s:String>
-    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;当携带者受到伤害或造成暴击时，会获得一层 2% 伤害的加成，至多叠加至 100%。在叠加 50 层后获得 25 护甲和魔抗且体型提升</s:String>
+    <s:String x:Key="TitansResolve1" xml:space="preserve">&#10;受到或造成暴击时获得一层增加 2% 伤害的加成，最多叠加50层。叠满后获得 25 点护甲和魔抗，体型提升（多个该装备效果相加，而不是相乘）</s:String>
     <!--TrapClaw-->
     <s:String x:Key="TrapClaw" xml:space="preserve">伏击之爪</s:String>
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕 4 秒</s:String>
@@ -238,12 +238,12 @@
     <!-- Light -->
     <s:String x:Key="Origins_Light" xml:space="preserve">光</s:String>
     <s:String x:Key="Origins_Light_Describe1" xml:space="preserve">光英雄死亡时，对其他光英雄施加阵亡单位 25% 最大生命值的治疗，并提升他们</s:String>
-    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +15% 攻速 (6) +35% 攻速 (9) +55% 攻速</s:String>
+    <s:String x:Key="Origins_Light_Describe2" xml:space="preserve">(3) +20% 攻速 (6) +30% 攻速 (9) +50% 攻速</s:String>
 
     <!-- Lunar -->
     <s:String x:Key="Origins_Lunar" xml:space="preserve">月蚀</s:String>
     <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">每过 7 秒，队伍中所有英雄获得 暴击几率、暴击伤害和法术强度的提升（至多叠加 4 层）</s:String>
-    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% 暴击几率, 15% 暴击伤害, 10% 法术强度</s:String>
+    <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 20% 暴击几率, 20% 暴击伤害, 15% 法术强度</s:String>
 
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">山脉</s:String>
@@ -282,8 +282,8 @@
 
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">影</s:String>
-    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">影英雄在开局 4 秒内提升</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 65% 的伤害，参与击杀后刷新 (6) 175% 的伤害，任意影单位参与击杀后刷新</s:String>
+    <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">影英雄在开局 6 秒内提升</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 65% 的伤害，参与击杀后刷新 (6) 165% 的伤害，任意影单位参与击杀后刷新</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">钢铁</s:String>
@@ -305,7 +305,7 @@
 
     <!-- Woodland -->
     <s:String x:Key="Origins_Woodland" xml:space="preserve">森林</s:String>
-    <s:String x:Key="Origins_Woodland_Describe1" xml:space="preserve">(3) 战斗开始时，随机复制一个森林英雄的镜像</s:String>
+    <s:String x:Key="Origins_Woodland_Describe1" xml:space="preserve">(3) 战斗开始时随机复制一个森林英雄的镜像 (6) 战斗开始时复制出所有森林英雄的镜像</s:String>
 
     <!-- Yordle -->
     <s:String x:Key="Origins_Yordle" xml:space="preserve">约德尔人</s:String>
@@ -322,7 +322,7 @@
     <!-- Assassin -->
     <s:String x:Key="Class_Assassin" xml:space="preserve">刺客</s:String>
     <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">刺客们会获得额外的暴击伤害和暴击几率</s:String>
-    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) 10% 的几率造成 65% 的暴伤 (6) 20% 的几率造成 225% 的暴伤</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">(3) 10% 的几率造成 50% 的暴伤 (6) 20% 的几率造成 150% 的暴伤</s:String>
 
     <!-- Avatar -->
     <s:String x:Key="Class_Avatar" xml:space="preserve">大元素使</s:String>
@@ -369,7 +369,7 @@
     <!-- Mage -->
     <s:String x:Key="Class_Mage" xml:space="preserve">魔法师</s:String>
     <s:String x:Key="Class_Mage_Describe1" xml:space="preserve">魔法师有几率在释放完技能后再次释放技能</s:String>
-    <s:String x:Key="Class_Mage_Describe2" xml:space="preserve">(3) 50% 几率 (6) 100% 几率</s:String>
+    <s:String x:Key="Class_Mage_Describe2" xml:space="preserve">(3) 50% 几率 (6) 100% 几率，并提供20法强</s:String>
 
     <!-- Mystic -->
     <s:String x:Key="Class_Mystic" xml:space="preserve">秘术</s:String>
