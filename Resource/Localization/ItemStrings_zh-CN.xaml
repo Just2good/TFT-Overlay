@@ -190,7 +190,7 @@
     <!-- Crystal -->
     <s:String x:Key="Origins_Crystal" xml:space="preserve">水晶</s:String>
     <s:String x:Key="Origins_Crystal_Describe1" xml:space="preserve">水晶英雄所承受的单次伤害不会超过</s:String>
-    <s:String x:Key="Origins_Crystal_Describe2" xml:space="preserve">(2) 100 点 (4) 60 点</s:String>
+    <s:String x:Key="Origins_Crystal_Describe2" xml:space="preserve">(2) 110 点 (4) 60 点</s:String>
 
     <!-- Demons -->
     <s:String x:Key="Origins_Demons" xml:space="preserve">恶魔</s:String>
@@ -218,7 +218,7 @@
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">极地</s:String>
-    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有 (2) 20%, (4) 35%, (6) 50% 几率眩晕目标 1.5 秒</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有25%的几率眩晕目标 1.5 秒并造成 (2) 75点, (4) 175点, (6) 350点 的魔法伤害 </s:String>
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">海克斯科技</s:String>
@@ -274,7 +274,7 @@
 
     <!-- Poison -->
     <s:String x:Key="Origins_Poison" xml:space="preserve">剧毒</s:String>
-    <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) 造成伤害时，增加被攻击目标 50% 的蓝耗</s:String>
+    <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) 造成伤害时，增加被攻击目标 33% 的蓝耗</s:String>
 
     <!-- Robot -->
     <s:String x:Key="Origins_Robot" xml:space="preserve">机器人</s:String>
