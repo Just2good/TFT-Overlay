@@ -210,7 +210,7 @@
     <!-- Electric -->
     <s:String x:Key="Origins_Electric" xml:space="preserve">雷霆</s:String>
     <s:String x:Key="Origins_Electric_Describe1" xml:space="preserve">雷霆英雄在暴击或受到暴击时对相邻敌方单位造成</s:String>
-    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 80 点伤害 (3) 250 点伤害 (4) 500 点伤害</s:String>
+    <s:String x:Key="Origins_Electric_Describe2" xml:space="preserve">(2) 80 点伤害 (3) 275 点伤害 (4) 550 点伤害</s:String>
 
     <!-- Exile -->
     <s:String x:Key="Origins_Exile" xml:space="preserve">浪人</s:String>
@@ -218,7 +218,7 @@
 
     <!-- Glacial -->
     <s:String x:Key="Origins_Glacial" xml:space="preserve">极地</s:String>
-    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有25%的几率眩晕目标 1.5 秒并造成 (2) 75点, (4) 175点, (6) 350点 的魔法伤害 </s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">极地英雄的攻击有25%的几率眩晕目标 1.5 秒并造成 (2) 75点, (4) 175点, (6) 475点 的魔法伤害 </s:String>
 
     <!-- Hextech -->
     <s:String x:Key="Origins_Hextech" xml:space="preserve">海克斯科技</s:String>
@@ -283,7 +283,7 @@
     <!-- Shadow -->
     <s:String x:Key="Origins_Shadow" xml:space="preserve">影</s:String>
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">影英雄在开局 6 秒内提升</s:String>
-    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 65% 的伤害，参与击杀后刷新 (6) 165% 的伤害，任意影单位参与击杀后刷新</s:String>
+    <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(3) 65% 的伤害，参与击杀后刷新 (6) 150% 的伤害，任意影单位参与击杀后刷新</s:String>
 
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">钢铁</s:String>
@@ -332,11 +332,11 @@
     <!-- Berserker -->
     <s:String x:Key="Class_Berserker" xml:space="preserve">狂战士</s:String>
     <s:String x:Key="Class_Berserker_Describe1" xml:space="preserve">狂战士的攻击有几率对目标背后锥形区域造成伤害</s:String>
-    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 45% 几率 (6) 100% 几率 + 25 AD</s:String>
+    <s:String x:Key="Class_Berserker_Describe2" xml:space="preserve">(3) 45% 几率 (6) 100% 几率 + 30 AD</s:String>
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">剑士</s:String>
-    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">剑士们有 35% 几率打出一定次数的额外攻击(每次普攻)</s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">剑士们有 40% 几率打出一定次数的额外攻击(每次普攻)</s:String>
     <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">(2) 1次额外攻击 (4) 2次额外攻击 (6) 3次额外攻击</s:String>
 
     <!-- Brawler -->
