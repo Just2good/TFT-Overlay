@@ -180,8 +180,18 @@
     <!--&#10; = LineBreak-->
     <!--/////////////////-->
 
-    <!--Elements | Effects and Champions-->
-    <s:String x:Key="Origins_Label" xml:space="preserve">Elements | Effects and Champions</s:String>
+    <!--Origins | Effects and Champions-->
+    <s:String x:Key="Origins_Label" xml:space="preserve">Origins | Effects and Champions</s:String>
+
+    <!-- Celestial -->
+    <s:String x:Key="Origins_Celestial" xml:space="preserve">Celestial</s:String>
+    <s:String x:Key="Origins_Celestial_Describe1" xml:space="preserve">All allies heal based on damage dealt</s:String>
+    <s:String x:Key="Origins_Celestial_Describe2" xml:space="preserve">(2) 12% of dmg (4) 30% (6) 55%</s:String>
+
+    <!-- Chrono -->
+    <s:String x:Key="Origins_Chrono" xml:space="preserve">Chrono</s:String>
+    <s:String x:Key="Origins_Chrono_Describe1" xml:space="preserve">All allies gain attack speed every 4 seconds</s:String>
+    <s:String x:Key="Origins_Chrono_Describe2" xml:space="preserve">(2) 10% (4) 20% (6) 40%</s:String>
 
     <!-- Cloud -->
     <s:String x:Key="Origins_Cloud" xml:space="preserve">Cloud</s:String>
@@ -192,6 +202,16 @@
     <s:String x:Key="Origins_Crystal" xml:space="preserve">Crystal</s:String>
     <s:String x:Key="Origins_Crystal_Describe1" xml:space="preserve">Crystal units have a max amount of damage they can take from a single hit</s:String>
     <s:String x:Key="Origins_Crystal_Describe2" xml:space="preserve">(2) 100 Max Damage (4) 60 Max Damage</s:String>
+
+    <!-- Cybernetic -->
+    <s:String x:Key="Origins_Cybernetic" xml:space="preserve">Cybernetic</s:String>
+    <s:String x:Key="Origins_Cybernetic_Describe1" xml:space="preserve">Cybernetics with an item gain bonus Attack Damage and Health</s:String>
+    <s:String x:Key="Origins_Cybernetic_Describe2" xml:space="preserve">(3) 30 AD and 300 HP (6) 75 AD and 750 HP</s:String>
+
+    <!-- DarkStar -->
+    <s:String x:Key="Origins_DarkStar" xml:space="preserve">Dark Star</s:String>
+    <s:String x:Key="Origins_DarkStar_Describe1" xml:space="preserve">When a Dark Star dies, it gives increased damage and previous stacks of this effect to the nearest Dark Star ally</s:String>
+    <s:String x:Key="Origins_DarkStar_Describe2" xml:space="preserve">(3) 30% Increased Damage (6) 50% Increased Damage</s:String>
 
     <!-- Demons -->
     <s:String x:Key="Origins_Demons" xml:space="preserve">Demons</s:String>
@@ -246,6 +266,10 @@
     <s:String x:Key="Origins_Lunar_Describe1" xml:space="preserve">Every 7 seconds your team gains crit chance, damage, and spell power (stacks up to 4 times)</s:String>
     <s:String x:Key="Origins_Lunar_Describe2" xml:space="preserve">(2) 15% CS, 15% Crit Damage, 15% Spell Power</s:String>
 
+    <!-- MechPilot -->
+    <s:String x:Key="Origins_MechPilot" xml:space="preserve">Mech Pilot</s:String>
+    <s:String x:Key="Origins_MechPilot_Describe1" xml:space="preserve">(3) At the start of combat, 3 random Mech-Pilot champs are merged into a Super-Mech until it dies</s:String>
+    
     <!-- Mountain -->
     <s:String x:Key="Origins_Mountain" xml:space="preserve">Mountain</s:String>
     <s:String x:Key="Origins_Mountain_Describe1" xml:space="preserve">(2) At the start of combat, one random ally gains a 1500 health Stoneshield</s:String>
@@ -269,14 +293,15 @@
     <s:String x:Key="Origins_Phantom" xml:space="preserve">Phantom</s:String>
     <s:String x:Key="Origins_Phantom_Describe1" xml:space="preserve">(2) Curse a random enemy at the start of combat, setting their HP to 100</s:String>
 
-    <!-- Pirate -->
-    <s:String x:Key="Origins_Pirate" xml:space="preserve">Pirate</s:String>
-    <s:String x:Key="Origins_Pirate_Describe1" xml:space="preserve">(3) Earn up to 4 additional gold after combat against another player (1.75 avg per chest)</s:String>
-
     <!-- Poison -->
     <s:String x:Key="Origins_Poison" xml:space="preserve">Poison</s:String>
     <s:String x:Key="Origins_Poison_Describe1" xml:space="preserve">(3) Poison units apply Neurotoxin when they deal damage, increasing the target's mana cost by 50%</s:String>
 
+    <!-- Rebel -->
+    <s:String x:Key="Origins_Rebel" xml:space="preserve">Rebel</s:String>
+    <s:String x:Key="Origins_Rebel_Describe1" xml:space="preserve">At start of combat, gain a shield for 8 secs and increased dmg for each adjacent Rebel</s:String>
+    <s:String x:Key="Origins_Rebel_Describe2" xml:space="preserve">(3) 125 HP Shield and +10% Dmg (6) 200 HP Shield and +15% Dmg</s:String>
+    
     <!-- Robot -->
     <s:String x:Key="Origins_Robot" xml:space="preserve">Robot</s:String>
     <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">(1) Robots start combat at full mana</s:String>
@@ -286,18 +311,32 @@
     <s:String x:Key="Origins_Shadow_Describe1" xml:space="preserve">Shadow units deal increased damage for 6 seconds at combat start, refreshed on Takedown</s:String>
     <s:String x:Key="Origins_Shadow_Describe2" xml:space="preserve">(2) 65% Increased Damage, Self Takedown (4) 165% Increased Damage, any Shadow Takedown</s:String>
 
+    <!-- SpacePirate -->
+    <s:String x:Key="Origins_SpacePirate" xml:space="preserve">Space Pirate</s:String>
+    <s:String x:Key="Origins_SpacePirate_Describe1" xml:space="preserve">50% chance to drop gold or items whenever a Space Pirate lands a killing blow</s:String>
+    <s:String x:Key="Origins_SpacePirate_Describe2" xml:space="preserve">(2) 1 Gold (4) 1 Gold and 10% chance to drop an item</s:String>
+
+    <!-- StarGuardian -->
+    <s:String x:Key="Origins_StarGuardian" xml:space="preserve">Star Guardian</s:String>
+    <s:String x:Key="Origins_StarGuardian_Describe1" xml:space="preserve">Whenever a Star Guardian casts, all others gain mana</s:String>
+    <s:String x:Key="Origins_StarGuardian_Describe2" xml:space="preserve">(3) 10 Mana (6) 20 Mana</s:String>
+    
     <!-- Steel -->
     <s:String x:Key="Origins_Steel" xml:space="preserve">Steel</s:String>
     <s:String x:Key="Origins_Steel_Describe1" xml:space="preserve">Steel units gain damage immunity when they are reduced below 50% health</s:String>
     <s:String x:Key="Origins_Steel_Describe2" xml:space="preserve">(2) 2 seconds of immunity (3) 3 seconds (4) 4 seconds</s:String>
 
+    <!-- Valkyrie -->
+    <s:String x:Key="Origins_Valkyrie" xml:space="preserve">Valkyrie</s:String>
+    <s:String x:Key="Origins_Valkyrie_Describe1" xml:space="preserve">(2) Valkyrie attacks and spells always crit targets below 50% Health</s:String>
+    
     <!-- Variable -->
     <s:String x:Key="Origins_Variable" xml:space="preserve">Variable</s:String>
     <s:String x:Key="Origins_Variable_Describe1" xml:space="preserve">These champions can have any of the Elemental Traits</s:String>
 
     <!-- Void -->
     <s:String x:Key="Origins_Void" xml:space="preserve">Void</s:String>
-    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">(2) One random void unit deals True Damage (4) All void units deal True Damage</s:String>
+    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">(3) Voids deal True Damage</s:String>
 
     <!-- Wild -->
     <s:String x:Key="Origins_Wild" xml:space="preserve">Wild</s:String>
@@ -336,14 +375,23 @@
 
     <!-- Blademaster -->
     <s:String x:Key="Class_Blademaster" xml:space="preserve">Blademaster</s:String>
-    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">Blademasters have a 35% chance to strike additional times each attack</s:String>
-    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">(2) 1 Strike (4) 2 Strikes (6) 3 Strikes</s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">Blademasters have a chance to strike two extra times</s:String>
+    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">(3) 25% chance on-hit (6) 50%</s:String>
 
+    <!-- Blaster -->
+    <s:String x:Key="Class_Blaster" xml:space="preserve">Blaster</s:String>
+    <s:String x:Key="Class_Blaster_Describe1" xml:space="preserve">Every fifth Blaster attack fires additional attacks which deal double dmg</s:String>
+    <s:String x:Key="Class_Blaster_Describe2" xml:space="preserve">(2) Two additional attacks (4) Four additional attacks</s:String>
+    
     <!-- Brawler -->
     <s:String x:Key="Class_Brawler" xml:space="preserve">Brawler</s:String>
     <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">Brawlers receive bonus max health</s:String>
-    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">(2) +250 HP (4) +500 HP (6) +900 HP</s:String>
+    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">(2) +250 HP (4) +750 HP</s:String>
 
+    <!-- Demolitionist -->
+    <s:String x:Key="Class_Demolitionist" xml:space="preserve">Demolitionist</s:String>
+    <s:String x:Key="Class_Demolitionist_Describe1" xml:space="preserve">(2) Demolitionist spells stun targets they hit for 2.5 seconds</s:String>
+    
     <!-- Druid -->
     <s:String x:Key="Class_Druid" xml:space="preserve">Druid</s:String>
     <s:String x:Key="Class_Druid_Describe1" xml:space="preserve">(2) Druids regenerate 45 health per second</s:String>
@@ -361,6 +409,11 @@
     <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">After attacking, Gunslingers have a 50% chance to fire additional attacks to a random target in range</s:String>
     <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">(2) 1 Additional attack (4) 2 attacks (6) 4 attacks</s:String>
 
+    <!-- Infiltrator -->
+    <s:String x:Key="Class_Infiltrator" xml:space="preserve">Infiltrator</s:String>
+    <s:String x:Key="Class_Infiltrator_Describe1" xml:space="preserve">Jump to the back of enemy territory. Gain 50% Attack Speed for the first 6 seconds</s:String>
+    <s:String x:Key="Class_Infiltrator_Describe2" xml:space="preserve">(2) Bonus Active (4) Refreshes on takedown</s:String>
+    
     <!-- Knight -->
     <s:String x:Key="Class_Knight" xml:space="preserve">Knight</s:String>
     <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">All allies ignore damage from all sources</s:String>
@@ -371,15 +424,28 @@
     <s:String x:Key="Class_Mage_Describe1" xml:space="preserve">Mages have a chance on cast to instead Doublecast</s:String>
     <s:String x:Key="Class_Mage_Describe2" xml:space="preserve">(3) 50% chance (6) 100% chance + 20 AP to all Mages</s:String>
 
+    <!-- ManaReaver -->
+    <s:String x:Key="Class_ManaReaver" xml:space="preserve">Mana Reaver</s:String>
+    <s:String x:Key="Class_ManaReaver_Describe1" xml:space="preserve">(2) First attack (4) All attacks increase the cost of the target's next spell cast by 40%</s:String>
+
+    <!-- Mercenary -->
+    <s:String x:Key="Class_Mercenary" xml:space="preserve">Mercenary</s:String>
+    <s:String x:Key="Class_Mercenary_Describe1" xml:space="preserve">Mercenaries can be paid gold to upgrade their ability</s:String>
+    
     <!-- Mystic -->
     <s:String x:Key="Class_Mystic" xml:space="preserve">Mystic</s:String>
     <s:String x:Key="Class_Mystic_Describe1" xml:space="preserve">All allies gain increased Magic Resist</s:String>
-    <s:String x:Key="Class_Mystic_Describe2" xml:space="preserve">(2) 70 Magic Resist (4) 150 Magic Resist</s:String>
+    <s:String x:Key="Class_Mystic_Describe2" xml:space="preserve">(2) 40 Magic Resist (4) 120 Magic Resist</s:String>
 
     <!-- Predator -->
     <s:String x:Key="Class_Predator" xml:space="preserve">Predator</s:String>
     <s:String x:Key="Class_Predator_Describe1" xml:space="preserve">(3) Predators insantly kill enemies they damage who are below 25% health</s:String>
 
+    <!-- Protector -->
+    <s:String x:Key="Class_Protector" xml:space="preserve">Protector</s:String>
+    <s:String x:Key="Class_Protector_Describe1" xml:space="preserve">Protectors gain a shield scaling off max health for 3 seconds whenever they cast</s:String>
+    <s:String x:Key="Class_Protector_Describe2" xml:space="preserve">(2) 15% Max Health Shield (4) 35%</s:String>
+    
     <!-- Ranger -->
     <s:String x:Key="Class_Ranger" xml:space="preserve">Ranger</s:String>
     <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">Rangers have a chance to double their attack speed for the next 3 seconds</s:String>
@@ -394,16 +460,29 @@
     <s:String x:Key="Class_Soulbound" xml:space="preserve">Soulbound</s:String>
     <s:String x:Key="Class_Soulbound_Describe1" xml:space="preserve">(2) The first Soulbound unit to die will instead enter the Spirit Realm becoming untargetable and continuing to fight until all other Soulbound units are dead</s:String>
 
+    <!-- Sniper -->
+    <s:String x:Key="Class_Sniper" xml:space="preserve">Sniper</s:String>
+    <s:String x:Key="Class_Sniper_Describe1" xml:space="preserve">(2) Snipers deal 10% increased dmg for each hex of distance between themselves and their target</s:String>
+    
     <!-- Sorcerer -->
     <s:String x:Key="Class_Sorcerer" xml:space="preserve">Sorcerer</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">Sorcers gain double mana from attacking and allies have increased spell damage</s:String>
-    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">(3) +40% spell damage (6) +120% (9) +200%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">Sorcers gain increased Spell Power</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">(2) +20% Spell Power (4) +45% (6) +120%</s:String>
 
+    <!-- Starship -->
+    <s:String x:Key="Class_Starship" xml:space="preserve">Starship</s:String>
+    <s:String x:Key="Class_Starship_Describe1" xml:space="preserve">(1) Starships continuously circle the arena and cannot basic attack</s:String>
+    
     <!-- Summoner -->
     <s:String x:Key="Class_Summoner" xml:space="preserve">Summoner</s:String>
     <s:String x:Key="Class_Summoner_Describe1" xml:space="preserve">Summoned units have increased health and duration</s:String>
     <s:String x:Key="Class_Summoner_Describe2" xml:space="preserve">(3) 30% increase (6) 120% increase</s:String>
 
+    <!-- Vanguard -->
+    <s:String x:Key="Class_Vanguard" xml:space="preserve">Vanguard</s:String>
+    <s:String x:Key="Class_Vanguard_Describe1" xml:space="preserve">Vanguards gain bonus Armor</s:String>
+    <s:String x:Key="Class_Vanguard_Describe2" xml:space="preserve">(2) 70 Armor (4) 300 Armor</s:String>
+    
     <!-- Warden -->
     <s:String x:Key="Class_Warden" xml:space="preserve">Warden</s:String>
     <s:String x:Key="Class_Warden_Describe1" xml:space="preserve">Wardens gain increased total Armor</s:String>
