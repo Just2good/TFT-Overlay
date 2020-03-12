@@ -150,16 +150,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Youmuus Ghostblade -->
+                    <!-- BOTRK -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png" >
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/BOTRK.png" >
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource YoumuusGhostblade}"/>
-                                    <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource BOTRK}"/>
+                                    <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -288,16 +288,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Titanic Hydra -->
+                    <!-- ZzRotPortal -->
                     <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="12" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/titanic_hydra.png">
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ZzRotPortal.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource TitanicHydra}"/>
-                                    <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ZzRotPortal}"/>
+                                    <Run Text="{DynamicResource ZzRotPortal1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -316,16 +316,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Blade of the Ruined King -->
+                    <!-- InfiltratorsTalons -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/blade_of_the_ruined_king.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/InfiltratorsTalons.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource BOTRK}"/>
-                                    <Run Text="{DynamicResource BOTRK1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource InfiltratorsTalons}"/>
+                                    <Run Text="{DynamicResource InfiltratorsTalons1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -482,16 +482,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Yuumi-->
+                    <!-- DemolitionistsChargei-->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionistsChargei.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Yuumi}"/>
-                                    <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource DemolitionistsChargei}"/>
+                                    <Run Text="{DynamicResource DemolitionistsChargei1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -606,16 +606,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Hush -->
+                    <!-- ChaliceofFavor -->
                     <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/hush.png">
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ChaliceofFavor.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Hush}"/>
-                                    <Run Text="{DynamicResource Hush1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ChaliceofFavor}"/>
+                                    <Run Text="{DynamicResource ChaliceofFavor1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -648,16 +648,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Darkin -->
+                    <!-- StarGuardiansCharm -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/StarGuardiansCharm.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Darkin}"/>
-                                    <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource StarGuardiansCharm}"/>
+                                    <Run Text="{DynamicResource StarGuardiansCharm1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -800,30 +800,30 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Iceborn Gauntlet -->
+                    <!-- ShroudofStillness -->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/iceborn_gauntlet.png">
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ShroudofStillness.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource IcebornGauntlet}"/>
-                                    <Run Text="{DynamicResource IcebornGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ShroudofStillness}"/>
+                                    <Run Text="{DynamicResource ShroudofStillness1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Knights Vow -->
+                    <!-- RebelMedal -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/RebelMedal.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource KnightsVow}"/>
-                                    <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource RebelMedal}"/>
+                                    <Run Text="{DynamicResource RebelMedal1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -910,16 +910,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Hush -->
+                    <!-- ChaliceofFavor -->
                     <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/hush.png">
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ChaliceofFavor.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Hush}"/>
-                                    <Run Text="{DynamicResource Hush1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ChaliceofFavor}"/>
+                                    <Run Text="{DynamicResource ChaliceofFavor1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -980,16 +980,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Runaans Hurricane -->
+                    <!-- CelestialOrb -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/CelestialOrb.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RunaansHurricane}"/>
-                                    <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource CelestialOrb}"/>
+                                    <Run Text="{DynamicResource CelestialOrb1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1048,16 +1048,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Titanic Hydra -->
+                    <!-- ZzRotPortal -->
                     <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/titanic_hydra.png">
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ZzRotPortal.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource TitanicHydra}"/>
-                                    <Run Text="{DynamicResource TitanicHydra1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ZzRotPortal}"/>
+                                    <Run Text="{DynamicResource ZzRotPortal1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1146,16 +1146,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Frozen Mallet-->
+                    <!-- ProtectorsChestguard-->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/frozen_mallet.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ProtectorsChestguard.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource FrozenMallet}"/>
-                                    <Run Text="{DynamicResource FrozenMallet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ProtectorsChestguard}"/>
+                                    <Run Text="{DynamicResource ProtectorsChestguard1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1256,16 +1256,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Iceborn Gauntlet -->
+                    <!-- ShroudofStillness -->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/iceborn_gauntlet.png">
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ShroudofStillness.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource IcebornGauntlet}"/>
-                                    <Run Text="{DynamicResource IcebornGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ShroudofStillness}"/>
+                                    <Run Text="{DynamicResource ShroudofStillness1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1312,16 +1312,16 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Mittens -->
+                    <!-- DarkStarsHeart -->
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mittens.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DarkStarsHeart.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Mittens}"/>
-                                    <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource DarkStarsHeart}"/>
+                                    <Run Text="{DynamicResource DarkStarsHeart1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
@@ -1365,26 +1365,12 @@
                         <RowDefinition Height="40"/>
                         <RowDefinition Height="3"/>
                     </Grid.RowDefinitions>
-                    <!-- Youmuus Ghostblade -->
+                    <!-- BOTRK -->
                     <TextBlock Text="+" Grid.Row="0" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="0" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="0" Grid.Column="0" Width="32" Height="32" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
                     <Image Grid.Row="0" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/BF.png" />
-                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/youmuus_ghostblade.png">
-                        <Image.ToolTip>
-                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
-                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource YoumuusGhostblade}"/>
-                                    <Run Text="{DynamicResource YoumuusGhostblade1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
-                                </TextBlock>
-                            </ToolTip>
-                        </Image.ToolTip>
-                    </Image>
-                    <!-- Blade of The Ruined King -->
-                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
-                    <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
-                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
-                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/blade_of_the_ruined_king.png">
+                    <Image Grid.Row="0" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/BOTRK.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
@@ -1394,86 +1380,100 @@
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Yuumi -->
+                    <!-- InfiltratorsTalons -->
+                    <TextBlock Text="+" Grid.Row="2" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
+                    <Rectangle Grid.Row="2" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
+                    <Image Grid.Row="2" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Bow.png" />
+                    <Image Grid.Row="2" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/InfiltratorsTalons.png">
+                        <Image.ToolTip>
+                            <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
+                                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                                    <Run Text="{DynamicResource InfiltratorsTalons}"/>
+                                    <Run Text="{DynamicResource InfiltratorsTalons1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                </TextBlock>
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
+                    <!-- DemolitionistsCharge -->
                     <TextBlock Text="+" Grid.Row="4" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="4" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="4" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Rod.png" />
-                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/yuumi.png">
+                    <Image Grid.Row="4" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionistsCharge.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Yuumi}"/>
-                                    <Run Text="{DynamicResource Yuumi1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource DemolitionistsCharge}"/>
+                                    <Run Text="{DynamicResource DemolitionistsCharge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Darkin -->
+                    <!-- StarGuardiansCharm -->
                     <TextBlock Text="+" Grid.Row="6" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="6" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="6" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Tear.png" />
-                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/darkin.png">
+                    <Image Grid.Row="6" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/StarGuardiansCharm.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Darkin}"/>
-                                    <Run Text="{DynamicResource Darkin1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource StarGuardiansCharm}"/>
+                                    <Run Text="{DynamicResource StarGuardiansCharm1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Knights Vow -->
+                    <!-- RebelMedal -->
                     <TextBlock Text="+" Grid.Row="8" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="8" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="8" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Vest.png" />
-                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/knights_vow.png">
+                    <Image Grid.Row="8" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/RebelMedal.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource KnightsVow}"/>
-                                    <Run Text="{DynamicResource KnightsVow1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource RebelMedal}"/>
+                                    <Run Text="{DynamicResource RebelMedal1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Runaans Hurricane -->
+                    <!-- CelestialOrb -->
                     <TextBlock Text="+" Grid.Row="10" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="10" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="10" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Cape.png" />
-                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/runaans_hurricane.png">
+                    <Image Grid.Row="10" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/CelestialOrb.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource RunaansHurricane}"/>
-                                    <Run Text="{DynamicResource RunaansHurricane1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource CelestialOrb}"/>
+                                    <Run Text="{DynamicResource CelestialOrb1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Frozen Mallet -->
+                    <!-- ProtectorsChestguard -->
                     <TextBlock Text="+" Grid.Row="12" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="12" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="12" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Belt.png" />
-                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/frozen_mallet.png">
+                    <Image Grid.Row="12" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/ProtectorsChestguard.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource FrozenMallet}"/>
-                                    <Run Text="{DynamicResource FrozenMallet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource ProtectorsChestguard}"/>
+                                    <Run Text="{DynamicResource ProtectorsChestguard1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>
                     </Image>
-                    <!-- Mittens -->
+                    <!-- DarkStarsHeart -->
                     <TextBlock Text="+" Grid.Row="14" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="14" Grid.Column="3" Width="7" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="14" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Gloves.png" />
-                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/mittens.png">
+                    <Image Grid.Row="14" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DarkStarsHeart.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                                    <Run Text="{DynamicResource Mittens}"/>
-                                    <Run Text="{DynamicResource Mittens1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                                    <Run Text="{DynamicResource DarkStarsHeart}"/>
+                                    <Run Text="{DynamicResource DarkStarsHeart1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                                 </TextBlock>
                             </ToolTip>
                         </Image.ToolTip>

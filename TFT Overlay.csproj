@@ -300,10 +300,11 @@
   <ItemGroup>
     <Resource Include="Images\Belt.png" />
     <Resource Include="Images\BF.png" />
-    <Resource Include="Images\blade_of_the_ruined_king.png" />
     <Resource Include="Images\bloodthirster.png" />
     <Resource Include="Images\Bow.png" />
     <Resource Include="Images\Cape.png" />
+    <Resource Include="Images\champs\Rakan.png" />
+    <Resource Include="Images\champs\VelKoz.png" />
     <Resource Include="Images\classes\Blademaster.png" />
     <Resource Include="Images\classes\Ranger.png" />
     <Resource Include="Images\Cost.png" />
@@ -364,7 +365,6 @@
   <ItemGroup>
     <Resource Include="Images\cstyle\items\Belt.png" />
     <Resource Include="Images\cstyle\items\BF.png" />
-    <Resource Include="Images\cstyle\items\blade_of_the_ruined_king.png" />
     <Resource Include="Images\cstyle\items\Bow.png" />
     <Resource Include="Images\cstyle\items\Cape.png" />
     <Resource Include="Images\cstyle\items\darkin.png" />
@@ -739,10 +739,22 @@
     <Resource Include="Images\champs\Zoe.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\champs\Rakan.png" />
+    <Resource Include="Images\CelestialOrb.png" />
+    <Resource Include="Images\ChaliceofFavor.png" />
+    <Resource Include="Images\DarkstarsHeart.png" />
+    <Resource Include="Images\DemolitionistsCharge.png" />
+    <Resource Include="Images\InfiltratorsTalons.png" />
+    <Resource Include="Images\ProtectorsChestguard.png" />
+    <Resource Include="Images\RebelMedal.png" />
+    <Resource Include="Images\ShroudOfStillness.png" />
+    <Resource Include="Images\StarguardiansCharm.png" />
+    <Resource Include="Images\ZzRotPortal.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\champs\VelKoz.png" />
+    <Resource Include="Images\BOTRK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\BOTRK.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
