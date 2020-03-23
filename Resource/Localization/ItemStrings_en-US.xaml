@@ -19,8 +19,8 @@
     <s:String x:Key="Darkin" xml:space="preserve">Darkin</s:String>
     <s:String x:Key="Darkin1" xml:space="preserve">&#10;Wearer is also a Demon</s:String>
     <!--Darkstar's Heart-->
-    <s:String x:Key="DarkstarsHeart" xml:space="preserve">Darkstar's Heart</s:String>
-    <s:String x:Key="DarkstarsHeart1" xml:space="preserve">&#10;Wearer is also a Darkstar</s:String>
+    <s:String x:Key="DarkStarsHeart" xml:space="preserve">Darkstar's Heart</s:String>
+    <s:String x:Key="DarkStarsHeart1" xml:space="preserve">&#10;Wearer is also a Darkstar</s:String>
     <!--Demolitionist's Charge-->
     <s:String x:Key="DemolitionistsCharge" xml:space="preserve">Demolitionist's Charge</s:String>
     <s:String x:Key="DemolitionistsCharge1" xml:space="preserve">&#10;Wearer is also a Demolitionist</s:String>

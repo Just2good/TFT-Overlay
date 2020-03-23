@@ -756,6 +756,18 @@
   <ItemGroup>
     <Resource Include="Images\cstyle\items\BOTRK.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\CelestialOrb.png" />
+    <Resource Include="Images\cstyle\items\ChaliceofFavor.png" />
+    <Resource Include="Images\cstyle\items\DarkstarsHeart.png" />
+    <Resource Include="Images\cstyle\items\DemolitionistsCharge.png" />
+    <Resource Include="Images\cstyle\items\InfiltratorsTalons.png" />
+    <Resource Include="Images\cstyle\items\ProtectorsChestguard.png" />
+    <Resource Include="Images\cstyle\items\RebelMedal.png" />
+    <Resource Include="Images\cstyle\items\ShroudOfStillness.png" />
+    <Resource Include="Images\cstyle\items\StarguardiansCharm.png" />
+    <Resource Include="Images\cstyle\items\ZzRotPortal.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

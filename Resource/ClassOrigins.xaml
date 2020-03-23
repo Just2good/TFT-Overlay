@@ -1144,7 +1144,7 @@
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="35"/> <!-- Demolitionst text -->
+                    <RowDefinition Height="35"/> <!-- Demolitionist text -->
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="30"/>

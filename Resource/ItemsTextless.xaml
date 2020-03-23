@@ -486,7 +486,7 @@
                     <TextBlock Text="+" Grid.Row="16" Grid.Column="1" FontSize="24" Width="20" Height="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow"></TextBlock>
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionistsChargei.png">
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionistsCharge.png">
                         <Image.ToolTip>
                             <ToolTip BorderBrush="LightGoldenrodYellow" BorderThickness="1" Background="Black">
                                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">

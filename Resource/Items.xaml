@@ -330,12 +330,12 @@
                         <Run Text="{DynamicResource JeweledGauntlet1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                     
-                    <!-- DemolitionstsCharge -->
+                    <!-- DemolitionistsCharge -->
                     <Rectangle Grid.Row="16" Grid.Column="3" Width="8" Height="38" Fill="#C8AA6D"></Rectangle>
                     <Image Grid.Row="16" Grid.Column="2" Source="pack://application:,,,/Images/cstyle/items/Spatula.png" />
-                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionstsCharge.png" />
-                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource DemolitionstsCharge}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
-                        <Run Text="{DynamicResource DemolitionstsCharge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
+                    <Image Grid.Row="16" Grid.Column="4" Source="pack://application:,,,/Images/cstyle/items/DemolitionistsCharge.png" />
+                    <TextBlock Grid.Row="16" Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Left" Text="{DynamicResource DemolitionistsCharge}" Foreground="LightGoldenrodYellow" FontSize="14" FontWeight="Bold">
+                        <Run Text="{DynamicResource DemolitionistsCharge1}" FontStyle="Italic" FontSize="12" FontWeight="Normal"/>
                     </TextBlock>
                 </Grid>
             </Grid>
