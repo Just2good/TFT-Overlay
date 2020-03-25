@@ -14,6 +14,10 @@
   -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
 ## Version History
+- **3.25.2020**
+  - [2.3.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.3.3)  
+     - CN lang update for Set 3
+	 
 - **3.23.2020**
   - [2.3.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.3.2)  
      - Set 3 Galaxies

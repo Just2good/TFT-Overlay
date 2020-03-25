@@ -28,7 +28,7 @@
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="35"/>
                     <RowDefinition Height="30"/>
-                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="50"/>
                     <RowDefinition Height="30"/>
                     <RowDefinition Height="50"/> <!-- DarkStar -->
                     <RowDefinition Height="30"/>
@@ -999,7 +999,7 @@
                 <!-- Void -->
 
                 <TextBlock Text="{DynamicResource Origins_Void}" Grid.Row="19" Grid.Column="0" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="LightGoldenrodYellow" FontWeight="Bold" TextWrapping="Wrap"/>
-                <TextBlock Grid.ColumnSpan="7"
+                <TextBlock Grid.ColumnSpan="9"
                                                Grid.Row="19"
                                                Grid.Column="1"
                                                FontSize="12"
