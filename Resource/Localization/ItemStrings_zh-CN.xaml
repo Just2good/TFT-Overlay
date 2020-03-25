@@ -53,7 +53,7 @@
     <s:String x:Key="RebelMedal1" xml:space="preserve">&#10;携带者也是 奥德赛</s:String>
     <!--Runaan's Hurricane-->
     <s:String x:Key="RunaansHurricane" xml:space="preserve">卢安娜的飓风</s:String>
-    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;普攻对额外 1 个目标造成伤害，额外攻击造成攻击力 60% 的伤害，附带普攻特效</s:String>
+    <s:String x:Key="RunaansHurricane1" xml:space="preserve">&#10;普攻对额外 1 个目标造成伤害，额外攻击造成攻击力 70% 的伤害，附带普攻特效</s:String>
     <!--StarGuardiansCharm-->
     <s:String x:Key="StarGuardiansCharm" xml:space="preserve">星之守护者的挂坠</s:String>
     <s:String x:Key="StarGuardiansCharm1" xml:space="preserve">&#10;携带者也是 星之守护者</s:String>
@@ -73,7 +73,7 @@
     <!--Description help by Object#3031-->
     <!--Bloodthirster-->
     <s:String x:Key="Bloodthirster" xml:space="preserve">饮血剑</s:String>
-    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;普攻攻击附带 50% 吸血</s:String>
+    <s:String x:Key="Bloodthirster1" xml:space="preserve">&#10;普攻攻击附带 35% 吸血</s:String>
     <!--Bramble Vest-->
     <s:String x:Key="BrambleVest" xml:space="preserve">荆刺背心</s:String>
     <s:String x:Key="BrambleVest1" xml:space="preserve">&#10;使来自暴击的额外伤害变得无效。在被一次普通攻击命中时，对附近的所有敌人造成 100/140/200 （携带者星级）魔法伤害（每 2 秒最多触发 1 次）</s:String>
@@ -94,7 +94,7 @@
     <s:String x:Key="FrozenHeart1" xml:space="preserve">&#10;降低邻近格子的敌人 25% 攻击速度，持续1秒(多个 冰霜之心 可提升效果的半径，而非减速的幅度)</s:String>
     <!--Giant Slayer-->
     <s:String x:Key="GiantSlayer" xml:space="preserve">巨人杀手</s:String>
-    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击额外造成目标当前生命值 9% 的物理伤害</s:String>
+    <s:String x:Key="GiantSlayer1" xml:space="preserve">&#10;攻击额外造成目标当前生命值 12% 的物理伤害</s:String>
     <!--Guardian Angel-->
     <s:String x:Key="GuardianAngel" xml:space="preserve">守护天使</s:String>
     <s:String x:Key="GuardianAngel1" xml:space="preserve">&#10;阵亡后清除自身的负面效果， 2 秒后复活且恢复 400 生命值，在复活状态期间不能被治疗</s:String>
@@ -106,7 +106,7 @@
     <s:String x:Key="HandOfJustice1" xml:space="preserve">&#10;在准备阶段开始，装备持有者将增加 50% 的伤害或在普通攻击命中时治疗自身 50 生命值</s:String>
     <!--Hextech Gunblade-->
     <s:String x:Key="HextechGunblade" xml:space="preserve">海克斯科技枪刃</s:String>
-    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+33% 全能吸血</s:String>
+    <s:String x:Key="HextechGunblade1" xml:space="preserve">&#10;+25% 全能吸血</s:String>
     <!--Hush-->
     <s:String x:Key="Hush" xml:space="preserve">肃静</s:String>
     <s:String x:Key="Hush1" xml:space="preserve">&#10;普通攻击有25%的几率沉默敌人，在4秒内阻止敌人获取法力值</s:String>
@@ -118,7 +118,7 @@
     <s:String x:Key="InfinityEdge1" xml:space="preserve">&#10;+100% 暴击伤害</s:String>
     <!--Ionic Spark-->
     <s:String x:Key="IonicSpark" xml:space="preserve">离子火花</s:String>
-    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;3 格内的敌人在施放技能时会被震击，受到相当于其 225% 最大法力值的魔法伤害</s:String>
+    <s:String x:Key="IonicSpark1" xml:space="preserve">&#10;2 格内的敌人在施放技能时会被震击，受到相当于其 225% 最大法力值的魔法伤害，减少附近敌人 50% 魔法抗性</s:String>
     <!--Jeweled Gauntlet-->
     <s:String x:Key="JeweledGauntlet" xml:space="preserve">珠光护手</s:String>
     <s:String x:Key="JeweledGauntlet1" xml:space="preserve">&#10;佩戴者的技能可以暴击</s:String>
@@ -133,7 +133,7 @@
     <s:String x:Key="LudensEcho1" xml:space="preserve">&#10;技能对命中目标以及周围英雄造成 120/160/200 （携带者星级）魔法伤害</s:String>
     <!--Morellonomicon-->
     <s:String x:Key="Morello" xml:space="preserve">莫雷洛秘典</s:String>
-    <s:String x:Key="Morello1" xml:space="preserve">&#10;技能 10 秒内共造成敌人最大生命值 18% 的真实伤害，并阻止 80% 治疗效果（无法叠加）</s:String>
+    <s:String x:Key="Morello1" xml:space="preserve">&#10;技能 10 秒内共造成敌人最大生命值 30% 的真实伤害，并阻止 80% 治疗效果（无法叠加）</s:String>
     <!--Neeko's Help-->
     <s:String x:Key="NeekosHelp" xml:space="preserve">妮蔻之助</s:String>
     <s:String x:Key="NeekosHelp1" xml:space="preserve">&#10;创建一个与其相同的 1 星卡牌,将它添加到您的台上</s:String>
@@ -142,19 +142,19 @@
     <s:String x:Key="PhantomDancer1" xml:space="preserve">&#10;装备者闪避所有暴击攻击（包含来自技能的暴击伤害）</s:String>
     <!--Quicksilver-->
     <s:String x:Key="Quicksilver" xml:space="preserve">水银</s:String>
-    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;携带者免疫控制效果</s:String>
+    <s:String x:Key="Quicksilver1" xml:space="preserve">&#10;携带者最初15秒免疫控制</s:String>
     <!--Rabadon's Deathcap-->
     <s:String x:Key="RabadonsDeathcap" xml:space="preserve">灭世者的死亡之帽</s:String>
-    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加 75% 技能伤害</s:String>
+    <s:String x:Key="RabadonsDeathcap1" xml:space="preserve">&#10;增加 50% 技能伤害</s:String>
     <!--Rapid Firecannon-->
     <s:String x:Key="RapidFirecannon" xml:space="preserve">疾射火炮</s:String>
     <s:String x:Key="RapidFirecannon1" xml:space="preserve">&#10;携带者的攻击距离翻倍</s:String>
     <!--Red Buff-->
     <s:String x:Key="RedBuff" xml:space="preserve">红色增益</s:String>
-    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击后 10 秒内共造成敌人最大生命值 18% 的真实伤害，并禁止 80% 治疗效果（无法叠加）</s:String>
+    <s:String x:Key="RedBuff1" xml:space="preserve">&#10;攻击后 10 秒内共造成敌人最大生命值 30% 的真实伤害，并禁止 80% 治疗效果（无法叠加）</s:String>
     <!--Redemption-->
     <s:String x:Key="Redemption" xml:space="preserve">救赎</s:String>
-    <s:String x:Key="Redemption1" xml:space="preserve">&#10;携带者生命值降低到 30% 时，2.5 秒后治疗附近所有友军 1200 点生命值</s:String>
+    <s:String x:Key="Redemption1" xml:space="preserve">&#10;携带者在阵亡时治疗整个队伍 800 生命值</s:String>
     <!--Repeating Crossbow-->
     <s:String x:Key="RepeatingCrossbow" xml:space="preserve">复用型十字弩</s:String>
     <s:String x:Key="RepeatingCrossbow1" xml:space="preserve">&#10;携带者死亡时，该装备转移至一个新单位，并且其获得 30% 攻速和 30% 暴击率，每次交接都会叠加</s:String>
@@ -169,7 +169,7 @@
     <s:String x:Key="SpearofShojin1" xml:space="preserve">&#10;在使用技能后，携带者的每次攻击回复 18% 最大法力值</s:String>
     <!--Statikk Shiv-->
     <s:String x:Key="StatikkShiv" xml:space="preserve">斯塔提克电刃</s:String>
-    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，对 3/4/5 （携带者星级）个目标造成 85 点魔法伤害。</s:String>
+    <s:String x:Key="StatikkShiv1" xml:space="preserve">&#10;每3次攻击，对 3/4/5 （携带者星级）个目标造成 75 点魔法伤害。</s:String>
     <!--Sword Breaker-->
     <s:String x:Key="SwordBreaker" xml:space="preserve">折剑者</s:String>
     <s:String x:Key="SwordBreaker1" xml:space="preserve">&#10;攻击有 25% 造成 3 秒缴械效果</s:String>
@@ -193,13 +193,13 @@
     <s:String x:Key="TrapClaw1" xml:space="preserve">&#10;携带者在回合开始后会有一个法术护盾，打破护盾的敌人会被眩晕 4 秒</s:String>
     <!--Warmog's Armor-->
     <s:String x:Key="WarmogsArmor" xml:space="preserve">狂徒铠甲</s:String>
-    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;每秒恢复 6% 已损失生命值，每次战斗最高恢复 400</s:String>
+    <s:String x:Key="WarmogsArmor1" xml:space="preserve">&#10;每秒恢复 4% 已损失生命值，每次战斗最高恢复 400</s:String>
     <!--Zeke's Herald-->
     <s:String x:Key="ZekesHerald" xml:space="preserve">基克的先驱</s:String>
-    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;为持有者左右两格内的英雄提供 15% 攻速</s:String>
+    <s:String x:Key="ZekesHerald1" xml:space="preserve">&#10;为持有者左右两格内的英雄提供 18% 攻速</s:String>
     <!--Zephyr-->
     <s:String x:Key="Zephyr" xml:space="preserve">灵风</s:String>
-    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;战斗开始时，将棋盘斜对面 1 个敌人放逐 6 秒</s:String>
+    <s:String x:Key="Zephyr1" xml:space="preserve">&#10;战斗开始时，将棋盘斜对面 1 个敌人放逐 5 秒</s:String>
     <!--ZzRotPortal-->
     <s:String x:Key="ZzRotPortal" xml:space="preserve">兹若特传送门</s:String>
     <s:String x:Key="ZzRotPortal1" xml:space="preserve">&#10;死亡后，召唤一个拥有 1000/2000/4000 生命值的虚灵，虚灵可嘲讽附近所有的敌人</s:String>
@@ -215,7 +215,7 @@
     <!-- Celestial -->
     <s:String x:Key="Origins_Celestial" xml:space="preserve">星神</s:String>
     <s:String x:Key="Origins_Celestial_Describe1" xml:space="preserve">所有友军在用技能或攻击造成伤害时，会获得相当于一部分伤害值的治疗效果</s:String>
-    <s:String x:Key="Origins_Celestial_Describe2" xml:space="preserve">(2) 15% (4) 25% (6) 50%</s:String>
+    <s:String x:Key="Origins_Celestial_Describe2" xml:space="preserve">(2) 15% (4) 30% (6) 60%</s:String>
 
     <!-- Chrono -->
     <s:String x:Key="Origins_Chrono" xml:space="preserve">未来战士</s:String>
@@ -235,7 +235,7 @@
     <!-- Cybernetic -->
     <s:String x:Key="Origins_Cybernetic" xml:space="preserve">源计划</s:String>
     <s:String x:Key="Origins_Cybernetic_Describe1" xml:space="preserve">源计划英雄只要带了至少 1 件装备，就会获得攻击力和生命值</s:String>
-    <s:String x:Key="Origins_Cybernetic_Describe2" xml:space="preserve">(3) 35 攻击力 and 350 生命值 (6) 85 攻击力 and 850 生命值</s:String>
+    <s:String x:Key="Origins_Cybernetic_Describe2" xml:space="preserve">(3) 35 攻击力 and 350 生命值 (6) 80 攻击力 and 850 生命值</s:String>
 
     <!-- DarkStar -->
     <s:String x:Key="Origins_DarkStar" xml:space="preserve">暗星</s:String>
@@ -333,7 +333,7 @@
     <!-- Rebel -->
     <s:String x:Key="Origins_Rebel" xml:space="preserve">奥德赛</s:String>
     <s:String x:Key="Origins_Rebel_Describe1" xml:space="preserve">在战斗开始时，奥德赛英雄们会为每个邻格的奥德赛英雄提供一个 8 秒护盾和伤害提升效果</s:String>
-    <s:String x:Key="Origins_Rebel_Describe2" xml:space="preserve">(3) 125 护盾值 and +10% 伤害提升 (6) 200 护盾值 and +12% 伤害提升</s:String>
+    <s:String x:Key="Origins_Rebel_Describe2" xml:space="preserve">(3) 150 护盾值和 +10% 伤害提升 (6) 225 护盾值和 +12% 伤害提升</s:String>
     
     <!-- Robot -->
     <s:String x:Key="Origins_Robot" xml:space="preserve">机器人</s:String>
@@ -347,7 +347,7 @@
     <!-- SpacePirate -->
     <s:String x:Key="Origins_SpacePirate" xml:space="preserve">太空海盗</s:String>
     <s:String x:Key="Origins_SpacePirate_Describe1" xml:space="preserve">每当一名太空海盗英雄完成致命一击时, 50% 几率掉落金币或装备</s:String>
-    <s:String x:Key="Origins_SpacePirate_Describe2" xml:space="preserve">(2) 1 金币 (4) 1 金币 并且 10% 几率掉落装备</s:String>
+    <s:String x:Key="Origins_SpacePirate_Describe2" xml:space="preserve">(2) 1 金币 (4) 1 金币 并且 15% 几率掉落装备</s:String>
 
     <!-- StarGuardian -->
     <s:String x:Key="Origins_StarGuardian" xml:space="preserve">星之守护者</s:String>
@@ -444,8 +444,8 @@
 
     <!-- Infiltrator -->
     <s:String x:Key="Class_Infiltrator" xml:space="preserve">刺客</s:String>
-    <s:String x:Key="Class_Infiltrator_Describe1" xml:space="preserve">刺客英雄会移动到敌人的后排. 获得持续 6 秒的 60% 攻击速度加成</s:String>
-    <s:String x:Key="Class_Infiltrator_Describe2" xml:space="preserve">(2) 加成激活 (4) 击杀后刷新</s:String>
+    <s:String x:Key="Class_Infiltrator_Describe1" xml:space="preserve">刺客英雄会移动到敌人的后排. 获得持续 6 秒的 50% 攻击速度加成</s:String>
+    <s:String x:Key="Class_Infiltrator_Describe2" xml:space="preserve">(2) 加成激活 (4) 80% 攻击速度加成，击杀后刷新</s:String>
     
     <!-- Knight -->
     <s:String x:Key="Class_Knight" xml:space="preserve">骑士</s:String>
