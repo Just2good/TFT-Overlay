@@ -154,7 +154,6 @@
     <Compile Include="Utilities\AttachedControls.cs" />
     <Compile Include="Utilities\CommandRunner.cs" />
     <Compile Include="Utilities\IsEqualOrGreaterThanConverter.cs" />
-    <Compile Include="Utilities\Version.cs" />
     <Compile Include="Version.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
@@ -180,10 +179,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Resource\Items.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Resource\ItemsDefault.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -305,10 +300,13 @@
   <ItemGroup>
     <Resource Include="Images\Belt.png" />
     <Resource Include="Images\BF.png" />
-    <Resource Include="Images\blade_of_the_ruined_king.png" />
     <Resource Include="Images\bloodthirster.png" />
     <Resource Include="Images\Bow.png" />
     <Resource Include="Images\Cape.png" />
+    <Resource Include="Images\champs\Rakan.png" />
+    <Resource Include="Images\champs\VelKoz.png" />
+    <Resource Include="Images\classes\Blademaster.png" />
+    <Resource Include="Images\classes\Ranger.png" />
     <Resource Include="Images\Cost.png" />
     <Resource Include="Images\cursed_blade.png" />
     <Resource Include="Images\darkin.png" />
@@ -326,6 +324,7 @@
     <Resource Include="Images\locket_of_the_iron_solari.png" />
     <Resource Include="Images\ludens_echo.png" />
     <Resource Include="Images\morellonomicon.png" />
+    <Resource Include="Images\origins\Glacial.png" />
     <Resource Include="Images\phantom_dancer.png" />
     <Resource Include="Images\rabadons_deathcap.png" />
     <Resource Include="Images\rapid_firecannon.png" />
@@ -352,9 +351,6 @@
     <Resource Include="Images\thornmail.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\null.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -367,91 +363,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\assassin.jpg" />
-    <Resource Include="Images\demon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\champs\Aatrox-Icon.png" />
-    <Resource Include="Images\champs\Ahri-Icon.png" />
-    <Resource Include="Images\champs\Akali-Icon.png" />
-    <Resource Include="Images\champs\Anivia-Icon.png" />
-    <Resource Include="Images\champs\Ashe-Icon.png" />
-    <Resource Include="Images\champs\AurelionSol-Icon.png" />
-    <Resource Include="Images\champs\Blitzcrank-Icon.png" />
-    <Resource Include="Images\champs\Brand-Icon.png" />
-    <Resource Include="Images\champs\Braum-Icon.png" />
-    <Resource Include="Images\champs\Darius-Icon.png" />
-    <Resource Include="Images\champs\Draven-Icon.png" />
-    <Resource Include="Images\champs\Elise-Icon.png" />
-    <Resource Include="Images\champs\Evelynn-Icon.png" />
-    <Resource Include="Images\champs\Fiora-Icon.png" />
-    <Resource Include="Images\champs\Gangplank-Icon.png" />
-    <Resource Include="Images\champs\Garen-Icon.png" />
-    <Resource Include="Images\champs\Gnar-Icon.png" />
-    <Resource Include="Images\champs\Graves-Icon.png" />
-    <Resource Include="Images\champs\Karthus-Icon.png" />
-    <Resource Include="Images\champs\Kassadin-Icon.png" />
-    <Resource Include="Images\champs\Katarina-Icon.png" />
-    <Resource Include="Images\champs\Kayle-Icon.png" />
-    <Resource Include="Images\champs\Kennen-Icon.png" />
-    <Resource Include="Images\champs\Kindred-Icon.png" />
-    <Resource Include="Images\champs\Leona-Icon.png" />
-    <Resource Include="Images\champs\Lissandra-Icon.png" />
-    <Resource Include="Images\champs\Lucian-Icon.png" />
-    <Resource Include="Images\champs\Lulu-Icon.png" />
-    <Resource Include="Images\champs\MissFortune-Icon.png" />
-    <Resource Include="Images\champs\Mordekaiser-Icon.png" />
-    <Resource Include="Images\champs\Morgana-Icon.png" />
-    <Resource Include="Images\champs\Nidalee-Icon.png" />
-    <Resource Include="Images\champs\Poppy-Icon.png" />
-    <Resource Include="Images\champs\Pyke-Icon.png" />
-    <Resource Include="Images\champs\RekSai-Icon.png" />
-    <Resource Include="Images\champs\Rengar-Icon.png" />
-    <Resource Include="Images\champs\Sejuani-Icon.png" />
-    <Resource Include="Images\champs\Shen-Icon.png" />
-    <Resource Include="Images\champs\Shyvana-Icon.png" />
-    <Resource Include="Images\champs\Swain-Icon.png" />
-    <Resource Include="Images\champs\Teemo-Icon.png" />
-    <Resource Include="Images\champs\Tristana-Icon.png" />
-    <Resource Include="Images\champs\Varus-Icon.png" />
-    <Resource Include="Images\champs\Vayne-Icon.png" />
-    <Resource Include="Images\champs\Veigar-Icon.png" />
-    <Resource Include="Images\champs\Volibear-Icon.png" />
-    <Resource Include="Images\champs\Warwick-Icon.png" />
-    <Resource Include="Images\champs\Yasuo-Icon.png" />
-    <Resource Include="Images\champs\Zed-Icon.png" />
-    <Resource Include="Images\classes\assassin.jpg" />
-    <Resource Include="Images\classes\blademaster.jpg" />
-    <Resource Include="Images\classes\brawler.jpg" />
-    <Resource Include="Images\classes\elementalist.jpg" />
-    <Resource Include="Images\classes\guardian.jpg" />
-    <Resource Include="Images\classes\gunslinger.jpg" />
-    <Resource Include="Images\classes\knight.jpg" />
-    <Resource Include="Images\classes\ranger.jpg" />
-    <Resource Include="Images\classes\shapeshifter.jpg" />
-    <Resource Include="Images\classes\sorcerer.jpg" />
-    <Resource Include="Images\origins\demon.jpg" />
-    <Resource Include="Images\origins\dragon.jpg" />
-    <Resource Include="Images\origins\exile.jpg" />
-    <Resource Include="Images\origins\glacial.jpg" />
-    <Resource Include="Images\origins\imperial.jpg" />
-    <Resource Include="Images\origins\ninja.jpg" />
-    <Resource Include="Images\origins\noble.jpg" />
-    <Resource Include="Images\origins\phantom.jpg" />
-    <Resource Include="Images\origins\pirate.jpg" />
-    <Resource Include="Images\origins\robot.jpg" />
-    <Resource Include="Images\origins\void.jpg" />
-    <Resource Include="Images\origins\wild.jpg" />
-    <Resource Include="Images\origins\yordle.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\champs\ChoGath-Icon.png" />
-    <Resource Include="Images\champs\KhaZix-Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\cstyle\items\Belt.png" />
     <Resource Include="Images\cstyle\items\BF.png" />
-    <Resource Include="Images\cstyle\items\blade_of_the_ruined_king.png" />
     <Resource Include="Images\cstyle\items\Bow.png" />
     <Resource Include="Images\cstyle\items\Cape.png" />
     <Resource Include="Images\cstyle\items\darkin.png" />
@@ -497,12 +410,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\items\bloodthirster.png" />
-    <Resource Include="Images\cstyle\items\Guardian_Angel.png" />
-    <Resource Include="Images\cstyle\items\Hextech_Gunblade.png" />
+    <Resource Include="Images\cstyle\items\guardian_angel.png" />
+    <Resource Include="Images\cstyle\items\hextech_gunblade.png" />
     <Resource Include="Images\cstyle\items\Infinity_Edge.png" />
-    <Resource Include="Images\cstyle\items\Spear_Of_Shojin.png" />
-    <Resource Include="Images\cstyle\items\Sword_Of_The_Divine.png" />
-    <Resource Include="Images\cstyle\items\Zekes_Herald.png" />
+    <Resource Include="Images\cstyle\items\spear_of_shojin.png" />
+    <Resource Include="Images\cstyle\items\sword_of_the_divine.png" />
+    <Resource Include="Images\cstyle\items\zekes_herald.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\items\cursed_blade.png" />
@@ -529,9 +442,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Rounds\carousel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\champs\TwistedFate-Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cstyle\BFPB.png" />
@@ -569,6 +479,294 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="TFT Overlay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\neekos_help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\jeweled_gauntlet.png" />
+    <Resource Include="Images\cstyle\items\trap_claw.png" />
+    <Resource Include="Images\cstyle\items\Gloves.png" />
+    <Resource Include="Images\cstyle\items\hand_of_justice.png" />
+    <Resource Include="Images\cstyle\items\iceborn_gauntlet.png" />
+    <Resource Include="Images\cstyle\items\mittens.png" />
+    <Resource Include="Images\cstyle\items\quicksilver.png" />
+    <Resource Include="Images\cstyle\items\repeating_crossbow.png" />
+    <Resource Include="Images\cstyle\items\thiefs_gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\GlovesAB.png" />
+    <Resource Include="Images\cstyle\GlovesMB.png" />
+    <Resource Include="Images\cstyle\GlovesPB.png" />
+    <Resource Include="Images\cstyle\GlovesPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\thiefs_gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Gloves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\giant_slayer.png" />
+    <Resource Include="Images\deathblade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\trap_claw.png" />
+    <Resource Include="Images\hand_of_justice.png" />
+    <Resource Include="Images\iceborn_gauntlet.png" />
+    <Resource Include="Images\repeating_crossbow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\quicksilver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\giant_slayer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\deathblade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\jeweled_gauntlet.png" />
+    <Resource Include="Images\Mittens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Warden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Assassin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\berserker_axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\inferno_cinder.png" />
+    <Resource Include="Images\mages_cap.png" />
+    <Resource Include="Images\talisman_of_light.png" />
+    <Resource Include="Images\wardens_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\berserker_axe.png" />
+    <Resource Include="Images\cstyle\items\inferno_cinder.png" />
+    <Resource Include="Images\cstyle\items\mages_cap.png" />
+    <Resource Include="Images\cstyle\items\talisman_of_light.png" />
+    <Resource Include="Images\cstyle\items\wardens_mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Woodland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Cloud.png" />
+    <Resource Include="Images\origins\Crystal.png" />
+    <Resource Include="Images\origins\Desert.png" />
+    <Resource Include="Images\origins\Electric.png" />
+    <Resource Include="Images\origins\Inferno.png" />
+    <Resource Include="Images\origins\Light.png" />
+    <Resource Include="Images\origins\Ocean.png" />
+    <Resource Include="Images\origins\Poison.png" />
+    <Resource Include="Images\origins\Shadow.png" />
+    <Resource Include="Images\origins\Steel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Alchemist.png" />
+    <Resource Include="Images\classes\Avatar.png" />
+    <Resource Include="Images\classes\Berserker.png" />
+    <Resource Include="Images\classes\Druid.png" />
+    <Resource Include="Images\classes\Mage.png" />
+    <Resource Include="Images\classes\Mystic.png" />
+    <Resource Include="Images\classes\Predator.png" />
+    <Resource Include="Images\classes\Summoner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Mountain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bramble_vest.png" />
+    <Resource Include="Images\last_whisper.png" />
+    <Resource Include="Images\titans_resolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Soulbound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\bramble_vest.png" />
+    <Resource Include="Images\cstyle\items\last_whisper.png" />
+    <Resource Include="Images\cstyle\items\titans_resolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Lunar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Blaster.png" />
+    <Resource Include="Images\classes\Demolitionist.png" />
+    <Resource Include="Images\classes\Infiltrator.png" />
+    <Resource Include="Images\classes\ManaReaver.png" />
+    <Resource Include="Images\classes\Mercenary.png" />
+    <Resource Include="Images\classes\Protector.png" />
+    <Resource Include="Images\classes\Sniper.png" />
+    <Resource Include="Images\classes\Starship.png" />
+    <Resource Include="Images\classes\Vanguard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Aatrox.png" />
+    <Resource Include="Images\champs\Ahri.png" />
+    <Resource Include="Images\champs\Akali.png" />
+    <Resource Include="Images\champs\Amumu.png" />
+    <Resource Include="Images\champs\Anivia.png" />
+    <Resource Include="Images\champs\Annie.png" />
+    <Resource Include="Images\champs\Ashe.png" />
+    <Resource Include="Images\champs\AurelionSol.png" />
+    <Resource Include="Images\champs\Azir.png" />
+    <Resource Include="Images\champs\Blitzcrank.png" />
+    <Resource Include="Images\champs\Brand.png" />
+    <Resource Include="Images\champs\Braum.png" />
+    <Resource Include="Images\champs\Camille.png" />
+    <Resource Include="Images\champs\ChoGath.png" />
+    <Resource Include="Images\champs\Darius.png" />
+    <Resource Include="Images\champs\Diana.PNG" />
+    <Resource Include="Images\champs\Draven.png" />
+    <Resource Include="Images\champs\DrMundo.png" />
+    <Resource Include="Images\champs\Elise.png" />
+    <Resource Include="Images\champs\Evelynn.png" />
+    <Resource Include="Images\champs\Ezreal.png" />
+    <Resource Include="Images\champs\Fiora.png" />
+    <Resource Include="Images\champs\Gangplank.png" />
+    <Resource Include="Images\champs\Garen.png" />
+    <Resource Include="Images\champs\Gnar.png" />
+    <Resource Include="Images\champs\Graves.png" />
+    <Resource Include="Images\champs\Ivern.png" />
+    <Resource Include="Images\champs\Janna.png" />
+    <Resource Include="Images\champs\Jax.PNG" />
+    <Resource Include="Images\champs\Jayce.png" />
+    <Resource Include="Images\champs\Jinx.png" />
+    <Resource Include="Images\champs\KaiSa.png" />
+    <Resource Include="Images\champs\Karma.png" />
+    <Resource Include="Images\champs\Karthus.png" />
+    <Resource Include="Images\champs\Kassadin.png" />
+    <Resource Include="Images\champs\Katarina.png" />
+    <Resource Include="Images\champs\Kayle.png" />
+    <Resource Include="Images\champs\Kennen.png" />
+    <Resource Include="Images\champs\KhaZix.png" />
+    <Resource Include="Images\champs\Kindred.png" />
+    <Resource Include="Images\champs\KogMaw.png" />
+    <Resource Include="Images\champs\LeBlanc.PNG" />
+    <Resource Include="Images\champs\Leona.png" />
+    <Resource Include="Images\champs\Lissandra.png" />
+    <Resource Include="Images\champs\Lucian.png" />
+    <Resource Include="Images\champs\Lulu.png" />
+    <Resource Include="Images\champs\Lux.PNG" />
+    <Resource Include="Images\champs\Malphite.png" />
+    <Resource Include="Images\champs\Malzahar.png" />
+    <Resource Include="Images\champs\Maokai.png" />
+    <Resource Include="Images\champs\MasterYi.png" />
+    <Resource Include="Images\champs\MissFortune.png" />
+    <Resource Include="Images\champs\Mordekaiser.png" />
+    <Resource Include="Images\champs\Morgana.png" />
+    <Resource Include="Images\champs\Nami.PNG" />
+    <Resource Include="Images\champs\Nasus.PNG" />
+    <Resource Include="Images\champs\Nautilus.png" />
+    <Resource Include="Images\champs\Neeko.png" />
+    <Resource Include="Images\champs\Nidalee.png" />
+    <Resource Include="Images\champs\Nocturne.png" />
+    <Resource Include="Images\champs\Olaf.png" />
+    <Resource Include="Images\champs\Ornn.PNG" />
+    <Resource Include="Images\champs\Pantheon.png" />
+    <Resource Include="Images\champs\Poppy.png" />
+    <Resource Include="Images\champs\Pyke.png" />
+    <Resource Include="Images\champs\Qiyana.PNG" />
+    <Resource Include="Images\champs\RekSai.png" />
+    <Resource Include="Images\champs\Renekton.png" />
+    <Resource Include="Images\champs\Rengar.png" />
+    <Resource Include="Images\champs\Sejuani.png" />
+    <Resource Include="Images\champs\Senna.png" />
+    <Resource Include="Images\champs\Shen.png" />
+    <Resource Include="Images\champs\Shyvana.png" />
+    <Resource Include="Images\champs\Singed.png" />
+    <Resource Include="Images\champs\Sion.png" />
+    <Resource Include="Images\champs\Sivir.png" />
+    <Resource Include="Images\champs\Skarner.png" />
+    <Resource Include="Images\champs\Soraka.png" />
+    <Resource Include="Images\champs\Swain.png" />
+    <Resource Include="Images\champs\Syndra.PNG" />
+    <Resource Include="Images\champs\Taliyah.png" />
+    <Resource Include="Images\champs\Taric.png" />
+    <Resource Include="Images\champs\Teemo.png" />
+    <Resource Include="Images\champs\Thresh.png" />
+    <Resource Include="Images\champs\Tristana.png" />
+    <Resource Include="Images\champs\TwistedFate.png" />
+    <Resource Include="Images\champs\Twitch.png" />
+    <Resource Include="Images\champs\Varus.png" />
+    <Resource Include="Images\champs\Vayne.png" />
+    <Resource Include="Images\champs\Veigar.png" />
+    <Resource Include="Images\champs\Vi.png" />
+    <Resource Include="Images\champs\Vladimir.png" />
+    <Resource Include="Images\champs\Volibear.png" />
+    <Resource Include="Images\champs\Warwick.png" />
+    <Resource Include="Images\champs\Yasuo.png" />
+    <Resource Include="Images\champs\Yorick.PNG" />
+    <Resource Include="Images\champs\Zed.png" />
+    <Resource Include="Images\champs\Zyra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\classes\Brawler.png" />
+    <Resource Include="Images\classes\Sorcerer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\origins\Celestial.png" />
+    <Resource Include="Images\origins\Chrono.png" />
+    <Resource Include="Images\origins\Cybernetic.png" />
+    <Resource Include="Images\origins\DarkStar.png" />
+    <Resource Include="Images\origins\MechPilot.png" />
+    <Resource Include="Images\origins\Rebel.png" />
+    <Resource Include="Images\origins\SpacePirate.png" />
+    <Resource Include="Images\origins\StarGuardian.png" />
+    <Resource Include="Images\origins\Valkyrie.png" />
+    <Resource Include="Images\origins\Void.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champs\Caitlyn.png" />
+    <Resource Include="Images\champs\Ekko.png" />
+    <Resource Include="Images\champs\Fizz.png" />
+    <Resource Include="Images\champs\Irelia.png" />
+    <Resource Include="Images\champs\Jarvan.png" />
+    <Resource Include="Images\champs\Jhin.png" />
+    <Resource Include="Images\champs\Rumble.png" />
+    <Resource Include="Images\champs\Shaco.png" />
+    <Resource Include="Images\champs\Sona.png" />
+    <Resource Include="Images\champs\Wukong.png" />
+    <Resource Include="Images\champs\Xayah.png" />
+    <Resource Include="Images\champs\XinZhao.png" />
+    <Resource Include="Images\champs\Ziggs.png" />
+    <Resource Include="Images\champs\Zoe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CelestialOrb.png" />
+    <Resource Include="Images\ChaliceofFavor.png" />
+    <Resource Include="Images\DarkstarsHeart.png" />
+    <Resource Include="Images\DemolitionistsCharge.png" />
+    <Resource Include="Images\InfiltratorsTalons.png" />
+    <Resource Include="Images\ProtectorsChestguard.png" />
+    <Resource Include="Images\RebelMedal.png" />
+    <Resource Include="Images\ShroudOfStillness.png" />
+    <Resource Include="Images\StarguardiansCharm.png" />
+    <Resource Include="Images\ZzRotPortal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BOTRK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\BOTRK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cstyle\items\CelestialOrb.png" />
+    <Resource Include="Images\cstyle\items\ChaliceofFavor.png" />
+    <Resource Include="Images\cstyle\items\DarkstarsHeart.png" />
+    <Resource Include="Images\cstyle\items\DemolitionistsCharge.png" />
+    <Resource Include="Images\cstyle\items\InfiltratorsTalons.png" />
+    <Resource Include="Images\cstyle\items\ProtectorsChestguard.png" />
+    <Resource Include="Images\cstyle\items\RebelMedal.png" />
+    <Resource Include="Images\cstyle\items\ShroudOfStillness.png" />
+    <Resource Include="Images\cstyle\items\StarguardiansCharm.png" />
+    <Resource Include="Images\cstyle\items\ZzRotPortal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('packages\Fody.4.2.1\build\Fody.targets')" />

@@ -1,23 +1,128 @@
- # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
+ # TFT Overlay by J2GKaze (Taken over by jtborn)
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
-   
-`7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.`
 
-`8.6.2019 @ 3PM PDT: Apologies for the extremely slow updates, been working a lot of overtime to pay off late bills. I do still want to keep continuing this project and will update whenever I can.`
-
-`8.21.2019 @ 11AM PDT: Again I apologize, I won't be able to update this due to real life issues so I will be discontinuing this project. I really enjoyed working on it and it completely sucks when life hits you hard. Thank you to all the people that used my overlay and provided feedback, issues, and even just letting me know that it made TFT easier for them. For anyone that wants to continue working on this and improving it even more, feel free to message me and I'll put a link to your fork in this readme. Thank you!`
+`9.09.2019 @ 11:36PM PST: I've forked the repo and will try to keep it updated when new patches hit. Big thanks to Just2good for starting this project.`
 
 ## How to use:
-  -  [Download TFT Overlay](https://github.com/Just2good/TFT-Overlay/releases/)  
+  -  [Download TFT Overlay](https://github.com/jtborn/TFT-Overlay/releases/)  
   -  Extract the file and run `TFT Overlay.exe`
   -  Right click Orange box for context menu  
   -  Click on Icons for information  
-![Image](https://giant.gfycat.com/VastWeakHen.gif)
+![Imgur](https://i.imgur.com/mLBNGst.gif)
 
 ## Localization
-  -  [Click Here for instructions](https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md)
+  -  [Click Here for instructions](https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md)
 
-## Version History  
+## Version History
+- **3.25.2020**
+  - [2.3.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.3.3)  
+     - CN lang update for Set 3
+	 
+- **3.23.2020**
+  - [2.3.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.3.2)  
+     - Set 3 Galaxies
+	 
+- **2.11.2020**
+  - [2.3.0](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.3.0)  
+     - Patch 10.3
+
+- **1.25.2020**
+  - [2.2.9](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.9)  
+     - CN lang update
+
+- **1.22.2020**
+  - [2.2.8](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.8)  
+     - Patch 10.2
+
+- **1.21.2020**
+  - [2.2.7](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.7)  
+     - Added CN translations for new items
+
+- **1.18.2020**
+  - [2.2.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.6)  
+     - Updated to Patch 10.1
+     - Added Amumu, Leona, Karma, Lucian, Senna
+     - Added Soulbound and Lunar
+     - Added Titan's Resolve, Bramble Vest, Last Whisper
+
+- **11.21.2019**
+  - [2.2.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.5)  
+     - Updated to Patch 9.23
+     - Added Brand to Inferno
+
+- **11.12.2019**
+  - [2.2.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.4)  
+     - Corrected unit costs
+     
+- **11.15.2019**
+  - [2.2.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.3)  
+     - Updated CN items to client names
+     - Added missing origin/class pictures
+     - Removed "variable" origin and added Qiyana and Lux to each element that they can spawn as for more clarity
+
+- **11.12.2019**
+  - [2.2.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.2)  
+     - CN language updates
+
+- **11.07.2019**
+  - [2.2.1](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.1)  
+     - Further set 2 updates for item/synergy stats
+     - CN language updates
+
+- **11.06.2019**
+  - [2.2.0](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.2.0)  
+     - Set 2 updates
+
+- **10.15.2019**
+  - [2.1.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.6)  
+     - Fixed bug submitted by SuTree showing BF instead of Gloves for IE recipe
+
+- **10.13.2019**
+  - [2.1.5](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.5)  
+     - Updated to Patch 9.20
+     - CN localization updates
+     - Giant Slayer updated to correct image
+
+- **9.24.2019**
+  - [2.1.4](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.4)  
+     - Updated to Patch 9.19
+     - Changed item names to Riot's new names
+     - Updated CN item changes for the patch, still need translations for new item names
+
+- **9.17.2019**
+  - [2.1.3](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.3)  
+     - Further CN updates
+
+- **9.16.2019**
+  - [2.1.2](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.2)  
+     - Added CN localization updates by jingfan2646
+
+- **9.15.2019**
+  - [2.1.1](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.1)  
+     - Added CN localization updates by kukudy1982 and sunuanxiaopy
+
+- **9.14.2019**
+  - [2.1.0](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.1.0)  
+     - **WARNING** This is ahead of the current patch. Infinity Edge changed recipe and Sword of the Divine has been removed
+	 - Adds all Sparring Gloves items
+	 - Fixed CN localization update, it wasn't loading due to an xaml error
+	 - Changed ItemBuilder tooltip position to fix usability improvement suggested by widget
+
+- **9.13.2019**
+  - [2.0.8](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.8)  
+     - Fixed Auto-Updater to point to my repo
+     - Added CN localization update by golol
+
+- **9.12.2019**
+  - [2.0.7](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.7)  
+    - Updated to 9.18 patch
+    - Added Neeko's Help
+
+- **9.09.2019**    
+  - [2.0.6](https://github.com/jtborn/TFT-Overlay/releases/tag/V2.0.6)  
+     - Updated to 9.17 patch
+	   - Added Hextech origin and Pantheon to Dragon/Guardian
+
 - **8.01.2019**    
   - [2.0.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.5)  
      - Updated ch-ZN
@@ -33,23 +138,23 @@
      - Added + - effects
      - Fixed Program not showing in task bar  
      - Updated Item Descriptions + Updated it-IT  
-  
+
 - **7.24.2019**   
   - [2.0.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.2)
      - Fixed really dumb auto updater
-  
+
   - [2.0.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V2.0.1)
      - Fullscreen by Izoyo  
      - Updated for 9.14B  
      - IT & FR Updated  
-  
+
 - **7.23.2019**   
-  - [1.9.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.9) 
+  - [1.9.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.9)
      - Added Player Damage Chart
      - Updated Localizations
 
 - **7.18.2019**   
-  - [1.9.8](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.8) 
+  - [1.9.8](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.8)
      - Added Twisted Fate
      - Changed Elise from 2g to 1g
      - Updated it-IT & Added HU  
@@ -60,13 +165,13 @@
      - Localization: SL added, PL was updated to include origins/classes
      - Icon Opacity in context menu (Changes opacity of item builder only)
      - Item Builder - Removed extra icons, Reversed + and - buttons.  
-  
+
 - **7.10.2019**  
   - [1.9.5](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.5)  
      - Added Item Builder by narcolic#6374
      - Added de-DE
      - Moved Context Bar and Opacity Slider for Multi-Tab functionality
-  
+
   - [1.9.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9.1)
      - Fixed Auto-Updater (For good this time)
      - Added pt-BR
@@ -74,20 +179,20 @@
 - **7.9.2019**  
   - [1.9](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.9)    
      - Items are fully skinned.
-     - Window position, size, and draggable preferences saved on exit. (By ꙅꙅɘᴎTqAbɘbᴎɘld#1175) 
+     - Window position, size, and draggable preferences saved on exit. (By ꙅꙅɘᴎTqAbɘbᴎɘld#1175)
      - Added Languages: es-AR, es-MX, fr-FR, it-IT, JA, PL, RU, vi-VN, zh-CN, zh-TW  
      - Custom Cursor has been added to fit LoL theme.
-     - New additions to Context Menu 
+     - New additions to Context Menu
           `Auto-Dim (Sets Opacity of Program to 20% when League of Legends is not open)`
           `Switch Language`  
-  
+
 - **7.5.2019**  
   - [1.8.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.8.2)  
     - Auto-Updater re-added (There is a section in Context Menu as well)  
     - Buttons are all back to the same line (New tabs will be used for future features that require its own section)
     - Added Design buttons for Classes/Origins.
     - Chart has a "Last Updated" date next to the title. (Considering adding these to show that the information has been updated for the current LoL patch)
-   
+
 - **7.4.2019**  
   - [1.8.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.8.1)  
     - Removed Auto-Updater  
@@ -96,8 +201,8 @@
     - Changed Bar Design (Design by Athenyx#9406)  
     - Added Test Spatula Box when clicked (Tooltip over item)  
     - Auto-Updater by Omnitenebris  
-    
-- **7.2.2019** 
+
+- **7.2.2019**
   - [1.7.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.7.2)  
     - Added Resizing  
     - Added Lock Resize to Right Click Context Menu  
@@ -108,11 +213,11 @@
   - [1.6.3](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.6.3)  
     - Fixed wild origin (Rengar was missing)  
     - Updated Demon % Chance to burn mana (30/50/70 to 40/60/80)  
-     
-- **7.1.2019** 
+
+- **7.1.2019**
   - [1.6.2](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.6.2)  
     - Roll Chance changed to fit new patch  
-   
+
 - **6.30.2019**  
   - [1.6.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.6.1)  
     - Bugfix    
@@ -122,7 +227,7 @@
     - Mouseover buttons instead of toggle (By Chaoticoz)   
   - 1.5
     - Added Origins and Classes (By Asemco)  
-    
+
 - **6.29.2019**   
   - [1.4.1](https://github.com/Just2good/TFT-Overlay/releases/tag/V1.4.1)  
     - Morellonomicon text changed to fit new patch   
@@ -133,7 +238,7 @@
   - 1.3
     - Added Lock and Always On Top functionality (By Chaoticoz)  
 
-- **6.28.2019** 
+- **6.28.2019**
   - 1.2
     - Added description to items  
   - 1.1
@@ -151,9 +256,9 @@
 
 ## Possible Future Features:
 - Synergy (Half-done)  
-- Champions 
-- Sorted items by Offense, Defense, Utility (Low Priority) 
-- Bar resize (Done) 
+- Champions
+- Sorted items by Offense, Defense, Utility (Low Priority)
+- Bar resize (Done)
 - Expand on Mouseover (Done)   
 - 50% Alpha Background for item combinations (Done)  
 
@@ -161,4 +266,3 @@
 - There will be a way to switch back to Default design
 - Will also include Localization (Done
 - Feedback is very helpful. Feel free to open up an Issue on Github with your concerns, or just DM me on Discord.
-

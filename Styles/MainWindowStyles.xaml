@@ -392,6 +392,35 @@
             </Setter.Value>
         </Setter>
     </Style>
+    <!--Gloves-->
+    <Style x:Key="StyleGloves" TargetType="{x:Type l:OptionalRadioButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type l:OptionalRadioButton}">
+                    <Border Width="Auto" Height="Auto" Padding="0 0 0 0" Margin="0 0 0 0" BorderBrush="Transparent" CornerRadius="20 20 20 20" BorderThickness="0" Background="Transparent">
+                        <Border>
+                            <Image x:Name="Gloves_Image" Source="pack://application:,,,/Images/cstyle/GlovesPM.png" Width="48" Height="48"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Gloves_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/GlovesMB.png"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Gloves_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/GlovesPB.png"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="True"/>
+                                <Condition Property="IsMouseOver" Value="True"/>
+                            </MultiTrigger.Conditions>
+                            <Setter TargetName="Gloves_Image" Property="Source" Value="pack://application:,,,/Images/cstyle/GlovesAB.png"/>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
     <!--Spatula-->
     <Style x:Key="StyleSpatula" TargetType="{x:Type l:OptionalRadioButton}">
         <Setter Property="Template">

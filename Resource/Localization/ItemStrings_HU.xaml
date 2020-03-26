@@ -124,194 +124,194 @@
     <!--/////////////////-->
 
     <!--Origins | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Origins" xml:space="preserve">Fajok | Képességek és hősök</s:String>
+    <s:String x:Key="Origins_Label" xml:space="preserve">Fajok | Képességek és hősök</s:String>
 
     <!-- Demons -->
-    <s:String x:Key="ClassOrigins_Demons" xml:space="preserve">Démon</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) esély van rá, hogy elégessék az ellenfél</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe2" xml:space="preserve">aktuális manáját</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe3" xml:space="preserve">, és a</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe4" xml:space="preserve">tényleges sebzés</s:String>
-    <s:String x:Key="ClassOrigins_Demons_Describe5" xml:space="preserve">-sel egyenértékben sebeznek.</s:String>
+    <s:String x:Key="Origins_Demons" xml:space="preserve">Démon</s:String>
+    <s:String x:Key="Origins_Demons_Describe1" xml:space="preserve">25% (2), 50% (4), 85% (6) esély van rá, hogy elégessék az ellenfél</s:String>
+    <s:String x:Key="Origins_Demons_Describe2" xml:space="preserve">aktuális manáját</s:String>
+    <s:String x:Key="Origins_Demons_Describe3" xml:space="preserve">, és a</s:String>
+    <s:String x:Key="Origins_Demons_Describe4" xml:space="preserve">tényleges sebzés</s:String>
+    <s:String x:Key="Origins_Demons_Describe5" xml:space="preserve">-sel egyenértékben sebeznek.</s:String>
 
     <!-- Dragon -->
-    <s:String x:Key="ClassOrigins_Dragon" xml:space="preserve">Sárkány</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe1" xml:space="preserve">A sárkányok ellenállnak a </s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe2" xml:space="preserve">varázssebzésnek</s:String>
-    <s:String x:Key="ClassOrigins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
+    <s:String x:Key="Origins_Dragon" xml:space="preserve">Sárkány</s:String>
+    <s:String x:Key="Origins_Dragon_Describe1" xml:space="preserve">A sárkányok ellenállnak a </s:String>
+    <s:String x:Key="Origins_Dragon_Describe2" xml:space="preserve">varázssebzésnek</s:String>
+    <s:String x:Key="Origins_Dragon_Describe3" xml:space="preserve">(2)</s:String>
 
     <!-- Exile -->
-    <s:String x:Key="ClassOrigins_Exile" xml:space="preserve">Száműzött</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe1" xml:space="preserve">A száműzött a 100% </s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe2" xml:space="preserve">életerejének</s:String>
-    <s:String x:Key="ClassOrigins_Exile_Describe3" xml:space="preserve">megfelelő pajzsot kap, ha nem áll mellette senki.(1)</s:String>
+    <s:String x:Key="Origins_Exile" xml:space="preserve">Száműzött</s:String>
+    <s:String x:Key="Origins_Exile_Describe1" xml:space="preserve">A száműzött a 100% </s:String>
+    <s:String x:Key="Origins_Exile_Describe2" xml:space="preserve">életerejének</s:String>
+    <s:String x:Key="Origins_Exile_Describe3" xml:space="preserve">megfelelő pajzsot kap, ha nem áll mellette senki.(1)</s:String>
 
     <!-- Glacial -->
-    <s:String x:Key="ClassOrigins_Glacial" xml:space="preserve">Jégkori</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe1" xml:space="preserve">Ütésenként 20% (2), 30% (4), 45% (6) esély van a</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe2" xml:space="preserve">kábításra</s:String>
-    <s:String x:Key="ClassOrigins_Glacial_Describe3" xml:space="preserve">2 másodpercre.</s:String>
+    <s:String x:Key="Origins_Glacial" xml:space="preserve">Jégkori</s:String>
+    <s:String x:Key="Origins_Glacial_Describe1" xml:space="preserve">Ütésenként 20% (2), 30% (4), 45% (6) esély van a</s:String>
+    <s:String x:Key="Origins_Glacial_Describe2" xml:space="preserve">kábításra</s:String>
+    <s:String x:Key="Origins_Glacial_Describe3" xml:space="preserve">2 másodpercre.</s:String>
 
     <!-- Imperial -->
-    <s:String x:Key="ClassOrigins_Imperial" xml:space="preserve">Birodalmi</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe1" xml:space="preserve">A birodamliak</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe2" xml:space="preserve">Duplán sebeznek.</s:String>
-    <s:String x:Key="ClassOrigins_Imperial_Describe3" xml:space="preserve">Egy véletlenszerű birodamli (1) Az összes birodamli (4)</s:String>
+    <s:String x:Key="Origins_Imperial" xml:space="preserve">Birodalmi</s:String>
+    <s:String x:Key="Origins_Imperial_Describe1" xml:space="preserve">A birodamliak</s:String>
+    <s:String x:Key="Origins_Imperial_Describe2" xml:space="preserve">Duplán sebeznek.</s:String>
+    <s:String x:Key="Origins_Imperial_Describe3" xml:space="preserve">Egy véletlenszerű birodamli (1) Az összes birodamli (4)</s:String>
 
     <!-- Noble -->
-    <s:String x:Key="ClassOrigins_Noble" xml:space="preserve">Nemes</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe1" xml:space="preserve">A nemesek</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe2" xml:space="preserve">+100 páncélt</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe3" xml:space="preserve">és</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe4" xml:space="preserve">35 életerő gyógyítást</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe5" xml:space="preserve">kapnak ütésenként.</s:String>
-    <s:String x:Key="ClassOrigins_Noble_Describe6" xml:space="preserve">Egy véletlenszerű szövetséges (3) Minden szövetséges (6)</s:String>
+    <s:String x:Key="Origins_Noble" xml:space="preserve">Nemes</s:String>
+    <s:String x:Key="Origins_Noble_Describe1" xml:space="preserve">A nemesek</s:String>
+    <s:String x:Key="Origins_Noble_Describe2" xml:space="preserve">+100 páncélt</s:String>
+    <s:String x:Key="Origins_Noble_Describe3" xml:space="preserve">és</s:String>
+    <s:String x:Key="Origins_Noble_Describe4" xml:space="preserve">35 életerő gyógyítást</s:String>
+    <s:String x:Key="Origins_Noble_Describe5" xml:space="preserve">kapnak ütésenként.</s:String>
+    <s:String x:Key="Origins_Noble_Describe6" xml:space="preserve">Egy véletlenszerű szövetséges (3) Minden szövetséges (6)</s:String>
 
     <!-- Ninja -->
-    <s:String x:Key="ClassOrigins_Ninja" xml:space="preserve">Nindzsa</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe1" xml:space="preserve">A nindzák százalékosan</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe2" xml:space="preserve">sebzést kapnak.</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe3" xml:space="preserve">+40% </s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe4" xml:space="preserve">Sebzést kap</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe5" xml:space="preserve">(ha pontosan 1 van)</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe6" xml:space="preserve">és minden nindzsa +%60</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe7" xml:space="preserve">sebzést kap, ha</s:String>
-    <s:String x:Key="ClassOrigins_Ninja_Describe8" xml:space="preserve">(4) van.</s:String>
+    <s:String x:Key="Origins_Ninja" xml:space="preserve">Nindzsa</s:String>
+    <s:String x:Key="Origins_Ninja_Describe1" xml:space="preserve">A nindzák százalékosan</s:String>
+    <s:String x:Key="Origins_Ninja_Describe2" xml:space="preserve">sebzést kapnak.</s:String>
+    <s:String x:Key="Origins_Ninja_Describe3" xml:space="preserve">+40% </s:String>
+    <s:String x:Key="Origins_Ninja_Describe4" xml:space="preserve">Sebzést kap</s:String>
+    <s:String x:Key="Origins_Ninja_Describe5" xml:space="preserve">(ha pontosan 1 van)</s:String>
+    <s:String x:Key="Origins_Ninja_Describe6" xml:space="preserve">és minden nindzsa +%60</s:String>
+    <s:String x:Key="Origins_Ninja_Describe7" xml:space="preserve">sebzést kap, ha</s:String>
+    <s:String x:Key="Origins_Ninja_Describe8" xml:space="preserve">(4) van.</s:String>
 
     <!-- Pirate -->
-    <s:String x:Key="ClassOrigins_Pirate" xml:space="preserve">Pirate</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe1" xml:space="preserve">Legfeljebb 4 további</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe2" xml:space="preserve">aranyat</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe3" xml:space="preserve">kapsz a harcok után,</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe4" xml:space="preserve">amit játkosok ellen játszol.</s:String>
-    <s:String x:Key="ClassOrigins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Origins_Pirate" xml:space="preserve">Pirate</s:String>
+    <s:String x:Key="Origins_Pirate_Describe1" xml:space="preserve">Legfeljebb 4 további</s:String>
+    <s:String x:Key="Origins_Pirate_Describe2" xml:space="preserve">aranyat</s:String>
+    <s:String x:Key="Origins_Pirate_Describe3" xml:space="preserve">kapsz a harcok után,</s:String>
+    <s:String x:Key="Origins_Pirate_Describe4" xml:space="preserve">amit játkosok ellen játszol.</s:String>
+    <s:String x:Key="Origins_Pirate_Describe5" xml:space="preserve">(3)</s:String>
 
     <!-- Phantom -->
-    <s:String x:Key="ClassOrigins_Phantom" xml:space="preserve">Fantom</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe1" xml:space="preserve">Megátkoz egy véletlenszerű ellenfelet a harc elején, akinek</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe2" xml:space="preserve">100</s:String>
-    <s:String x:Key="ClassOrigins_Phantom_Describe3" xml:space="preserve">pontra csökkenti az életerejét.(2)</s:String>
+    <s:String x:Key="Origins_Phantom" xml:space="preserve">Fantom</s:String>
+    <s:String x:Key="Origins_Phantom_Describe1" xml:space="preserve">Megátkoz egy véletlenszerű ellenfelet a harc elején, akinek</s:String>
+    <s:String x:Key="Origins_Phantom_Describe2" xml:space="preserve">100</s:String>
+    <s:String x:Key="Origins_Phantom_Describe3" xml:space="preserve">pontra csökkenti az életerejét.(2)</s:String>
 
     <!-- Robot -->
-    <s:String x:Key="ClassOrigins_Robot" xml:space="preserve">Robot</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe1" xml:space="preserve">A robotok a harcot 100%</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe2" xml:space="preserve">manával</s:String>
-    <s:String x:Key="ClassOrigins_Robot_Describe3" xml:space="preserve">kezdik.(1)</s:String>
+    <s:String x:Key="Origins_Robot" xml:space="preserve">Robot</s:String>
+    <s:String x:Key="Origins_Robot_Describe1" xml:space="preserve">A robotok a harcot 100%</s:String>
+    <s:String x:Key="Origins_Robot_Describe2" xml:space="preserve">manával</s:String>
+    <s:String x:Key="Origins_Robot_Describe3" xml:space="preserve">kezdik.(1)</s:String>
 
     <!-- Void -->
-    <s:String x:Key="ClassOrigins_Void" xml:space="preserve">Üresség</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe1" xml:space="preserve">Az összes alaptámadás figyelmen kívűl hagyja az ellenfél</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe2" xml:space="preserve">páncéljának</s:String>
-    <s:String x:Key="ClassOrigins_Void_Describe3" xml:space="preserve">50%-át.(3)</s:String>
+    <s:String x:Key="Origins_Void" xml:space="preserve">Üresség</s:String>
+    <s:String x:Key="Origins_Void_Describe1" xml:space="preserve">Az összes alaptámadás figyelmen kívűl hagyja az ellenfél</s:String>
+    <s:String x:Key="Origins_Void_Describe2" xml:space="preserve">páncéljának</s:String>
+    <s:String x:Key="Origins_Void_Describe3" xml:space="preserve">50%-át.(3)</s:String>
 
     <!-- Wild -->
-    <s:String x:Key="ClassOrigins_Wild" xml:space="preserve">Vad</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe1" xml:space="preserve">Támadásonként dühpontot termelnek(legfeljebb 5 alkalommal). Minden dühpont 8%</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe2" xml:space="preserve">támadási sebességet</s:String>
-    <s:String x:Key="ClassOrigins_Wild_Describe3" xml:space="preserve">ad. Vad szövetségesek (2), Minden szövetséges (4)</s:String>
+    <s:String x:Key="Origins_Wild" xml:space="preserve">Vad</s:String>
+    <s:String x:Key="Origins_Wild_Describe1" xml:space="preserve">Támadásonként dühpontot termelnek(legfeljebb 5 alkalommal). Minden dühpont 8%</s:String>
+    <s:String x:Key="Origins_Wild_Describe2" xml:space="preserve">támadási sebességet</s:String>
+    <s:String x:Key="Origins_Wild_Describe3" xml:space="preserve">ad. Vad szövetségesek (2), Minden szövetséges (4)</s:String>
 
     <!-- Yordle -->
-    <s:String x:Key="ClassOrigins_Yordle" xml:space="preserve">Yordle</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe1" xml:space="preserve">A Yordle egységek elleni támadások célt</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe2" xml:space="preserve">tévesztenek.</s:String>
-    <s:String x:Key="ClassOrigins_Yordle_Describe3" xml:space="preserve">25% esély a tévesztésre (3) 60% esély a tévesztésre (6)</s:String>
+    <s:String x:Key="Origins_Yordle" xml:space="preserve">Yordle</s:String>
+    <s:String x:Key="Origins_Yordle_Describe1" xml:space="preserve">A Yordle egységek elleni támadások célt</s:String>
+    <s:String x:Key="Origins_Yordle_Describe2" xml:space="preserve">tévesztenek.</s:String>
+    <s:String x:Key="Origins_Yordle_Describe3" xml:space="preserve">25% esély a tévesztésre (3) 60% esély a tévesztésre (6)</s:String>
 
     <!--Classes | Effects and Champions-->
-    <s:String x:Key="ClassOrigins_Classes" xml:space="preserve">Kasztok | Képességek és hősök</s:String>
+    <s:String x:Key="Classes_Label" xml:space="preserve">Kasztok | Képességek és hősök</s:String>
 
     <!-- Assassin -->
-    <s:String x:Key="ClassOrigins_Assassin" xml:space="preserve">Orgyilkos</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe1" xml:space="preserve">Az orgyilkosok a harc kezdetén a legtávolabbi ellenséghez ugranak és nagyobb</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe2" xml:space="preserve">kritikus csapás sebzést</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe3" xml:space="preserve">okoznak. +150%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe4" xml:space="preserve">kritikus csapás sebzés</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe6" xml:space="preserve">kritikus csapás sebzés</s:String>
-    <s:String x:Key="ClassOrigins_Assassin_Describe7" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Assassin" xml:space="preserve">Orgyilkos</s:String>
+    <s:String x:Key="Class_Assassin_Describe1" xml:space="preserve">Az orgyilkosok a harc kezdetén a legtávolabbi ellenséghez ugranak és nagyobb</s:String>
+    <s:String x:Key="Class_Assassin_Describe2" xml:space="preserve">kritikus csapás sebzést</s:String>
+    <s:String x:Key="Class_Assassin_Describe3" xml:space="preserve">okoznak. +150%</s:String>
+    <s:String x:Key="Class_Assassin_Describe4" xml:space="preserve">kritikus csapás sebzés</s:String>
+    <s:String x:Key="Class_Assassin_Describe5" xml:space="preserve">(3) +350%</s:String>
+    <s:String x:Key="Class_Assassin_Describe6" xml:space="preserve">kritikus csapás sebzés</s:String>
+    <s:String x:Key="Class_Assassin_Describe7" xml:space="preserve">(6)</s:String>
 
     <!-- Blademaster -->
-    <s:String x:Key="ClassOrigins_Blademaster" xml:space="preserve">Kardmester</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe1" xml:space="preserve">A kardmesterek 35% eséllyel</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe2" xml:space="preserve">többször</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe3" xml:space="preserve">csaphatnak le egy támadás során.</s:String>
-    <s:String x:Key="ClassOrigins_Blademaster_Describe4" xml:space="preserve">Egy további csapás (3) Két további csapás (6)</s:String>
+    <s:String x:Key="Class_Blademaster" xml:space="preserve">Kardmester</s:String>
+    <s:String x:Key="Class_Blademaster_Describe1" xml:space="preserve">A kardmesterek 35% eséllyel</s:String>
+    <s:String x:Key="Class_Blademaster_Describe2" xml:space="preserve">többször</s:String>
+    <s:String x:Key="Class_Blademaster_Describe3" xml:space="preserve">csaphatnak le egy támadás során.</s:String>
+    <s:String x:Key="Class_Blademaster_Describe4" xml:space="preserve">Egy további csapás (3) Két további csapás (6)</s:String>
 
     <!-- Brawler -->
-    <s:String x:Key="ClassOrigins_Brawler" xml:space="preserve">Bajkeverő</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe1" xml:space="preserve">A bajkeverők bónusz</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe2" xml:space="preserve">maximális életerőt</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe3" xml:space="preserve">kapnak. +300 bónusz</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe4" xml:space="preserve">maximális életerő</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe5" xml:space="preserve">(2) +700 bónusz</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe6" xml:space="preserve">maximális életerő</s:String>
-    <s:String x:Key="ClassOrigins_Brawler_Describe7" xml:space="preserve">(4)</s:String>
+    <s:String x:Key="Class_Brawler" xml:space="preserve">Bajkeverő</s:String>
+    <s:String x:Key="Class_Brawler_Describe1" xml:space="preserve">A bajkeverők bónusz</s:String>
+    <s:String x:Key="Class_Brawler_Describe2" xml:space="preserve">maximális életerőt</s:String>
+    <s:String x:Key="Class_Brawler_Describe3" xml:space="preserve">kapnak. +300 bónusz</s:String>
+    <s:String x:Key="Class_Brawler_Describe4" xml:space="preserve">maximális életerő</s:String>
+    <s:String x:Key="Class_Brawler_Describe5" xml:space="preserve">(2) +700 bónusz</s:String>
+    <s:String x:Key="Class_Brawler_Describe6" xml:space="preserve">maximális életerő</s:String>
+    <s:String x:Key="Class_Brawler_Describe7" xml:space="preserve">(4)</s:String>
 
     <!-- Elementalist -->
-    <s:String x:Key="ClassOrigins_Elementalist" xml:space="preserve">Elementalista</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe1" xml:space="preserve">Az elementalisták dupla </s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe2" xml:space="preserve">manát</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe3" xml:space="preserve">kapnak támadásonként.</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe4" xml:space="preserve">A harc kezdetén megidéznek egy</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe5" xml:space="preserve">elementált</s:String>
-    <s:String x:Key="ClassOrigins_Elementalist_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Class_Elementalist" xml:space="preserve">Elementalista</s:String>
+    <s:String x:Key="Class_Elementalist_Describe1" xml:space="preserve">Az elementalisták dupla </s:String>
+    <s:String x:Key="Class_Elementalist_Describe2" xml:space="preserve">manát</s:String>
+    <s:String x:Key="Class_Elementalist_Describe3" xml:space="preserve">kapnak támadásonként.</s:String>
+    <s:String x:Key="Class_Elementalist_Describe4" xml:space="preserve">A harc kezdetén megidéznek egy</s:String>
+    <s:String x:Key="Class_Elementalist_Describe5" xml:space="preserve">elementált</s:String>
+    <s:String x:Key="Class_Elementalist_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Guardian -->
-    <s:String x:Key="ClassOrigins_Guardian" xml:space="preserve">Őrző</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe1" xml:space="preserve">A harc kezdetén, az őrzők és minden mellettük álló hős +30</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe2" xml:space="preserve">páncélt</s:String>
-    <s:String x:Key="ClassOrigins_Guardian_Describe3" xml:space="preserve">kap.(2)</s:String>
+    <s:String x:Key="Class_Guardian" xml:space="preserve">Őrző</s:String>
+    <s:String x:Key="Class_Guardian_Describe1" xml:space="preserve">A harc kezdetén, az őrzők és minden mellettük álló hős +30</s:String>
+    <s:String x:Key="Class_Guardian_Describe2" xml:space="preserve">páncélt</s:String>
+    <s:String x:Key="Class_Guardian_Describe3" xml:space="preserve">kap.(2)</s:String>
 
     <!-- Gunslinger -->
-    <s:String x:Key="ClassOrigins_Gunslinger" xml:space="preserve">Tüzér</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe1" xml:space="preserve">A tüzéreknek 50% esélyük van, hogy a támadás után egy</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe2" xml:space="preserve">további támadásra.</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe3" xml:space="preserve">Megtámad egy</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe4" xml:space="preserve">véletlenszerű</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe5" xml:space="preserve">ellenfelet (2) Megtámad</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe6" xml:space="preserve">két véletlenszerű ellenséget</s:String>
-    <s:String x:Key="ClassOrigins_Gunslinger_Describe7" xml:space="preserve">hatótávolságon belül. (4)</s:String>
+    <s:String x:Key="Class_Gunslinger" xml:space="preserve">Tüzér</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe1" xml:space="preserve">A tüzéreknek 50% esélyük van, hogy a támadás után egy</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe2" xml:space="preserve">további támadásra.</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe3" xml:space="preserve">Megtámad egy</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe4" xml:space="preserve">véletlenszerű</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe5" xml:space="preserve">ellenfelet (2) Megtámad</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe6" xml:space="preserve">két véletlenszerű ellenséget</s:String>
+    <s:String x:Key="Class_Gunslinger_Describe7" xml:space="preserve">hatótávolságon belül. (4)</s:String>
 
     <!-- Knight -->
-    <s:String x:Key="ClassOrigins_Knight" xml:space="preserve">Lovag</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe1" xml:space="preserve">A lovagok</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe2" xml:space="preserve">sebzést védenek ki</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe3" xml:space="preserve">minden</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe4" xml:space="preserve">alaptámadásból</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe5" xml:space="preserve">20</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe6" xml:space="preserve">sebzés kivédés</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe8" xml:space="preserve">sebzés kivédés</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe10" xml:space="preserve">sebzés kivédés</s:String>
-    <s:String x:Key="ClassOrigins_Knight_Describe11" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Knight" xml:space="preserve">Lovag</s:String>
+    <s:String x:Key="Class_Knight_Describe1" xml:space="preserve">A lovagok</s:String>
+    <s:String x:Key="Class_Knight_Describe2" xml:space="preserve">sebzést védenek ki</s:String>
+    <s:String x:Key="Class_Knight_Describe3" xml:space="preserve">minden</s:String>
+    <s:String x:Key="Class_Knight_Describe4" xml:space="preserve">alaptámadásból</s:String>
+    <s:String x:Key="Class_Knight_Describe5" xml:space="preserve">20</s:String>
+    <s:String x:Key="Class_Knight_Describe6" xml:space="preserve">sebzés kivédés</s:String>
+    <s:String x:Key="Class_Knight_Describe7" xml:space="preserve">(2) 40</s:String>
+    <s:String x:Key="Class_Knight_Describe8" xml:space="preserve">sebzés kivédés</s:String>
+    <s:String x:Key="Class_Knight_Describe9" xml:space="preserve">(4) 80</s:String>
+    <s:String x:Key="Class_Knight_Describe10" xml:space="preserve">sebzés kivédés</s:String>
+    <s:String x:Key="Class_Knight_Describe11" xml:space="preserve">(6)</s:String>
 
     <!-- Ranger -->
-    <s:String x:Key="ClassOrigins_Ranger" xml:space="preserve">Erdőkerülő</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe1" xml:space="preserve">Az erdőkerülőknek 3 másodpercenként esélyt kapnak, a</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe2" xml:space="preserve">támadási sebesség</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe3" xml:space="preserve">nővelésére 3 másodpercre.</s:String>
-    <s:String x:Key="ClassOrigins_Ranger_Describe4" xml:space="preserve">25% esély (2) 65% esély (4)</s:String>
+    <s:String x:Key="Class_Ranger" xml:space="preserve">Erdőkerülő</s:String>
+    <s:String x:Key="Class_Ranger_Describe1" xml:space="preserve">Az erdőkerülőknek 3 másodpercenként esélyt kapnak, a</s:String>
+    <s:String x:Key="Class_Ranger_Describe2" xml:space="preserve">támadási sebesség</s:String>
+    <s:String x:Key="Class_Ranger_Describe3" xml:space="preserve">nővelésére 3 másodpercre.</s:String>
+    <s:String x:Key="Class_Ranger_Describe4" xml:space="preserve">25% esély (2) 65% esély (4)</s:String>
 
     <!-- Shapeshifter -->
-    <s:String x:Key="ClassOrigins_Shapeshifter" xml:space="preserve">Alakváltó</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe1" xml:space="preserve">Az alakváltók bónusz</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe2" xml:space="preserve">maximális életerőt</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe3" xml:space="preserve">kapnak amikor átváltoznak.</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe4" xml:space="preserve">+100% bónusz</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe5" xml:space="preserve">maximális életerő.</s:String>
-    <s:String x:Key="ClassOrigins_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
+    <s:String x:Key="Class_Shapeshifter" xml:space="preserve">Alakváltó</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe1" xml:space="preserve">Az alakváltók bónusz</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe2" xml:space="preserve">maximális életerőt</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe3" xml:space="preserve">kapnak amikor átváltoznak.</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe4" xml:space="preserve">+100% bónusz</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe5" xml:space="preserve">maximális életerő.</s:String>
+    <s:String x:Key="Class_Shapeshifter_Describe6" xml:space="preserve">(3)</s:String>
 
     <!-- Sorcerer -->
-    <s:String x:Key="ClassOrigins_Sorcerer" xml:space="preserve">Varázsló</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe1" xml:space="preserve">A varázslók dupla</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe2" xml:space="preserve">manát</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe3" xml:space="preserve">kapnak a támadásokból és a minden szövetséges</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe4" xml:space="preserve">varázssebzés</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe5" xml:space="preserve">kap. +35%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe6" xml:space="preserve">varázssebzés.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe7" xml:space="preserve">(3) +60%</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe8" xml:space="preserve">varázssebzés.</s:String>
-    <s:String x:Key="ClassOrigins_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
+    <s:String x:Key="Class_Sorcerer" xml:space="preserve">Varázsló</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe1" xml:space="preserve">A varázslók dupla</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe2" xml:space="preserve">manát</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe3" xml:space="preserve">kapnak a támadásokból és a minden szövetséges</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe4" xml:space="preserve">varázssebzés</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe5" xml:space="preserve">kap. +35%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe6" xml:space="preserve">varázssebzés.</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe7" xml:space="preserve">(3) +60%</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe8" xml:space="preserve">varázssebzés.</s:String>
+    <s:String x:Key="Class_Sorcerer_Describe9" xml:space="preserve">(6)</s:String>
 
 
     <!--/////////////////-->

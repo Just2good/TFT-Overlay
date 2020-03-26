@@ -25,7 +25,7 @@ namespace TFT_Overlay
         private readonly Cursor LoLPointer = CustomCursor.FromByteArray(Properties.Resources.LoLPointer);
         private readonly Cursor LoLHover = CustomCursor.FromByteArray(Properties.Resources.LoLHover);
 
-        private string CurrentVersion { get; } = Utilities.Version.version;
+        private string CurrentVersion { get; } = Version.version;
         private bool OnTop { get; set; } = true;
 
         private bool canDrag;
@@ -89,7 +89,7 @@ namespace TFT_Overlay
                         )
                     );
                 }
-                catch (System.Threading.Tasks.TaskCanceledException errMsg)
+                catch (System.Threading.Tasks.TaskCanceledException)
                 {
                     tTop.Stop();
                 }
@@ -286,12 +286,12 @@ namespace TFT_Overlay
 
         private void OpenChangelog_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/README.md#version-history");
+            System.Diagnostics.Process.Start("https://github.com/jtborn/TFT-Overlay/blob/master/README.md#version-history");
         }
 
         private void LocalizationHelp_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Just2good/TFT-Overlay/blob/master/Localization.md");
+            System.Diagnostics.Process.Start("https://github.com/jtborn/TFT-Overlay/blob/master/Localization.md");
         }
     }
 }
