@@ -1,4 +1,4 @@
- # TFT Overlay by J2GKaze (Discord: Jinsoku#4019)  
+ # TFT Overlay by J2GKaze   
  [TFT Discord Server link](https://discord.gg/KHMCRJA)
    
 `7.28.2019 @ 10PM PST: The Horizontal Bars (Opacity and Orange bar) will be changed. This is temporary until I get draggable tabs to work.`
@@ -162,4 +162,4 @@
 - Will also include Localization (Done
 - Feedback is very helpful. Feel free to open up an Issue on Github with your concerns, or just DM me on Discord.
 
-Hello Keldon
+
